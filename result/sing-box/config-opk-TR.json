@@ -1,0 +1,98 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "error",
+    "output": "",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "cloudflare",
+        "address": "1.1.1.1",
+        "detour": "direct-out"
+      }
+    ],
+    "final": "cloudflare",
+    "strategy": "prefer_ipv4",
+    "disable_cache": false,
+    "disable_expire": false
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 10800,
+      "domain_strategy": "prefer_ipv4",
+      "set_system_proxy": false
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "170 🇹🇷 Kaopu Clou SNI 👾 漁師"
+      ]
+    },
+    {
+      "type": "vmess",
+      "tag": "170 🇹🇷 Kaopu Clou SNI 👾 漁師",
+      "server": "tr2.czs1000.com",
+      "server_port": 11217,
+      "uuid": "a7b68ca9-de3f-4358-84d2-e5a0b4554b24",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "tcp",
+        "outbound": "select"
+      },
+      {
+        "network": "udp",
+        "outbound": "select"
+      }
+    ],
+    "geoip": {
+      "path": "./geoip.db",
+      "download_detour": "direct-out"
+    },
+    "geosite": {
+      "path": "./geosite.db",
+      "download_detour": "direct-out"
+    },
+    "final": "select"
+  }
+}

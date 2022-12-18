@@ -1,5 +1,5 @@
 proxies:
-  - name: '191 🇩🇪 Linode LL SNI 👾 漁師'
+  - name: '71 🇩🇪 Linode LL SNI 👾 漁師'
     server: 172.105.74.134
     type: vmess
     port: 37867
@@ -15,12 +15,19 @@ proxies:
       path: /vmess
       headers:
         Host: tsel.me
-  - name: '29 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
-    type: trojan
-    port: 443
-    password: origin
+  - name: '160 🇩🇪 Linode LL SNI 👾 漁師'
+    server: de1.czs1000.com
+    type: vmess
+    port: 11217
+    uuid: a7b68ca9-de3f-4358-84d2-e5a0b4554b24
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: tsel.me
