@@ -64,7 +64,7 @@ class Writer {
         for (let account of accounts) {
           // Prepare split result
           let proxy: any = "";
-          account = bugs.fill(account, account.cdn ? "cdn" : "sni");
+          account = bugs.fill(account, account.cdn ? "cdn" : "sni" : "path");
           if (account.error) {
             logger.log(LogLevel.error, `[${bug}] ${account.error}`);
             continue;
