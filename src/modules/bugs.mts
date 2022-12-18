@@ -29,11 +29,8 @@ class Bugs {
     return this._cdn[Math.floor(Math.random() * this._cdn.length)];
   }
   
-  get path(): string {
-    return this._path[Math.floor(Math.random() * this._path.length)];
-  }
 
-  fill(account: V2Object, mode: "sni" | "cdn" | "path" | "none" = "none") {
+  fill(account: V2Object, mode: "sni" | "cdn" | "none" = "none") {
     const sni = this.sni;
     const cdn = this.cdn;
     const path = this.path;
@@ -42,10 +39,8 @@ class Bugs {
       if (!cdn) return { error: "CDN not provided!" } as V2Object;
     } else if (mode == "sni") {
       if (!sni) return { error: "SNI not provided!" } as V2Object;
-    } else if (mode == "path") {
-      if (!path) return { error: "PATH not provided!" } as V2Object;
-    }
-
+    } 
+    
     if (account.vpn == "ssr") {
       if (account.obfs?.match("tls")) {
         account.obfsParam = `obfs=tls;obfs-host=${sni}`;
