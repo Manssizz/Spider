@@ -186,7 +186,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '327 🇳🇱 CLOUDFLARE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -229,7 +229,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '202 🇳🇱 DIGITALOCE SNI 👾 漁師'
     server: 167.99.214.62
     type: ssr
@@ -239,5 +239,5 @@ proxies:
     protocol: origin
     protocol-param: 
     obfs: http_simple
-    obfs-param: obfs=http;obfs-host=172.67.199.34
+    obfs-param: obfs=http;obfs-host=teams.microsoft.com
     udp: true

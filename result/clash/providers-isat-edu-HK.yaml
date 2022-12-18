@@ -1,6 +1,6 @@
 proxies:
   - name: '5 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 104.18.25.139
+    server: 141.193.213.20
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -16,7 +16,7 @@ proxies:
       headers:
         Host: gcorehk.cloudflare.quest
   - name: '40 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 104.18.25.139
+    server: 104.17.70.206
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -32,7 +32,7 @@ proxies:
       headers:
         Host: gcorehk.cloudflare.quest
   - name: '79 🇭🇰 HKT Limite CDN 👾 漁師'
-    server: 162.159.128.7
+    server: 141.193.213.20
     type: vmess
     port: 443
     uuid: f8cd91e8-2bea-4a31-a422-5f957654eb26
@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: newres.wechat.com.eejsq.lol
   - name: '82 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 141.193.213.10
+    server: 104.18.25.139
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -80,7 +80,7 @@ proxies:
       headers:
         Host: vfly6.xyz
   - name: '105 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 104.16.51.111
+    server: 104.16.66.85
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -96,7 +96,7 @@ proxies:
       headers:
         Host: gcorehk.cloudflare.quest
   - name: '190 🇭🇰 HKT Limite CDN 👾 漁師'
-    server: 141.193.213.10
+    server: 104.18.25.139
     type: vmess
     port: 443
     uuid: f8cd91e8-2bea-4a31-a422-5f957654eb26
@@ -112,54 +112,6 @@ proxies:
       headers:
         Host: zos.alipayobjects.com.eejsq.lol
   - name: '236 🇭🇰 Global Int CDN 👾 漁師'
-    server: 162.159.135.42
-    type: vmess
-    port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: hk.sharecentre.online
-    ws-opts: 
-      path: /shirker
-      headers:
-        Host: hk.sharecentre.online
-  - name: '252 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 104.16.51.111
-    type: vmess
-    port: 2086
-    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: gcorehk.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: gcorehk.cloudflare.quest
-  - name: '259 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 141.193.213.10
-    type: vmess
-    port: 2086
-    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: gcorehk.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: gcorehk.cloudflare.quest
-  - name: '260 🇭🇰 Global Int CDN 👾 漁師'
     server: 104.16.66.85
     type: vmess
     port: 443
@@ -175,8 +127,56 @@ proxies:
       path: /shirker
       headers:
         Host: hk.sharecentre.online
+  - name: '252 🇭🇰 G-Core Lab CDN 👾 漁師'
+    server: 104.18.25.139
+    type: vmess
+    port: 2086
+    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorehk.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: gcorehk.cloudflare.quest
+  - name: '259 🇭🇰 G-Core Lab CDN 👾 漁師'
+    server: 141.193.213.20
+    type: vmess
+    port: 2086
+    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorehk.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: gcorehk.cloudflare.quest
+  - name: '260 🇭🇰 Global Int CDN 👾 漁師'
+    server: 104.18.25.139
+    type: vmess
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: hk.sharecentre.online
+    ws-opts: 
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
   - name: '261 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 141.193.213.10
+    server: 104.17.70.206
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -192,7 +192,7 @@ proxies:
       headers:
         Host: gcorehk.cloudflare.quest
   - name: '308 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: 141.193.213.20
+    server: 104.18.25.139
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
