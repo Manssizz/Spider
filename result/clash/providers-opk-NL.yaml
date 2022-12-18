@@ -1,28 +1,12 @@
 proxies:
-  - name: '52 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider14.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
+  - name: '92 🇳🇱 DIGITALOCE SNI 👾 漁師'
+    server: 167.99.214.62
+    type: ssr
+    port: 11909
+    password: azadi2030
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: 
+    obfs: http_simple
+    obfs-param: obfs=http;obfs-host=tsel.me
     udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '87 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.65
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '186 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.66
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
