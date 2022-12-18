@@ -42,7 +42,7 @@ class Bugs {
       if (!cdn) return { error: "CDN not provided!" } as V2Object;
     } else if (mode == "sni") {
       if (!sni) return { error: "SNI not provided!" } as V2Object;
-    }else if (mode == "path") {
+    } else if (mode == "path") {
       if (!path) return { error: "PATH not provided!" } as V2Object;
     }
 
