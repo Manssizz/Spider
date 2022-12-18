@@ -4,13 +4,11 @@ import { V2Object } from "../utils/types.mjs";
 interface BugsObject {
   sni: Array<string>;
   cdn: Array<string>;
-  path: Array<string>;
 }
 
 class Bugs {
   private _sni: Array<string> = [];
   private _cdn: Array<string> = [];
-  private _path: Array<string> = [];
   private bugs: BugsObject;
 
   constructor(bundle: string) {
@@ -18,7 +16,6 @@ class Bugs {
 
     this._sni = this.bugs.sni;
     this._cdn = this.bugs.cdn;
-    this._path = this.bugs.path;
   }
 
   get sni(): string {
@@ -33,7 +30,6 @@ class Bugs {
   fill(account: V2Object, mode: "sni" | "cdn" | "none" = "none") {
     const sni = this.sni;
     const cdn = this.cdn;
-    const path = this.path;
 
     if (mode == "cdn") {
       if (!cdn) return { error: "CDN not provided!" } as V2Object;
