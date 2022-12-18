@@ -40,9 +40,9 @@ class Bot {
       disable_web_page_preview: true,
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .url("-", "")
+        .url("-", "www.google.com")
         .row()
-        .url("-", "")
+        .url("-", "www.google.com")
         .row(),
     });
   }
