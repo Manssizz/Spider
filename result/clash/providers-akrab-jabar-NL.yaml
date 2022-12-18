@@ -215,7 +215,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '85 🇳🇱 AS40676 SNI 👾 漁師'
     server: 185.212.200.74
     type: trojan
@@ -233,7 +233,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '123 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider13.cdn-delivery.akamaicd.com
     type: trojan
@@ -242,7 +242,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '327 🇳🇱 AS40676 SNI 👾 漁師'
     server: 185.212.200.75
     type: trojan
@@ -251,7 +251,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '48 🇳🇱 DIGITALOCE SNI 👾 漁師'
     server: 167.99.214.62
     type: ssr
@@ -261,5 +261,5 @@ proxies:
     protocol: origin
     protocol-param: 
     obfs: http_simple
-    obfs-param: obfs=http;obfs-host=teams.microsoft.com
+    obfs-param: obfs=http;obfs-host=172.67.199.34
     udp: true

@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '102 🇮🇳 AMAZON-02 SNI 👾 漁師'
     server: in2.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '216 🇮🇳 Scloud Pte SNI 👾 漁師'
     server: tw6.czs1000.com
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '350 🇮🇳 DIGITALOCE SNI 👾 漁師'
     server: 68.183.83.94
     type: vmess
@@ -78,11 +78,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '234 🇮🇳 ORACLE-BMC SNI 👾 漁師'
     server: jgwhdlb2.gaox.ml
     type: trojan
@@ -91,4 +91,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
