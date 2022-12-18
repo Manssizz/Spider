@@ -6,7 +6,7 @@ import { V2Object } from "../utils/types.mjs";
 
 class Bot {
   bot = new TgBot(readFileSync("./bot_token").toString());
-  private channelId = "-1001509827144";
+  private channelId = "-781424134";
 
   private async make(account: V2Object, total: number) {
     let message: string = "---------------------------\n";
@@ -27,10 +27,8 @@ class Bot {
     message += `Mode: <code>${account.cdn ? "CDN" : "SNI"}</code>\n`;
     message += `SNI: <code>${account.sni || account.host || ""}</code>\n\n`;
     message += `⌜<code>${new Spider(account).toURL()}</code>⌟\n\n`;
-    message += `Config: <a href="https://github.com/dickymuliafiqri/Spider/tree/main/resources/config">Config Example</a>\n`;
-    message += `Sub: <a href="https://github.com/dickymuliafiqri/Spider/tree/main/result">Subscription</a>\n`;
-    message += `Join: @v2scrape\n\n`;
-    message += `Contact: @d_fordlalatina`;
+    message += `Config: <a href="https://github.com/dickymuliafiqri/Manssizz/tree/main/resources/config">Config Example</a>\n`;
+    message += `Sub: <a href="https://github.com/dickymuliafiqri/Manssizz/tree/main/result">Subscription</a>\n`;
 
     return message;
   }
@@ -42,13 +40,15 @@ class Bot {
       disable_web_page_preview: true,
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .url("❤️ Donate ❤️", "https://saweria.co/m0qa")
+        .url("-", "")
         .row()
-        .url("Donators", "https://telegra.ph/Donations-11-05-4")
+        .url("-", "")
         .row(),
     });
   }
 }
 
 const bot = new Bot();
-export { bot };
+export 
+
+bot };
