@@ -1,5 +1,37 @@
 proxies:
-  - name: '74 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+  - name: '4 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: 104.18.25.139
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: amshare.jingledev.me
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+  - name: '76 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: 104.16.66.85
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: amshare.jingledev.me
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+  - name: '96 🇳🇱 CLOUDFLARE CDN 👾 漁師'
     server: 162.159.128.7
     type: vmess
     port: 2086
@@ -15,8 +47,8 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '75 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: 104.17.70.206
+  - name: '97 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: 104.16.51.111
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
@@ -31,73 +63,57 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '111 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+  - name: '131 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 141.193.213.20
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '133 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 104.16.66.85
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '164 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 104.17.70.206
+    type: vmess
+    port: 2086
+    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: scw.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: scw.cloudflare.quest
+  - name: '170 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: 162.159.135.42
     type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '117 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.16.66.85
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '141 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.17.70.206
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '142 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 141.193.213.10
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '171 🇳🇱 DIGITALOCE CDN 👾 漁師'
-    server: 104.16.66.85
-    type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
@@ -111,24 +127,8 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '191 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.17.70.206
-    type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: scw.cloudflare.quest
-  - name: '206 🇳🇱 CLOUDFLARE CDN 👾 漁師'
-    server: 104.16.66.85
+  - name: '177 🇳🇱 CLOUDFLARE CDN 👾 漁師'
+    server: 141.193.213.20
     type: vmess
     port: 2086
     uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48

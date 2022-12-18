@@ -84,6 +84,46 @@
       "settings": {
         "vnext": [
           {
+            "address": "do9.yyhm9.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/das321S8"
+        }
+      },
+      "tag": "proxy-10 🇸🇬 Tencent Bu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "sg3.czs1000.com",
             "port": 11217,
             "users": [
@@ -91,7 +131,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
+                "id": "5e2c083f-231f-4eda-9df6-b3d5eb98b142",
                 "level": 8,
                 "security": "auto"
               }
@@ -113,47 +153,7 @@
           "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
         }
       },
-      "tag": "proxy-9 🇸🇬 AMAZON-02 SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gcssg.sylu.cyou",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/Falling42gcssgnode"
-        }
-      },
-      "tag": "proxy-10 🇸🇬 G-Core Lab SNI 👾 漁師"
+      "tag": "proxy-11 🇸🇬 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -165,86 +165,6 @@
         "vnext": [
           {
             "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "gcssg.sylu.cyou"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "gcssg.sylu.cyou"
-          },
-          "path": "/Falling42gcssgnode"
-        }
-      },
-      "tag": "proxy-12 🇸🇬 G-Core Lab CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cacerts.digicert.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg1-v2ray.sshkit.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg1-v2ray.sshkit.org"
-          },
-          "path": "/sshkit/1736960111/63859b5b38f53/"
-        }
-      },
-      "tag": "proxy-22 🇸🇬 HURRICANE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg-v.sshmax.xyz",
             "port": 443,
             "users": [
               {
@@ -252,46 +172,6 @@
                 "encryption": "",
                 "flow": "",
                 "id": "0baaf014-af04-4028-be53-f5c75bb276ae",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/vmess"
-        }
-      },
-      "tag": "proxy-34 🇸🇬 Contabo As SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "ceb8a921-ec72-4804-ae92-cbd309f2f213",
                 "level": 8,
                 "security": "auto"
               }
@@ -313,7 +193,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-36 🇸🇬 Contabo As CDN 👾 漁師"
+      "tag": "proxy-14 🇸🇬 Contabo As CDN 👾 漁師"
     },
     {
       "mux": {
@@ -331,7 +211,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "id": "82d5ea73-8002-4319-cd3c-29d1560bd290",
                 "level": 8,
                 "security": "auto"
               }
@@ -344,330 +224,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg3-v2ray.sshkit.org"
+          "serverName": "xjp4h.mayaa.ml"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg3-v2ray.sshkit.org"
+            "Host": "xjp4h.mayaa.ml"
           },
-          "path": "/sshkit/1736960111/63859bc177a33/"
+          "path": "/dsadsa1dsadsa33434"
         }
       },
-      "tag": "proxy-40 🇸🇬 HURRICANE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cacerts.digicert.com",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "azstu.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-42 🇸🇬 Contabo As CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "do9.yyhm9.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "do9.yyhm9.com"
-          },
-          "path": "/das321S8"
-        }
-      },
-      "tag": "proxy-47 🇸🇬 Tencent Bu CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "do6.yyhm9.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/das321"
-        }
-      },
-      "tag": "proxy-49 🇸🇬 Tencent Bu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cacerts.digicert.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "do5.yyhm9.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "do5.yyhm9.com"
-          },
-          "path": "/das321"
-        }
-      },
-      "tag": "proxy-51 🇸🇬 Tencent Bu CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg4.czs1000.com",
-            "port": 11218,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
-        }
-      },
-      "tag": "proxy-59 🇸🇬 AMAZON-02 SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg5.czs1000.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
-        }
-      },
-      "tag": "proxy-62 🇸🇬 MICROSOFT- SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg11.czs1000.com",
-            "port": 11217,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "news.microsoft.com"
-          },
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
-        }
-      },
-      "tag": "proxy-63 🇸🇬 AMAZON-02 SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com",
-            "port": 4122,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "news.microsoft.com"
-        }
-      },
-      "tag": "proxy-67 🇸🇬 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-22 🇸🇬 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -707,7 +273,7 @@
           "path": "/book"
         }
       },
-      "tag": "proxy-88 🇸🇬 Tencent Bu SNI 👾 漁師"
+      "tag": "proxy-23 🇸🇬 Tencent Bu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -718,14 +284,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
+            "address": "gcoresg.sylu.cyou",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
                 "level": 8,
                 "security": "auto"
               }
@@ -738,16 +304,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-gcore-2.sharecentre.online"
+          "serverName": "news.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg-gcore-2.sharecentre.online"
+            "Host": "news.microsoft.com"
           },
-          "path": "/shirker"
+          "path": "/Falling42gcoresgnode"
         }
       },
-      "tag": "proxy-89 🇸🇬 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-28 🇸🇬 G-Core Lab SNI 👾 漁師"
     },
     {
       "mux": {
@@ -758,14 +324,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
+            "address": "news.microsoft.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
                 "level": 8,
                 "security": "auto"
               }
@@ -778,16 +344,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "do7.yyhm9.com"
+          "serverName": "gcoresg.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "do7.yyhm9.com"
+            "Host": "gcoresg.sylu.cyou"
           },
-          "path": "/book"
+          "path": "/Falling42gcoresgnode"
         }
       },
-      "tag": "proxy-90 🇸🇬 Tencent Bu CDN 👾 漁師"
+      "tag": "proxy-29 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -821,7 +387,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-100 🇸🇬 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-35 🇸🇬 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -832,14 +398,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.106.249.2",
+            "address": "news.microsoft.com",
             "port": 443,
             "users": [
               {
-                "alterId": 64,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -852,16 +418,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "news.microsoft.com"
+          "serverName": "sg3-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "news.microsoft.com"
+            "Host": "sg3-v2ray.sshkit.org"
           },
-          "path": "/path/243535322906"
+          "path": "/sshkit/1736960111/63859bc177a33/"
         }
       },
-      "tag": "proxy-105 🇸🇬 Leaseweb A SNI 👾 漁師"
+      "tag": "proxy-38 🇸🇬 HURRICANE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -901,7 +467,7 @@
           "path": "/graphql"
         }
       },
-      "tag": "proxy-148 🇸🇬 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-43 🇸🇬 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -912,14 +478,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg9.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com",
-            "port": 11217,
+            "address": "sg03.170203.xyz",
+            "port": 43543,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
+                "id": "f015b68b-6663-4ea0-a119-cfa4eadb47bf",
                 "level": 8,
                 "security": "auto"
               }
@@ -938,10 +504,10 @@
           "headers": {
             "Host": "news.microsoft.com"
           },
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
+          "path": ""
         }
       },
-      "tag": "proxy-157 🇸🇬 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-54 🇸🇬 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -952,14 +518,48 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.233.81.125",
+            "address": "168.138.171.65",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "ceb8a921-ec72-4804-ae92-cbd309f2f213",
+                "id": "4af6fd9a-e8b4-46f2-da3a-207f4577656c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-70 🇸🇬 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sg5.netflix6.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9a85d6cd-2a6b-3a8e-bf5b-50912c3f584e",
                 "level": 8,
                 "security": "auto"
               }
@@ -978,10 +578,10 @@
           "headers": {
             "Host": "news.microsoft.com"
           },
-          "path": "/vmess"
+          "path": "/hls/sg5.m3u8"
         }
       },
-      "tag": "proxy-159 🇸🇬 Contabo As SNI 👾 漁師"
+      "tag": "proxy-85 🇸🇬 Tencent Bu SNI 👾 漁師"
     },
     {
       "mux": {
@@ -992,87 +592,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg3-v2ray.sshkit.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg3-v2ray.sshkit.org"
-          },
-          "path": "/sshkit/1736960111/63859bc177a33/"
-        }
-      },
-      "tag": "proxy-161 🇸🇬 HURRICANE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "azstu.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-165 🇸🇬 Contabo As CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
+            "address": "sg-v.sshmax.xyz",
             "port": 443,
             "users": [
               {
@@ -1092,16 +612,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg-v.sshmax.xyz"
+          "serverName": "news.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg-v.sshmax.xyz"
+            "Host": "news.microsoft.com"
           },
           "path": "/vmess"
         }
       },
-      "tag": "proxy-172 🇸🇬 Contabo As CDN 👾 漁師"
+      "tag": "proxy-119 🇸🇬 Contabo As SNI 👾 漁師"
     },
     {
       "mux": {
@@ -1112,14 +632,54 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.44.249.43",
-            "port": 3331,
+            "address": "news.microsoft.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "do6.yyhm9.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "do6.yyhm9.com"
+          },
+          "path": "/das321"
+        }
+      },
+      "tag": "proxy-124 🇸🇬 Tencent Bu CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "vsg1.0bad.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "level": 8,
                 "security": "auto"
               }
@@ -1138,10 +698,10 @@
           "headers": {
             "Host": "news.microsoft.com"
           },
-          "path": "/s/f1f3227.fm.apple.com:111548"
+          "path": "/chat"
         }
       },
-      "tag": "proxy-193 🇸🇬 Melbikomas SNI 👾 漁師"
+      "tag": "proxy-132 🇸🇬 Linode LL SNI 👾 漁師"
     },
     {
       "mux": {
@@ -1152,14 +712,174 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg10.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com",
+            "address": "do2.yyhm9.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/das212"
+        }
+      },
+      "tag": "proxy-137 🇸🇬 Tencent Bu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gcssg.sylu.cyou",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/Falling42gcssgnode"
+        }
+      },
+      "tag": "proxy-141 🇸🇬 G-Core Lab SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcssg.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcssg.sylu.cyou"
+          },
+          "path": "/Falling42gcssgnode"
+        }
+      },
+      "tag": "proxy-142 🇸🇬 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 8880,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a5c804aa-8a4d-4fd2-97a1-4f0cc1384953",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg1021.hkaa0.tk"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg1021.hkaa0.tk"
+          },
+          "path": "/hkaa0"
+        }
+      },
+      "tag": "proxy-146 🇸🇬 DIGITALOCE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "54.254.213.176",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "5e2c083f-231f-4eda-9df6-b3d5eb98b142",
                 "level": 8,
                 "security": "auto"
               }
@@ -1181,7 +901,7 @@
           "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
         }
       },
-      "tag": "proxy-222 🇸🇬 AMAZON-02 SNI 👾 漁師"
+      "tag": "proxy-155 🇸🇬 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -1192,14 +912,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
-            "port": 2086,
+            "address": "news.microsoft.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
                 "level": 8,
                 "security": "auto"
               }
@@ -1212,33 +932,198 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "azstu.cloudflare.quest"
+          "serverName": "sg-gcore-2.sharecentre.online"
         },
         "wsSettings": {
           "headers": {
-            "Host": "azstu.cloudflare.quest"
+            "Host": "sg-gcore-2.sharecentre.online"
           },
-          "path": "/aries"
+          "path": "/shirker"
         }
       },
-      "tag": "proxy-226 🇸🇬 Contabo As CDN 👾 漁師"
+      "tag": "proxy-181 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "trojan-ctb-sg01.globalssh.xyz",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "123456",
-            "port": 443
+            "address": "sg2.netflix6.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9a85d6cd-2a6b-3a8e-bf5b-50912c3f584e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/hls/sg2.m3u8"
+        }
+      },
+      "tag": "proxy-184 🇸🇬 Tencent Bu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "do9.yyhm9.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "do9.yyhm9.com"
+          },
+          "path": "/das321S8"
+        }
+      },
+      "tag": "proxy-193 🇸🇬 Tencent Bu CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcssg.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcssg.sylu.cyou"
+          },
+          "path": "/Falling42gcssgnode"
+        }
+      },
+      "tag": "proxy-199 🇸🇬 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "sg5.czs1000.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "5e2c083f-231f-4eda-9df6-b3d5eb98b142",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
+        }
+      },
+      "tag": "proxy-202 🇸🇬 MICROSOFT- SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hndx.relay01.fast001.buzz",
+            "port": 19032,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9cfb6d5e-f5ab-388d-acb2-2c54908066fe",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -1250,7 +1135,7 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-28 🇸🇬 Contabo As SNI 👾 漁師"
+      "tag": "proxy-212 🇸🇬 AMAZON-02 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -1285,7 +1170,7 @@
           "path": "/c6c05fbac0e4"
         }
       },
-      "tag": "proxy-80 🇸🇬 Linode LL CDN 👾 漁師"
+      "tag": "proxy-8 🇸🇬 Linode LL CDN 👾 漁師"
     },
     {
       "mux": {
@@ -1296,12 +1181,41 @@
       "settings": {
         "servers": [
           {
-            "address": "159.223.89.239",
+            "address": "supsig.xiaohouzi.club",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "bb5b1337-fa9e-4e00-b8c6-1110e626171d",
+            "password": "6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af",
+            "port": 10102
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-55 🇸🇬 Tencent Bu SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "sgt2.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "dbee48ec-3390-4e1c-9d4b-884277d58202",
             "port": 443
           }
         ]
@@ -1314,9 +1228,8 @@
           "serverName": "news.microsoft.com"
         }
       },
-      "tag": "proxy-145 🇸🇬 DIGITALOCE SNI 👾 漁師"
-    },
-    ""
+      "tag": "proxy-187 🇸🇬 OVH SAS SNI 👾 漁師"
+    }
   ],
   "dns": {
     "hosts": {

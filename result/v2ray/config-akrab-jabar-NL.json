@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.34",
-            "port": 2086,
+            "address": "104.18.21.226",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "scw.cloudflare.quest"
+          "serverName": "amshare.jingledev.me"
         },
         "wsSettings": {
           "headers": {
-            "Host": "scw.cloudflare.quest"
+            "Host": "amshare.jingledev.me"
           },
-          "path": "/aries"
+          "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-74 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-4 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -153,7 +153,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-75 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-76 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -193,7 +193,47 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-111 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-96 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.21.226",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "amshare.jingledev.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "amshare.jingledev.me"
+          },
+          "path": "/pkhhvws"
+        }
+      },
+      "tag": "proxy-97 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -233,7 +273,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-117 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-131 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -273,7 +313,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-141 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-133 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -284,7 +324,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.34",
+            "address": "104.18.21.226",
             "port": 2086,
             "users": [
               {
@@ -313,7 +353,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-142 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-164 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -353,7 +393,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-171 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-170 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -393,47 +433,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-191 🇳🇱 CLOUDFLARE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.67.199.34",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "scw.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "scw.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-206 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-177 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     }
   ],
   "dns": {

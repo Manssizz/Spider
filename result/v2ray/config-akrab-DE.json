@@ -91,7 +91,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "4ddd24d6-d901-5e5f-9a7c-080015c2e246",
+                "id": "9bd493b0-f91e-4059-ef7c-9e2b3da5f26d",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sun.prxpro.cc"
+          "serverName": "de100.tehvp.xyz"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sun.prxpro.cc"
+            "Host": "de100.tehvp.xyz"
           },
-          "path": "/g7970d1b58m1ixn3i16i"
+          "path": "/"
         }
       },
-      "tag": "proxy-4 🇩🇪 Hetzner On CDN 👾 漁師"
+      "tag": "proxy-25 🇩🇪 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -124,14 +124,128 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.105.74.134",
-            "port": 37867,
+            "address": "157.90.30.113",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "4623f949-e0e4-4d40-d177-049ca6fd7518",
+                "id": "025923dd-47e2-440f-a5e2-4186ea61d8dc",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/graphql"
+        }
+      },
+      "tag": "proxy-60 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "168.119.178.182",
+            "port": 16014,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "5740f1b8-3dee-4bba-9a80-ad57f0ce0380",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "click.zoom.us"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-72 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hndx.relay01.fast001.buzz",
+            "port": 19046,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9cfb6d5e-f5ab-388d-acb2-2c54908066fe",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-74 🇩🇪 Linode LL SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.202.233.147",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
                 "level": 8,
                 "security": "auto"
               }
@@ -150,10 +264,10 @@
           "headers": {
             "Host": "safebrowsing.google.com"
           },
-          "path": "/vmess"
+          "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-15 🇩🇪 Linode LL SNI 👾 漁師"
+      "tag": "proxy-122 🇩🇪 myLoc mana SNI 👾 漁師"
     },
     {
       "mux": {
@@ -190,50 +304,10 @@
           "headers": {
             "Host": "sun.prxpro.cc"
           },
-          "path": "/p3573l6m92h1ham3q23t"
+          "path": "/g7970d1b58m1ixn3i16i"
         }
       },
-      "tag": "proxy-24 🇩🇪 Hetzner On CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "5.75.250.163",
-            "port": 2096,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "config.teams.microsoft.com"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-69 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-134 🇩🇪 Hetzner On CDN 👾 漁師"
     },
     {
       "mux": {
@@ -251,7 +325,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a0a23fec-6639-49dd-91d5-e583aa634c5d",
+                "id": "5e2c083f-231f-4eda-9df6-b3d5eb98b142",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,16 +338,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "config.teams.microsoft.com"
+            "Host": "safebrowsing.google.com"
           },
           "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
         }
       },
-      "tag": "proxy-73 🇩🇪 Linode LL SNI 👾 漁師"
+      "tag": "proxy-154 🇩🇪 Linode LL SNI 👾 漁師"
     },
     {
       "mux": {
@@ -284,99 +358,12 @@
       "settings": {
         "servers": [
           {
-            "address": "content-provider29.cdn-delivery.akamaicd.com",
+            "address": "aleph-tj015.thatfreeservicewhicheveryoneuse.uk",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "origin",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
-        }
-      },
-      "tag": "proxy-5 🇩🇪 Hetzner On SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "188.40.236.127",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "yxGY7A5MczQYg6UqSFx9u78V",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        }
-      },
-      "tag": "proxy-180 🇩🇪 Hetzner On SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "content-provider28.cdn-delivery.akamaicd.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        }
-      },
-      "tag": "proxy-187 🇩🇪 Hetzner On SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "bdvasxmahl.injafarvpnwebelieve.gq",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "TvBypqQJ9b",
+            "password": "d76294c5-a31f-408d-ba0b-89880107cab5",
             "port": 443
           }
         ]
@@ -389,7 +376,7 @@
           "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-192 🇩🇪 DIGITALOCE SNI 👾 漁師"
+      "tag": "proxy-107 🇩🇪 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {

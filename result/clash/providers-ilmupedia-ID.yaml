@@ -1,69 +1,5 @@
 proxies:
-  - name: '32 🇮🇩 PT Linkgo  SNI 👾 漁師'
-    server: id-v.sshmax.xyz
-    type: vmess
-    port: 443
-    uuid: 781adf87-0afa-420c-875f-879162a2bce1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '33 🇮🇩 PT Linkgo  CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: 781adf87-0afa-420c-875f-879162a2bce1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: id-v.sshmax.xyz
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: id-v.sshmax.xyz
-  - name: '104 🇮🇩 PT Linkgo  CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 443
-    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: id-v.sshmax.xyz
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: id-v.sshmax.xyz
-  - name: '107 🇮🇩 PT Linkgo  SNI 👾 漁師'
-    server: id-v.sshmax.xyz
-    type: vmess
-    port: 443
-    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: news.microsoft.com
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-  - name: '198 🇮🇩 PT Linkgo  SNI 👾 漁師'
+  - name: '40 🇮🇩 PT Linkgo  SNI 👾 漁師'
     server: id-v.sshmax.xyz
     type: vmess
     port: 443
@@ -79,7 +15,55 @@ proxies:
       path: /vmess
       headers:
         Host: news.microsoft.com
-  - name: '209 🇮🇩 PT Industr SNI 👾 漁師'
+  - name: '88 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: id-v.sshmax.xyz
+    type: vmess
+    port: 443
+    uuid: 781adf87-0afa-420c-875f-879162a2bce1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '108 🇮🇩 PT Linkgo  CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 443
+    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: id-v.sshmax.xyz
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: id-v.sshmax.xyz
+  - name: '168 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: 103.157.27.148
+    type: vmess
+    port: 443
+    uuid: 6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: news.microsoft.com
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+  - name: '139 🇮🇩 PT Industr SNI 👾 漁師'
     server: 103.167.34.206
     type: trojan
     port: 443
