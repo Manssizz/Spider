@@ -1,5 +1,21 @@
 proxies:
-  - name: '139 🇱🇺 PONYNET SNI 👾 漁師'
+  - name: '131 🇱🇺 PONYNET SNI 👾 漁師'
+    server: 107.189.28.253
+    type: vmess
+    port: 2086
+    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: tsel.me
+  - name: '149 🇱🇺 PONYNET SNI 👾 漁師'
     server: buyvm.oppo.quest
     type: vmess
     port: 2086
