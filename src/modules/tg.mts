@@ -27,10 +27,9 @@ class Bot {
     message += `Mode: <code>${account.cdn ? "CDN" : "SNI"}</code>\n`;
     message += `SNI: <code>${account.sni || account.host || ""}</code>\n\n`;
     message += `⌜<code>${new Spider(account).toURL()}</code>⌟\n\n`;
-    message += `Config: <a href="https://github.com/dickymuliafiqri/Spider/tree/main/resources/config">Config Example</a>\n`;
-    message += `Sub: <a href="https://github.com/dickymuliafiqri/Spider/tree/main/result">Subscription</a>\n`;
-    message += `Join: @v2scrape\n\n`;
-    message += `Contact: @d_fordlalatina`;
+    message += `Config: <a href="https://github.com/Manssizz/Spider/tree/main/resources/config">Config Example</a>\n`;
+    message += `Sub: <a href="https://github.com/Manssizz/Spider/tree/main/result">Subscription</a>\n`;
+ 
 
     return message;
   }
@@ -42,9 +41,9 @@ class Bot {
       disable_web_page_preview: true,
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
-        .url("❤️ Donate ❤️", "https://saweria.co/m0qa")
+        .url("❤️ Google ❤️", "https://google.com")
         .row()
-        .url("Donators", "https://telegra.ph/Donations-11-05-4")
+        .url("Google", "https://google.com")
         .row(),
     });
   }
