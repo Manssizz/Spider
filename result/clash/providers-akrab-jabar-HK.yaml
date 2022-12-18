@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '9 🇭🇰 Tele Asia  SNI 👾 漁師'
     server: HK-43-188.shoptunnel.live
     type: vmess
@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '13 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -82,7 +82,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '134 🇭🇰 Global Int CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '156 🇭🇰 Scloud Pte SNI 👾 漁師'
     server: hk9.czs1000.com
     type: vmess
@@ -134,7 +134,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '183 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: 18.163.210.143
     type: vmess
@@ -146,11 +146,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '155 🇭🇰 ADCDATA.CO SNI 👾 漁師'
     server: 194.156.99.39
     type: trojan
