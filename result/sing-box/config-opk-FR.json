@@ -45,13 +45,12 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "143 🇫🇷 Online S.a SNI 👾 漁師",
-        "18 🇫🇷 OVH SAS SNI 👾 漁師"
+        "95 🇫🇷 Online S.a SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "143 🇫🇷 Online S.a SNI 👾 漁師",
+      "tag": "95 🇫🇷 Online S.a SNI 👾 漁師",
       "server": "51.159.2.152",
       "server_port": 8880,
       "uuid": "a2ecce43-c6fb-4978-8b1d-8018ddd9faf4",
@@ -68,18 +67,6 @@
         "headers": {
           "Host": "tsel.me"
         }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "18 🇫🇷 OVH SAS SNI 👾 漁師",
-      "server": "content-provider26.cdn-delivery.akamaicd.com",
-      "server_port": 443,
-      "password": "origin",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
       }
     }
   ],

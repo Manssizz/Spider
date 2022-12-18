@@ -1,5 +1,5 @@
 proxies:
-  - name: '143 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '95 🇫🇷 Online S.a SNI 👾 漁師'
     server: 51.159.2.152
     type: vmess
     port: 8880
@@ -15,12 +15,3 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '18 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: content-provider26.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
