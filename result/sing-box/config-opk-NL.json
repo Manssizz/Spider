@@ -45,18 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "61 🇳🇱 IP Volume  SNI 👾 漁師",
-        "85 🇳🇱 AS40676 SNI 👾 漁師",
-        "95 🇳🇱 IP Volume  SNI 👾 漁師",
-        "123 🇳🇱 IP Volume  SNI 👾 漁師",
-        "327 🇳🇱 AS40676 SNI 👾 漁師",
-        "48 🇳🇱 DIGITALOCE SNI 👾 漁師"
+        "34 🇳🇱 IP Volume  SNI 👾 漁師",
+        "37 🇳🇱 IP Volume  SNI 👾 漁師",
+        "139 🇳🇱 IP Volume  SNI 👾 漁師",
+        "152 🇳🇱 IP Volume  SNI 👾 漁師",
+        "234 🇳🇱 AS40676 SNI 👾 漁師"
       ]
     },
     {
       "type": "trojan",
-      "tag": "61 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.53.20",
+      "tag": "34 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "content-provider2.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "TestingServer@@2",
       "tls": {
@@ -67,19 +66,7 @@
     },
     {
       "type": "trojan",
-      "tag": "85 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "185.212.200.74",
-      "server_port": 443,
-      "password": "Sp3eDVp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "95 🇳🇱 IP Volume  SNI 👾 漁師",
+      "tag": "37 🇳🇱 IP Volume  SNI 👾 漁師",
       "server": "94.102.53.19",
       "server_port": 443,
       "password": "TestingServer@@",
@@ -91,8 +78,20 @@
     },
     {
       "type": "trojan",
-      "tag": "123 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "content-provider13.cdn-delivery.akamaicd.com",
+      "tag": "139 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.53.20",
+      "server_port": 443,
+      "password": "TestingServer@@2",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "152 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.54.65",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {
@@ -103,7 +102,7 @@
     },
     {
       "type": "trojan",
-      "tag": "327 🇳🇱 AS40676 SNI 👾 漁師",
+      "tag": "234 🇳🇱 AS40676 SNI 👾 漁師",
       "server": "185.212.200.75",
       "server_port": 443,
       "password": "Sp3eDVp",
@@ -112,18 +111,6 @@
         "insecure": true,
         "server_name": "tsel.me"
       }
-    },
-    {
-      "type": "shadowsocksr",
-      "tag": "48 🇳🇱 DIGITALOCE SNI 👾 漁師",
-      "server": "167.99.214.62",
-      "server_port": 11909,
-      "method": "aes-256-cfb",
-      "password": "azadi2030",
-      "obfs": "http_simple",
-      "obfs_param": "obfs=http;obfs-host=tsel.me",
-      "protocol": "origin",
-      "protocol_param": ""
     }
   ],
   "route": {

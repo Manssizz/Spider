@@ -1,5 +1,5 @@
 proxies:
-  - name: '215 🇵🇱 OVH SAS SNI 👾 漁師'
+  - name: '100 🇵🇱 OVH SAS SNI 👾 漁師'
     server: 146.59.92.219
     type: vmess
     port: 2096
@@ -15,3 +15,19 @@ proxies:
       path: /
       headers:
         Host: 172.67.199.34
+  - name: '159 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 193.151.141.12
+    type: vmess
+    port: 32010
+    uuid: 69587313-f6d0-44f0-cc26-b48164771749
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: teams.microsoft.com
+    ws-opts: 
+      path: /
+      headers:
+        Host: teams.microsoft.com

@@ -84,7 +84,7 @@
       "settings": {
         "servers": [
           {
-            "address": "94.102.53.20",
+            "address": "content-provider2.cdn-delivery.akamaicd.com",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -102,36 +102,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-61 🇳🇱 IP Volume  SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "185.212.200.74",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "Sp3eDVp",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-85 🇳🇱 AS40676 SNI 👾 漁師"
+      "tag": "proxy-34 🇳🇱 IP Volume  SNI 👾 漁師"
     },
     {
       "mux": {
@@ -160,7 +131,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-95 🇳🇱 IP Volume  SNI 👾 漁師"
+      "tag": "proxy-37 🇳🇱 IP Volume  SNI 👾 漁師"
     },
     {
       "mux": {
@@ -171,7 +142,36 @@
       "settings": {
         "servers": [
           {
-            "address": "content-provider13.cdn-delivery.akamaicd.com",
+            "address": "94.102.53.20",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "TestingServer@@2",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-139 🇳🇱 IP Volume  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "94.102.54.65",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -189,7 +189,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-123 🇳🇱 IP Volume  SNI 👾 漁師"
+      "tag": "proxy-152 🇳🇱 IP Volume  SNI 👾 漁師"
     },
     {
       "mux": {
@@ -218,9 +218,8 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-327 🇳🇱 AS40676 SNI 👾 漁師"
-    },
-    ""
+      "tag": "proxy-234 🇳🇱 AS40676 SNI 👾 漁師"
+    }
   ],
   "dns": {
     "hosts": {
