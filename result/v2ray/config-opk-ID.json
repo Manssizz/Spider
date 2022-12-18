@@ -113,47 +113,36 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-31 🇮🇩 PT Linkgo  SNI 👾 漁師"
+      "tag": "proxy-74 🇮🇩 PT Linkgo  SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "id-v.sshmax.xyz",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "6211eb8a-e5ca-40f3-980f-a7ae6e95e5cb",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "id3tr.jagoan.vip",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "vvip-periantara",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/vmess"
         }
       },
-      "tag": "proxy-81 🇮🇩 PT Linkgo  SNI 👾 漁師"
+      "tag": "proxy-75 🇮🇩 Media Anta SNI 👾 漁師"
     },
     {
       "mux": {
@@ -182,36 +171,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-17 🇮🇩 Media Anta SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "103.167.34.206",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "60d47bb6-47d1-45b1-b67b-4d236a4a5957",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-154 🇮🇩 PT Industr SNI 👾 漁師"
+      "tag": "proxy-147 🇮🇩 Media Anta SNI 👾 漁師"
     }
   ],
   "dns": {
