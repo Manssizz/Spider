@@ -135,27 +135,6 @@
     {
       "type": "vmess",
       "tag": "116 🇭🇰 G-Core Lab CDN 👾 漁師",
-      "server": "news.microsoft.com",
-      "server_port": 2086,
-      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcorehk.cloudflare.quest"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aries",
-        "headers": {
-          "Host": "gcorehk.cloudflare.quest"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "138 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "cacerts.digicert.com",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
@@ -176,8 +155,29 @@
     },
     {
       "type": "vmess",
-      "tag": "152 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "tag": "138 🇭🇰 G-Core Lab CDN 👾 漁師",
       "server": "news.microsoft.com",
+      "server_port": 2086,
+      "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcorehk.cloudflare.quest"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "gcorehk.cloudflare.quest"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "152 🇭🇰 G-Core Lab CDN 👾 漁師",
+      "server": "cacerts.digicert.com",
       "server_port": 2086,
       "uuid": "7a8a19ec-94f5-4262-edbe-a308e1d0c66d",
       "security": "auto",
