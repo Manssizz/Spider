@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /vmess
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '242 🇦🇺 Linode LL SNI 👾 漁師'
     server: au1.czs1000.com
     type: vmess
@@ -39,7 +39,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '189 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: 140.238.205.173
     type: trojan
@@ -57,7 +57,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '257 🇦🇺 OVH SAS SNI 👾 漁師'
     server: aut1.sshocean.net
     type: trojan
@@ -84,7 +84,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '538 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: jgwxn4.gaox.ml
     type: trojan
@@ -93,7 +93,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '543 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: jgwxn3.gaox.ml
     type: trojan
@@ -102,4 +102,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
