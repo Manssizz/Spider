@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '439 🇹🇼 Data Commu SNI 👾 漁師'
     server: f1f3227.v8.glados-config.net
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '466 🇹🇼 Data Commu SNI 👾 漁師'
     server: 111.6.86.74
     type: vmess
@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /game
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '281 🇹🇼 Data Commu SNI 👾 漁師'
     server: tt01.yuncyo.xyz
     type: trojan
