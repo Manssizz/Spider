@@ -1,17 +1,10 @@
 proxies:
-  - name: '102 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 206.81.31.184
-    type: vmess
-    port: 6245
-    uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '163 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
