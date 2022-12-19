@@ -80,40 +80,29 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "id-v.sshmax.xyz",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "f5e4fd65-8ecf-4e9b-884a-9a82414d0841",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "103.167.34.206",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "60d47bb6-47d1-45b1-b67b-4d236a4a5957",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/vmess"
         }
       },
-      "tag": "proxy-390 🇮🇩 PT Linkgo  SNI 👾 漁師"
+      "tag": "proxy-75 🇮🇩 PT Industr SNI 👾 漁師"
     },
     {
       "mux": {
@@ -142,65 +131,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-24 🇮🇩 PT Industr SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "103.167.34.206",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "60d47bb6-47d1-45b1-b67b-4d236a4a5957",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-66 🇮🇩 PT Industr SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "38.9.140.66",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "vvip-periantara",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-180 🇮🇩 Media Anta SNI 👾 漁師"
+      "tag": "proxy-93 🇮🇩 PT Industr SNI 👾 漁師"
     }
   ],
   "dns": {
