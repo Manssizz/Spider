@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /path/120208301422
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '3 🇺🇸 CLOUDFLARE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -74,7 +74,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '19 🇺🇸 AS40676 CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -134,7 +134,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '49 🇺🇸 Green Floi CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -194,11 +194,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /hls/us2.m3u8
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '60 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -302,7 +302,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '89 🇺🇸 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -394,11 +394,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '112 🇺🇸 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -718,7 +718,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '220 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -906,7 +906,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '288 🇺🇸 SHARKTECH CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -966,7 +966,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '318 🇺🇸 SHARKTECH SNI 👾 漁師'
     server: us6.czs1000.com
     type: vmess
@@ -978,11 +978,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '337 🇺🇸 SHARKTECH CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -1026,11 +1026,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '346 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -1087,7 +1087,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '325 🇺🇸 PERFORMIVE SNI 👾 漁師'
     server: 107.181.161.163
     type: trojan
@@ -1096,7 +1096,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '329 🇺🇸 PEGTECHINC SNI 👾 漁師'
     server: zzus01.fuqiangren.com
     type: trojan
@@ -1114,7 +1114,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '63 🇺🇸 AS-CHOOPA SNI 👾 漁師'
     server: 45.63.60.105
     type: ssr

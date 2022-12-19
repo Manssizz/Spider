@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '106 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: 185.22.153.16
     type: vmess
@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '304 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: RU-153-16.shoptunnel.live
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '307 🇷🇺 RECONN LLC SNI 👾 漁師'
     server: 37.252.1.197
     type: vmess
@@ -62,7 +62,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '336 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: 185.22.153.16
     type: vmess
@@ -74,4 +74,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
