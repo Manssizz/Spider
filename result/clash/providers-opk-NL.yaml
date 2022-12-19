@@ -1,6 +1,6 @@
 proxies:
-  - name: '153 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.202
+  - name: '128 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.207.88
     type: vmess
     port: 38743
     uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
@@ -11,20 +11,56 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '86 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
+  - name: '28 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider2.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: TestingServer@@
+    password: TestingServer@@2
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '150 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '60 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider23.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '67 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider14.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '183 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.54.66
     type: trojan
     port: 443
     password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '207 🇳🇱 DIGITALOCE SNI 👾 漁師'
+    server: xray.tawanaclub.tk
+    type: trojan
+    port: 14302
+    password: rk95RrXpt2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '247 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider1.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: TestingServer@@
     udp: true
     skip-cert-verify: true
     network: tcp
