@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.25.139",
+            "address": "162.159.135.42",
             "port": 443,
             "users": [
               {
@@ -113,7 +113,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-116 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-87 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -124,7 +124,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.70.206",
+            "address": "141.193.213.10",
             "port": 2086,
             "users": [
               {
@@ -153,7 +153,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-132 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-104 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -164,7 +164,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.25.139",
+            "address": "162.159.128.7",
             "port": 443,
             "users": [
               {
@@ -193,7 +193,87 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-173 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-144 🇳🇱 DIGITALOCE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-171 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.10",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-254 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -233,7 +313,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-178 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-317 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -244,14 +324,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.51.111",
-            "port": 443,
+            "address": "141.193.213.10",
+            "port": 2086,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,16 +344,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "amshare.jingledev.me"
+          "serverName": "scw.cloudflare.quest"
         },
         "wsSettings": {
           "headers": {
-            "Host": "amshare.jingledev.me"
+            "Host": "scw.cloudflare.quest"
           },
-          "path": "/pkhhvws"
+          "path": "/aries"
         }
       },
-      "tag": "proxy-252 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-360 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -313,7 +393,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-270 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-361 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -324,7 +404,47 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.70.206",
+            "address": "162.159.128.7",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-388 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.51.111",
             "port": 443,
             "users": [
               {
@@ -353,7 +473,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-287 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-391 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -364,14 +484,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.70.206",
-            "port": 443,
+            "address": "104.16.51.111",
+            "port": 2086,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
                 "level": 8,
                 "security": "auto"
               }
@@ -384,16 +504,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "amshare.jingledev.me"
+          "serverName": "scw.cloudflare.quest"
         },
         "wsSettings": {
           "headers": {
-            "Host": "amshare.jingledev.me"
+            "Host": "scw.cloudflare.quest"
           },
-          "path": "/pkhhvws"
+          "path": "/aries"
         }
       },
-      "tag": "proxy-326 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-418 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-428 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -433,7 +593,167 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-335 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-429 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.51.111",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "amshare.jingledev.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "amshare.jingledev.me"
+          },
+          "path": "/pkhhvws"
+        }
+      },
+      "tag": "proxy-451 🇳🇱 DIGITALOCE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.70.206",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-452 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.51.111",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-458 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.10",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-467 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     }
   ],
   "dns": {
