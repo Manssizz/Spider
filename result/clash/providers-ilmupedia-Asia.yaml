@@ -136,7 +136,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '26 🇭🇰 Alibaba US CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 6a69acd2-ffe1-44eb-c51c-1afc049c7541
@@ -180,7 +180,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '37 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -336,7 +336,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '66 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -540,7 +540,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '90 🇸🇬 Linode LL CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 8080
     uuid: bf1d8374-e6dc-4493-afeb-1bdc3799bb02
@@ -600,7 +600,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '97 🇰🇭 Kaopu Clou CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
@@ -672,7 +672,7 @@ proxies:
       headers:
         Host: opc-jp.sharecentre.online
   - name: '102 🇸🇬 ORACLE-BMC CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
@@ -972,38 +972,6 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
   - name: '169 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 2086
-    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: gcorehk.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: gcorehk.cloudflare.quest
-  - name: '173 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: news.microsoft.com
-    type: vmess
-    port: 2086
-    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: gcorehk.cloudflare.quest
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: gcorehk.cloudflare.quest
-  - name: '177 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: cacerts.digicert.com
     type: vmess
     port: 2086
@@ -1019,8 +987,40 @@ proxies:
       path: /aries
       headers:
         Host: gcorehk.cloudflare.quest
-  - name: '182 🇸🇬 G-Core Lab CDN 👾 漁師'
+  - name: '173 🇭🇰 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
+    type: vmess
+    port: 2086
+    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorehk.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: gcorehk.cloudflare.quest
+  - name: '177 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: news.microsoft.com
+    type: vmess
+    port: 2086
+    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: gcorehk.cloudflare.quest
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: gcorehk.cloudflare.quest
+  - name: '182 🇸🇬 G-Core Lab CDN 👾 漁師'
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -1036,7 +1036,7 @@ proxies:
       headers:
         Host: sg-gcore-2.sharecentre.online
   - name: '191 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -1164,7 +1164,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '227 🇯🇵 ORACLE-BMC CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -1192,7 +1192,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '231 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -1280,7 +1280,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '252 🇸🇬 HURRICANE CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -1528,7 +1528,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '315 🇸🇬 G-Core Lab CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -1588,7 +1588,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '321 🇰🇷 ORACLE-BMC CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
@@ -1636,7 +1636,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '334 🇭🇰 Global Int CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -1664,7 +1664,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '341 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -1899,7 +1899,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '170 🇸🇬 Linode LL CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: trojan
     port: 443
     password: 4X1ebJpQWg
