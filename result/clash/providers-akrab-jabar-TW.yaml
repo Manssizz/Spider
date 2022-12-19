@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '50 🇹🇼 Data Commu SNI 👾 漁師'
     server: d59q.cdn.node.a.tddns-ounk.com
     type: vmess
@@ -26,15 +26,31 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /3c675bf1-d618-42de-a358-498396d49cc6.y.live04.m3u8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '118 🇹🇼 Data Commu SNI 👾 漁師'
     server: d59q.cdn.node.a.tddns-ounk.com
     type: vmess
     port: 20645
+    uuid: 5b561da8-af02-32e2-8e1a-81157e962cd3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: 172.67.199.34
+    ws-opts: 
+      path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
+      headers:
+        Host: 172.67.199.34
+  - name: '155 🇹🇼 Data Commu SNI 👾 漁師'
+    server: d59q.cdn.node.a.tddns-ounk.com
+    type: vmess
+    port: 20631
     uuid: 5b561da8-af02-32e2-8e1a-81157e962cd3
     alterId: 0
     cipher: auto
@@ -47,22 +63,6 @@ proxies:
       path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
       headers:
         Host: teams.microsoft.com
-  - name: '155 🇹🇼 Data Commu SNI 👾 漁師'
-    server: d59q.cdn.node.a.tddns-ounk.com
-    type: vmess
-    port: 20631
-    uuid: 5b561da8-af02-32e2-8e1a-81157e962cd3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: 172.67.199.34
-    ws-opts: 
-      path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
-      headers:
-        Host: 172.67.199.34
   - name: '186 🇹🇼 Data Commu SNI 👾 漁師'
     server: 78gb1.cdn.node.a.tddns-ounk.com
     type: vmess
@@ -90,11 +90,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '210 🇹🇼 Data Commu SNI 👾 漁師'
     server: 78gb1.cdn.node.a.tddns-ounk.com
     type: vmess
@@ -106,11 +106,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /acaaaad0-54f5-4e10-94bb-1e6ab04649e1.y.live02.m3u8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '292 🇹🇼 Data Commu SNI 👾 漁師'
     server: 6a9f4.cdn.node.a.tddns-ounk.com
     type: vmess
@@ -122,11 +122,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '316 🇹🇼 Data Commu SNI 👾 漁師'
     server: 111.6.86.74
     type: vmess
@@ -154,11 +154,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '418 🇹🇼 Data Commu SNI 👾 漁師'
     server: d59q.cdn.node.a.tddns-ounk.com
     type: vmess
@@ -183,8 +183,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /gateway/connect
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
