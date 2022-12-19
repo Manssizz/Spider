@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /vmess
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '351 🇬🇧 OVH SAS SNI 👾 漁師'
     server: uk1.v2-ray.us
     type: vmess
@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /vmess
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '33 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: content-provider21.cdn-delivery.akamaicd.com
     type: trojan
@@ -63,7 +63,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '57 🇬🇧 ORACLE-BMC SNI 👾 漁師'
     server: 132.145.51.172
     type: trojan
@@ -81,7 +81,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '275 🇬🇧 Stark Indu SNI 👾 漁師'
     server: 146.19.230.241
     type: trojan
@@ -99,7 +99,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '304 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: content-provider20.cdn-delivery.akamaicd.com
     type: trojan
@@ -108,4 +108,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
