@@ -1,5 +1,21 @@
 proxies:
-  - name: '22 🇭🇰 STARCLOUD  SNI 👾 漁師'
+  - name: '70 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: 18.163.210.143
+    type: vmess
+    port: 443
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      headers:
+        Host: tsel.me
+  - name: '80 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
     port: 8189
@@ -11,47 +27,43 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '62 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: 206.119.112.6
+  - name: '148 🇭🇰 Scloud Pte SNI 👾 漁師'
+    server: hk9.czs1000.com
     type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '105 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: 206.119.112.6
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '151 🇭🇰 ADCDATA.CO SNI 👾 漁師'
-    server: ah.yd01.paopaocloud.cyou
-    type: vmess
-    port: 10002
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    port: 8011
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '184 🇭🇰 AMAZON-02 SNI 👾 漁師'
+  - name: '195 🇭🇰 MICROSOFT- SNI 👾 漁師'
+    server: hk5.czs1000.com
+    type: vmess
+    port: 3885
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '257 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '283 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80-2.sanfen001.pics
     type: vmess
     port: 443
@@ -67,11 +79,11 @@ proxies:
       path: /zh-cn/download
       headers:
         Host: tsel.me
-  - name: '259 🇭🇰 UCLOUD INF SNI 👾 漁師'
-    server: 165.154.5.235
+  - name: '289 🇭🇰 MICROSOFT- SNI 👾 漁師'
+    server: hk8.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
     type: vmess
-    port: 14444
-    uuid: 0eb9d2fa-17d1-4276-af80-15323dc1dca5
+    port: 8008
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
     alterId: 0
     cipher: auto
     tls: true
@@ -79,11 +91,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '285 🇭🇰 UCLOUD INF SNI 👾 漁師'
-    server: 165.154.5.235
+  - name: '293 🇭🇰 MICROSOFT- SNI 👾 漁師'
+    server: hk8.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
     type: vmess
-    port: 14444
-    uuid: 0eb9d2fa-17d1-4276-af80-15323dc1dca5
+    port: 3888
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
     alterId: 0
     cipher: auto
     tls: true
@@ -91,7 +103,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '302 🇭🇰 STARCLOUD  SNI 👾 漁師'
+  - name: '319 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: 206.119.112.6
     type: vmess
     port: 8189
@@ -103,48 +115,23 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '324 🇭🇰 G-Core Lab SNI 👾 漁師'
-    server: 185.14.47.240
+  - name: '366 🇭🇰 MICROSOFT- SNI 👾 漁師'
+    server: hk7.czs1000.com
     type: vmess
-    port: 2086
-    uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+    port: 3888
+    uuid: c054f5eb-d76c-44ff-8229-435b986f9f03
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: tsel.me
-  - name: '394 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: hk1vdf-node.aiqiche123.com
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '1 🇭🇰 CNSERVERS SNI 👾 漁師'
+  - name: '258 🇭🇰 CNSERVERS SNI 👾 漁師'
     server: vollcloud-2.arklab.ga
     type: trojan
     port: 23454
     password: c41e5ba8-2fe2-405a-8259-1ecb012ffccd
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '149 🇭🇰 Tencent Bu SNI 👾 漁師'
-    server: azhk095.xiaohouzi.club
-    type: trojan
-    port: 10102
-    password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
     udp: true
     skip-cert-verify: true
     network: tcp
