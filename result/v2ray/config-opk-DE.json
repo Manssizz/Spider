@@ -84,46 +84,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.70.144.63",
-            "port": 58026,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "41b06022-8205-453a-f2c5-12765339c3c5",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-51 🇩🇪 AMAZON-02 SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "de1.v2-ray.us",
             "port": 443,
             "users": [
@@ -153,65 +113,87 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-216 🇩🇪 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-77 🇩🇪 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "content-provider29.cdn-delivery.akamaicd.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
+            "address": "germany.radargoriz.fun",
+            "port": 32264,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "f4ea665f-d673-4304-d291-863e2a8cdcb2",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-103 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-102 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.40.251.19",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "origin",
-            "port": 443
+            "address": "213.202.233.147",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/path/243535322906"
         }
       },
-      "tag": "proxy-199 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-149 🇩🇪 myLoc mana SNI 👾 漁師"
     },
     {
       "mux": {
@@ -240,7 +222,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-221 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-130 🇩🇪 Hetzner On SNI 👾 漁師"
     }
   ],
   "dns": {

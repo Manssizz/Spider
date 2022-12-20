@@ -107,7 +107,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-140 🇳🇱 AEZA GROUP SNI 👾 漁師"
+      "tag": "proxy-10 🇳🇱 AEZA GROUP SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,7 +118,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "79.137.207.88",
+            "address": "79.137.207.202",
             "port": 38740,
             "users": [
               {
@@ -141,7 +141,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-185 🇳🇱 AEZA GROUP SNI 👾 漁師"
+      "tag": "proxy-68 🇳🇱 AEZA GROUP SNI 👾 漁師"
     },
     {
       "mux": {
@@ -170,7 +170,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-95 🇳🇱 AS40676 SNI 👾 漁師"
+      "tag": "proxy-39 🇳🇱 AS40676 SNI 👾 漁師"
     },
     {
       "mux": {
@@ -199,7 +199,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-118 🇳🇱 IP Volume  SNI 👾 漁師"
+      "tag": "proxy-59 🇳🇱 IP Volume  SNI 👾 漁師"
     },
     {
       "mux": {
@@ -210,7 +210,65 @@
       "settings": {
         "servers": [
           {
-            "address": "content-provider13.cdn-delivery.akamaicd.com",
+            "address": "content-provider1.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "TestingServer@@",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-73 🇳🇱 IP Volume  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "94.102.54.66",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-87 🇳🇱 IP Volume  SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "185.212.200.74",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -228,36 +286,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-128 🇳🇱 IP Volume  SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "94.102.53.20",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "TestingServer@@2",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-174 🇳🇱 IP Volume  SNI 👾 漁師"
+      "tag": "proxy-107 🇳🇱 AS40676 SNI 👾 漁師"
     }
   ],
   "dns": {

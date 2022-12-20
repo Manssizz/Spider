@@ -1,5 +1,5 @@
 proxies:
-  - name: '140 🇳🇱 AEZA GROUP SNI 👾 漁師'
+  - name: '10 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.207.202
     type: vmess
     port: 38740
@@ -11,8 +11,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '185 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.88
+  - name: '68 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.207.202
     type: vmess
     port: 38740
     uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
@@ -23,7 +23,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '95 🇳🇱 AS40676 SNI 👾 漁師'
+  - name: '39 🇳🇱 AS40676 SNI 👾 漁師'
     server: 185.212.200.75
     type: trojan
     port: 443
@@ -32,7 +32,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '118 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '59 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.53.19
     type: trojan
     port: 443
@@ -41,20 +41,29 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '128 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider13.cdn-delivery.akamaicd.com
+  - name: '73 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider1.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: Sp3eDVp
+    password: TestingServer@@
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '174 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.20
+  - name: '87 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.54.66
     type: trojan
     port: 443
-    password: TestingServer@@2
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '107 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.74
+    type: trojan
+    port: 443
+    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp

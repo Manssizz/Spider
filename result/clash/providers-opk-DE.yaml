@@ -1,21 +1,5 @@
 proxies:
-  - name: '51 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 3.70.144.63
-    type: vmess
-    port: 58026
-    uuid: 41b06022-8205-453a-f2c5-12765339c3c5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '216 🇩🇪 OVH SAS SNI 👾 漁師'
+  - name: '77 🇩🇪 OVH SAS SNI 👾 漁師'
     server: de1.v2-ray.us
     type: vmess
     port: 443
@@ -31,25 +15,39 @@ proxies:
       path: /vmess
       headers:
         Host: tsel.me
-  - name: '103 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider29.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
+  - name: '102 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: germany.radargoriz.fun
+    type: vmess
+    port: 32264
+    uuid: f4ea665f-d673-4304-d291-863e2a8cdcb2
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '199 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
-    type: trojan
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '149 🇩🇪 myLoc mana SNI 👾 漁師'
+    server: 213.202.233.147
+    type: vmess
     port: 443
-    password: origin
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '221 🇩🇪 Hetzner On SNI 👾 漁師'
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: tsel.me
+  - name: '130 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider28.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
