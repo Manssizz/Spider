@@ -1,5 +1,5 @@
 proxies:
-  - name: '36 🇵🇱 OVH SAS SNI 👾 漁師'
+  - name: '29 🇵🇱 OVH SAS SNI 👾 漁師'
     server: 146.59.92.219
     type: vmess
     port: 2096
@@ -10,8 +10,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
