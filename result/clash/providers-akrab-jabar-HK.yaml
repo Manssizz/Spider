@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '96 🇭🇰 Cloudie Li SNI 👾 漁師'
     server: hk14.czs1000.com
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '133 🇭🇰 HKT Limite SNI 👾 漁師'
     server: 04.kccic2pa.xyz
     type: vmess
@@ -98,7 +98,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '145 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80.sanfen001.pics
     type: vmess
@@ -110,11 +110,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '171 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80-2.sanfen001.pics
     type: vmess
@@ -142,11 +142,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '180 🇭🇰 ADCDATA.CO SNI 👾 漁師'
     server: ah.yd01.paopaocloud.cyou
     type: vmess
@@ -212,4 +212,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com

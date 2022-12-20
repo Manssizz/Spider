@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '116 🇨🇳 Hangzhou A SNI 👾 漁師'
     server: 39.103.165.178
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '126 🇨🇳 Shenzhen T SNI 👾 漁師'
     server: 139.186.198.63
     type: vmess
@@ -50,7 +50,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '127 🇨🇳 Hangzhou A SNI 👾 漁師'
     server: 39.103.165.178
     type: vmess
@@ -62,7 +62,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '167 🇨🇳 Ningxia We SNI 👾 漁師'
     server: 68.79.45.146
     type: vmess
