@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '29 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: 146.56.155.70
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '56 🇰🇷 AS-CHOOPA SNI 👾 漁師'
     server: KR-203-194.shoptunnel.live
     type: vmess
@@ -102,11 +102,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /m1
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '32 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
