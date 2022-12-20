@@ -104,16 +104,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "172.67.199.34"
+          "serverName": "teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "172.67.199.34"
+            "Host": "teams.microsoft.com"
           },
           "path": "/JAGOANSSH/"
         }
       },
-      "tag": "proxy-45 🇦🇺 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-237 🇦🇺 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "au1.fun513.ga",
+            "port": 54564,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "da05afe6-3241-4941-bab7-ce3dc19c3d0c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "teams.microsoft.com"
+          },
+          "path": "/au01"
+        }
+      },
+      "tag": "proxy-276 🇦🇺 DIGITALOCE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -144,16 +184,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "teams.microsoft.com"
+          "serverName": "172.67.199.34"
         },
         "wsSettings": {
           "headers": {
-            "Host": "teams.microsoft.com"
+            "Host": "172.67.199.34"
           },
           "path": "/vmess"
         }
       },
-      "tag": "proxy-191 🇦🇺 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-294 🇦🇺 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -164,13 +204,13 @@
       "settings": {
         "servers": [
           {
-            "address": "140.238.205.173",
+            "address": "syd14.yukiss.eu.org",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
-            "port": 443
+            "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+            "port": 18818
           }
         ]
       },
@@ -182,7 +222,65 @@
           "serverName": "172.67.199.34"
         }
       },
-      "tag": "proxy-122 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-133 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jgwxn4.gaox.ml",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-232 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "mel12.yukiss.eu.org",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+            "port": 18818
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "172.67.199.34"
+        }
+      },
+      "tag": "proxy-243 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -211,7 +309,65 @@
           "serverName": "teams.microsoft.com"
         }
       },
-      "tag": "proxy-192 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-354 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "140.238.205.173",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "cb43b7c2-b744-41c5-bcc2-fd7467b332cf",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "172.67.199.34"
+        }
+      },
+      "tag": "proxy-469 🇦🇺 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "152.67.98.30",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-484 🇦🇺 ORACLE-BMC SNI 👾 漁師"
     }
   ],
   "dns": {
