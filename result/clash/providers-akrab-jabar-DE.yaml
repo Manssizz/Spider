@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /graphql
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '10 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 162.55.174.135
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /graphql
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '21 🇩🇪 Hetzner On CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -122,11 +122,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /de01
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '548 🇩🇪 CLOUDFLARE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -160,7 +160,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '85 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider28.cdn-delivery.akamaicd.com
     type: trojan
@@ -169,7 +169,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '462 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
@@ -178,7 +178,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '525 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
@@ -187,7 +187,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '565 🇩🇪 Hetzner On SNI 👾 漁師'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
@@ -196,7 +196,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '589 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 188.40.251.19
     type: trojan
