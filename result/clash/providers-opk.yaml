@@ -1,161 +1,33 @@
 proxies:
-  - name: '12 🇫🇷 Online S.a SNI 👾 漁師'
-    server: 163.172.166.134
+  - name: '10 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 47.104.237.32
     type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '13 🇺🇸 ORACLE-BMC SNI 👾 漁師'
-    server: 129.146.133.157
-    type: vmess
-    port: 51009
-    uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '14 🇯🇵 MICROSOFT- SNI 👾 漁師'
-    server: jp14.czs1000.com
-    type: vmess
-    port: 4100
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '16 🇸🇬 DIGITALOCE SNI 👾 漁師'
-    server: sg1.safepn.net
-    type: vmess
-    port: 443
-    uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '18 🇰🇷 BGPNET Glo SNI 👾 漁師'
-    server: 202.79.171.157
-    type: vmess
-    port: 443
-    uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: undefined
     servername: tsel.me
-    ws-opts: 
-      path: /path/243535322906
-      headers:
-        Host: tsel.me
-  - name: '19 🇰🇷 AMAZON-02 SNI 👾 漁師'
-    server: v-aws-sel-2.heima-bot.tech
-    type: vmess
-    port: 7772
-    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /m2
-      headers:
-        Host: tsel.me
-  - name: '20 🇺🇸 ORACLE-BMC SNI 👾 漁師'
-    server: 150.230.41.9
-    type: vmess
-    port: 23292
-    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '29 🇫🇷 Online S.a SNI 👾 漁師'
-    server: v10a.toddns.tk
+  - name: '13 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
     type: vmess
     port: 443
-    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /fr-unlimitxxx
-      headers:
-        Host: tsel.me
-  - name: '33 🇸🇬 Linode LL SNI 👾 漁師'
-    server: 172.104.183.241
-    type: vmess
-    port: 8080
-    uuid: bf1d8374-e6dc-4493-afeb-1bdc3799bb02
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /hkaa0
-      headers:
-        Host: tsel.me
-  - name: '35 🇭🇰 MICROSOFT- SNI 👾 漁師'
-    server: hk5.czs1000.com
-    type: vmess
-    port: 3885
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '36 🇭🇰 MICROSOFT- SNI 👾 漁師'
-    server: hk5.czs1000.com
-    type: vmess
-    port: 3840
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '37 🇸🇬 G-Core Lab SNI 👾 漁師'
-    server: gcoresg.sylu.cyou
+  - name: '17 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
     type: vmess
     port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
     alterId: 0
     cipher: auto
     tls: true
@@ -164,14 +36,14 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /Falling42gcoresgnode
+      path: /vmess
       headers:
         Host: tsel.me
-  - name: '41 🇦🇹 Hohl IT e. SNI 👾 漁師'
-    server: 94.177.8.87
+  - name: '20 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 152.69.197.60
     type: vmess
-    port: 38740
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 1069
+    uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
     alterId: 0
     cipher: auto
     tls: true
@@ -179,11 +51,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '42 🇸🇬 OVH SAS SNI 👾 漁師'
-    server: sg-lb.vhax.net
+  - name: '25 🇭🇰 G-Core Lab SNI 👾 漁師'
+    server: hk1.fun513.ga
     type: vmess
-    port: 443
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    port: 42689
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
     alterId: 0
     cipher: auto
     tls: true
@@ -192,14 +64,26 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /sshkit/Ertusg86/635014638c264/
+      path: /hk01
       headers:
         Host: tsel.me
-  - name: '43 🇳🇱 Scalaxy B. SNI 👾 漁師'
-    server: nl.gongyiyun.cf
+  - name: '28 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 139.186.198.63
     type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '30 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: fr2.archnet.ir
+    type: vmess
+    port: 2082
+    uuid: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
     alterId: 0
     cipher: auto
     tls: true
@@ -211,23 +95,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '45 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
+  - name: '38 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.75.160.126
     type: vmess
-    port: 29210
-    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '46 🇸🇬 DIGITALOCE SNI 👾 漁師'
-    server: sg1021.hkaa0.tk
-    type: vmess
-    port: 8880
-    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    port: 443
+    uuid: 677d7852-bd73-4da5-98a4-f984e89fee65
     alterId: 0
     cipher: auto
     tls: true
@@ -236,34 +108,26 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /hkaa0
+      path: /vmess
       headers:
         Host: tsel.me
-  - name: '48 🇸🇬 ORACLE-BMC SNI 👾 漁師'
-    server: 168.138.171.65
+  - name: '40 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: id-v.sshmax.xyz
     type: vmess
     port: 443
-    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    uuid: f5e4fd65-8ecf-4e9b-884a-9a82414d0841
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '50 🇺🇸 IT7NET SNI 👾 漁師'
-    server: c87s5.jamjams3.net
-    type: vmess
-    port: 17102
-    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '52 🇺🇸 Melbikomas SNI 👾 漁師'
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '41 🇺🇸 Melbikomas SNI 👾 漁師'
     server: 88.210.37.18
     type: vmess
     port: 38740
@@ -275,11 +139,39 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '53 🇭🇰 MICROSOFT- SNI 👾 漁師'
-    server: hk8.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
+  - name: '43 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: hk1vdf-node.aiqiche123.com
     type: vmess
-    port: 8008
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '48 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sg1-v.sshmax.xyz
+    type: vmess
+    port: 443
+    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '50 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: 157.230.244.255
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
     alterId: 0
     cipher: auto
     tls: true
@@ -287,7 +179,191 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '55 🇮🇩 PT Linkgo  SNI 👾 漁師'
+  - name: '52 🇺🇸 SHARKTECH SNI 👾 漁師'
+    server: 67.21.72.41
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /path/173418141123
+      headers:
+        Host: tsel.me
+  - name: '53 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '53 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg04.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: 9497d179-5a0c-465f-b33f-3605a223d67c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '55 🇦🇪 Melbikomas SNI 👾 漁師'
+    server: 95.174.68.218
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '56 🇮🇩 PT Linkgo  SNI 👾 漁師'
+    server: id-v.sshmax.xyz
+    type: vmess
+    port: 443
+    uuid: 781adf87-0afa-420c-875f-879162a2bce1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '60 🇺🇸 Hyonix LLC SNI 👾 漁師'
+    server: 185.216.72.172
+    type: vmess
+    port: 443
+    uuid: 6d11cad4-be87-4b05-aa1d-0d19b011a6d3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /zvtyvws
+      headers:
+        Host: tsel.me
+  - name: '74 🇺🇸 FIBER-LOGI SNI 👾 漁師'
+    server: c87s3.jamjams3.net
+    type: vmess
+    port: 17102
+    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '76 🇦🇪 Melbikomas SNI 👾 漁師'
+    server: ae-68-218.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '77 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: 54.180.117.118
+    type: vmess
+    port: 42517
+    uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '81 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: huclouds.ml
+    type: vmess
+    port: 5505
+    uuid: 69801534-3870-4d14-9d07-6f65da593da4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '83 🇪🇪 BlueVPS OU SNI 👾 漁師'
+    server: EE-120-85.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '84 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-sel-4.heima-bot.tech
+    type: vmess
+    port: 7774
+    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /m3
+      headers:
+        Host: tsel.me
+  - name: '85 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: SG-244-255.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '87 🇮🇩 PT Linkgo  SNI 👾 漁師'
     server: id-v.sshmax.xyz
     type: vmess
     port: 443
@@ -303,7 +379,19 @@ proxies:
       path: /vmess
       headers:
         Host: tsel.me
-  - name: '56 🇦🇲 G-Core Lab SNI 👾 漁師'
+  - name: '88 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 29210
+    uuid: 582e74ff-e708-41b2-e1c0-7393dbff0c90
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '95 🇦🇲 G-Core Lab SNI 👾 漁師'
     server: 146.185.248.113
     type: vmess
     port: 31990
@@ -315,95 +403,43 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '58 🇯🇵 Linode LL SNI 👾 漁師'
-    server: jp3.czs1000.com
-    type: vmess
-    port: 8886
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '62 🇰🇷 AMAZON-02 SNI 👾 漁師'
-    server: v-aws-sel-1.heima-bot.tech
-    type: vmess
-    port: 7771
-    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /m1
-      headers:
-        Host: tsel.me
-  - name: '63 🇮🇳 AS-CHOOPA SNI 👾 漁師'
-    server: IN-71-230.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: none
-    servername: tsel.me
-  - name: '64 🇯🇵 xTom SNI 👾 漁師'
-    server: jp24.czs1000.com
-    type: vmess
-    port: 11219
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '67 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: jp5.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '69 🇸🇬 OVH SAS SNI 👾 漁師'
-    server: 139.99.91.95
+  - name: '100 🇨🇳 PEGTECHINC SNI 👾 漁師'
+    server: 142.0.135.66
     type: vmess
     port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: 32
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '70 🇹🇼 Scloud Pte SNI 👾 漁師'
-    server: tw4.czs1000.com
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: tsel.me
+  - name: '104 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp02.170203.xyz
     type: vmess
-    port: 1001
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
+    port: 23245
+    uuid: 272d7a6f-b0b6-4195-8011-7fc681766348
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '108 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
     alterId: 0
     cipher: auto
     tls: true
@@ -411,7 +447,95 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '76 🇺🇸 SHARKTECH SNI 👾 漁師'
+  - name: '111 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg02.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: bb95dc9c-12a7-4d0d-b8bb-1cfd1e261e5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '112 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: uk1.v2-ray.us
+    type: vmess
+    port: 443
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '115 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.254.16
+    type: vmess
+    port: 43815
+    uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /abc
+      headers:
+        Host: tsel.me
+  - name: '119 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.207.202
+    type: vmess
+    port: 38740
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '123 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 39.103.165.178
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '125 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg03.170203.xyz
+    type: vmess
+    port: 34333
+    uuid: 9497d179-5a0c-465f-b33f-3605a223d67c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '126 🇺🇸 SHARKTECH SNI 👾 漁師'
     server: 67.21.72.44
     type: vmess
     port: 443
@@ -427,39 +551,11 @@ proxies:
       path: /path/120208301422
       headers:
         Host: tsel.me
-  - name: '77 🇯🇵 G-Core Lab SNI 👾 漁師'
-    server: jp1.fun513.ga
-    type: vmess
-    port: 57486
-    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /jp01
-      headers:
-        Host: tsel.me
-  - name: '79 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: hk1vdf-node.aiqiche123.com
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '80 🇯🇵 AMAZON-02 SNI 👾 漁師'
-    server: jp6.czs1000.com
+  - name: '127 🇺🇸 Hyonix LLC SNI 👾 漁師'
+    server: hope.jingledev.me
     type: vmess
     port: 443
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
+    uuid: 6d11cad4-be87-4b05-aa1d-0d19b011a6d3
     alterId: 0
     cipher: auto
     tls: true
@@ -468,26 +564,14 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: /zvtyvws
       headers:
         Host: tsel.me
-  - name: '81 🇪🇪 BlueVPS OU SNI 👾 漁師'
-    server: EE-120-85.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '87 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
+  - name: '129 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
     server: 204.15.74.75
     type: vmess
-    port: 11023
-    uuid: 713a91c6-e123-461c-a205-94a37796c791
+    port: 20760
+    uuid: 47f7c632-4338-429e-ee62-9b2cdb8d229e
     alterId: 0
     cipher: auto
     tls: true
@@ -499,8 +583,32 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '89 🇦🇪 Melbikomas SNI 👾 漁師'
-    server: 95.174.68.218
+  - name: '131 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '133 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: 129.146.133.157
+    type: vmess
+    port: 51009
+    uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '134 🇦🇪 Melbikomas SNI 👾 漁師'
+    server: ae-68-218.shoptunnel.live
     type: vmess
     port: 31990
     uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
@@ -511,51 +619,23 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '93 🇨🇦 AMAZON-02 SNI 👾 漁師'
-    server: 35.182.165.120
+  - name: '135 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 39.103.165.178
     type: vmess
-    port: 443
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: tsel.me
-  - name: '94 🇭🇰 Scloud Pte SNI 👾 漁師'
-    server: hk9.czs1000.com
-    type: vmess
-    port: 8011
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '99 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: m4.40010010.xyz
+  - name: '142 🇸🇬 Alibaba US SNI 👾 漁師'
+    server: 8.219.65.172
     type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '103 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 198.244.232.39
-    type: vmess
-    port: 2096
-    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
+    port: 16360
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
     alterId: 0
     cipher: auto
     tls: true
@@ -567,55 +647,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '104 🇯🇵 Linode LL SNI 👾 漁師'
-    server: jp2.czs1000.com
-    type: vmess
-    port: 8886
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '108 🇭🇰 Cloudie Li SNI 👾 漁師'
-    server: hk13.czs1000.com
-    type: vmess
-    port: 11220
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '111 🇺🇸 SHARKTECH SNI 👾 漁師'
-    server: us6.czs1000.com
-    type: vmess
-    port: 11218
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '112 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: surongwei.eu.org
+  - name: '143 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: v10a.toddns.tk
     type: vmess
     port: 443
-    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
     alterId: 0
     cipher: auto
     tls: true
@@ -624,54 +660,14 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /reffs7y26g0ua
+      path: /ZPKLSPJjLBEy
       headers:
         Host: tsel.me
-  - name: '114 🇸🇬 DIGITALOCE SNI 👾 漁師'
-    server: SG-244-255.shoptunnel.live
+  - name: '145 🇮🇳 DIGITALOCE SNI 👾 漁師'
+    server: 68.183.83.94
     type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '115 🇸🇬 AMAZON-02 SNI 👾 漁師'
-    server: sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-    type: vmess
-    port: 11219
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '116 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: 206.119.112.6
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '121 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 3.70.144.63
-    type: vmess
-    port: 58026
-    uuid: 41b06022-8205-453a-f2c5-12765339c3c5
+    port: 59477
+    uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
     alterId: 0
     cipher: auto
     tls: true
@@ -683,23 +679,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '124 🇸🇬 ORACLE-BMC SNI 👾 漁師'
-    server: 168.138.171.65
+  - name: '149 🇰🇭 Kaopu Clou SNI 👾 漁師'
+    server: kh1.v2rayserv.com
     type: vmess
     port: 443
-    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '125 🇺🇸 Linode LL SNI 👾 漁師'
-    server: us1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
+    uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
     alterId: 0
     cipher: auto
     tls: true
@@ -708,10 +692,34 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: /sshocean
       headers:
         Host: tsel.me
-  - name: '126 🇮🇩 PT Linkgo  SNI 👾 漁師'
+  - name: '154 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '156 🇸🇬 Linode LL SNI 👾 漁師'
+    server: lll.277428.xyz
+    type: vmess
+    port: 40771
+    uuid: 61194810-5193-48bc-eb0a-7978a059d681
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '158 🇮🇩 PT Linkgo  SNI 👾 漁師'
     server: 103.157.27.148
     type: vmess
     port: 443
@@ -727,11 +735,11 @@ proxies:
       path: /vmess
       headers:
         Host: tsel.me
-  - name: '127 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: 146.56.133.109
+  - name: '159 🇦🇹 Hohl IT e. SNI 👾 漁師'
+    server: 94.177.8.87
     type: vmess
-    port: 37121
-    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    port: 38740
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
@@ -739,83 +747,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '128 🇭🇰 STARCLOUD  SNI 👾 漁師'
-    server: hk1vdf-node.aiqiche123.com
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '131 🇪🇪 BlueVPS OU SNI 👾 漁師'
-    server: EE-120-85.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: none
-    servername: tsel.me
-  - name: '132 🇸🇬 G-Core Lab SNI 👾 漁師'
-    server: 91.199.87.132
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /Falling42gcssgnode
-      headers:
-        Host: tsel.me
-  - name: '134 🇺🇸 AMAZON-AES SNI 👾 漁師'
-    server: 54.197.188.117
-    type: vmess
-    port: 11219
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '135 🇨🇦 AS-CHOOPA SNI 👾 漁師'
-    server: CA-177-89.shoptunnel.live
-    type: vmess
-    port: 31990
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: none
-    servername: tsel.me
-  - name: '138 🇺🇸 IT7NET SNI 👾 漁師'
-    server: c87s801.jamjams3.net
-    type: vmess
-    port: 17102
-    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '141 🇭🇰 STARCLOUD  SNI 👾 漁師'
+  - name: '165 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: 206.119.112.6
     type: vmess
     port: 8189
@@ -827,11 +759,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '142 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.202
+  - name: '166 🇰🇷 CloudITIDC SNI 👾 漁師'
+    server: 103.138.80.193
     type: vmess
-    port: 38740
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    port: 14485
+    uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723
     alterId: 0
     cipher: auto
     tls: true
@@ -839,51 +771,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '143 🇨🇳 Beijing Ba SNI 👾 漁師'
-    server: 106.12.168.13
-    type: vmess
-    port: 13156
-    uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '145 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '152 🇰🇷 MOACK.Co.L SNI 👾 漁師'
-    server: lc-kr02-direct01.lc-kr02.lc-node.com
-    type: vmess
-    port: 443
-    uuid: ec736482-173e-3eff-9114-b49df8056e7d
-    alterId: 2
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '155 🇦🇪 Melbikomas SNI 👾 漁師'
+  - name: '171 🇦🇪 Melbikomas SNI 👾 漁師'
     server: AE-68-218.shoptunnel.live
     type: vmess
     port: 31990
@@ -895,23 +783,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '160 🇨🇳 CHINA UNIC SNI 👾 漁師'
-    server: 112.132.215.189
+  - name: '173 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 15.235.147.186
     type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '163 🇸🇬 AMAZON-02 SNI 👾 漁師'
-    server: sg11.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 8970abff-dad1-458f-8708-7aecc1048033
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     alterId: 0
     cipher: auto
     tls: true
@@ -920,10 +796,22 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+      path: /sshkit/Ertusg86/635014638c264/
       headers:
         Host: tsel.me
-  - name: '167 🇸🇬 DIGITALOCE SNI 👾 漁師'
+  - name: '174 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: 185.22.153.16
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '178 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: 157.230.244.255
     type: vmess
     port: 31990
@@ -935,11 +823,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '170 🇩🇪 G-Core Lab SNI 👾 漁師'
-    server: de1.fun513.ga
+  - name: '182 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: 51.38.82.132
     type: vmess
-    port: 58998
-    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    port: 443
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
     alterId: 0
     cipher: auto
     tls: true
@@ -948,22 +836,162 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /de01
+      path: /vmess
       headers:
         Host: tsel.me
-  - name: '179 🇭🇺 23VNet Kft SNI 👾 漁師'
-    server: 185.225.69.134
+  - name: '183 🇪🇪 BlueVPS OU SNI 👾 漁師'
+    server: EE-120-85.shoptunnel.live
     type: vmess
-    port: 45081
-    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
-    alterId: 64
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '180 🇺🇸 Melbikomas SNI 👾 漁師'
+  - name: '185 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: surongwei.eu.org
+    type: vmess
+    port: 443
+    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /reffs7y26g0ua
+      headers:
+        Host: tsel.me
+  - name: '190 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.49.230
+    type: vmess
+    port: 10021
+    uuid: a12e496e-f89a-434a-8011-108846f0e412
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '191 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg02.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: 9497d179-5a0c-465f-b33f-3605a223d67c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '197 🇭🇰 ADCDATA.CO SNI 👾 漁師'
+    server: ah.yd01.paopaocloud.cyou
+    type: vmess
+    port: 10009
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: tsel.me
+  - name: '198 🇺🇸 PERFORMIVE SNI 👾 漁師'
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    type: vmess
+    port: 443
+    uuid: d1478689-439c-4590-b7ce-36e786a02dc3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /YouTube@bai-piao-wang-zhe_vws
+      headers:
+        Host: tsel.me
+  - name: '199 🇱🇺 PONYNET SNI 👾 漁師'
+    server: 104.244.73.218
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: tsel.me
+  - name: '202 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-3.heima-bot.tech
+    type: vmess
+    port: 7773
+    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /m3
+      headers:
+        Host: tsel.me
+  - name: '210 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '211 🇰🇷 MOACK.Co.L SNI 👾 漁師'
+    server: 161.129.34.102
+    type: vmess
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: undefined
+      headers:
+        Host: tsel.me
+  - name: '213 🇺🇸 Melbikomas SNI 👾 漁師'
     server: f1f3227.u1.glados-config.net
     type: vmess
     port: 3331
@@ -979,7 +1007,759 @@ proxies:
       path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: tsel.me
-  - name: '183 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '216 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 51.79.173.222
+    type: vmess
+    port: 443
+    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '220 🇬🇧 G-Core Lab SNI 👾 漁師'
+    server: uk1.fun513.ga
+    type: vmess
+    port: 59788
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /uk01
+      headers:
+        Host: tsel.me
+  - name: '228 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: suzhihan.eu.org
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: tsel.me
+  - name: '230 🇺🇸 IT7NET SNI 👾 漁師'
+    server: c87s5.jamjams3.net
+    type: vmess
+    port: 17102
+    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '236 🇸🇬 G-Core Lab SNI 👾 漁師'
+    server: gcoresg.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcoresgnode
+      headers:
+        Host: tsel.me
+  - name: '240 🇸🇬 Leaseweb A SNI 👾 漁師'
+    server: 23.106.249.2
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: tsel.me
+  - name: '243 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: m4.40010010.xyz
+    type: vmess
+    port: 37121
+    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '244 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 47.104.237.32
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '245 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    server: 161.35.47.70
+    type: vmess
+    port: 13472
+    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '252 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 139.99.135.182
+    type: vmess
+    port: 443
+    uuid: 4b4faeaf-f2ac-46b9-aa66-1896fb6068f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '257 🇱🇺 PONYNET SNI 👾 漁師'
+    server: buyvm.oppo.quest
+    type: vmess
+    port: 2086
+    uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: tsel.me
+  - name: '258 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg001.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: bb95dc9c-12a7-4d0d-b8bb-1cfd1e261e5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '267 🇨🇳 Beijing Ba SNI 👾 漁師'
+    server: 106.12.168.13
+    type: vmess
+    port: 13156
+    uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '269 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp03.170203.xyz
+    type: vmess
+    port: 23245
+    uuid: 9497d179-5a0c-465f-b33f-3605a223d67c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '270 🇯🇵 G-Core Lab SNI 👾 漁師'
+    server: jp1.fun513.ga
+    type: vmess
+    port: 57486
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /jp01
+      headers:
+        Host: tsel.me
+  - name: '273 🇩🇪 myLoc mana SNI 👾 漁師'
+    server: 213.202.233.147
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: tsel.me
+  - name: '276 🇦🇪 Melbikomas SNI 👾 漁師'
+    server: AE-68-218.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '280 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: 18.143.123.35
+    type: vmess
+    port: 443
+    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '281 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sg-lb.vhax.net
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshkit/Ertusg86/635014638c264/
+      headers:
+        Host: tsel.me
+  - name: '292 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.207.88
+    type: vmess
+    port: 38740
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '294 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '296 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: nl.gongyiyun.cf
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '298 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-4.heima-bot.tech
+    type: vmess
+    port: 7774
+    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /m3
+      headers:
+        Host: tsel.me
+  - name: '302 🇦🇲 G-Core Lab SNI 👾 漁師'
+    server: 146.185.248.113
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '304 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: 135.181.235.21
+    type: vmess
+    port: 12951
+    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '306 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 51.81.220.195
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: tsel.me
+  - name: '311 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 130.162.141.104
+    type: vmess
+    port: 443
+    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /reffs7y26g0ua
+      headers:
+        Host: tsel.me
+  - name: '312 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: 35.182.165.120
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: tsel.me
+  - name: '314 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
+    server: 66.152.188.204
+    type: vmess
+    port: 443
+    uuid: fd2a0d31-3fc1-5f3a-36af-f7b264e6262e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '315 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 163.172.166.134
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '318 🇪🇪 BlueVPS OU SNI 👾 漁師'
+    server: 193.109.120.85
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '320 🇫🇷 Online S.a SNI 👾 漁師'
+    server: v10a.toddns.tk
+    type: vmess
+    port: 443
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /fr-unlimitxxx
+      headers:
+        Host: tsel.me
+  - name: '322 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: RU-153-16.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '324 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp04.170203.xyz
+    type: vmess
+    port: 23245
+    uuid: 9497d179-5a0c-465f-b33f-3605a223d67c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '329 🇺🇸 IT7NET SNI 👾 漁師'
+    server: c87s801.jamjams3.net
+    type: vmess
+    port: 17102
+    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '331 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: 165.227.175.88
+    type: vmess
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '332 🇯🇵 IT7NET SNI 👾 漁師'
+    server: c87s4.jamjams3.net
+    type: vmess
+    port: 17102
+    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '333 🇯🇵 IT7NET SNI 👾 漁師'
+    server: c87s4.jamjams3.net
+    type: vmess
+    port: 17102
+    uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '336 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '338 🇩🇪 G-Core Lab SNI 👾 漁師'
+    server: de1.fun513.ga
+    type: vmess
+    port: 58998
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /de01
+      headers:
+        Host: tsel.me
+  - name: '343 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: jp04.170203.xyz
+    type: vmess
+    port: 23245
+    uuid: bb95dc9c-12a7-4d0d-b8bb-1cfd1e261e5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '344 🇳🇱 The Infras SNI 👾 漁師'
+    server: nl.archnet.ir
+    type: vmess
+    port: 27515
+    uuid: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '345 🇦🇺 OVH SAS SNI 👾 漁師'
+    server: 51.161.130.141
+    type: vmess
+    port: 443
+    uuid: 3811468b-3336-4bcb-ae84-86351b901159
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /JAGOANSSH/
+      headers:
+        Host: tsel.me
+  - name: '349 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg03.170203.xyz
+    type: vmess
+    port: 34333
+    uuid: bb95dc9c-12a7-4d0d-b8bb-1cfd1e261e5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '350 🇸🇬 Linode LL SNI 👾 漁師'
+    server: sg241.hkaa0.tk
+    type: vmess
+    port: 8080
+    uuid: bf1d8374-e6dc-4493-afeb-1bdc3799bb02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: tsel.me
+  - name: '351 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 146.56.155.70
+    type: vmess
+    port: 33449
+    uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '358 🇰🇷 CloudITIDC SNI 👾 漁師'
+    server: 103.138.80.193
+    type: vmess
+    port: 14485
+    uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '359 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 163.172.166.134
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '360 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.218.38
+    type: vmess
+    port: 443
+    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '364 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 163.172.166.134
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '367 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 129.150.44.64
+    type: vmess
+    port: 46075
+    uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /jhndsmlanj11223
+      headers:
+        Host: tsel.me
+  - name: '368 🇫🇷 Online S.a SNI 👾 漁師'
+    server: FR-166-134.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '370 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: 146.56.155.70
     type: vmess
     port: 18050
@@ -991,7 +1771,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '188 🇦🇪 Melbikomas SNI 👾 漁師'
+  - name: '372 🇦🇪 Melbikomas SNI 👾 漁師'
     server: 95.174.68.218
     type: vmess
     port: 31990
@@ -1003,7 +1783,179 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '189 🇫🇮 Hetzner On SNI 👾 漁師'
+  - name: '373 🇸🇬 Melbikomas SNI 👾 漁師'
+    server: 5.44.249.43
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: tsel.me
+  - name: '377 🇸🇬 G-Core Lab SNI 👾 漁師'
+    server: 91.199.87.132
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcssgnode
+      headers:
+        Host: tsel.me
+  - name: '383 🇰🇷 CloudITIDC SNI 👾 漁師'
+    server: 103.138.80.193
+    type: vmess
+    port: 14485
+    uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '384 🇯🇵 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-tk-1.heima-bot.tech
+    type: vmess
+    port: 7771
+    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /m1
+      headers:
+        Host: tsel.me
+  - name: '387 🇸🇬 Contabo As SNI 👾 漁師'
+    server: 194.233.81.125
+    type: vmess
+    port: 443
+    uuid: ceb8a921-ec72-4804-ae92-cbd309f2f213
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '388 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: 129.159.41.233
+    type: vmess
+    port: 32586
+    uuid: 341a9182-c423-499c-c46e-d17838b29037
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '391 🇯🇵 Linode LL SNI 👾 漁師'
+    server: vjp3.0bad.com
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: tsel.me
+  - name: '392 🇭🇰 HKT Limite SNI 👾 漁師'
+    server: 04.kccic2pa.xyz
+    type: vmess
+    port: 50004
+    uuid: 9241545e-bae8-476d-ae4e-4520ef1e3891
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '394 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: us-lb.sshkit.org
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: tsel.me
+  - name: '398 🇭🇰 STARCLOUD  SNI 👾 漁師'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '404 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg04.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: 272d7a6f-b0b6-4195-8011-7fc681766348
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '405 🇫🇷 Online S.a SNI 👾 漁師'
+    server: FR-166-134.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '421 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 65.109.137.157
     type: vmess
     port: 443
@@ -1019,8 +1971,292 @@ proxies:
       path: /telegram-id-@privatevpns
       headers:
         Host: tsel.me
-  - name: '190 🇺🇸 IT7NET SNI 👾 漁師'
-    server: c87s5.jamjams3.net
+  - name: '423 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 51.159.2.152
+    type: vmess
+    port: 443
+    uuid: 43587dc1-34f1-4254-ab90-56507e72d7a8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '424 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 47.104.237.32
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '426 🇦🇲 G-Core Lab SNI 👾 漁師'
+    server: AM-248-113.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '427 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-sel-1.heima-bot.tech
+    type: vmess
+    port: 7771
+    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /m1
+      headers:
+        Host: tsel.me
+  - name: '433 🇭🇰 Tencent Bu SNI 👾 漁師'
+    server: 43.154.182.177
+    type: vmess
+    port: 19203
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '436 🇸🇬 Linode LL SNI 👾 漁師'
+    server: 172.104.183.241
+    type: vmess
+    port: 8080
+    uuid: bf1d8374-e6dc-4493-afeb-1bdc3799bb02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /hkaa0
+      headers:
+        Host: tsel.me
+  - name: '442 🇸🇬 G-Core Lab SNI 👾 漁師'
+    server: sg1.fun513.ga
+    type: vmess
+    port: 56845
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sg01
+      headers:
+        Host: tsel.me
+  - name: '444 🇭🇺 23VNet Kft SNI 👾 漁師'
+    server: 185.225.69.134
+    type: vmess
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '459 🇰🇷 MOACK.Co.L SNI 👾 漁師'
+    server: 161.129.34.102
+    type: vmess
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '461 🇸🇬 Linode LL SNI 👾 漁師'
+    server: vsg1.0bad.com
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: tsel.me
+  - name: '462 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: x.join-bede-jokardoband.space
+    type: vmess
+    port: 443
+    uuid: ef87fcec-5eff-40e7-bfff-60aea20a2e99
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '467 🇺🇸 G-Core Lab SNI 👾 漁師'
+    server: us1.fun513.ga
+    type: vmess
+    port: 16765
+    uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /us01
+      headers:
+        Host: tsel.me
+  - name: '469 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: hk80-2.sanfen001.pics
+    type: vmess
+    port: 443
+    uuid: a546b618-8728-4a1e-af2b-6e7d8b74aa74
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: tsel.me
+  - name: '470 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: 157.230.36.235
+    type: vmess
+    port: 443
+    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: tsel.me
+  - name: '473 🇦🇪 Melbikomas SNI 👾 漁師'
+    server: AE-68-218.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '474 🇸🇬 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.171.65
+    type: vmess
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '476 🇷🇺 RECONN LLC SNI 👾 漁師'
+    server: 91.193.181.192
+    type: vmess
+    port: 8090
+    uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '478 🇫🇷 Online S.a SNI 👾 漁師'
+    server: 51.159.2.152
+    type: vmess
+    port: 8880
+    uuid: a2ecce43-c6fb-4978-8b1d-8018ddd9faf4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '480 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 94.130.184.57
+    type: vmess
+    port: 443
+    uuid: c5e523e7-da73-40af-a4a9-c638720c30e1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /graphql
+      headers:
+        Host: tsel.me
+  - name: '486 🇺🇸 IT7NET SNI 👾 漁師'
+    server: c87s801.jamjams3.net
     type: vmess
     port: 17102
     uuid: 024e6fd6-cee4-4f2a-8f47-00dff8c146bd
@@ -1031,34 +2267,303 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '7 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: 138.2.113.84
-    type: trojan
+  - name: '493 🇰🇷 BGPNET Glo SNI 👾 漁師'
+    server: 202.79.171.157
+    type: vmess
     port: 443
-    password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+    uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: tsel.me
+  - name: '494 🇰🇷 AMAZON-02 SNI 👾 漁師'
+    server: v-aws-sel-2.heima-bot.tech
+    type: vmess
+    port: 7772
+    uuid: 8d208c97-97b9-4fd7-af88-3a36fb660315
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /m2
+      headers:
+        Host: tsel.me
+  - name: '498 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
+    server: 204.15.74.75
+    type: vmess
+    port: 11023
+    uuid: 713a91c6-e123-461c-a205-94a37796c791
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '502 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg04.170203.xyz
+    type: vmess
+    port: 43543
+    uuid: bb95dc9c-12a7-4d0d-b8bb-1cfd1e261e5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '506 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: m4.40010010.xyz
+    type: vmess
+    port: 37121
+    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '8 🇯🇵 MIKU NETWO SNI 👾 漁師'
+  - name: '508 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 146.56.155.70
+    type: vmess
+    port: 33449
+    uuid: e115ada7-9b19-4df9-c58a-cadd4540ec13
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '509 🇰🇷 MOACK.Co.L SNI 👾 漁師'
+    server: lc-kr02-direct01.lc-kr02.lc-node.com
+    type: vmess
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '510 🇦🇪 Melbikomas SNI 👾 漁師'
+    server: AE-68-218.shoptunnel.live
+    type: vmess
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '6 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20221
+    password: f63519fd-f262-4e7e-97d2-bbb7feafeac7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '7 🇯🇵 MIKU NETWO SNI 👾 漁師'
     server: zzjp01.fuqiangren.com
     type: trojan
     port: 20220
-    password: 324a6a37-a0b1-46c6-abbc-0661c7b80931
+    password: e3a0cd96-c6bd-4b62-9dfc-7b0020c74961
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '11 🇸🇬 Tencent Bu SNI 👾 漁師'
-    server: supsig.xiaohouzi.club
+  - name: '8 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 135.148.148.4
     type: trojan
-    port: 10102
-    password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
+    port: 443
+    password: 76fcac80-9943-4eab-8717-0ebebea94b70
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '17 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '11 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: osaka11.900513.xyz
+    type: trojan
+    port: 10086
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '14 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 1d891b20-d7c7-43d6-b5f5-7ba548ca9d7a
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '15 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 7f9e51b9-928e-4076-b075-ba7577c36443
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '16 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os4.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '22 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 133.167.124.195
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '23 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr05.wangxd.life
+    type: trojan
+    port: 3052
+    password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '24 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '27 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os6.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '31 🇩🇪 ORACLE-BMC SNI 👾 漁師'
+    server: fra13.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '32 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider23.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '35 🇦🇪 ORACLE-BMC SNI 👾 漁師'
+    server: zz.900513.xyz
+    type: trojan
+    port: 12003
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '37 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.160.174
+    type: trojan
+    port: 443
+    password: 54080134-2cba-4535-8599-95650bd9aa54
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '39 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: 129.146.242.130
+    type: trojan
+    port: 443
+    password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '45 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.43.89
+    type: trojan
+    port: 443
+    password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '49 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '61 🇺🇸 PEGTECHINC SNI 👾 漁師'
+    server: zzus01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: f63519fd-f262-4e7e-97d2-bbb7feafeac7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '65 🇪🇸 OVH SAS SNI 👾 漁師'
+    server: content-provider6.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '67 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: 146.56.176.239
     type: trojan
     port: 443
@@ -1067,8 +2572,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '21 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: skcc23.yukiss.eu.org
+  - name: '69 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: sonjose14.900513.xyz
     type: trojan
     port: 18818
     password: 8a03bc28-2a33-42c4-be59-30464dbb9954
@@ -1076,115 +2581,43 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '24 🇯🇵 Linode LL SNI 👾 漁師'
-    server: jp21.czs1000.com
+  - name: '71 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: t1.teslacdn1.live
     type: trojan
     port: 443
-    password: 8970abff-dad1-458f-8708-7aecc1048033
+    password: dc21bdbf-04c0-4a7e-8cb4-3d5af39ddf13
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '31 🇺🇸 PERFORMIVE SNI 👾 漁師'
-    server: 107.181.161.163
+  - name: '73 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sgt2.sshocean.net
     type: trojan
     port: 443
-    password: d1478689-439c-4590-b7ce-36e786a02dc3
+    password: dbee48ec-3390-4e1c-9d4b-884277d58202
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '32 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: jgw2.gaox.ml
+  - name: '79 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.115.240
     type: trojan
-    port: 443
-    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+    port: 3052
+    password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '34 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider29.cdn-delivery.akamaicd.com
+  - name: '89 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.212
     type: trojan
     port: 443
-    password: origin
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '40 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: uk1.trojanvh.xyz
-    type: trojan
-    port: 443
-    password: b640d791-ff83-4300-b509-c2a02f97f167
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '54 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: 149.56.141.11
-    type: trojan
-    port: 443
-    password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '59 🇺🇸 MIRholding SNI 👾 漁師'
-    server: 138.124.183.216
-    type: trojan
-    port: 443
-    password: xxoo
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '65 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: tennouji.mike22.net
-    type: trojan
-    port: 443
-    password: 18844@zxcvbn
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '66 🇬🇧 ORACLE-BMC SNI 👾 漁師'
-    server: jgwld1.gaox.ml
-    type: trojan
-    port: 443
-    password: 02e653c9-7c93-46a9-999d-11834bd0c577
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '72 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider13.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '73 🇵🇱 OVH SAS SNI 👾 漁師'
-    server: 51.83.186.142
-    type: trojan
-    port: 443
-    password: 2959e4f7-7589-4a40-9b96-1be750ac7845
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '75 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: tk-tr-4.cats22.net
-    type: trojan
-    port: 443
-    password: 18844@zxcvbn
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '82 🇫🇷 OVH SAS SNI 👾 漁師'
+  - name: '93 🇫🇷 OVH SAS SNI 👾 漁師'
     server: 176.31.83.90
     type: trojan
     port: 443
@@ -1193,43 +2626,79 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '85 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
+  - name: '96 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider22.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: origin
+    password: shefelnak
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '91 🇸🇬 Linode LL SNI 👾 漁師'
-    server: 139.162.45.139
+  - name: '97 🇮🇩 Media Anta SNI 👾 漁師'
+    server: id3tr.jagoan.vip
     type: trojan
     port: 443
-    password: FLpONjB2Lb
+    password: vvip-periantara
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '102 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '101 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
     port: 443
-    password: 65f7378f-edb8-4f5d-913a-641ecd853cea
+    password: e3dcc71e-f058-43bf-bf0d-5bdf20dec071
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '109 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.236.127
+  - name: '105 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.98.30
     type: trojan
     port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
+    password: e8c1ab3c-89b3-4933-92df-682e6dce7819
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '117 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+  - name: '106 🇬🇧 Stark Indu SNI 👾 漁師'
+    server: 146.19.230.241
+    type: trojan
+    port: 443
+    password: xxoo
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '110 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: jgwdb4.gaox.ml
+    type: trojan
+    port: 443
+    password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '114 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os14.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '116 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 150.230.96.103
+    type: trojan
+    port: 443
+    password: da777aae-defb-41d0-a183-2c27da2b4677
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '121 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: mel12.yukiss.eu.org
     type: trojan
     port: 18818
@@ -1238,16 +2707,88 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '122 🇬🇧 OVH SAS SNI 👾 漁師'
-    server: 51.195.219.173
+  - name: '122 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: fhcarm1.gaox.ml
     type: trojan
     port: 443
-    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '130 🇱🇹 UAB Intern SNI 👾 漁師'
+  - name: '124 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os1.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '130 🇪🇸 OVH SAS SNI 👾 漁師'
+    server: 91.121.225.119
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '137 🇵🇱 OVH SAS SNI 👾 漁師'
+    server: 51.83.186.142
+    type: trojan
+    port: 443
+    password: 2959e4f7-7589-4a40-9b96-1be750ac7845
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '139 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.45.243
+    type: trojan
+    port: 443
+    password: c19d1432-8b3e-4818-8837-3d160cf65908
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '140 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: d66dccd1-90c1-4713-8972-2417a2854df2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '141 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: jgwcc2.gaox.ml
+    type: trojan
+    port: 443
+    password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '148 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 3753719b-eb37-4f34-ab60-ae3a70486b27
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '150 🇺🇸 PERFORMIVE SNI 👾 漁師'
+    server: 107.181.161.163
+    type: trojan
+    port: 443
+    password: d1478689-439c-4590-b7ce-36e786a02dc3
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '152 🇱🇹 UAB Intern SNI 👾 漁師'
     server: 212.24.103.3
     type: trojan
     port: 443
@@ -1256,7 +2797,331 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '136 🇮🇩 PT Industr SNI 👾 漁師'
+  - name: '157 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: uk1.trojanvh.xyz
+    type: trojan
+    port: 443
+    password: b640d791-ff83-4300-b509-c2a02f97f167
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '162 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: 129.146.190.42
+    type: trojan
+    port: 443
+    password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '163 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider1.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: TestingServer@@
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '164 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: cbd08acf-2d47-4065-aafa-4201e5307f67
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '167 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: ukt1.sshocean.net
+    type: trojan
+    port: 443
+    password: beccf31b-5e7e-4b44-a0a1-b80ba6f9306f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '168 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider2.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: TestingServer@@2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '170 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: ffd553fe-7d14-4ab2-acba-e7307d41e4f4
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '175 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: jgwhdlb2.gaox.ml
+    type: trojan
+    port: 443
+    password: 54080134-2cba-4535-8599-95650bd9aa54
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '177 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: zz.900513.xyz
+    type: trojan
+    port: 11001
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '179 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: sgt3.sshocean.net
+    type: trojan
+    port: 443
+    password: d6530eef-8d92-475f-9d28-e1a36ad7f441
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '184 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: 185.16.206.211
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '187 🇹🇷 Comnet Bil SNI 👾 漁師'
+    server: ir2.archnet.cyou
+    type: trojan
+    port: 4646
+    password: ce5441f1-51a8-45b9-8172-c7f04de6d5cb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '188 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.53.20
+    type: trojan
+    port: 443
+    password: TestingServer@@2
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '193 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: cat1.sshocean.net
+    type: trojan
+    port: 443
+    password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '196 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 23103894-eec7-4de1-a05a-c2e11e351287
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '200 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: zz.900513.xyz
+    type: trojan
+    port: 12001
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '201 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 36443c4f-4487-48a6-8438-57bd7700b916
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '203 🇸🇬 DIGITALOCE SNI 👾 漁師'
+    server: sg-01.tiktokcdn.top
+    type: trojan
+    port: 443
+    password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '204 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 138.2.113.248
+    type: trojan
+    port: 443
+    password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '205 🇬🇧 Iomart Clo SNI 👾 漁師'
+    server: content-provider4.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '209 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 7e92d33f-6917-4c69-8eca-7fe80be58199
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '215 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: jgwcc3.gaox.ml
+    type: trojan
+    port: 443
+    password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '217 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: 149.56.132.41
+    type: trojan
+    port: 443
+    password: fafb4232-9659-4867-886d-e47f4bda283e
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '226 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: t2.teslacdn1.live
+    type: trojan
+    port: 443
+    password: 4331812b-92ff-47b5-9f32-78b5150e625f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '227 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: us2.trojanvh.xyz
+    type: trojan
+    port: 443
+    password: 011eb011-c68e-4f92-80eb-f9bbef707bef
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '231 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: jgw2.gaox.ml
+    type: trojan
+    port: 443
+    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '235 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: 144.24.72.126
+    type: trojan
+    port: 443
+    password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '241 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.54.65
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '247 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20221
+    password: e3a0cd96-c6bd-4b62-9dfc-7b0020c74961
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '251 🇨🇭 ORACLE-BMC SNI 👾 漁師'
+    server: ch12.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '256 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: skcc31.yukiss.eu.org
+    type: trojan
+    port: 10086
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '259 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: teradacyou.mike22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '260 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider24.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '261 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: jgwxn3.gaox.ml
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '262 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.54.66
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '264 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: sonjose12.900513.xyz
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '268 🇮🇩 PT Industr SNI 👾 漁師'
     server: idt3.sshocean.net
     type: trojan
     port: 443
@@ -1265,7 +3130,16 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '144 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '272 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 324a6a37-a0b1-46c6-abbc-0661c7b80931
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '274 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
     port: 443
@@ -1274,7 +3148,52 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '146 🇸🇬 Melbikomas SNI 👾 漁師'
+  - name: '279 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: f63519fd-f262-4e7e-97d2-bbb7feafeac7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '283 🇮🇩 Media Anta SNI 👾 漁師'
+    server: 38.9.140.66
+    type: trojan
+    port: 443
+    password: vvip-periantara
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '284 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20221
+    password: 324a6a37-a0b1-46c6-abbc-0661c7b80931
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '288 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 49.212.203.7
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '289 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: ddeb5b2c-5a1e-41d4-bb3a-08babe54f1a1
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '290 🇸🇬 Melbikomas SNI 👾 漁師'
     server: 5.44.249.44
     type: trojan
     port: 3306
@@ -1287,97 +3206,88 @@ proxies:
       path: /gateway/connect
       headers:
         Host: tsel.me
-  - name: '147 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: 160.16.207.174
+  - name: '291 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.152.12
     type: trojan
     port: 443
-    password: 18844@zxcvbn
+    password: d76294c5-a31f-408d-ba0b-89880107cab5
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '148 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: jgwcc3.gaox.ml
+  - name: '293 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider13.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '149 🇺🇸 OVH SAS SNI 👾 漁師'
+  - name: '301 🇯🇵 AS-CHOOPA SNI 👾 漁師'
+    server: wide.wideladder.top
+    type: trojan
+    port: 10051
+    password: 8297c993-2c30-4448-aa4e-6283e271e413
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '313 🇺🇸 MIRholding SNI 👾 漁師'
+    server: 138.124.183.226
+    type: trojan
+    port: 443
+    password: xxoo
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '326 🇺🇸 PEGTECHINC SNI 👾 漁師'
+    server: zzus01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: e3a0cd96-c6bd-4b62-9dfc-7b0020c74961
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '334 🇸🇬 Linode LL SNI 👾 漁師'
+    server: 139.162.45.139
+    type: trojan
+    port: 443
+    password: FLpONjB2Lb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '335 🇯🇵 MIKU NETWO SNI 👾 漁師'
+    server: zzjp01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 116f892a-63d9-44dd-988c-2f1bcb9a6d02
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '339 🇺🇸 OVH SAS SNI 👾 漁師'
     server: 135.148.148.4
     type: trojan
     port: 443
-    password: 92346756-284e-4de6-904b-16510c38e8b7
+    password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '154 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: kr1.api-aws.com
+  - name: '341 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.190.183
     type: trojan
     port: 443
-    password: 98a68cfb-42c6-4498-ac6e-7e5c203924a7
+    password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '158 🇸🇬 Tencent Bu SNI 👾 漁師'
-    server: supsig.xiaohouzi.club
-    type: trojan
-    port: 10102
-    password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '162 🇮🇳 ORACLE-BMC SNI 👾 漁師'
-    server: jgwhdlb2.gaox.ml
-    type: trojan
-    port: 443
-    password: 54080134-2cba-4535-8599-95650bd9aa54
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '166 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '168 🇮🇳 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.160.174
-    type: trojan
-    port: 443
-    password: 54080134-2cba-4535-8599-95650bd9aa54
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '171 🇯🇵 MIKU NETWO SNI 👾 漁師'
-    server: zzjp01.fuqiangren.com
-    type: trojan
-    port: 20221
-    password: f63519fd-f262-4e7e-97d2-bbb7feafeac7
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '172 🇺🇸 ORACLE-BMC SNI 👾 漁師'
-    server: 129.146.255.158
-    type: trojan
-    port: 443
-    password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '178 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '342 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: jgwcc1.gaox.ml
     type: trojan
     port: 443
@@ -1386,16 +3296,367 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '181 🇰🇷 ORACLE-BMC SNI 👾 漁師'
-    server: kr1.api-aws.com
+  - name: '346 🇮🇳 ORACLE-BMC SNI 👾 漁師'
+    server: 152.67.162.166
     type: trojan
     port: 443
-    password: ffd553fe-7d14-4ab2-acba-e7307d41e4f4
+    password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '182 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+  - name: '361 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.74
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '362 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os-tr-1.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '366 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: syd14.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '375 🇬🇧 ORACLE-BMC SNI 👾 漁師'
+    server: london11.yukiss.eu.org
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '378 🇦🇺 ORACLE-BMC SNI 👾 漁師'
+    server: 140.238.205.173
+    type: trojan
+    port: 443
+    password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '379 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: jgwdb3.gaox.ml
+    type: trojan
+    port: 443
+    password: 8d2d5953-d649-4034-94f2-72f2df2623da
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '399 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 135.148.148.4
+    type: trojan
+    port: 443
+    password: 92346756-284e-4de6-904b-16510c38e8b7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '407 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 135.148.148.4
+    type: trojan
+    port: 443
+    password: 800eb26c-cd0c-4269-aae7-e63d75de4edd
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '409 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 15.235.197.5
+    type: trojan
+    port: 443
+    password: bedae0a3-a7dc-4ff0-9013-be459839b5b7
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '410 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 5491534e-00b5-42ff-853a-723997aadbdb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '411 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: zz.900513.xyz
+    type: trojan
+    port: 13001
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '414 🇺🇸 PEGTECHINC SNI 👾 漁師'
+    server: zzus01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 116f892a-63d9-44dd-988c-2f1bcb9a6d02
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '416 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: ca3a57c6-9bb5-4d19-876d-4552de4bb959
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '417 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: 160.16.207.174
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '418 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: 168.138.44.176
+    type: trojan
+    port: 443
+    password: 8d2d5953-d649-4034-94f2-72f2df2623da
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '425 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.53.19
+    type: trojan
+    port: 443
+    password: TestingServer@@
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '428 🇺🇸 PEGTECHINC SNI 👾 漁師'
+    server: zzus01.fuqiangren.com
+    type: trojan
+    port: 20220
+    password: 324a6a37-a0b1-46c6-abbc-0661c7b80931
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '432 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: jgwdb2.gaox.ml
+    type: trojan
+    port: 443
+    password: c19d1432-8b3e-4818-8837-3d160cf65908
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '435 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '438 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 135.148.148.4
+    type: trojan
+    port: 443
+    password: 892c4f6e-732b-4f71-ad04-6e77344f2d0e
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '440 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os-tr-2.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '441 🇺🇸 MIRholding SNI 👾 漁師'
+    server: 138.124.183.222
+    type: trojan
+    port: 443
+    password: xxoo
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '445 🇯🇵 SAKURA Int SNI 👾 漁師'
+    server: os13.cats22.net
+    type: trojan
+    port: 443
+    password: 18844@zxcvbn
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '446 🇭🇰 Tencent Bu SNI 👾 漁師'
+    server: azhk095.xiaohouzi.club
+    type: trojan
+    port: 10102
+    password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '452 🇷🇺 LLC Baxet SNI 👾 漁師'
+    server: 195.133.10.202
+    type: trojan
+    port: 44976
+    password: tiUobCwrVb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '455 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: ec129ab2-3c89-4e25-8b97-aee479ac06f1
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '460 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider14.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '463 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 036ba5aa-fcb7-4e6f-95b5-a857cb354aa8
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '472 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: 149.56.141.11
+    type: trojan
+    port: 443
+    password: 8b6daf15-8342-482d-b894-1239fd98ce7f
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '475 🇯🇵 ORACLE-BMC SNI 👾 漁師'
+    server: toyko12.900513.xyz
+    type: trojan
+    port: 18818
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '481 🇭🇰 CNSERVERS SNI 👾 漁師'
+    server: 43.229.153.147
+    type: trojan
+    port: 23454
+    password: c41e5ba8-2fe2-405a-8259-1ecb012ffccd
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '484 🇬🇧 Hydra Comm SNI 👾 漁師'
+    server: content-provider21.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: shefelnak
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '485 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: kr1.api-aws.com
+    type: trojan
+    port: 443
+    password: 881091b5-4172-4329-a0e7-17fca1e72292
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '491 🇺🇸 PERFORMIVE SNI 👾 漁師'
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    type: trojan
+    port: 443
+    password: d1478689-439c-4590-b7ce-36e786a02dc3
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '492 🇳🇱 AS40676 SNI 👾 漁師'
+    server: 185.212.200.75
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '496 🇭🇰 ADCDATA.CO SNI 👾 漁師'
+    server: 194.156.99.39
+    type: trojan
+    port: 443
+    password: xxoo
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '499 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: bdvasxmahl.injafarvpnwebelieve.gq
+    type: trojan
+    port: 443
+    password: TvBypqQJ9b
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '501 🇰🇷 ORACLE-BMC SNI 👾 漁師'
+    server: x-seoul12.900513.xyz
+    type: trojan
+    port: 10086
+    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '504 🇸🇬 OVH SAS SNI 👾 漁師'
+    server: 15.235.197.4
+    type: trojan
+    port: 443
+    password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '505 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
     port: 443
@@ -1404,21 +3665,56 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '186 🇯🇵 MIKU NETWO SNI 👾 漁師'
-    server: zzjp01.fuqiangren.com
-    type: trojan
-    port: 20221
-    password: 1d891b20-d7c7-43d6-b5f5-7ba548ca9d7a
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '187 🇯🇵 SAKURA Int SNI 👾 漁師'
-    server: 49.212.193.129
+  - name: '507 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: uk1.trojanvh.xyz
     type: trojan
     port: 443
-    password: 18844@zxcvbn
+    password: b44579e1-f803-4981-86bc-aa8c783daa04
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
+  - name: '208 🇺🇸 AS-CHOOPA SNI 👾 漁師'
+    server: ssrfree.zhujicn2.net
+    type: ssr
+    port: 10007
+    password: dongtaiwang.com
+    cipher: aes-256-cfb
+    protocol: auth_chain_a
+    protocol-param: 
+    obfs: tls1.2_ticket_auth
+    obfs-param: obfs=tls;obfs-host=tsel.me
+    udp: true
+  - name: '238 🇺🇸 AS-CHOOPA SNI 👾 漁師'
+    server: ssrfree.zhujicn2.net
+    type: ssr
+    port: 10002
+    password: dongtaiwang.com
+    cipher: aes-256-cfb
+    protocol: auth_chain_a
+    protocol-param: 
+    obfs: tls1.2_ticket_auth
+    obfs-param: obfs=tls;obfs-host=tsel.me
+    udp: true
+  - name: '431 🇺🇸 CONTABO SNI 👾 漁師'
+    server: 154.53.48.30
+    type: ssr
+    port: 9595
+    password: sk80Likez95
+    cipher: aes-256-cfb
+    protocol: auth_chain_a
+    protocol-param: Tm9uJSXvv71b77+9JSXvv70=
+    obfs: tls1.2_ticket_auth
+    obfs-param: obfs=tls;obfs-host=tsel.me
+    udp: true
+  - name: '451 🇸🇬 AMAZON-02 SNI 👾 漁師'
+    server: sg-am3.eqsunshine.com
+    type: ssr
+    port: 32001
+    password: 3g0dHlKME
+    cipher: aes-256-cfb
+    protocol: origin
+    protocol-param: 
+    obfs: tls1.2_ticket_auth
+    obfs-param: obfs=tls;obfs-host=tsel.me
+    udp: true
