@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /f1e6026a-c0cc-45b6-fdf1-c49074c224ec
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '113 🇰🇷 AMAZON-02 SNI 👾 漁師'
     server: 43.201.19.202
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '129 🇰🇷 AMAZON-02 SNI 👾 漁師'
     server: 54.180.131.191
     type: vmess
