@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "104.18.25.139",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "6fb9a750-55b8-4e6e-857b-242b795399dc",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +104,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
+          "serverName": "buyvm.imkcp.eu.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hk.sharecentre.online"
+            "Host": "buyvm.imkcp.eu.org"
           },
-          "path": "/shirker"
+          "path": "/imkcpyyds"
         }
       },
-      "tag": "proxy-3 🇱🇺 Unknown CDN 👾 漁師"
+      "tag": "proxy-202 🇱🇺 PONYNET CDN 👾 漁師"
     },
     {
       "mux": {
@@ -125,13 +125,13 @@
         "vnext": [
           {
             "address": "104.16.66.85",
-            "port": 443,
+            "port": 2086,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "id": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,56 +144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
+          "serverName": "BuyVM.CLOUDFLARE.QUEST"
         },
         "wsSettings": {
           "headers": {
-            "Host": "hk.sharecentre.online"
+            "Host": "BuyVM.CLOUDFLARE.QUEST"
           },
-          "path": "/shirker"
+          "path": "/aries"
         }
       },
-      "tag": "proxy-22 🇱🇺 Unknown CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "hk.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-51 🇱🇺 Unknown CDN 👾 漁師"
+      "tag": "proxy-229 🇱🇺 PONYNET CDN 👾 漁師"
     },
     {
       "mux": {
@@ -233,7 +193,7 @@
           "path": "/shirker"
         }
       },
-      "tag": "proxy-62 🇱🇺 Unknown CDN 👾 漁師"
+      "tag": "proxy-283 🇱🇺 Unknown CDN 👾 漁師"
     },
     {
       "mux": {
@@ -273,207 +233,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-165 🇱🇺 PONYNET CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.10",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "hk.sharecentre.online"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "hk.sharecentre.online"
-          },
-          "path": "/shirker"
-        }
-      },
-      "tag": "proxy-223 🇱🇺 Unknown CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.20",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "BuyVM.CLOUDFLARE.QUEST"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "BuyVM.CLOUDFLARE.QUEST"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-258 🇱🇺 PONYNET CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "6fb9a750-55b8-4e6e-857b-242b795399dc",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "buyvm.imkcp.eu.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "buyvm.imkcp.eu.org"
-          },
-          "path": "/imkcpyyds"
-        }
-      },
-      "tag": "proxy-285 🇱🇺 PONYNET CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.128.7",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "BuyVM.CLOUDFLARE.QUEST"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "BuyVM.CLOUDFLARE.QUEST"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-349 🇱🇺 PONYNET CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.66.85",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e91c45c9-2c0f-46a9-c56d-21663b9e2c18",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "BuyVM.CLOUDFLARE.QUEST"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "BuyVM.CLOUDFLARE.QUEST"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-357 🇱🇺 PONYNET CDN 👾 漁師"
+      "tag": "proxy-312 🇱🇺 PONYNET CDN 👾 漁師"
     }
   ],
   "dns": {
