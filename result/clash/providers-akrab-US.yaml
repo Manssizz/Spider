@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '45 🇺🇸 SHARKTECH SNI 👾 漁師'
     server: 67.21.72.41
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /path/173418141123
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '47 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
     server: 204.15.74.75
     type: vmess
@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '49 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -295,7 +295,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '62 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: fhcarm2.gaox.ml
     type: trojan
@@ -304,7 +304,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '21 🇺🇸 CONTABO SNI 👾 漁師'
     server: 154.53.48.30
     type: ssr
