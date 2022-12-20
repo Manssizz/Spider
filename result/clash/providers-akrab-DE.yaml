@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '58 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan

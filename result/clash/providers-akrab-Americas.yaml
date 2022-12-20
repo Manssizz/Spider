@@ -90,7 +90,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '30 🇺🇸 DIGITALOCE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -118,11 +118,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /v2ray
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '37 🇺🇸 AS40676 CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -150,11 +150,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '57 🇺🇸 Green Floi CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -402,11 +402,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /chat
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '143 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.146.133.157
     type: vmess
@@ -418,7 +418,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '147 🇺🇸 Green Floi CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -446,7 +446,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '158 🇺🇸 OVH SAS SNI 👾 漁師'
     server: 51.81.220.195
     type: vmess
@@ -458,11 +458,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /sshkit/Yarayauj/6349911f83b31/
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '159 🇺🇸 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -503,7 +503,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '85 🇨🇦 OVH SAS SNI 👾 漁師'
     server: 149.56.141.11
     type: trojan
@@ -512,7 +512,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '114 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: zz.900513.xyz
     type: trojan
@@ -521,7 +521,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '120 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.146.255.158
     type: trojan
@@ -539,4 +539,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us

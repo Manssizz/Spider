@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '84 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: suzhihan.eu.org
     type: vmess
@@ -74,11 +74,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /roewesu
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '138 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: jp04.170203.xyz
     type: vmess
@@ -151,7 +151,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '66 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: jgwdb4.gaox.ml
     type: trojan
@@ -196,7 +196,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '128 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: os14.cats22.net
     type: trojan
@@ -214,7 +214,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '109 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: jp-am48-6.eqnode.net
     type: ssr
@@ -224,5 +224,5 @@ proxies:
     protocol: origin
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=172.67.199.34
+    obfs-param: obfs=tls;obfs-host=teams.microsoft.com
     udp: true
