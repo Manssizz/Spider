@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /v2ray
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '68 🇨🇦 OVH SAS SNI 👾 漁師'
     server: 149.56.141.11
     type: trojan
@@ -23,7 +23,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '79 🇨🇦 OVH SAS SNI 👾 漁師'
     server: cat1.sshocean.net
     type: trojan
@@ -32,4 +32,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
