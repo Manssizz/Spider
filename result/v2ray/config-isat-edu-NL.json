@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "162.159.135.42",
             "port": 2086,
             "users": [
               {
@@ -113,7 +113,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-58 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-10 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -124,7 +124,47 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.70.206",
+            "address": "162.159.128.7",
+            "port": 2086,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "scw.cloudflare.quest"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "scw.cloudflare.quest"
+          },
+          "path": "/aries"
+        }
+      },
+      "tag": "proxy-51 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.51.111",
             "port": 443,
             "users": [
               {
@@ -153,47 +193,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-73 🇳🇱 DIGITALOCE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.20",
-            "port": 8080,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "nl.gongyiyun.cf"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "nl.gongyiyun.cf"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-159 🇳🇱 Scalaxy B. CDN 👾 漁師"
+      "tag": "proxy-68 🇳🇱 DIGITALOCE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -233,7 +233,7 @@
           "path": "/aries"
         }
       },
-      "tag": "proxy-174 🇳🇱 CLOUDFLARE CDN 👾 漁師"
+      "tag": "proxy-94 🇳🇱 CLOUDFLARE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -244,47 +244,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.25.139",
-            "port": 2086,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "ddcd66fd-c716-439c-9ab8-2adb1400ff48",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "scw.cloudflare.quest"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "scw.cloudflare.quest"
-          },
-          "path": "/aries"
-        }
-      },
-      "tag": "proxy-215 🇳🇱 CLOUDFLARE CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.66.85",
+            "address": "162.159.135.42",
             "port": 443,
             "users": [
               {
@@ -313,7 +273,7 @@
           "path": "/pkhhvws"
         }
       },
-      "tag": "proxy-223 🇳🇱 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-112 🇳🇱 DIGITALOCE CDN 👾 漁師"
     }
   ],
   "dns": {
