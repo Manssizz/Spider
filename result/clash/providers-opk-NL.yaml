@@ -1,33 +1,5 @@
 proxies:
-  - name: '153 🇳🇱 AEZA GROUP SNI 👾 漁師'
-    server: 79.137.207.88
-    type: vmess
-    port: 38740
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '240 🇳🇱 Scalaxy B. SNI 👾 漁師'
-    server: nl.gongyiyun.cf
-    type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '272 🇳🇱 AEZA GROUP SNI 👾 漁師'
+  - name: '57 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.207.202
     type: vmess
     port: 38740
@@ -39,25 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '46 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider2.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: TestingServer@@2
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '55 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
-    type: trojan
-    port: 443
-    password: TestingServer@@
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '116 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '13 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider1.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
@@ -66,26 +20,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '131 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.20
-    type: trojan
-    port: 443
-    password: TestingServer@@2
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '198 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.75
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '251 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.74
+  - name: '23 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider24.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: Sp3eDVp
