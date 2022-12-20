@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /aries
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '40 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80.sanfen001.pics
     type: vmess
@@ -74,11 +74,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '62 🇭🇰 MICROSOFT- SNI 👾 漁師'
     server: hk5.czs1000.com
     type: vmess
@@ -102,7 +102,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '79 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -130,7 +130,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '163 🇭🇰 xTom SNI 👾 漁師'
     server: bk.muieupdata.top
     type: vmess
@@ -206,7 +206,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '214 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -246,11 +246,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '246 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: 206.119.112.6
     type: vmess
@@ -262,7 +262,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '226 🇭🇰 CNSERVERS SNI 👾 漁師'
     server: vollcloud-2.arklab.ga
     type: trojan
@@ -271,4 +271,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34

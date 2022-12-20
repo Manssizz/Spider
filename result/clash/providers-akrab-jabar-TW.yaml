@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /game
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '36 🇹🇼 Scloud Pte SNI 👾 漁師'
     server: tw2.czs1000.com
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '171 🇹🇼 Scloud Pte SNI 👾 漁師'
     server: tw4.czs1000.com
     type: vmess
