@@ -1,5 +1,21 @@
 proxies:
-  - name: '59 🇳🇱 AEZA GROUP SNI 👾 漁師'
+  - name: '24 🇳🇱 The Infras SNI 👾 漁師'
+    server: nl.archnet.ir
+    type: vmess
+    port: 27515
+    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '44 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.207.202
     type: vmess
     port: 39064
@@ -11,17 +27,29 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '93 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
-    type: trojan
-    port: 443
-    password: TestingServer@@
+  - name: '150 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.207.202
+    type: vmess
+    port: 39064
+    uuid: B6C76F8A-77ED-F562-654E-59F997F58426
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '136 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: content-provider13.cdn-delivery.akamaicd.com
+  - name: '73 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.54.66
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '164 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider23.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: Sp3eDVp
