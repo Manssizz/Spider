@@ -84,8 +84,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "12.kccic2pa.xyz",
-            "port": 50012,
+            "address": "33.kccic2pa.xyz",
+            "port": 50033,
             "users": [
               {
                 "alterId": 0,
@@ -107,7 +107,115 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-30 🇺🇸 SERVERSTAD SNI 👾 漁師"
+      "tag": "proxy-37 🇺🇸 DEDIPATH-L SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.67.254.16",
+            "port": 43815,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7a9f026f-f7a8-40ca-f2f9-3b380c287c0d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/abc"
+        }
+      },
+      "tag": "proxy-66 🇺🇸 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "30.kccic2pa.xyz",
+            "port": 50030,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "535d8088-72f5-472e-a552-23112c26b558",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-74 🇺🇸 DEDIPATH-L SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.230.41.9",
+            "port": 23292,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "956c6c2f-bf54-4b87-fafd-4b767ca12750",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-86 🇺🇸 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -147,7 +255,7 @@
           "path": "/game"
         }
       },
-      "tag": "proxy-33 🇺🇸 DMIT SNI 👾 漁師"
+      "tag": "proxy-95 🇺🇸 DMIT SNI 👾 漁師"
     },
     {
       "mux": {
@@ -181,7 +289,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-63 🇺🇸 ORACLE-BMC SNI 👾 漁師"
+      "tag": "proxy-104 🇺🇸 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -192,14 +300,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.81.220.195",
-            "port": 443,
+            "address": "f1f3227.u1.glados-config.net",
+            "port": 3331,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "6fea1649-425b-4092-bf53-29792152c925",
+                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
                 "level": 8,
                 "security": "auto"
               }
@@ -218,10 +326,10 @@
           "headers": {
             "Host": "tsel.me"
           },
-          "path": "/sshkit/Variu88/634dab7abadf1/"
+          "path": "/s/f1f3227.fm.apple.com:111548"
         }
       },
-      "tag": "proxy-90 🇺🇸 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-111 🇺🇸 Melbikomas SNI 👾 漁師"
     },
     {
       "mux": {
@@ -232,48 +340,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "129.146.133.157",
-            "port": 51009,
+            "address": "205.185.123.36",
+            "port": 32409,
             "users": [
               {
-                "alterId": 0,
+                "alterId": 2,
                 "encryption": "",
                 "flow": "",
-                "id": "81714cef-9bde-4a08-aa50-d6bc0172d78b",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-92 🇺🇸 ORACLE-BMC SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "204.15.74.75",
-            "port": 20760,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "47f7c632-4338-429e-ee62-9b2cdb8d229e",
+                "id": "26c5fdc7-b3be-3482-9a45-d97b958a889a",
                 "level": 8,
                 "security": "auto"
               }
@@ -292,10 +366,10 @@
           "headers": {
             "Host": "tsel.me"
           },
-          "path": "/"
+          "path": "/v2ray"
         }
       },
-      "tag": "proxy-112 🇺🇸 MULTA-ASN1 SNI 👾 漁師"
+      "tag": "proxy-114 🇺🇸 PONYNET SNI 👾 漁師"
     },
     {
       "mux": {
@@ -306,88 +380,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.204.146.125",
-            "port": 26677,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "bf695bc6-32fa-4ca5-9ff7-4c7652a4c1cd",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": ""
-        }
-      },
-      "tag": "proxy-128 🇺🇸 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.216.72.172",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "6d11cad4-be87-4b05-aa1d-0d19b011a6d3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/zvtyvws"
-        }
-      },
-      "tag": "proxy-162 🇺🇸 Hyonix LLC SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "17.kccic2pa.xyz",
-            "port": 50017,
+            "address": "39.kccic2pa.xyz",
+            "port": 50039,
             "users": [
               {
                 "alterId": 0,
@@ -409,7 +403,109 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-207 🇺🇸 SERVERSTAD SNI 👾 漁師"
+      "tag": "proxy-139 🇺🇸 SERVERSTAD SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "150.230.41.9",
+            "port": 23292,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "956c6c2f-bf54-4b87-fafd-4b767ca12750",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-140 🇺🇸 ORACLE-BMC SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "42.kccic2pa.xyz",
+            "port": 50042,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "535d8088-72f5-472e-a552-23112c26b558",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-149 🇺🇸 SERVERSTAD SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.kccic2pa.xyz",
+            "port": 50031,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "535d8088-72f5-472e-a552-23112c26b558",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-158 🇺🇸 DEDIPATH-L SNI 👾 漁師"
     },
     {
       "mux": {
@@ -420,7 +516,94 @@
       "settings": {
         "servers": [
           {
-            "address": "107.181.161.163",
+            "address": "149.56.141.11",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "8b6daf15-8342-482d-b894-1239fd98ce7f",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-15 🇨🇦 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "u-s03.beef1917.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "97856218-c1c1-4965-ab1a-f1411d601651",
+            "port": 53032
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-27 🇺🇸 Linode LL SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "135.148.148.4",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "800eb26c-cd0c-4269-aae7-e63d75de4edd",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-50 🇺🇸 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "youtube-bai-piao-wang-zhe-usa.98848.xyz",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -438,7 +621,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-26 🇺🇸 PERFORMIVE SNI 👾 漁師"
+      "tag": "proxy-60 🇺🇸 PERFORMIVE SNI 👾 漁師"
     },
     {
       "mux": {
@@ -449,13 +632,13 @@
       "settings": {
         "servers": [
           {
-            "address": "u-s01.beef1917.com",
+            "address": "fhcamd2.gaox.ml",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "a43f9663-8650-4ff5-b49b-86bc51d3c128",
-            "port": 53028
+            "password": "dbf9bf9c-2c3f-474a-8031-d4c00666a989",
+            "port": 443
           }
         ]
       },
@@ -467,7 +650,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-66 🇺🇸 Linode LL SNI 👾 漁師"
+      "tag": "proxy-73 🇺🇸 ORACLE-BMC SNI 👾 漁師"
     },
     {
       "mux": {
@@ -478,13 +661,13 @@
       "settings": {
         "servers": [
           {
-            "address": "u-s03.beef1917.com",
+            "address": "138.124.183.226",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "a43f9663-8650-4ff5-b49b-86bc51d3c128",
-            "port": 53032
+            "password": "xxoo",
+            "port": 443
           }
         ]
       },
@@ -496,7 +679,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-70 🇺🇸 Linode LL SNI 👾 漁師"
+      "tag": "proxy-132 🇺🇸 MIRholding SNI 👾 漁師"
     },
     {
       "mux": {
@@ -507,13 +690,13 @@
       "settings": {
         "servers": [
           {
-            "address": "u-s01.beef1917.com",
+            "address": "135.148.148.4",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "965dec2a-c9d2-4e8b-bef0-8da13816e2dd",
-            "port": 53028
+            "password": "892c4f6e-732b-4f71-ad04-6e77344f2d0e",
+            "port": 443
           }
         ]
       },
@@ -525,94 +708,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-72 🇺🇸 Linode LL SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "u-s03.beef1917.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "97856218-c1c1-4965-ab1a-f1411d601651",
-            "port": 53032
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-102 🇺🇸 Linode LL SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "u-s02.beef1917.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "97856218-c1c1-4965-ab1a-f1411d601651",
-            "port": 53030
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-108 🇺🇸 Linode LL SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "u-s02.beef1917.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "965dec2a-c9d2-4e8b-bef0-8da13816e2dd",
-            "port": 53030
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-114 🇺🇸 Linode LL SNI 👾 漁師"
+      "tag": "proxy-151 🇺🇸 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -641,8 +737,9 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-205 🇺🇸 ORACLE-BMC SNI 👾 漁師"
-    }
+      "tag": "proxy-171 🇺🇸 ORACLE-BMC SNI 👾 漁師"
+    },
+    ""
   ],
   "dns": {
     "hosts": {
