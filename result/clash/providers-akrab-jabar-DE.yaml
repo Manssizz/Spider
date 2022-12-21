@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '195 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 168.119.254.234
     type: vmess
@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /graphql
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '51 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 188.40.251.19
     type: trojan
@@ -71,7 +71,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '54 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
@@ -80,7 +80,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '84 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
@@ -89,7 +89,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '95 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 188.40.236.127
     type: trojan
@@ -98,7 +98,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '127 🇩🇪 OVH SAS SNI 👾 漁師'
     server: t2.teslacdn1.live
     type: trojan
