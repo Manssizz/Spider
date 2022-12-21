@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '177 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 95.216.157.137
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /telegram-id-@privatevpns
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '187 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 65.109.161.166
     type: vmess
@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /graphql
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '397 🇫🇮 Hetzner On SNI 👾 漁師'
     server: 135.181.235.21
     type: vmess
@@ -71,4 +71,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
