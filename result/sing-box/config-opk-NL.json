@@ -45,34 +45,18 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "38 🇳🇱 AEZA GROUP SNI 👾 漁師",
-        "139 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "51 🇳🇱 IP Volume  SNI 👾 漁師",
-        "56 🇳🇱 AS40676 SNI 👾 漁師",
-        "104 🇳🇱 ORACLE-BMC SNI 👾 漁師",
-        "106 🇳🇱 The Infras SNI 👾 漁師",
-        "124 🇳🇱 IP Volume  SNI 👾 漁師",
-        "165 🇳🇱 AS40676 SNI 👾 漁師",
-        "177 🇳🇱 IP Volume  SNI 👾 漁師"
+        "21 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "52 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "93 🇳🇱 Online S.a SNI 👾 漁師",
+        "117 🇳🇱 AEZA GROUP SNI 👾 漁師",
+        "126 🇳🇱 The Infras SNI 👾 漁師",
+        "110 🇳🇱 AS40676 SNI 👾 漁師",
+        "155 🇳🇱 The Infras SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "38 🇳🇱 AEZA GROUP SNI 👾 漁師",
-      "server": "79.137.207.202",
-      "server_port": 38737,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "139 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "tag": "21 🇳🇱 Scalaxy B. SNI 👾 漁師",
       "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -92,11 +76,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "51 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.54.65",
-      "server_port": 443,
-      "password": "Sp3eDVp",
+      "type": "vmess",
+      "tag": "52 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.207.88",
+      "server_port": 38737,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -104,11 +90,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "56 🇳🇱 AS40676 SNI 👾 漁師",
-      "server": "185.212.200.74",
-      "server_port": 443,
-      "password": "Sp3eDVp",
+      "type": "vmess",
+      "tag": "93 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "35.kccic2pa.xyz",
+      "server_port": 50035,
+      "uuid": "535d8088-72f5-472e-a552-23112c26b558",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -116,11 +104,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "104 🇳🇱 ORACLE-BMC SNI 👾 漁師",
-      "server": "x-amsterdam12.900513.xyz",
-      "server_port": 18818,
-      "password": "8a03bc28-2a33-42c4-be59-30464dbb9954",
+      "type": "vmess",
+      "tag": "117 🇳🇱 AEZA GROUP SNI 👾 漁師",
+      "server": "79.137.207.202",
+      "server_port": 38737,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -128,32 +118,29 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "106 🇳🇱 The Infras SNI 👾 漁師",
-      "server": "ir2.archnet.cyou",
-      "server_port": 6393,
-      "password": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "type": "vmess",
+      "tag": "126 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "nl.archnet.ir",
+      "server_port": 27515,
+      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "124 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.53.19",
-      "server_port": 443,
-      "password": "TestingServer@@",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "165 🇳🇱 AS40676 SNI 👾 漁師",
+      "tag": "110 🇳🇱 AS40676 SNI 👾 漁師",
       "server": "content-provider23.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "Sp3eDVp",
@@ -165,10 +152,10 @@
     },
     {
       "type": "trojan",
-      "tag": "177 🇳🇱 IP Volume  SNI 👾 漁師",
-      "server": "94.102.53.20",
-      "server_port": 443,
-      "password": "TestingServer@@2",
+      "tag": "155 🇳🇱 The Infras SNI 👾 漁師",
+      "server": "ir2.archnet.cyou",
+      "server_port": 6393,
+      "password": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
       "tls": {
         "enabled": true,
         "insecure": true,
