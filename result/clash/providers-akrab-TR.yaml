@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /tr01
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '99 🇹🇷 Hostigger  SNI 👾 漁師'
     server: 36.kccic2pa.xyz
     type: vmess
@@ -54,7 +54,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '128 🇹🇷 Comnet Bil SNI 👾 漁師'
     server: ir2.archnet.cyou
     type: trojan
@@ -63,4 +63,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
