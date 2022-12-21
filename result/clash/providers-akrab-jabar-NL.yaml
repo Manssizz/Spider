@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: 
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '88 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -90,7 +90,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '101 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.207.88
     type: vmess
@@ -130,11 +130,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '156 🇳🇱 CLOUDFLARE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -193,7 +193,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '151 🇳🇱 The Infras SNI 👾 漁師'
     server: ir2.archnet.cyou
     type: trojan
@@ -202,4 +202,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
