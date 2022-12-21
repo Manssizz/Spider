@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /au01
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '283 🇦🇺 Linode LL SNI 👾 漁師'
     server: vau1.0bad.com
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /chat
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '299 🇦🇺 OVH SAS SNI 👾 漁師'
     server: 139.99.135.182
     type: vmess
@@ -55,7 +55,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '270 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: syd14.yukiss.eu.org
     type: trojan
@@ -64,7 +64,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '289 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: 140.238.205.173
     type: trojan
@@ -82,4 +82,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com

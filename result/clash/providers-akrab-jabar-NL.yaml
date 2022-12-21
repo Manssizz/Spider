@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '100 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -259,7 +259,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '190 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.53.19
     type: trojan
@@ -277,7 +277,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '217 🇳🇱 AS40676 SNI 👾 漁師'
     server: 185.212.200.74
     type: trojan
@@ -304,7 +304,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '260 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider1.cdn-delivery.akamaicd.com
     type: trojan
@@ -313,7 +313,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '277 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.53.20
     type: trojan
@@ -322,7 +322,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '421 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.54.66
     type: trojan
@@ -331,4 +331,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com

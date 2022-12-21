@@ -1,6 +1,6 @@
 proxies:
   - name: '5 🇭🇰 G-Core Lab CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 2086
     uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: gcorehk.cloudflare.quest
   - name: '98 🇭🇰 Layerstack CDN 👾 漁師'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 97856218-c1c1-4965-ab1a-f1411d601651
@@ -180,7 +180,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '249 🇭🇰 Layerstack CDN 👾 漁師'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 965dec2a-c9d2-4e8b-bef0-8da13816e2dd
