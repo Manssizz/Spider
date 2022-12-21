@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '22 🇳🇱 Scalaxy B. CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -146,7 +146,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '126 🇳🇱 The Infras SNI 👾 漁師'
     server: nl.archnet.ir
     type: vmess
@@ -158,11 +158,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: 
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '135 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -196,4 +196,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
