@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '27 🇫🇷 Online S.a SNI 👾 漁師'
     server: v10a.toddns.tk
     type: vmess
@@ -214,11 +214,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '131 🇫🇷 Online S.a SNI 👾 漁師'
     server: FR-166-134.shoptunnel.live
     type: vmess
