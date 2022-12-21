@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '47 🇭🇰 HKT Limite SNI 👾 漁師'
     server: 06.kccic2pa.xyz
     type: vmess
@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '49 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /game
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '64 🇭🇰 Cloudie Li SNI 👾 漁師'
     server: hk14.czs1000.com
     type: vmess
@@ -66,11 +66,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '87 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
@@ -82,7 +82,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '89 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -174,7 +174,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '149 🇭🇰 HKT Limite SNI 👾 漁師'
     server: 29.kccic2pa.xyz
     type: vmess
@@ -198,11 +198,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '184 🇭🇰 Netsec Lim SNI 👾 漁師'
     server: 182.16.1.194
     type: vmess
@@ -243,7 +243,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '91 🇭🇰 CNSERVERS SNI 👾 漁師'
     server: cn-hk-30.fnhffffe4.cc
     type: trojan
@@ -261,4 +261,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
