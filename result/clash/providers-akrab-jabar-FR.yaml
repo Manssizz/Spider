@@ -122,11 +122,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /pineapple
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '219 🇫🇷 Online S.a CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -565,7 +565,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '425 🇫🇷 OVH SAS SNI 👾 漁師'
     server: 176.31.83.90
     type: trojan
@@ -574,4 +574,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
