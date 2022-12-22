@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '37 🇫🇷 Online S.a CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -302,11 +302,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /fr-unlimitxxx
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '207 🇫🇷 Online S.a CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -414,7 +414,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '310 🇫🇷 Online S.a CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
