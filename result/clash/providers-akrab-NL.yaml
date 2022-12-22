@@ -1,5 +1,17 @@
 proxies:
-  - name: '5 🇳🇱 Online S.a SNI 👾 漁師'
+  - name: '17 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.202.36
+    type: vmess
+    port: 39064
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: click.zoom.us
+  - name: '21 🇳🇱 Online S.a SNI 👾 漁師'
     server: 163.172.213.74
     type: vmess
     port: 443
@@ -10,12 +22,24 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
-      path: /
+      path: /fastssh
       headers:
-        Host: click.zoom.us
-  - name: '84 🇳🇱 DIGITALOCE CDN 👾 漁師'
+        Host: config.teams.microsoft.com
+  - name: '27 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.202.36
+    type: vmess
+    port: 39064
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: safebrowsing.google.com
+  - name: '105 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
     port: 443
@@ -31,61 +55,80 @@ proxies:
       path: /pkhhvws
       headers:
         Host: amshare.jingledev.me
-  - name: '98 🇳🇱 Online S.a CDN 👾 漁師'
+  - name: '118 🇳🇱 DIGITALOCE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: scw.cloudflare.quest
+    servername: amshare.jingledev.me
     ws-opts: 
-      path: /aries
+      path: /pkhhvws
       headers:
-        Host: scw.cloudflare.quest
-  - name: '166 🇳🇱 Online S.a CDN 👾 漁師'
-    server: hohm.microsoft.com
+        Host: amshare.jingledev.me
+  - name: '122 🇳🇱 The Infras SNI 👾 漁師'
+    server: nl.archnet.ir
     type: vmess
-    port: 2086
-    uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+    port: 27515
+    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: scw.cloudflare.quest
+    servername: click.zoom.us
     ws-opts: 
-      path: /aries
+      path: /
       headers:
-        Host: scw.cloudflare.quest
-  - name: '40 🇳🇱 ORACLE-BMC SNI 👾 漁師'
-    server: x-amsterdam12.900513.xyz
-    type: trojan
-    port: 18818
-    password: 8a03bc28-2a33-42c4-be59-30464dbb9954
+        Host: click.zoom.us
+  - name: '139 🇳🇱 DIGITALOCE CDN 👾 漁師'
+    server: hohm.microsoft.com
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: amshare.jingledev.me
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+  - name: '160 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.202.36
+    type: vmess
+    port: 39064
+    uuid: B6C76F8A-77ED-F562-654E-59F997F58426
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
-  - name: '54 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.20
+    servername: safebrowsing.google.com
+  - name: '60 🇳🇱 AS40676 SNI 👾 漁師'
+    server: content-provider23.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
-    password: TestingServer@@2
+    password: Sp3eDVp
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: click.zoom.us
-  - name: '76 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.65
+  - name: '137 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.53.20
     type: trojan
     port: 443
-    password: Sp3eDVp
+    password: TestingServer@@2
     udp: true
     skip-cert-verify: true
     network: tcp
