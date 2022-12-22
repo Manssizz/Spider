@@ -102,11 +102,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '245 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.202.36
     type: vmess
@@ -118,7 +118,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '289 🇳🇱 AEZA GROUP SNI 👾 漁師'
     server: 79.137.202.36
     type: vmess
@@ -171,7 +171,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '48 🇳🇱 AS40676 SNI 👾 漁師'
     server: 185.212.200.74
     type: trojan
@@ -180,7 +180,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '79 🇳🇱 AS40676 SNI 👾 漁師'
     server: 185.212.200.75
     type: trojan
@@ -189,7 +189,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '89 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.54.66
     type: trojan
@@ -207,7 +207,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '174 🇳🇱 IP Volume  SNI 👾 漁師'
     server: 94.102.53.19
     type: trojan
@@ -216,7 +216,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '178 🇳🇱 The Infras SNI 👾 漁師'
     server: ir2.archnet.cyou
     type: trojan
@@ -225,7 +225,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '224 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider1.cdn-delivery.akamaicd.com
     type: trojan
