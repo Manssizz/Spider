@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '47 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
@@ -31,7 +31,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '179 🇬🇧 ORACLE-BMC SNI 👾 漁師'
     server: london11.yukiss.eu.org
     type: trojan
@@ -40,7 +40,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '193 🇬🇧 Simply Tra SNI 👾 漁師'
     server: 94.76.193.218
     type: ssr
@@ -50,5 +50,5 @@ proxies:
     protocol: auth_sha1_v4
     protocol-param: 
     obfs: http_simple
-    obfs-param: obfs=http;obfs-host=172.67.199.34
+    obfs-param: obfs=http;obfs-host=teams.microsoft.com
     udp: true

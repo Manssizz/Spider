@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '126 🇬🇧 ORACLE-BMC SNI 👾 漁師'
     server: 140.238.123.200
     type: trojan
@@ -50,5 +50,5 @@ proxies:
     protocol: auth_sha1_v4
     protocol-param: 
     obfs: http_simple
-    obfs-param: obfs=http;obfs-host=config.teams.microsoft.com
+    obfs-param: obfs=http;obfs-host=click.zoom.us
     udp: true
