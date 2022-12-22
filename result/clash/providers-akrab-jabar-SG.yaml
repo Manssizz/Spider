@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /shirker
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '19 🇸🇬 OVH SAS SNI 👾 漁師'
     server: 15.235.192.196
     type: vmess
@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '28 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: SG-244-255.shoptunnel.live
     type: vmess
@@ -262,11 +262,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Falling42gcssgnode
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '160 🇸🇬 AMAZON-02 SNI 👾 漁師'
     server: 54.254.30.59
     type: vmess
@@ -278,11 +278,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '161 🇸🇬 OVH SAS SNI 👾 漁師'
     server: 51.79.173.222
     type: vmess
