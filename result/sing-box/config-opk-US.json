@@ -45,22 +45,16 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "24 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "44 🇺🇸 Melbikomas SNI 👾 漁師",
-        "76 🇺🇸 Melbikomas SNI 👾 漁師",
-        "81 🇺🇸 Hyonix LLC SNI 👾 漁師",
-        "39 🇺🇸 MIRholding SNI 👾 漁師",
-        "55 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "56 🇺🇸 OVH SAS SNI 👾 漁師",
-        "64 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "66 🇺🇸 MIRholding SNI 👾 漁師",
-        "83 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "143 🇺🇸 ORACLE-BMC SNI 👾 漁師"
+        "19 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+        "24 🇺🇸 Hyonix LLC SNI 👾 漁師",
+        "105 🇺🇸 Melbikomas SNI 👾 漁師",
+        "51 🇺🇸 MIRholding SNI 👾 漁師",
+        "76 🇺🇸 ORACLE-BMC SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "24 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+      "tag": "19 🇺🇸 ORACLE-BMC SNI 👾 漁師",
       "server": "129.146.133.157",
       "server_port": 51009,
       "uuid": "81714cef-9bde-4a08-aa50-d6bc0172d78b",
@@ -74,42 +68,7 @@
     },
     {
       "type": "vmess",
-      "tag": "44 🇺🇸 Melbikomas SNI 👾 漁師",
-      "server": "f1f3227.u1.glados-config.net",
-      "server_port": 3331,
-      "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/s/f1f3227.fm.apple.com:111548",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "76 🇺🇸 Melbikomas SNI 👾 漁師",
-      "server": "88.210.37.46",
-      "server_port": 39064,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "81 🇺🇸 Hyonix LLC SNI 👾 漁師",
+      "tag": "24 🇺🇸 Hyonix LLC SNI 👾 漁師",
       "server": "hope.jingledev.me",
       "server_port": 443,
       "uuid": "6d11cad4-be87-4b05-aa1d-0d19b011a6d3",
@@ -129,11 +88,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "39 🇺🇸 MIRholding SNI 👾 漁師",
-      "server": "138.124.183.216",
-      "server_port": 443,
-      "password": "xxoo",
+      "type": "vmess",
+      "tag": "105 🇺🇸 Melbikomas SNI 👾 漁師",
+      "server": "88.210.37.46",
+      "server_port": 39064,
+      "uuid": "B6C76F8A-77ED-F562-654E-59F997F58426",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -142,43 +103,7 @@
     },
     {
       "type": "trojan",
-      "tag": "55 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "129.146.242.130",
-      "server_port": 443,
-      "password": "05742120-ce23-4cc8-88f5-6d221ce45bf4",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "56 🇺🇸 OVH SAS SNI 👾 漁師",
-      "server": "135.148.148.4",
-      "server_port": 443,
-      "password": "92346756-284e-4de6-904b-16510c38e8b7",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "64 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "fhcarm2.gaox.ml",
-      "server_port": 443,
-      "password": "f39bd244-f5fe-415c-8b98-a1e5250bf178",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "66 🇺🇸 MIRholding SNI 👾 漁師",
+      "tag": "51 🇺🇸 MIRholding SNI 👾 漁師",
       "server": "138.124.183.226",
       "server_port": 443,
       "password": "xxoo",
@@ -190,22 +115,10 @@
     },
     {
       "type": "trojan",
-      "tag": "83 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "fhcarm1.gaox.ml",
+      "tag": "76 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+      "server": "129.146.255.158",
       "server_port": 443,
-      "password": "05742120-ce23-4cc8-88f5-6d221ce45bf4",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "143 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "129.146.190.42",
-      "server_port": 443,
-      "password": "dbf9bf9c-2c3f-474a-8031-d4c00666a989",
+      "password": "f39bd244-f5fe-415c-8b98-a1e5250bf178",
       "tls": {
         "enabled": true,
         "insecure": true,
