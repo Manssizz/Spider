@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '86 🇬🇧 OVH SAS SNI 👾 漁師'
     server: uk1.v2-ray.us
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '87 🇬🇧 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -164,7 +164,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '268 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: 185.16.206.211
     type: trojan
@@ -173,7 +173,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '434 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: 185.16.206.212
     type: trojan
@@ -182,7 +182,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '487 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: content-provider21.cdn-delivery.akamaicd.com
     type: trojan
@@ -191,7 +191,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '505 🇬🇧 Hydra Comm SNI 👾 漁師'
     server: 185.16.206.209
     type: trojan
@@ -200,7 +200,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '454 🇬🇧 Simply Tra SNI 👾 漁師'
     server: 94.76.193.218
     type: ssr
@@ -210,5 +210,5 @@ proxies:
     protocol: auth_sha1_v4
     protocol-param: 
     obfs: http_simple
-    obfs-param: obfs=http;obfs-host=click.zoom.us
+    obfs-param: obfs=http;obfs-host=config.teams.microsoft.com
     udp: true
