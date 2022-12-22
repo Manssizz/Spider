@@ -84,6 +84,46 @@
       "settings": {
         "vnext": [
           {
+            "address": "de1.v2-ray.us",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9fcb95d6-e7ce-4e9d-a7ce-8575de31d392",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-31 🇩🇪 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "78.46.244.34",
             "port": 33655,
             "users": [
@@ -107,7 +147,76 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-66 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-194 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "165.227.175.88",
+            "port": 28164,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "eba8ccf5-5ab9-4b6b-de4b-83ab920c1005",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-217 🇩🇪 DIGITALOCE SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider28.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-83 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
@@ -136,7 +245,65 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-75 🇩🇪 Hetzner On SNI 👾 漁師"
+      "tag": "proxy-102 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.40.236.127",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "yxGY7A5MczQYg6UqSFx9u78V",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-203 🇩🇪 Hetzner On SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "content-provider29.cdn-delivery.akamaicd.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "origin",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-257 🇩🇪 Hetzner On SNI 👾 漁師"
     },
     {
       "mux": {
@@ -165,7 +332,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-99 🇩🇪 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-262 🇩🇪 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {

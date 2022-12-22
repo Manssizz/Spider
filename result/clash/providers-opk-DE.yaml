@@ -1,5 +1,21 @@
 proxies:
-  - name: '66 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '31 🇩🇪 OVH SAS SNI 👾 漁師'
+    server: de1.v2-ray.us
+    type: vmess
+    port: 443
+    uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '194 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 78.46.244.34
     type: vmess
     port: 33655
@@ -11,7 +27,32 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '75 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '217 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: 165.227.175.88
+    type: vmess
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '83 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider28.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '102 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
     port: 443
@@ -20,7 +61,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '99 🇩🇪 OVH SAS SNI 👾 漁師'
+  - name: '203 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.236.127
+    type: trojan
+    port: 443
+    password: yxGY7A5MczQYg6UqSFx9u78V
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '257 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: content-provider29.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '262 🇩🇪 OVH SAS SNI 👾 漁師'
     server: t2.teslacdn1.live
     type: trojan
     port: 443
