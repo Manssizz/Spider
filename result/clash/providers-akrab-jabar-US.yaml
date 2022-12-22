@@ -74,7 +74,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '23 🇺🇸 DEDIPATH-L CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -102,11 +102,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /zvtyvws
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '25 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -424,4 +424,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com

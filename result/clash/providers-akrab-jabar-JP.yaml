@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: 
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '104 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: jp04.170203.xyz
     type: vmess
@@ -39,7 +39,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '78 🇯🇵 KDDI CORPO SNI 👾 漁師'
     server: ty1-1.openssl3.com
     type: trojan
@@ -48,7 +48,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '83 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: jgwdb3.gaox.ml
     type: trojan
@@ -57,7 +57,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '94 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: 150.230.96.103
     type: trojan
@@ -75,7 +75,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '117 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: jgwdb2.gaox.ml
     type: trojan
@@ -84,7 +84,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '122 🇯🇵 Linode LL SNI 👾 漁師'
     server: ap-northeast-1.openssl3.com
     type: trojan
