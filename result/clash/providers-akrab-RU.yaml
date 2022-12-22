@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '83 🇷🇺 RECONN LLC SNI 👾 漁師'
     server: 37.252.1.197
     type: vmess
@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '90 🇷🇺 AEZA GROUP SNI 👾 漁師'
     server: 185.112.83.213
     type: vmess
@@ -46,11 +46,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /ZPKLSPJjLBEy
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '115 🇷🇺 LLC Baxet CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -106,7 +106,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '48 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: eu-east-ruo.openssl3.com
     type: trojan
@@ -115,4 +115,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
