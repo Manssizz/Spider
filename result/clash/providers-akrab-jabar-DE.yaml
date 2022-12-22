@@ -80,7 +80,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '172 🇩🇪 ORACLE-BMC SNI 👾 漁師'
     server: fra13.yukiss.eu.org
     type: trojan
@@ -99,5 +99,5 @@ proxies:
     protocol: auth_sha1_v4
     protocol-param: 
     obfs: http_simple
-    obfs-param: obfs=http;obfs-host=teams.microsoft.com
+    obfs-param: obfs=http;obfs-host=172.67.199.34
     udp: true
