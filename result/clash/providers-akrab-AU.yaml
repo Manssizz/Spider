@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /vmess
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '7 🇦🇺 ORACLE-BMC SNI 👾 漁師'
     server: 140.238.205.173
     type: trojan
@@ -32,4 +32,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
