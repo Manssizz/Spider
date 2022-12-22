@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '104 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
@@ -66,8 +66,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
