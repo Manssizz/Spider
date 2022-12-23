@@ -45,36 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "50 🇳🇱 The Infras SNI 👾 漁師",
-        "95 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "168 🇳🇱 Online S.a SNI 👾 漁師"
+        "80 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "131 🇳🇱 IP Volume  SNI 👾 漁師",
+        "155 🇳🇱 IP Volume  SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "50 🇳🇱 The Infras SNI 👾 漁師",
-      "server": "nl.archnet.ir",
-      "server_port": 27515,
-      "uuid": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "95 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "5.45.78.209",
+      "tag": "80 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -93,24 +72,27 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "168 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "163.172.213.74",
+      "type": "trojan",
+      "tag": "131 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.54.66",
       "server_port": 443,
-      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
+      "password": "origin",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fastssh",
-        "headers": {
-          "Host": "tsel.me"
-        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "155 🇳🇱 IP Volume  SNI 👾 漁師",
+      "server": "94.102.54.65",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
       }
     }
   ],
