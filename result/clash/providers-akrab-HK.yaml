@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /Download
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '25 🇭🇰 Alibaba US SNI 👾 漁師'
     server: 47.243.72.76
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /Download
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '55 🇭🇰 HKT Limite SNI 👾 漁師'
     server: hkt.kidcc.xyz
     type: vmess
@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /v2ray
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '87 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: 206.119.112.6
     type: vmess
@@ -118,11 +118,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /Download
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '139 🇭🇰 HGC Global SNI 👾 漁師'
     server: hk12.sanfen001.pics
     type: vmess
@@ -150,11 +150,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '21 🇭🇰 ZEN-ECN SNI 👾 漁師'
     server: 45.40.59.50
     type: trojan
@@ -172,7 +172,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '50 🇭🇰 HKT Limite SNI 👾 漁師'
     server: hkmax04.170203.xyz
     type: trojan
@@ -190,4 +190,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
