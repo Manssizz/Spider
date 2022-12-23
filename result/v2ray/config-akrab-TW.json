@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "117.164.185.222",
-            "port": 16130,
+            "address": "tw6.czs1000.com",
+            "port": 1001,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+                "id": "ec36486a-aa5a-4f2e-a231-f0b9f3f951f0",
                 "level": 8,
                 "security": "auto"
               }
@@ -107,7 +107,7 @@
           "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-51 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-49 🇹🇼 Scloud Pte SNI 👾 漁師"
     },
     {
       "mux": {
@@ -118,14 +118,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "hinet1261.gfwisbest.xyz",
-            "port": 224,
+            "address": "v28.idcloudhost.de",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
+                "id": "d7a75318-3581-4f16-936c-671937ddd8ed",
                 "level": 8,
                 "security": "auto"
               }
@@ -134,14 +134,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-68 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-65 🇹🇼 Scloud Pte SNI 👾 漁師"
     },
     {
       "mux": {
@@ -152,14 +158,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "yzdx.relay01.fast001.buzz",
-            "port": 19222,
+            "address": "tw7.czs1000.com",
+            "port": 1001,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "d422c318-f19b-3578-b52f-52e73c33dd70",
+                "id": "ec36486a-aa5a-4f2e-a231-f0b9f3f951f0",
                 "level": 8,
                 "security": "auto"
               }
@@ -172,10 +178,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-151 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-105 🇹🇼 Scloud Pte SNI 👾 漁師"
     },
     {
       "mux": {
@@ -186,14 +192,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw2.594888.xyz",
-            "port": 25551,
+            "address": "tw5.czs1000.com",
+            "port": 1001,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "af13edc1-1ea1-3208-9794-915be9e338c0",
+                "id": "ec36486a-aa5a-4f2e-a231-f0b9f3f951f0",
                 "level": 8,
                 "security": "auto"
               }
@@ -202,55 +208,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "click.zoom.us"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
-          "path": "/v2ray"
         }
       },
-      "tag": "proxy-229 🇹🇼 Data Commu SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "211.72.35.154",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "4bacb8f1a089763b",
-            "port": 3306
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
-          "path": "/gateway/connect"
-        }
-      },
-      "tag": "proxy-61 🇹🇼 Data Commu SNI 👾 漁師"
+      "tag": "proxy-189 🇹🇼 Scloud Pte SNI 👾 漁師"
     }
   ],
   "dns": {
