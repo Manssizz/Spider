@@ -1,5 +1,21 @@
 proxies:
-  - name: '66 🇳🇱 Scalaxy B. SNI 👾 漁師'
+  - name: '24 🇳🇱 Online S.a SNI 👾 漁師'
+    server: 163.172.213.74
+    type: vmess
+    port: 443
+    uuid: 5cff0340-7ff4-11ed-b431-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /fastssh
+      headers:
+        Host: tsel.me
+  - name: '40 🇳🇱 Scalaxy B. SNI 👾 漁師'
     server: nl.gongyiyun.cf
     type: vmess
     port: 8080
@@ -15,24 +31,29 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '133 🇳🇱 The Infras SNI 👾 漁師'
-    server: nl.archnet.ir
+  - name: '161 🇳🇱 AEZA GROUP SNI 👾 漁師'
+    server: 79.137.202.36
     type: vmess
-    port: 27515
-    uuid: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+    port: 39028
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '30 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.20
+  - name: '29 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider14.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '118 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider2.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: TestingServer@@2
@@ -40,34 +61,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '98 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.75
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '159 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.54.65
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '168 🇳🇱 IP Volume  SNI 👾 漁師'
-    server: 94.102.53.19
-    type: trojan
-    port: 443
-    password: TestingServer@@
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '185 🇳🇱 IP Volume  SNI 👾 漁師'
+  - name: '147 🇳🇱 IP Volume  SNI 👾 漁師'
     server: content-provider13.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
