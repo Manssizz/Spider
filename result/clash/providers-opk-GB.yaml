@@ -1,29 +1,21 @@
 proxies:
-  - name: '10 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
+  - name: '24 🇬🇧 OVH SAS SNI 👾 漁師'
+    server: uk1.v2-ray.us
     type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
+    port: 443
+    uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '47 🇬🇧 DIGITALOCE SNI 👾 漁師'
-    server: 161.35.47.70
-    type: vmess
-    port: 13472
-    uuid: 349d1072-5714-4daf-ffcc-4b87cf0eb798
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '84 🇬🇧 DIGITALOCE SNI 👾 漁師'
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '184 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
     port: 29210
