@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '88 🇭🇰 HKT Limite SNI 👾 漁師'
     server: hkt.kidcc.xyz
     type: vmess
@@ -66,11 +66,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '108 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: hk4.netflix6.com
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /hls/hk4.m3u8
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '118 🇭🇰 Alibaba US SNI 👾 漁師'
     server: 8.218.136.231
     type: vmess
@@ -98,11 +98,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Download
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '119 🇭🇰 91440300MA SNI 👾 漁師'
     server: 117.164.185.222
     type: vmess
@@ -158,11 +158,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Download
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '195 🇭🇰 Alibaba US SNI 👾 漁師'
     server: 47.243.72.76
     type: vmess
@@ -196,4 +196,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
