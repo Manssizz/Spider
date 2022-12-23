@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '37 🇺🇸 Green Floi CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -150,7 +150,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '51 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -274,11 +274,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /abc
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '89 🇺🇸 Green Floi CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -418,7 +418,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '109 🇺🇸 Linode LL SNI 👾 漁師'
     server: yzdx.relay01.fast001.buzz
     type: vmess
@@ -430,7 +430,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '115 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -534,11 +534,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '141 🇺🇸 AS40676 CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -867,7 +867,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '154 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.146.242.130
     type: trojan
@@ -885,7 +885,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '174 🇺🇸 PEGTECHINC SNI 👾 漁師'
     server: zzus01.fuqiangren.com
     type: trojan

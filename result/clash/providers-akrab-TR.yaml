@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /filestreamingservice/files/58f054r2-086t-27p8-38e2-f3u24a0b2398
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '8 🇹🇷 Comnet Bil SNI 👾 漁師'
     server: ir2.archnet.cyou
     type: trojan
@@ -23,4 +23,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
