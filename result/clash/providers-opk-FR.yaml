@@ -1,5 +1,21 @@
 proxies:
-  - name: '173 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '31 🇫🇷 CLOUDFLARE SNI 👾 漁師'
+    server: 195.154.77.190
+    type: vmess
+    port: 2082
+    uuid: 36fa45db-2d4a-4295-a1fe-223836989878
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /pineapple
+      headers:
+        Host: tsel.me
+  - name: '128 🇫🇷 Online S.a SNI 👾 漁師'
     server: 163.172.166.134
     type: vmess
     port: 31990
@@ -7,15 +23,6 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '166 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: frt2.sshocean.net
-    type: trojan
-    port: 443
-    password: b3902e81-6260-4932-bcc9-708445fe40b4
     udp: true
     skip-cert-verify: true
     network: tcp
