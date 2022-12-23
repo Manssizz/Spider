@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Download
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '174 🇭🇰 Alibaba US SNI 👾 漁師'
     server: 47.243.89.177
     type: vmess
@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Download
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '188 🇭🇰 Scloud Pte SNI 👾 漁師'
     server: v26.idcloudhost.de
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '89 🇭🇰 ZEN-ECN SNI 👾 漁師'
     server: hk2.openssl3.com
     type: trojan
@@ -67,7 +67,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '112 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: azhk095.xiaohouzi.club
     type: trojan
