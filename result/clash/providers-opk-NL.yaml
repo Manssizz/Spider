@@ -1,5 +1,21 @@
 proxies:
-  - name: '27 🇳🇱 Online S.a SNI 👾 漁師'
+  - name: '31 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: nl.gongyiyun.cf
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '86 🇳🇱 Online S.a SNI 👾 漁師'
     server: 163.172.213.74
     type: vmess
     port: 443
@@ -12,14 +28,32 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /fastssh
+      path: /
       headers:
         Host: tsel.me
-  - name: '57 🇳🇱 AS40676 SNI 👾 漁師'
-    server: content-provider24.cdn-delivery.akamaicd.com
+  - name: '61 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.54.66
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '70 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: content-provider13.cdn-delivery.akamaicd.com
     type: trojan
     port: 443
     password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '156 🇳🇱 IP Volume  SNI 👾 漁師'
+    server: 94.102.53.19
+    type: trojan
+    port: 443
+    password: TestingServer@@
     udp: true
     skip-cert-verify: true
     network: tcp

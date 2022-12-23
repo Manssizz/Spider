@@ -1,5 +1,17 @@
 proxies:
-  - name: '29 🇩🇪 OVH SAS SNI 👾 漁師'
+  - name: '68 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '120 🇩🇪 OVH SAS SNI 👾 漁師'
     server: de1.v2-ray.us
     type: vmess
     port: 443
@@ -15,35 +27,11 @@ proxies:
       path: /vmess
       headers:
         Host: tsel.me
-  - name: '48 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
-    type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '54 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
-    type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '34 🇩🇪 OVH SAS SNI 👾 漁師'
-    server: t2.teslacdn1.live
+  - name: '44 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.250.247
     type: trojan
     port: 443
-    password: 4331812b-92ff-47b5-9f32-78b5150e625f
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp
