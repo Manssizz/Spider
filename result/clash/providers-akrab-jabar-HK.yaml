@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '134 🇭🇰 ADCDATA.CO SNI 👾 漁師'
     server: ah.yd01.paopaocloud.cyou
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '31 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: azhk095.xiaohouzi.club
     type: trojan
@@ -39,7 +39,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '59 🇭🇰 ADCDATA.CO SNI 👾 漁師'
     server: 194.156.99.39
     type: trojan
@@ -48,4 +48,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
