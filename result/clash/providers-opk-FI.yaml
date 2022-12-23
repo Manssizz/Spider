@@ -1,9 +1,9 @@
 proxies:
-  - name: '16 🇫🇮 Hetzner On SNI 👾 漁師'
-    server: 135.181.235.21
+  - name: '158 🇫🇮 Hetzner On SNI 👾 漁師'
+    server: api.sira.ml
     type: vmess
-    port: 12951
-    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    port: 443
+    uuid: 3580321e-0bce-494e-bc71-e797c0a5b125
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /
+      path: /sir2ersvws
       headers:
         Host: tsel.me
