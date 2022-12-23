@@ -66,11 +66,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '60 🇸🇬 HURRICANE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -146,7 +146,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '80 🇸🇬 ORACLE-BMC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -174,11 +174,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /chat
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '92 🇨🇳 Shenzhen T SNI 👾 漁師'
     server: 139.186.198.63
     type: vmess
@@ -190,7 +190,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '98 🇸🇬 OVH SAS SNI 👾 漁師'
     server: 139.99.91.95
     type: vmess
@@ -214,7 +214,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '108 🇰🇷 ORACLE-BMC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -242,7 +242,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '116 🇭🇰 HKT Limite SNI 👾 漁師'
     server: 203.218.243.113
     type: vmess
@@ -254,11 +254,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '119 🇸🇬 HURRICANE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -286,11 +286,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '135 🇦🇪 Melbikomas SNI 👾 漁師'
     server: AE-68-218.shoptunnel.live
     type: vmess
@@ -302,7 +302,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '136 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: SG-244-255.shoptunnel.live
     type: vmess
@@ -326,7 +326,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '5 🇮🇳 ORACLE-BMC SNI 👾 漁師'
     server: jgwhdlb3.gaox.ml
     type: trojan
@@ -335,7 +335,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '7 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: 168.138.44.176
     type: trojan
@@ -362,7 +362,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '23 🇰🇷 AMAZON-02 SNI 👾 漁師'
     server: 3.34.6.217
     type: trojan
@@ -371,7 +371,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '27 🇯🇵 ORACLE-BMC SNI 👾 漁師'
     server: 168.138.43.89
     type: trojan
@@ -380,7 +380,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '31 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: azhk095.xiaohouzi.club
     type: trojan
@@ -389,7 +389,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '37 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
@@ -416,7 +416,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '65 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
@@ -434,7 +434,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '75 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
@@ -443,7 +443,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '82 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
@@ -479,7 +479,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '106 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: teradacyou.mike22.net
     type: trojan
@@ -488,7 +488,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '107 🇸🇬 Linode LL CDN 👾 漁師'
     server: hohm.microsoft.com
     type: trojan
@@ -510,7 +510,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '112 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: 49.212.193.129
     type: trojan
@@ -537,7 +537,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '124 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: tennouji.mike22.net
     type: trojan
@@ -546,7 +546,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '126 🇮🇳 ORACLE-BMC SNI 👾 漁師'
     server: 152.67.160.174
     type: trojan
@@ -564,7 +564,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '129 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: jp-tk-31.fuckjdieng.uk
     type: trojan
@@ -573,7 +573,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '137 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: os13.cats22.net
     type: trojan
@@ -582,7 +582,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '140 🇰🇷 ORACLE-BMC SNI 👾 漁師'
     server: kr1.api-aws.com
     type: trojan
@@ -591,7 +591,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '145 🇸🇬 Melbikomas SNI 👾 漁師'
     server: 5.44.249.44
     type: trojan
@@ -600,11 +600,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /gateway/connect
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '146 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: os6.cats22.net
     type: trojan
@@ -622,7 +622,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '156 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: tk-tr-4.cats22.net
     type: trojan
@@ -641,7 +641,7 @@ proxies:
     protocol: origin
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=config.teams.microsoft.com
+    obfs-param: obfs=tls;obfs-host=click.zoom.us
     udp: true
   - name: '83 🇸🇬 AMAZON-02 SNI 👾 漁師'
     server: sg-am3.eqsunshine.com
@@ -652,5 +652,5 @@ proxies:
     protocol: origin
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=config.teams.microsoft.com
+    obfs-param: obfs=tls;obfs-host=click.zoom.us
     udp: true
