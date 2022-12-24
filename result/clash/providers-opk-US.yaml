@@ -1,17 +1,5 @@
 proxies:
-  - name: '7 🇺🇸 IT7NET SNI 👾 漁師'
-    server: 23.105.199.160
-    type: vmess
-    port: 37584
-    uuid: 61914893-393a-4685-fc2d-13328bd8e491
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '8 🇺🇸 IT7NET SNI 👾 漁師'
+  - name: '3 🇺🇸 IT7NET SNI 👾 漁師'
     server: 23.105.199.160
     type: vmess
     port: 27317
@@ -23,27 +11,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '21 🇺🇸 Linode LL SNI 👾 漁師'
-    server: vus2.0bad.com
+  - name: '13 🇺🇸 EGIHOSTING SNI 👾 漁師'
+    server: 23.230.146.254
     type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: tsel.me
-  - name: '35 🇺🇸 IT7NET SNI 👾 漁師'
-    server: 23.105.199.160
-    type: vmess
-    port: 23903
-    uuid: 60b6c1a6-6306-4e28-91d9-8d2be2449ae8
+    port: 1258
+    uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
     alterId: 0
     cipher: auto
     tls: true
@@ -52,22 +24,6 @@ proxies:
     network: tcp
     servername: tsel.me
   - name: '39 🇺🇸 ORACLE-BMC SNI 👾 漁師'
-    server: 152.67.254.16
-    type: vmess
-    port: 43815
-    uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /abc
-      headers:
-        Host: tsel.me
-  - name: '52 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.146.133.157
     type: vmess
     port: 51009
@@ -79,7 +35,23 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '70 🇺🇸 IT7NET SNI 👾 漁師'
+  - name: '49 🇺🇸 Melbikomas SNI 👾 漁師'
+    server: f1f3227.u1.glados-config.net
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: tsel.me
+  - name: '63 🇺🇸 IT7NET SNI 👾 漁師'
     server: 23.105.199.160
     type: vmess
     port: 25078
@@ -91,11 +63,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '74 🇺🇸 OVH SAS SNI 👾 漁師'
-    server: 15.204.31.63
+  - name: '67 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 51.81.220.34
     type: vmess
     port: 443
-    uuid: 54e5b550-9eb2-455b-9aa4-0123a68e0b21
+    uuid: 0842be25-d718-491a-bca8-5e9d080150e6
     alterId: 0
     cipher: auto
     tls: true
@@ -107,7 +79,23 @@ proxies:
       path: /vmess
       headers:
         Host: tsel.me
-  - name: '108 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+  - name: '94 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
+    server: 104.194.245.57
+    type: vmess
+    port: 16362
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '117 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: blog.voewl.com
     type: vmess
     port: 43815
@@ -123,11 +111,11 @@ proxies:
       path: /abc
       headers:
         Host: tsel.me
-  - name: '163 🇺🇸 IT7NET SNI 👾 漁師'
-    server: 23.105.199.160
+  - name: '119 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: 150.230.41.9
     type: vmess
-    port: 25078
-    uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb
+    port: 23292
+    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
     alterId: 0
     cipher: auto
     tls: true
@@ -135,47 +123,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '165 🇺🇸 IT7NET SNI 👾 漁師'
-    server: 23.105.199.160
+  - name: '124 🇺🇸 Linode LL SNI 👾 漁師'
+    server: us2.caoyyds.top
     type: vmess
-    port: 25078
-    uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '171 🇺🇸 IT7NET SNI 👾 漁師'
-    server: 23.105.199.160
-    type: vmess
-    port: 23166
-    uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '181 🇺🇸 Melbikomas SNI 👾 漁師'
-    server: 88.210.37.46
-    type: vmess
-    port: 22576
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '182 🇺🇸 AS-COLOCRO SNI 👾 漁師'
-    server: usrn1.xiaolongyun.xyz
-    type: vmess
-    port: 21903
-    uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+    port: 9009
+    uuid: 1e74a724-8a33-480e-9337-903c3b9b05bc
     alterId: 0
     cipher: auto
     tls: true
@@ -184,10 +136,38 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /vv
+      path: /cao
       headers:
         Host: tsel.me
-  - name: '188 🇺🇸 IT7NET SNI 👾 漁師'
+  - name: '144 🇺🇸 Linode LL SNI 👾 漁師'
+    server: yzdx.relay01.fast001.buzz
+    type: vmess
+    port: 19244
+    uuid: d422c318-f19b-3578-b52f-52e73c33dd70
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '147 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: us-lb.sshkit.org
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: tsel.me
+  - name: '149 🇺🇸 IT7NET SNI 👾 漁師'
     server: 23.105.199.160
     type: vmess
     port: 23903
@@ -199,17 +179,33 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '27 🇺🇸 MIRholding SNI 👾 漁師'
-    server: 138.124.183.226
+  - name: '163 🇺🇸 Hyonix LLC SNI 👾 漁師'
+    server: 185.216.72.172
+    type: vmess
+    port: 443
+    uuid: 6d11cad4-be87-4b05-aa1d-0d19b011a6d3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /zvtyvws
+      headers:
+        Host: tsel.me
+  - name: '25 🇺🇸 OVH SAS SNI 👾 漁師'
+    server: 135.148.148.4
     type: trojan
     port: 443
-    password: xxoo
+    password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '28 🇺🇸 ORACLE-BMC SNI 👾 漁師'
-    server: 129.146.255.158
+  - name: '62 🇺🇸 ORACLE-BMC SNI 👾 漁師'
+    server: fhcarm2.gaox.ml
     type: trojan
     port: 443
     password: f39bd244-f5fe-415c-8b98-a1e5250bf178
@@ -217,29 +213,29 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '84 🇺🇸 IT7NET SNI 👾 漁師'
-    server: us-la-41.fnhffffe4.cc
+  - name: '64 🇺🇸 PEGTECHINC SNI 👾 漁師'
+    server: zzus01.fuqiangren.com
     type: trojan
-    port: 50230
-    password: 9f547d14-f92a-4324-bf6b-bc958ab05eb1
+    port: 20220
+    password: 7ee33199-6fda-4b38-a42d-f6e5baeae4f1
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '100 🇺🇸 OVH SAS SNI 👾 漁師'
-    server: 135.148.148.4
+  - name: '114 🇺🇸 PEGTECHINC SNI 👾 漁師'
+    server: zzus01.fuqiangren.com
     type: trojan
-    port: 443
-    password: 76fcac80-9943-4eab-8717-0ebebea94b70
+    port: 20220
+    password: 145000dd-8c9e-4625-a73e-999847c06b65
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '150 🇺🇸 MIRholding SNI 👾 漁師'
-    server: 138.124.183.222
+  - name: '137 🇺🇸 AMAZON-AES SNI 👾 漁師'
+    server: tr10.tgcunzhang.xyz
     type: trojan
-    port: 443
-    password: xxoo
+    port: 10076
+    password: 2a9ba60d-10ce-4f79-97e7-817334456195
     udp: true
     skip-cert-verify: true
     network: tcp
