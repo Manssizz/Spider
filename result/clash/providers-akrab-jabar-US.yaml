@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '4 🇺🇸 MICROSOFT- CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -150,7 +150,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '42 🇺🇸 AMAZON-02 SNI 👾 漁師'
     server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
     type: vmess
@@ -162,7 +162,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '45 🇺🇸 PONYNET CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -238,11 +238,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /chat
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '59 🇺🇸 MICROSOFT- CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -406,7 +406,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '100 🇺🇸 DEDIPATH-L SNI 👾 漁師'
     server: us4.czs1000.com
     type: vmess
@@ -418,7 +418,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '102 🇺🇸 SHARKTECH CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -582,11 +582,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '144 🇺🇸 SHARKTECH CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -614,7 +614,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '150 🇺🇸 Green Floi CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -642,7 +642,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '168 🇺🇸 MICROSOFT- CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -766,11 +766,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /zingfast/
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '195 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -846,7 +846,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '212 🇺🇸 MICROSOFT- CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -887,7 +887,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '64 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
     server: rn.oppo.quest
     type: trojan
@@ -909,7 +909,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '106 🇺🇸 Kirino LLC SNI 👾 漁師'
     server: hk.swiftfalcon.app
     type: trojan
@@ -927,7 +927,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '134 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.146.190.42
     type: trojan
@@ -964,5 +964,5 @@ proxies:
     protocol: auth_chain_a
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=172.67.199.34
+    obfs-param: obfs=tls;obfs-host=teams.microsoft.com
     udp: true
