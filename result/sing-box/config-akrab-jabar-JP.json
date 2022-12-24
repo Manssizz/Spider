@@ -89,7 +89,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -159,7 +159,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -167,6 +167,62 @@
       "tag": "74 🇯🇵 AMAZON-02 SNI 👾 漁師",
       "server": "jp5.czs1000.com",
       "server_port": 11217,
+      "uuid": "18fe5945-3c38-411a-8016-d2c9b1933214",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "172.67.199.34"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "172.67.199.34"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "90 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "1ubias-auqbs.kuwoair.me",
+      "server_port": 44234,
+      "uuid": "55898615-dc7d-42be-a3d9-131ab3e7bdc0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/155615",
+        "headers": {
+          "Host": "teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "106 🇯🇵 ORACLE-BMC SNI 👾 漁師",
+      "server": "138.2.44.211",
+      "server_port": 20081,
+      "uuid": "593b8525-0c48-4b0f-d9af-2d73a9148973",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "172.67.199.34"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "110 🇯🇵 AMAZON-02 SNI 👾 漁師",
+      "server": "jp20.czs1000.com",
+      "server_port": 443,
       "uuid": "18fe5945-3c38-411a-8016-d2c9b1933214",
       "security": "auto",
       "alter_id": 0,
@@ -185,62 +241,6 @@
     },
     {
       "type": "vmess",
-      "tag": "90 🇯🇵 AMAZON-02 SNI 👾 漁師",
-      "server": "1ubias-auqbs.kuwoair.me",
-      "server_port": 44234,
-      "uuid": "55898615-dc7d-42be-a3d9-131ab3e7bdc0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "172.67.199.34"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/155615",
-        "headers": {
-          "Host": "172.67.199.34"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "106 🇯🇵 ORACLE-BMC SNI 👾 漁師",
-      "server": "138.2.44.211",
-      "server_port": 20081,
-      "uuid": "593b8525-0c48-4b0f-d9af-2d73a9148973",
-      "security": "auto",
-      "alter_id": 64,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "110 🇯🇵 AMAZON-02 SNI 👾 漁師",
-      "server": "jp20.czs1000.com",
-      "server_port": 443,
-      "uuid": "18fe5945-3c38-411a-8016-d2c9b1933214",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "172.67.199.34"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
-        "headers": {
-          "Host": "172.67.199.34"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "120 🇯🇵 ORACLE-BMC SNI 👾 漁師",
       "server": "152.69.197.60",
       "server_port": 1069,
@@ -250,7 +250,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -278,13 +278,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -313,13 +313,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -334,13 +334,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -365,7 +365,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -401,7 +401,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -461,7 +461,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -497,7 +497,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -521,7 +521,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
