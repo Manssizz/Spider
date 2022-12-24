@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '66 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: hk4.netflix6.com
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Download
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '92 🇭🇰 91440300MA SNI 👾 漁師'
     server: 117.164.185.222
     type: vmess
@@ -82,7 +82,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '143 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: hk5.netflix6.com
     type: vmess
@@ -94,11 +94,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /hls/hk5.m3u8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '145 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80.sanfen001.pics
     type: vmess
@@ -110,11 +110,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '157 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk80-2.sanfen001.pics
     type: vmess
@@ -126,11 +126,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '169 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: yzdx.relay01.fast001.buzz
     type: vmess
@@ -142,4 +142,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com

@@ -70,34 +70,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
       "type": "vmess",
       "tag": "73 🇰🇷 ORACLE-BMC SNI 👾 漁師",
       "server": "130.162.141.104",
-      "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "safebrowsing.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/reffs7y26g0ua",
-        "headers": {
-          "Host": "safebrowsing.google.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "107 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "surongwei.eu.org",
       "server_port": 443,
       "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
       "security": "auto",
@@ -112,6 +91,27 @@
         "path": "/reffs7y26g0ua",
         "headers": {
           "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "surongwei.eu.org",
+      "server_port": 443,
+      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/reffs7y26g0ua",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -161,13 +161,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -180,7 +180,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -192,7 +192,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -204,7 +204,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -228,7 +228,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
