@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '13 🇸🇬 AMAZON-02 SNI 👾 漁師'
     server: yzdx.relay01.fast001.buzz
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /das321S8
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '19 🇸🇬 Tencent Bu CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -146,11 +146,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /jhndsmlanj11223
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '80 🇸🇬 OVH SAS SNI 👾 漁師'
     server: 139.99.91.95
     type: vmess
@@ -303,4 +303,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34

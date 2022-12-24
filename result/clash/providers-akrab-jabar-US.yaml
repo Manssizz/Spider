@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '17 🇺🇸 Green Floi CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /zingfast/
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '22 🇺🇸 SHARKTECH CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -178,7 +178,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '51 🇺🇸 DEDIPATH-L CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -422,7 +422,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '125 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 152.67.254.16
     type: vmess
@@ -642,7 +642,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '168 🇺🇸 OVH SAS CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
