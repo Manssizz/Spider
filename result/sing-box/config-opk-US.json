@@ -45,29 +45,39 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "15 🇺🇸 IT7NET SNI 👾 漁師",
-        "21 🇺🇸 DIGITALOCE SNI 👾 漁師",
-        "41 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "49 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "66 🇺🇸 SHARKTECH SNI 👾 漁師",
-        "88 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "104 🇺🇸 IT7NET SNI 👾 漁師",
-        "123 🇺🇸 IT7NET SNI 👾 漁師",
-        "125 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "166 🇺🇸 IT7NET SNI 👾 漁師",
-        "8 🇺🇸 AMAZON-AES SNI 👾 漁師",
-        "73 🇺🇸 PEGTECHINC SNI 👾 漁師",
-        "128 🇺🇸 PEGTECHINC SNI 👾 漁師",
-        "146 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-        "46 🇺🇸 AS40676 SNI 👾 漁師"
+        "26 🇺🇸 DEDIPATH-L SNI 👾 漁師",
+        "32 🇺🇸 ASN-QUADRA SNI 👾 漁師",
+        "47 🇺🇸 Global Net SNI 👾 漁師",
+        "51 🇺🇸 IT7NET SNI 👾 漁師",
+        "90 🇺🇸 MULTA-ASN1 SNI 👾 漁師",
+        "95 🇺🇸 Linode LL SNI 👾 漁師",
+        "97 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+        "109 🇺🇸 Melbikomas SNI 👾 漁師",
+        "125 🇺🇸 SHARKTECH SNI 👾 漁師",
+        "194 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+        "203 🇺🇸 IT7NET SNI 👾 漁師",
+        "210 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+        "212 🇺🇸 Linode LL SNI 👾 漁師",
+        "4 🇺🇸 PEGTECHINC SNI 👾 漁師",
+        "23 🇺🇸 PEGTECHINC SNI 👾 漁師",
+        "54 🇺🇸 MIRholding SNI 👾 漁師",
+        "56 🇺🇸 OVH SAS SNI 👾 漁師",
+        "70 🇺🇸 OVH SAS SNI 👾 漁師",
+        "124 🇺🇸 IT7NET SNI 👾 漁師",
+        "145 🇺🇸 MIRholding SNI 👾 漁師",
+        "163 🇺🇸 DIGITALOCE SNI 👾 漁師",
+        "186 🇺🇸 PERFORMIVE SNI 👾 漁師",
+        "187 🇺🇸 PEGTECHINC SNI 👾 漁師",
+        "205 🇺🇸 Kirino LLC SNI 👾 漁師",
+        "130 🇺🇸 AS40676 SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "15 🇺🇸 IT7NET SNI 👾 漁師",
-      "server": "23.105.199.160",
-      "server_port": 27317,
-      "uuid": "01832c71-50ac-4891-ae37-1dea8f42ae2d",
+      "tag": "26 🇺🇸 DEDIPATH-L SNI 👾 漁師",
+      "server": "us4.czs1000.com",
+      "server_port": 4122,
+      "uuid": "9863ce47-870c-41ef-b12b-1eb178960c83",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -78,10 +88,10 @@
     },
     {
       "type": "vmess",
-      "tag": "21 🇺🇸 DIGITALOCE SNI 👾 漁師",
-      "server": "24.199.92.121",
-      "server_port": 443,
-      "uuid": "5612c06f-d0c1-4c86-aacf-10e1bfaa4254",
+      "tag": "32 🇺🇸 ASN-QUADRA SNI 👾 漁師",
+      "server": "us2.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com",
+      "server_port": 11218,
+      "uuid": "9863ce47-870c-41ef-b12b-1eb178960c83",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -91,7 +101,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/zingfast/",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
           "Host": "tsel.me"
         }
@@ -99,40 +109,12 @@
     },
     {
       "type": "vmess",
-      "tag": "41 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "129.146.133.157",
-      "server_port": 51009,
-      "uuid": "81714cef-9bde-4a08-aa50-d6bc0172d78b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "49 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "129.159.41.233",
-      "server_port": 32586,
-      "uuid": "341a9182-c423-499c-c46e-d17838b29037",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "66 🇺🇸 SHARKTECH SNI 👾 漁師",
-      "server": "67.21.72.44",
+      "tag": "47 🇺🇸 Global Net SNI 👾 漁師",
+      "server": "us1.netflix6.com",
       "server_port": 443,
-      "uuid": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+      "uuid": "cfd7fb7a-1e5b-38a2-8486-95319f2007c0",
       "security": "auto",
-      "alter_id": 64,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -140,7 +122,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/path/120208301422",
+        "path": "/hls/us1.m3u8",
         "headers": {
           "Host": "tsel.me"
         }
@@ -148,24 +130,10 @@
     },
     {
       "type": "vmess",
-      "tag": "88 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "129.159.41.233",
-      "server_port": 32586,
-      "uuid": "341a9182-c423-499c-c46e-d17838b29037",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "104 🇺🇸 IT7NET SNI 👾 漁師",
+      "tag": "51 🇺🇸 IT7NET SNI 👾 漁師",
       "server": "23.105.199.160",
-      "server_port": 27317,
-      "uuid": "01832c71-50ac-4891-ae37-1dea8f42ae2d",
+      "server_port": 37584,
+      "uuid": "61914893-393a-4685-fc2d-13328bd8e491",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -176,10 +144,31 @@
     },
     {
       "type": "vmess",
-      "tag": "123 🇺🇸 IT7NET SNI 👾 漁師",
-      "server": "23.105.199.160",
-      "server_port": 23903,
-      "uuid": "60b6c1a6-6306-4e28-91d9-8d2be2449ae8",
+      "tag": "90 🇺🇸 MULTA-ASN1 SNI 👾 漁師",
+      "server": "us8.netflix6.com",
+      "server_port": 443,
+      "uuid": "cfd7fb7a-1e5b-38a2-8486-95319f2007c0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/us8.m3u8",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "95 🇺🇸 Linode LL SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19244,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -190,8 +179,8 @@
     },
     {
       "type": "vmess",
-      "tag": "125 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "152.67.254.16",
+      "tag": "97 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+      "server": "blog.voewl.com",
       "server_port": 43815,
       "uuid": "7a9f026f-f7a8-40ca-f2f9-3b380c287c0d",
       "security": "auto",
@@ -211,10 +200,87 @@
     },
     {
       "type": "vmess",
-      "tag": "166 🇺🇸 IT7NET SNI 👾 漁師",
+      "tag": "109 🇺🇸 Melbikomas SNI 👾 漁師",
+      "server": "88.210.37.46",
+      "server_port": 22576,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "125 🇺🇸 SHARKTECH SNI 👾 漁師",
+      "server": "us6.czs1000.com",
+      "server_port": 11218,
+      "uuid": "9863ce47-870c-41ef-b12b-1eb178960c83",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "194 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+      "server": "129.159.41.233",
+      "server_port": 32586,
+      "uuid": "341a9182-c423-499c-c46e-d17838b29037",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "203 🇺🇸 IT7NET SNI 👾 漁師",
       "server": "23.105.199.160",
-      "server_port": 25078,
-      "uuid": "964f9b2b-7ff1-4026-d4a9-41b824f4b3bb",
+      "server_port": 37584,
+      "uuid": "61914893-393a-4685-fc2d-13328bd8e491",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "210 🇺🇸 ORACLE-BMC SNI 👾 漁師",
+      "server": "129.146.133.157",
+      "server_port": 51009,
+      "uuid": "81714cef-9bde-4a08-aa50-d6bc0172d78b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "212 🇺🇸 Linode LL SNI 👾 漁師",
+      "server": "yzdx.relay01.fast001.buzz",
+      "server_port": 19245,
+      "uuid": "d422c318-f19b-3578-b52f-52e73c33dd70",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -225,22 +291,10 @@
     },
     {
       "type": "trojan",
-      "tag": "8 🇺🇸 AMAZON-AES SNI 👾 漁師",
-      "server": "tr6.tgcunzhang.xyz",
-      "server_port": 54178,
-      "password": "2a9ba60d-10ce-4f79-97e7-817334456195",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "73 🇺🇸 PEGTECHINC SNI 👾 漁師",
+      "tag": "4 🇺🇸 PEGTECHINC SNI 👾 漁師",
       "server": "zzus01.fuqiangren.com",
       "server_port": 20220,
-      "password": "d82aaf86-88fa-4492-b7c8-7277b67c53b9",
+      "password": "99f8aaa3-49c9-46c4-9a44-b335cac735d6",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -249,10 +303,10 @@
     },
     {
       "type": "trojan",
-      "tag": "128 🇺🇸 PEGTECHINC SNI 👾 漁師",
+      "tag": "23 🇺🇸 PEGTECHINC SNI 👾 漁師",
       "server": "zzus01.fuqiangren.com",
       "server_port": 20220,
-      "password": "e09da773-5efe-4cf0-8c86-7752b5b9c379",
+      "password": "aee52fee-08a5-4cd2-a90e-916bba9c9cf1",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -261,10 +315,106 @@
     },
     {
       "type": "trojan",
-      "tag": "146 🇺🇸 ORACLE-BMC SNI 👾 漁師",
-      "server": "129.146.255.158",
+      "tag": "54 🇺🇸 MIRholding SNI 👾 漁師",
+      "server": "138.124.183.226",
       "server_port": 443,
-      "password": "f39bd244-f5fe-415c-8b98-a1e5250bf178",
+      "password": "xxoo",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "56 🇺🇸 OVH SAS SNI 👾 漁師",
+      "server": "135.148.148.4",
+      "server_port": 443,
+      "password": "800eb26c-cd0c-4269-aae7-e63d75de4edd",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "70 🇺🇸 OVH SAS SNI 👾 漁師",
+      "server": "135.148.148.4",
+      "server_port": 443,
+      "password": "76fcac80-9943-4eab-8717-0ebebea94b70",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "124 🇺🇸 IT7NET SNI 👾 漁師",
+      "server": "us.swiftfalcon.app",
+      "server_port": 8447,
+      "password": "shenmegui",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "145 🇺🇸 MIRholding SNI 👾 漁師",
+      "server": "138.124.183.222",
+      "server_port": 443,
+      "password": "xxoo",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "163 🇺🇸 DIGITALOCE SNI 👾 漁師",
+      "server": "24.199.92.121",
+      "server_port": 443,
+      "password": "5612c06f-d0c1-4c86-aacf-10e1bfaa4254",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "186 🇺🇸 PERFORMIVE SNI 👾 漁師",
+      "server": "107.181.161.163",
+      "server_port": 443,
+      "password": "d1478689-439c-4590-b7ce-36e786a02dc3",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "187 🇺🇸 PEGTECHINC SNI 👾 漁師",
+      "server": "zzus01.fuqiangren.com",
+      "server_port": 20220,
+      "password": "dbbd0b55-047f-4075-8917-eb7492837446",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "205 🇺🇸 Kirino LLC SNI 👾 漁師",
+      "server": "hk.swiftfalcon.app",
+      "server_port": 28892,
+      "password": "shenmegui",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -273,9 +423,9 @@
     },
     {
       "type": "shadowsocksr",
-      "tag": "46 🇺🇸 AS40676 SNI 👾 漁師",
+      "tag": "130 🇺🇸 AS40676 SNI 👾 漁師",
       "server": "ssrfree.zhujicn2.net",
-      "server_port": 10007,
+      "server_port": 10002,
       "method": "aes-256-cfb",
       "password": "dongtaiwang.com",
       "obfs": "tls1.2_ticket_auth",
