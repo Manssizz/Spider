@@ -84,46 +84,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.193.181.192",
-            "port": 8090,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "08bc30e1-be39-4eb4-e887-e6579be15a45",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-50 🇷🇺 RECONN LLC SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "RU-153-16.shoptunnel.live",
             "port": 31990,
             "users": [
@@ -147,24 +107,29 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-105 🇷🇺 LLC Baxet SNI 👾 漁師"
+      "tag": "proxy-189 🇷🇺 LLC Baxet SNI 👾 漁師"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "eu-east-ruo.openssl3.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "9KogHwaY7hVD",
-            "port": 443
+            "address": "185.112.83.213",
+            "port": 21856,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -176,7 +141,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-181 🇷🇺 LLC Baxet SNI 👾 漁師"
+      "tag": "proxy-207 🇷🇺 AEZA GROUP SNI 👾 漁師"
     }
   ],
   "dns": {

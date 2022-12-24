@@ -1,33 +1,37 @@
 proxies:
-  - name: '128 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 78.46.244.34
+  - name: '116 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 18.196.228.65
     type: vmess
-    port: 33655
-    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: 172.67.199.34
-  - name: '174 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.250.163
-    type: vmess
-    port: 2096
-    uuid: e175ba8e-f3e8-4ec5-a350-f058537dca8e
+    port: 443
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
-      path: /
+      path: /in-vpn-majanist-vws
       headers:
-        Host: teams.microsoft.com
-  - name: '66 🇩🇪 firstcolo  SNI 👾 漁師'
+        Host: 172.67.199.34
+  - name: '156 🇩🇪 Hetzner On CDN 👾 漁師'
+    server: 104.18.21.226
+    type: vmess
+    port: 443
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: sun.prxpro.cc
+    ws-opts: 
+      path: /g7970d1b58m1ixn3i16i
+      headers:
+        Host: sun.prxpro.cc
+  - name: '162 🇩🇪 firstcolo  SNI 👾 漁師'
     server: mahsaxrhw.mahsaaminivpn.com
     type: trojan
     port: 33358
@@ -35,12 +39,12 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
-  - name: '166 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider9.cdn-delivery.akamaicd.com
+    servername: 172.67.199.34
+  - name: '214 🇩🇪 firstcolo  SNI 👾 漁師'
+    server: 31.172.83.235
     type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
+    port: 33358
+    password: A98SDq3ki5
     udp: true
     skip-cert-verify: true
     network: tcp
