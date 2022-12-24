@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '152 🇳🇱 The Infras SNI 👾 漁師'
     server: 5.255.112.158
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '187 🇳🇱 Scalaxy B. SNI 👾 漁師'
     server: 5.45.78.209
     type: vmess
