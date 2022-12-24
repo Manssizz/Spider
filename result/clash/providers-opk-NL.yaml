@@ -1,10 +1,17 @@
 proxies:
-  - name: '189 🇳🇱 The Infras SNI 👾 漁師'
-    server: ir2.archnet.cyou
-    type: trojan
-    port: 6393
-    password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+  - name: '40 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: 5.45.78.209
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
