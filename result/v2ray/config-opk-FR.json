@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "163.172.166.134",
+            "address": "FR-166-134.shoptunnel.live",
             "port": 31990,
             "users": [
               {
@@ -107,7 +107,127 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-96 🇫🇷 Online S.a SNI 👾 漁師"
+      "tag": "proxy-3 🇫🇷 Online S.a SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.135.125.118",
+            "port": 2082,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8ce6f8a8-9aca-4029-994a-cedc1ba8292c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-119 🇫🇷 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.228.217.34",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "806ec1ab-0eee-46d2-884a-b7b88d5cb651",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-139 🇫🇷 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.159.143.143",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "4dd396a1-0fb2-4e71-8c82-d3654d7940da",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/vmess"
+        }
+      },
+      "tag": "proxy-205 🇫🇷 Online S.a SNI 👾 漁師"
     },
     {
       "mux": {
@@ -136,7 +256,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-23 🇫🇷 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-129 🇫🇷 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -147,12 +267,12 @@
       "settings": {
         "servers": [
           {
-            "address": "51.91.11.29",
+            "address": "176.31.83.90",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad",
+            "password": "origin",
             "port": 443
           }
         ]
@@ -165,7 +285,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-58 🇫🇷 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-158 🇫🇷 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
