@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /zingfast/
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '5 🇸🇬 ORACLE-BMC SNI 👾 漁師'
     server: 129.150.44.64
     type: vmess
@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '48 🇸🇬 Contabo As SNI 👾 漁師'
     server: 109.123.237.41
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /fastssh
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '54 🇸🇬 ORACLE-BMC SNI 👾 漁師'
     server: 168.138.171.65
     type: vmess
@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '62 🇸🇬 AMAZON-02 SNI 👾 漁師'
     server: v41.idcloudhost.de
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '69 🇸🇬 Tencent Bu SNI 👾 漁師'
     server: sg6.netflix6.com
     type: vmess
@@ -98,11 +98,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /hls/sg6.m3u8
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '72 🇸🇬 DIGITALOCE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -146,11 +146,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: 
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '106 🇸🇬 G-Core Lab SNI 👾 漁師'
     server: 91.199.87.51
     type: vmess
@@ -162,11 +162,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /shirker
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '123 🇸🇬 HURRICANE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -226,7 +226,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '147 🇸🇬 HURRICANE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -302,11 +302,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /hls/sg3.m3u8
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '46 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: sg-01.tiktokcdn.top
     type: trojan
@@ -324,7 +324,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '141 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: 159.223.89.239
     type: trojan
@@ -333,7 +333,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '191 🇸🇬 Linode LL CDN 👾 漁師'
     server: hohm.microsoft.com
     type: trojan
