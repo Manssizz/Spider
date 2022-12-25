@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '160 🇰🇷 AMAZON-02 SNI 👾 漁師'
     server: v-aws-sel-4.heima-bot.tech
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /m3
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '188 🇰🇷 Scloud Pte SNI 👾 漁師'
     server: jp-cdn.iqyun.zone
     type: vmess
@@ -50,7 +50,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '202 🇰🇷 AMAZON-02 SNI 👾 漁師'
     server: 54.180.150.171
     type: vmess
@@ -93,4 +93,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
