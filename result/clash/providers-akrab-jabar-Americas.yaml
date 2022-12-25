@@ -262,7 +262,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '61 🇺🇸 OVH SAS CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -478,11 +478,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '114 🇺🇸 PONYNET CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -542,7 +542,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '128 🇺🇸 IT7NET SNI 👾 漁師'
     server: 23.105.199.160
     type: vmess
@@ -554,7 +554,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '136 🇺🇸 DEDIPATH-L CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -808,7 +808,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '89 🇺🇸 AMAZON-AES SNI 👾 漁師'
     server: tr10.tgcunzhang.xyz
     type: trojan
@@ -835,7 +835,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '86 🇺🇸 AS40676 SNI 👾 漁師'
     server: 104.149.139.189
     type: ssr
@@ -845,5 +845,5 @@ proxies:
     protocol: auth_chain_a
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=teams.microsoft.com
+    obfs-param: obfs=tls;obfs-host=172.67.199.34
     udp: true
