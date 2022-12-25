@@ -181,13 +181,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/test",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -202,7 +202,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -216,13 +216,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/opt/video/images",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -232,27 +232,6 @@
       "server": "hk80.sanfen001.pics",
       "server_port": 443,
       "uuid": "cd1d82d9-253c-44a7-9b2f-94c8d80b49c7",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/zh-cn/download",
-        "headers": {
-          "Host": "teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "142 🇭🇰 AMAZON-02 SNI 👾 漁師",
-      "server": "hk80.sanfen001.pics",
-      "server_port": 443,
-      "uuid": "90662c7b-37f1-467e-be00-98757a53b95a",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -270,6 +249,27 @@
     },
     {
       "type": "vmess",
+      "tag": "142 🇭🇰 AMAZON-02 SNI 👾 漁師",
+      "server": "hk80.sanfen001.pics",
+      "server_port": 443,
+      "uuid": "90662c7b-37f1-467e-be00-98757a53b95a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/zh-cn/download",
+        "headers": {
+          "Host": "teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "145 🇭🇰 AMAZON-02 SNI 👾 漁師",
       "server": "yzdx.relay01.fast001.buzz",
       "server_port": 19225,
@@ -279,7 +279,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -307,13 +307,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/read",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -328,13 +328,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/v2ray",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
