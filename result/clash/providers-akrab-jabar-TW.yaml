@@ -74,7 +74,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '97 🇹🇼 Scloud Pte SNI 👾 漁師'
     server: 183.255.114.195
     type: vmess
@@ -86,7 +86,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '111 🇹🇼 Scloud Pte SNI 👾 漁師'
     server: tw4.czs1000.com
     type: vmess
@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '193 🇹🇼 Data Commu SNI 👾 漁師'
     server: tw4.594888.xyz
     type: vmess
@@ -134,11 +134,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /v2ray
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '8 🇹🇼 Data Commu SNI 👾 漁師'
     server: 211.72.35.154
     type: trojan
@@ -160,4 +160,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
