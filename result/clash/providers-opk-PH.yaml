@@ -1,5 +1,21 @@
 proxies:
-  - name: '12 🇵🇭 Kaopu Clou SNI 👾 漁師'
+  - name: '46 🇵🇭 Kaopu Clou SNI 👾 漁師'
+    server: 38.54.36.106
+    type: vmess
+    port: 443
+    uuid: a267a68e-4b59-413e-96a4-6388948a401c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: tsel.me
+  - name: '79 🇵🇭 Kaopu Clou SNI 👾 漁師'
     server: ph1.v2rayserv.com
     type: vmess
     port: 443
@@ -15,8 +31,8 @@ proxies:
       path: /Danhuang/Jiang
       headers:
         Host: tsel.me
-  - name: '140 🇵🇭 Kaopu Clou SNI 👾 漁師'
-    server: 38.54.36.106
+  - name: '83 🇵🇭 Kaopu Clou SNI 👾 漁師'
+    server: ph1.v2rayserv.com
     type: vmess
     port: 443
     uuid: a267a68e-4b59-413e-96a4-6388948a401c
