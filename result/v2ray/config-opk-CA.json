@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.222.137.198",
+            "address": "ca2.v2rayserv.com",
             "port": 443,
             "users": [
               {
@@ -110,39 +110,10 @@
           "headers": {
             "Host": "tsel.me"
           },
-          "path": "/"
+          "path": "/sshocean"
         }
       },
-      "tag": "proxy-115 🇨🇦 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "ca1.trojanvh.xyz",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-90 🇨🇦 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-38 🇨🇦 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
