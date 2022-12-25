@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '64 🇩🇪 DIGITALOCE SNI 👾 漁師'
     server: 165.227.175.88
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: 
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '137 🇩🇪 AMAZON-02 SNI 👾 漁師'
     server: 18.196.228.65
     type: vmess
@@ -63,7 +63,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '127 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 188.40.251.19
     type: trojan
@@ -72,7 +72,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '141 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.152.12
     type: trojan
@@ -90,7 +90,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '223 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 188.40.236.127
     type: trojan
@@ -99,4 +99,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
