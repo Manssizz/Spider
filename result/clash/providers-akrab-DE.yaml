@@ -10,41 +10,13 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '104 🇩🇪 AMAZON-02 SNI 👾 漁師'
     server: 18.196.228.65
-    type: vmess
-    port: 443
-    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: config.teams.microsoft.com
-    ws-opts: 
-      path: /in-vpn-majanist-vws
-      headers:
-        Host: config.teams.microsoft.com
-  - name: '120 🇩🇪 Melbikomas SNI 👾 漁師'
-    server: 213.226.71.124
-    type: vmess
-    port: 21856
-    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: safebrowsing.google.com
-  - name: '123 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: resonance-vpn.net
     type: vmess
     port: 443
     uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
@@ -59,6 +31,34 @@ proxies:
       path: /in-vpn-majanist-vws
       headers:
         Host: click.zoom.us
+  - name: '120 🇩🇪 Melbikomas SNI 👾 漁師'
+    server: 213.226.71.124
+    type: vmess
+    port: 21856
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: config.teams.microsoft.com
+  - name: '123 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: resonance-vpn.net
+    type: vmess
+    port: 443
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: safebrowsing.google.com
+    ws-opts: 
+      path: /in-vpn-majanist-vws
+      headers:
+        Host: safebrowsing.google.com
   - name: '191 🇩🇪 Melbikomas SNI 👾 漁師'
     server: 213.226.71.124
     type: vmess
@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '203 🇩🇪 Hetzner On SNI 👾 漁師'
     server: V208.bgynd.xyz
     type: vmess
@@ -91,7 +91,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '53 🇩🇪 Hetzner On SNI 👾 漁師'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
@@ -100,7 +100,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '227 🇩🇪 MIRholding SNI 👾 漁師'
     server: de.archnet.cyou
     type: trojan
@@ -109,4 +109,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
