@@ -45,14 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "80 🇳🇱 Scalaxy B. SNI 👾 漁師",
-        "106 🇳🇱 Online S.a SNI 👾 漁師"
+        "53 🇳🇱 Scalaxy B. SNI 👾 漁師",
+        "180 🇳🇱 Online S.a SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "80 🇳🇱 Scalaxy B. SNI 👾 漁師",
-      "server": "5.45.78.209",
+      "tag": "53 🇳🇱 Scalaxy B. SNI 👾 漁師",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -72,10 +72,10 @@
     },
     {
       "type": "vmess",
-      "tag": "106 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "163.172.220.71",
-      "server_port": 6616,
-      "uuid": "459d23f4-dcfd-4fef-9ba3-ef0ad10fc336",
+      "tag": "180 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "163.172.213.74",
+      "server_port": 443,
+      "uuid": "5cff0340-7ff4-11ed-b431-205c6d5f5d78",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -85,7 +85,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/fastssh",
         "headers": {
           "Host": "tsel.me"
         }
