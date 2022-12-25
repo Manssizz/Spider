@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '70 🇩🇪 myLoc mana SNI 👾 漁師'
     server: 223.111.202.148
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /meizhiyuan/de
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '90 🇩🇪 myLoc mana SNI 👾 漁師'
     server: 213.202.233.147
     type: vmess
@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '113 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider28.cdn-delivery.akamaicd.com
     type: trojan
@@ -64,7 +64,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '138 🇩🇪 Hetzner On SNI 👾 漁師'
     server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
@@ -82,4 +82,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34

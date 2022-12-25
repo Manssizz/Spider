@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '66 🇬🇧 OVH SAS SNI 👾 漁師'
     server: 54.36.162.144
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '149 🇬🇧 DIGITALOCE SNI 👾 漁師'
     server: 161.35.47.70
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '143 🇬🇧 Stark Indu SNI 👾 漁師'
     server: 146.19.230.241
     type: trojan

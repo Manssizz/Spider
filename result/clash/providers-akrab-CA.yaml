@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '80 🇨🇦 DIGITALOCE SNI 👾 漁師'
     server: 137.184.173.48
     type: trojan
@@ -48,4 +48,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
