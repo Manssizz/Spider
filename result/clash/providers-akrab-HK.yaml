@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '64 🇭🇰 MICROSOFT- SNI 👾 漁師'
     server: hk1.sanfen001.pics
     type: vmess
@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '147 🇭🇰 ASNET SNI 👾 漁師'
     server: ah.yd01.paopaocloud.cyou
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '171 🇭🇰 Netsec Lim SNI 👾 漁師'
     server: hrgdvpn.flycdnedc55.vip
     type: vmess
@@ -70,8 +70,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /opt/video/images
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
