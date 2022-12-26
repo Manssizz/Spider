@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '10 🇺🇸 MICROSOFT- CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -274,7 +274,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '72 🇨🇦 OVH SAS SNI 👾 漁師'
     server: ca2.v2rayserv.com
     type: vmess
@@ -510,7 +510,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '147 🇺🇸 SHARKTECH CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -602,7 +602,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '170 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -706,5 +706,5 @@ proxies:
     protocol: auth_chain_a
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=config.teams.microsoft.com
+    obfs-param: obfs=tls;obfs-host=safebrowsing.google.com
     udp: true
