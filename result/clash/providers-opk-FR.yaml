@@ -1,5 +1,5 @@
 proxies:
-  - name: '8 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '138 🇫🇷 Online S.a SNI 👾 漁師'
     server: 45.136.244.181
     type: vmess
     port: 443
@@ -15,28 +15,3 @@ proxies:
       path: /fr-unlimitxxx
       headers:
         Host: tsel.me
-  - name: '142 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: 152.228.217.34
-    type: vmess
-    port: 443
-    uuid: 806ec1ab-0eee-46d2-884a-b7b88d5cb651
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: tsel.me
-  - name: '161 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: frt2.sshocean.net
-    type: trojan
-    port: 443
-    password: b3902e81-6260-4932-bcc9-708445fe40b4
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me

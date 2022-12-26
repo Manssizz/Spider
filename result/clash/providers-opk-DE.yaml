@@ -1,5 +1,5 @@
 proxies:
-  - name: '31 🇩🇪 Melbikomas SNI 👾 漁師'
+  - name: '63 🇩🇪 Melbikomas SNI 👾 漁師'
     server: 213.226.71.124
     type: vmess
     port: 21136
@@ -11,7 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '123 🇩🇪 AMAZON-02 SNI 👾 漁師'
+  - name: '178 🇩🇪 AMAZON-02 SNI 👾 漁師'
     server: 35.156.177.79
     type: vmess
     port: 47306
@@ -27,23 +27,7 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '163 🇩🇪 Linode LL SNI 👾 漁師'
-    server: 172.105.74.134
-    type: vmess
-    port: 37867
-    uuid: 4623f949-e0e4-4d40-d177-049ca6fd7518
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: tsel.me
-  - name: '137 🇩🇪 23M GmbH SNI 👾 漁師'
+  - name: '47 🇩🇪 23M GmbH SNI 👾 漁師'
     server: deof.vvvglass.com
     type: trojan
     port: 8443
@@ -52,10 +36,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '172 🇩🇪 23M GmbH SNI 👾 漁師'
-    server: deof.vvvglass.com
+  - name: '66 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
-    port: 3309
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '166 🇩🇪 23M GmbH SNI 👾 漁師'
+    server: de-aws.uuuglass.co
+    type: trojan
+    port: 52229
     password: 3628ca8d-6371-45df-879c-2d3e5d110b51
     udp: true
     skip-cert-verify: true
