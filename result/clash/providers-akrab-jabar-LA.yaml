@@ -1,5 +1,5 @@
 proxies:
-  - name: '250 🇱🇦 Alibaba US SNI 👾 漁師'
+  - name: '175 🇱🇦 Alibaba US SNI 👾 漁師'
     server: 8.218.83.60
     type: vmess
     port: 8443
@@ -10,8 +10,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Download
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
