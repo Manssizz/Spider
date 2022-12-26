@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '25 🇯🇵 IT7NET SNI 👾 漁師'
     server: 212.50.252.37
     type: vmess
@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '27 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: awsjp3.jsb2.xyz
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Download
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '51 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: awsjp2.jsb2.xyz
     type: vmess
@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Download
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '69 🇯🇵 Owl Limite SNI 👾 漁師'
     server: V209.bgynd.xyz
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '72 🇯🇵 AMAZON-02 CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -110,7 +110,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '138 🇯🇵 AMAZON-02 SNI 👾 漁師'
     server: jp02.170203.xyz
     type: vmess
@@ -150,7 +150,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '190 🇯🇵 ORACLE-BMC CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -193,7 +193,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '169 🇯🇵 SAKURA Int SNI 👾 漁師'
     server: tk-tr-2.cats22.net
     type: trojan
