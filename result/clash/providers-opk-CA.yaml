@@ -1,37 +1,5 @@
 proxies:
-  - name: '87 🇨🇦 Linode LL SNI 👾 漁師'
-    server: ca1.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: ff028280-4819-4967-954d-73a4b25ce65d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '148 🇨🇦 OVH SAS SNI 👾 漁師'
-    server: ca2.v2rayserv.com
-    type: vmess
-    port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: tsel.me
-  - name: '166 🇨🇦 AMAZON-02 SNI 👾 漁師'
+  - name: '66 🇨🇦 AMAZON-02 SNI 👾 漁師'
     server: awsypca.sylu.cyou
     type: vmess
     port: 443
@@ -47,7 +15,39 @@ proxies:
       path: /Falling42awsypcanode
       headers:
         Host: tsel.me
-  - name: '170 🇨🇦 CLOUDFLARE SNI 👾 漁師'
+  - name: '132 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: 35.182.165.120
+    type: vmess
+    port: 443
+    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: tsel.me
+  - name: '145 🇨🇦 OVH SAS SNI 👾 漁師'
+    server: ca2.v2rayserv.com
+    type: vmess
+    port: 443
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: tsel.me
+  - name: '190 🇨🇦 CLOUDFLARE SNI 👾 漁師'
     server: jp-cdn.iqyun.zone
     type: vmess
     port: 27019
