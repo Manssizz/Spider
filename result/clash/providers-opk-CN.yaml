@@ -1,33 +1,9 @@
 proxies:
-  - name: '2 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 47.104.237.32
+  - name: '8 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: sh.mayiyun.shop
     type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '43 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 47.104.237.32
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '64 🇨🇳 Beijing Ba SNI 👾 漁師'
-    server: 106.12.168.13
-    type: vmess
-    port: 13156
-    uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
+    port: 443
+    uuid: 630fce0a-3794-4153-87f1-af3f7b59e9de
     alterId: 0
     cipher: auto
     tls: true
@@ -36,10 +12,34 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /
+      path: /ll
       headers:
         Host: tsel.me
-  - name: '94 🇨🇳 Hangzhou A SNI 👾 漁師'
+  - name: '111 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 139.186.198.63
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '134 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 47.104.237.32
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '165 🇨🇳 Hangzhou A SNI 👾 漁師'
     server: 39.103.165.178
     type: vmess
     port: 50002
