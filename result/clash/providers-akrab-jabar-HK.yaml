@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Falling42gcorehknode
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '7 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /vmess
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '58 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk6.czs1000.com
     type: vmess
@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '66 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk2.czs1000.com
     type: vmess
@@ -118,7 +118,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '164 🇭🇰 Tencent Bu CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -155,7 +155,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '98 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: azhk095.xiaohouzi.club
     type: trojan
@@ -164,4 +164,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
