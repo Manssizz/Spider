@@ -1,5 +1,21 @@
 proxies:
-  - name: '86 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '44 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 18.196.228.65
+    type: vmess
+    port: 443
+    uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /in-vpn-majanist-vws
+      headers:
+        Host: tsel.me
+  - name: '53 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 5.75.250.163
     type: vmess
     port: 2096
@@ -15,11 +31,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '154 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 35.156.177.79
+  - name: '92 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 138.201.115.234
     type: vmess
-    port: 47306
-    uuid: d6a32f9a-9db1-43d6-f5f5-a8ca95b266fd
+    port: 62345
+    uuid: 7b525127-a5c2-4b63-a9e9-e833c2cc509a
     alterId: 0
     cipher: auto
     tls: true
@@ -31,8 +47,24 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '143 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+  - name: '94 🇩🇪 G-Core Lab SNI 👾 漁師'
+    server: gcsde.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcsdenode
+      headers:
+        Host: tsel.me
+  - name: '17 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 5.75.152.12
     type: trojan
     port: 443
     password: d76294c5-a31f-408d-ba0b-89880107cab5
@@ -40,20 +72,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '183 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
+  - name: '154 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.236.127
     type: trojan
     port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '188 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: content-provider28.cdn-delivery.akamaicd.com
-    type: trojan
-    port: 443
-    password: origin
+    password: yxGY7A5MczQYg6UqSFx9u78V
     udp: true
     skip-cert-verify: true
     network: tcp
