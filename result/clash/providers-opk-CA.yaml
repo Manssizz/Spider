@@ -1,5 +1,21 @@
 proxies:
-  - name: '7 🇨🇦 AS-CHOOPA SNI 👾 漁師'
+  - name: '33 🇨🇦 AMAZON-02 SNI 👾 漁師'
+    server: awsypca.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42awsypcanode
+      headers:
+        Host: tsel.me
+  - name: '64 🇨🇦 AS-CHOOPA SNI 👾 漁師'
     server: CA-177-89.shoptunnel.live
     type: vmess
     port: 31990
@@ -11,19 +27,3 @@ proxies:
     skip-cert-verify: true
     network: none
     servername: tsel.me
-  - name: '156 🇨🇦 DATACITY SNI 👾 漁師'
-    server: can.mayiyun.shop
-    type: vmess
-    port: 443
-    uuid: 630fce0a-3794-4153-87f1-af3f7b59e9de
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
