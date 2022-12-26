@@ -45,34 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "21 🇦🇺 DIGITALOCE SNI 👾 漁師",
-        "171 🇦🇺 OVH SAS SNI 👾 漁師"
+        "65 🇦🇺 OVH SAS SNI 👾 漁師",
+        "155 🇦🇺 DIGITALOCE SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "21 🇦🇺 DIGITALOCE SNI 👾 漁師",
-      "server": "doau1.wyattoffice.ga",
-      "server_port": 443,
-      "uuid": "33b1ba99-ac5a-4723-92dc-1ec6855a32b8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/share",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "171 🇦🇺 OVH SAS SNI 👾 漁師",
+      "tag": "65 🇦🇺 OVH SAS SNI 👾 漁師",
       "server": "139.99.135.182",
       "server_port": 443,
       "uuid": "8be7fd79-5920-4eae-9385-68a8d94bc1ae",
@@ -86,6 +65,27 @@
       "transport": {
         "type": "ws",
         "path": "/vmess",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "155 🇦🇺 DIGITALOCE SNI 👾 漁師",
+      "server": "doau1.wyattoffice.ga",
+      "server_port": 443,
+      "uuid": "33b1ba99-ac5a-4723-92dc-1ec6855a32b8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/share",
         "headers": {
           "Host": "tsel.me"
         }
