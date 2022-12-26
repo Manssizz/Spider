@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '59 🇩🇪 DIGITALOCE SNI 👾 漁師'
     server: 165.22.27.72
     type: vmess
@@ -62,11 +62,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /in-vpn-majanist-vws
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '155 🇩🇪 Hetzner On SNI 👾 漁師'
     server: 78.46.244.34
     type: vmess
