@@ -109,7 +109,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -144,7 +144,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -221,7 +221,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -277,13 +277,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/fr-unlimitxxx",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -319,13 +319,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/ZPKLSPJjLBEy",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -403,13 +403,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/in-vpn-majanist-vws",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -445,7 +445,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -753,7 +753,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -767,13 +767,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/Danhuang/Jiang",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -788,7 +788,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -802,13 +802,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/path/243535322906",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -818,27 +818,6 @@
       "server": "165.227.175.88",
       "server_port": 28164,
       "uuid": "eba8ccf5-5ab9-4b6b-de4b-83ab920c1005",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "172.67.199.34"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "172.67.199.34"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "195 🇳🇱 Online S.a SNI 👾 漁師",
-      "server": "51.15.113.164",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -856,10 +835,10 @@
     },
     {
       "type": "vmess",
-      "tag": "196 🇬🇧 OVH SAS SNI 👾 漁師",
-      "server": "198.244.232.39",
-      "server_port": 2096,
-      "uuid": "df46384b-1ad5-40a6-812e-48d60fb80283",
+      "tag": "195 🇳🇱 Online S.a SNI 👾 漁師",
+      "server": "51.15.113.164",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -872,6 +851,27 @@
         "path": "/",
         "headers": {
           "Host": "172.67.199.34"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "196 🇬🇧 OVH SAS SNI 👾 漁師",
+      "server": "198.244.232.39",
+      "server_port": 2096,
+      "uuid": "df46384b-1ad5-40a6-812e-48d60fb80283",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -928,13 +928,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -989,7 +989,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -1001,7 +1001,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -1013,7 +1013,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -1037,7 +1037,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {

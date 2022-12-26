@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '69 🇸🇬 OVH SAS CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -214,11 +214,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /Falling42gcoresgnode
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '110 🇸🇬 HURRICANE CDN 👾 漁師'
     server: hohm.microsoft.com
     type: vmess
@@ -258,7 +258,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '143 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: 157.230.36.235
     type: vmess
@@ -270,11 +270,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /graphql
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '147 🇸🇬 Melbikomas SNI 👾 漁師'
     server: 5.44.249.43
     type: vmess
@@ -362,11 +362,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /ws
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '19 🇸🇬 Linode LL CDN 👾 漁師'
     server: hohm.microsoft.com
     type: trojan
@@ -410,7 +410,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '194 🇸🇬 Linode LL SNI 👾 漁師'
     server: 139.162.45.139
     type: trojan
@@ -419,7 +419,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '210 🇸🇬 DIGITALOCE SNI 👾 漁師'
     server: 159.223.89.239
     type: trojan
