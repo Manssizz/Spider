@@ -1,5 +1,21 @@
 proxies:
-  - name: '22 🇳🇱 Online S.a SNI 👾 漁師'
+  - name: '58 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: 5.45.78.209
+    type: vmess
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '149 🇳🇱 Online S.a SNI 👾 漁師'
     server: 51.15.113.164
     type: vmess
     port: 443
@@ -15,28 +31,3 @@ proxies:
       path: /Danhuang/Jiang
       headers:
         Host: tsel.me
-  - name: '115 🇳🇱 Online S.a SNI 👾 漁師'
-    server: 51.15.81.240
-    type: vmess
-    port: 443
-    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '7 🇳🇱 AS40676 SNI 👾 漁師'
-    server: 185.212.200.74
-    type: trojan
-    port: 443
-    password: Sp3eDVp
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
