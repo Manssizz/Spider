@@ -1,5 +1,5 @@
 proxies:
-  - name: '95 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '71 🇫🇷 Online S.a SNI 👾 漁師'
     server: 163.172.166.134
     type: vmess
     port: 31990
@@ -11,23 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '117 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: 152.228.217.34
-    type: vmess
-    port: 443
-    uuid: 636d6e5f-35cc-4bb0-9802-1d2403100c27
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: tsel.me
-  - name: '182 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '85 🇫🇷 Online S.a SNI 👾 漁師'
     server: FR-166-134.shoptunnel.live
     type: vmess
     port: 31990
@@ -35,6 +19,15 @@ proxies:
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '10 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: frt2.sshocean.net
+    type: trojan
+    port: 443
+    password: b3902e81-6260-4932-bcc9-708445fe40b4
     udp: true
     skip-cert-verify: true
     network: tcp
