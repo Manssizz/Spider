@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /ZPKLSPJjLBEy
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '131 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: 185.22.153.16
     type: vmess
@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '145 🇷🇺 RECONN LLC SNI 👾 漁師'
     server: 37.252.1.197
     type: vmess
@@ -54,4 +54,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
