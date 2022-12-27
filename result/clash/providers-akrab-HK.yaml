@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '64 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: hk4.netflix6.com
     type: vmess
@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /hls/hk4.m3u8
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '65 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: hk3.czs1000.com
     type: vmess
@@ -130,7 +130,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '161 🇭🇰 Alibaba US SNI 👾 漁師'
     server: 8.218.140.111
     type: vmess
@@ -142,11 +142,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /hk
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '167 🇭🇰 STARCLOUD  SNI 👾 漁師'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
@@ -158,7 +158,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '188 🇭🇰 Scloud Pte SNI 👾 漁師'
     server: hk10.czs1000.com
     type: vmess
@@ -182,7 +182,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '75 🇭🇰 Tencent Bu SNI 👾 漁師'
     server: 43.154.172.79
     type: trojan
@@ -191,4 +191,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
