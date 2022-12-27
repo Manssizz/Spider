@@ -1,25 +1,9 @@
 proxies:
-  - name: '85 🇳🇱 Online S.a SNI 👾 漁師'
-    server: nl2.v2rayserv.com
+  - name: '18 🇳🇱 Scalaxy B. SNI 👾 漁師'
+    server: nl.gongyiyun.cf
     type: vmess
-    port: 443
-    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '149 🇳🇱 Stark Indu SNI 👾 漁師'
-    server: 45.8.145.6
-    type: vmess
-    port: 35957
-    uuid: ffdca7cb-8501-472f-d5f0-ba5b8e7f0782
+    port: 8080
+    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
     alterId: 0
     cipher: auto
     tls: true

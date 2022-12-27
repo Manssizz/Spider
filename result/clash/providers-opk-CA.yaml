@@ -1,5 +1,21 @@
 proxies:
-  - name: '103 🇨🇦 AS-CHOOPA SNI 👾 漁師'
+  - name: '36 🇨🇦 DIGITALOCE SNI 👾 漁師'
+    server: 159.89.124.219
+    type: vmess
+    port: 45125
+    uuid: 89d8b216-7cb6-459f-80fe-70c41643489a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '180 🇨🇦 AS-CHOOPA SNI 👾 漁師'
     server: 216.128.177.89
     type: vmess
     port: 31990
