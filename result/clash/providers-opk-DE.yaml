@@ -1,54 +1,18 @@
 proxies:
-  - name: '61 🇩🇪 G-Core Lab SNI 👾 漁師'
-    server: gcsde.sylu.cyou
+  - name: '9 🇩🇪 Melbikomas SNI 👾 漁師'
+    server: 213.226.71.124
     type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    port: 20416
+    uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /Falling42gcsdenode
-      headers:
-        Host: tsel.me
-  - name: '125 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.129.202
-    type: vmess
-    port: 55039
-    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '134 🇩🇪 Linode LL SNI 👾 漁師'
-    server: de1.czs1000.com
-    type: vmess
-    port: 11217
-    uuid: 738bc988-a31b-469b-8db0-ff77f070695f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-      headers:
-        Host: tsel.me
-  - name: '78 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.250.247
+  - name: '103 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
     port: 443
     password: origin
@@ -56,7 +20,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '130 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '169 🇩🇪 Hetzner On SNI 👾 漁師'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
     port: 443
