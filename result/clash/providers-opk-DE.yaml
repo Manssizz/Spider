@@ -1,5 +1,33 @@
 proxies:
-  - name: '92 🇩🇪 Melbikomas SNI 👾 漁師'
+  - name: '16 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 3.70.144.63
+    type: vmess
+    port: 19069
+    uuid: 6ccc730d-d892-4e7b-a67d-793a7a08d66b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '34 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 78.46.244.34
+    type: vmess
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '47 🇩🇪 Melbikomas SNI 👾 漁師'
     server: 213.226.71.124
     type: vmess
     port: 20416
@@ -11,67 +39,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '108 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 138.201.115.234
-    type: vmess
-    port: 62345
-    uuid: 7b525127-a5c2-4b63-a9e9-e833c2cc509a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '124 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 165.227.175.88
-    type: vmess
-    port: 28164
-    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: 
-      headers:
-        Host: tsel.me
-  - name: '192 🇩🇪 Melbikomas SNI 👾 漁師'
-    server: 213.226.71.124
-    type: vmess
-    port: 20416
-    uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '201 🇩🇪 DIGITALOCE SNI 👾 漁師'
-    server: 165.227.175.88
-    type: vmess
-    port: 28164
-    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '212 🇩🇪 DIGITALOCE SNI 👾 漁師'
+  - name: '55 🇩🇪 DIGITALOCE SNI 👾 漁師'
     server: 165.22.27.72
     type: vmess
     port: 8080
@@ -83,30 +51,35 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '102 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 188.40.251.19
-    type: trojan
+  - name: '74 🇩🇪 G-Core Lab SNI 👾 漁師'
+    server: gcsde.sylu.cyou
+    type: vmess
     port: 443
-    password: origin
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '120 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
-    type: trojan
-    port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    ws-opts: 
+      path: /Falling42gcsdenode
+      headers:
+        Host: tsel.me
+  - name: '85 🇩🇪 AMAZON-02 SNI 👾 漁師'
+    server: 35.156.177.79
+    type: vmess
+    port: 47306
+    uuid: d6a32f9a-9db1-43d6-f5f5-a8ca95b266fd
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '169 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.152.12
-    type: trojan
-    port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
