@@ -45,16 +45,18 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "196 🇫🇷 OVH SAS SNI 👾 漁師",
-        "152 🇫🇷 OVH SAS SNI 👾 漁師"
+        "29 🇫🇷 OVH SAS SNI 👾 漁師",
+        "58 🇫🇷 OVH SAS SNI 👾 漁師",
+        "119 🇫🇷 Online S.a SNI 👾 漁師",
+        "2 🇫🇷 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "196 🇫🇷 OVH SAS SNI 👾 漁師",
-      "server": "152.228.217.34",
+      "tag": "29 🇫🇷 OVH SAS SNI 👾 漁師",
+      "server": "fr2.v2rayserv.com",
       "server_port": 443,
-      "uuid": "636d6e5f-35cc-4bb0-9802-1d2403100c27",
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -64,7 +66,49 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "58 🇫🇷 OVH SAS SNI 👾 漁師",
+      "server": "51.77.158.169",
+      "server_port": 2096,
+      "uuid": "c92fd902-b5d3-4208-bb48-630b1c7babea",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "119 🇫🇷 Online S.a SNI 👾 漁師",
+      "server": "v10a.toddns.tk",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fr-unlimitxxx",
         "headers": {
           "Host": "tsel.me"
         }
@@ -72,10 +116,10 @@
     },
     {
       "type": "trojan",
-      "tag": "152 🇫🇷 OVH SAS SNI 👾 漁師",
-      "server": "176.31.83.90",
+      "tag": "2 🇫🇷 OVH SAS SNI 👾 漁師",
+      "server": "51.77.213.197",
       "server_port": 443,
-      "password": "origin",
+      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
       "tls": {
         "enabled": true,
         "insecure": true,

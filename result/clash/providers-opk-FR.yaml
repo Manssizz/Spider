@@ -1,9 +1,9 @@
 proxies:
-  - name: '196 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: 152.228.217.34
+  - name: '29 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: fr2.v2rayserv.com
     type: vmess
     port: 443
-    uuid: 636d6e5f-35cc-4bb0-9802-1d2403100c27
+    uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
     alterId: 0
     cipher: auto
     tls: true
@@ -12,14 +12,46 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /vmess
+      path: /sshocean
       headers:
         Host: tsel.me
-  - name: '152 🇫🇷 OVH SAS SNI 👾 漁師'
-    server: 176.31.83.90
+  - name: '58 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: 51.77.158.169
+    type: vmess
+    port: 2096
+    uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '119 🇫🇷 Online S.a SNI 👾 漁師'
+    server: v10a.toddns.tk
+    type: vmess
+    port: 443
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /fr-unlimitxxx
+      headers:
+        Host: tsel.me
+  - name: '2 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: 51.77.213.197
     type: trojan
     port: 443
-    password: origin
+    password: b3902e81-6260-4932-bcc9-708445fe40b4
     udp: true
     skip-cert-verify: true
     network: tcp
