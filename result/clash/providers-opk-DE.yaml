@@ -1,21 +1,5 @@
 proxies:
-  - name: '1 🇩🇪 AMAZON-02 SNI 👾 漁師'
-    server: 3.70.144.63
-    type: vmess
-    port: 19069
-    uuid: 6ccc730d-d892-4e7b-a67d-793a7a08d66b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '43 🇩🇪 DIGITALOCE SNI 👾 漁師'
+  - name: '31 🇩🇪 DIGITALOCE SNI 👾 漁師'
     server: 165.22.27.72
     type: vmess
     port: 8080
@@ -27,7 +11,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '100 🇩🇪 AMAZON-02 SNI 👾 漁師'
+  - name: '93 🇩🇪 AMAZON-02 SNI 👾 漁師'
     server: resonance-vpn.net
     type: vmess
     port: 443
@@ -43,11 +27,27 @@ proxies:
       path: /in-vpn-majanist-vws
       headers:
         Host: tsel.me
-  - name: '133 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.250.163
+  - name: '98 🇩🇪 DIGITALOCE SNI 👾 漁師'
+    server: 165.227.175.88
     type: vmess
-    port: 2096
-    uuid: e175ba8e-f3e8-4ec5-a350-f058537dca8e
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '168 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 138.201.115.234
+    type: vmess
+    port: 62345
+    uuid: 7b525127-a5c2-4b63-a9e9-e833c2cc509a
     alterId: 0
     cipher: auto
     tls: true
@@ -59,16 +59,16 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '184 🇩🇪 Hetzner On SNI 👾 漁師'
-    server: 5.75.152.12
+  - name: '97 🇩🇪 Hetzner On SNI 👾 漁師'
+    server: 188.40.251.19
     type: trojan
     port: 443
-    password: d76294c5-a31f-408d-ba0b-89880107cab5
+    password: origin
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '193 🇩🇪 Hetzner On SNI 👾 漁師'
+  - name: '175 🇩🇪 Hetzner On SNI 👾 漁師'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
     port: 443
