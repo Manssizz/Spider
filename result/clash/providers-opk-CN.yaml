@@ -1,5 +1,5 @@
 proxies:
-  - name: '25 🇨🇳 Hangzhou A SNI 👾 漁師'
+  - name: '80 🇨🇳 Hangzhou A SNI 👾 漁師'
     server: 39.103.165.178
     type: vmess
     port: 50002
@@ -11,7 +11,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '155 🇨🇳 PEGTECHINC SNI 👾 漁師'
+  - name: '154 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 39.103.165.178
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '223 🇨🇳 PEGTECHINC SNI 👾 漁師'
     server: 142.0.135.66
     type: vmess
     port: 443
