@@ -84,46 +84,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.77.158.169",
-            "port": 2096,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c92fd902-b5d3-4208-bb48-630b1c7babea",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-116 🇫🇷 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
             "address": "152.228.217.34",
             "port": 443,
             "users": [
@@ -131,7 +91,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "636d6e5f-35cc-4bb0-9802-1d2403100c27",
+                "id": "806ec1ab-0eee-46d2-884a-b7b88d5cb651",
                 "level": 8,
                 "security": "auto"
               }
@@ -153,7 +113,7 @@
           "path": "/vmess"
         }
       },
-      "tag": "proxy-147 🇫🇷 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-49 🇫🇷 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -182,94 +142,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-51 🇫🇷 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "141.94.76.177",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-56 🇫🇷 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "51.77.213.197",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-61 🇫🇷 OVH SAS SNI 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "51.77.213.197",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "973ed2e0-c4d8-4737-a093-71629148086d",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-128 🇫🇷 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-22 🇫🇷 OVH SAS SNI 👾 漁師"
     },
     {
       "mux": {
@@ -298,7 +171,36 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-142 🇫🇷 OVH SAS SNI 👾 漁師"
+      "tag": "proxy-25 🇫🇷 OVH SAS SNI 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "141.94.76.177",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-165 🇫🇷 OVH SAS SNI 👾 漁師"
     }
   ],
   "dns": {
