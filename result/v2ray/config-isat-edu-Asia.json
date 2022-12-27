@@ -84,6 +84,46 @@
       "settings": {
         "vnext": [
           {
+            "address": "162.159.128.7",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcorehk.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcorehk.sylu.cyou"
+          },
+          "path": "/Falling42gcorehknode"
+        }
+      },
+      "tag": "proxy-6 🇭🇰 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "104.18.25.139",
             "port": 443,
             "users": [
@@ -91,7 +131,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "id": "78f936d1-8a72-4b7c-aafa-c8284e15ccaa",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,16 +144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg3-v2ray.sshkit.org"
+          "serverName": "sgovh1.v2rayserv.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg3-v2ray.sshkit.org"
+            "Host": "sgovh1.v2rayserv.com"
           },
-          "path": "/sshkit/1736960111/63859bc177a33/"
+          "path": "/sshocean"
         }
       },
-      "tag": "proxy-6 🇸🇬 HURRICANE CDN 👾 漁師"
+      "tag": "proxy-8 🇸🇬 OVH SAS CDN 👾 漁師"
     },
     {
       "mux": {
@@ -124,14 +164,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.70.206",
+            "address": "141.193.213.20",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "id": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,16 +184,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg1-v2ray.sshkit.org"
+          "serverName": "hk-3.daoxin.shop"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg1-v2ray.sshkit.org"
+            "Host": "hk-3.daoxin.shop"
           },
-          "path": "/sshkit/1736960111/63859b5b38f53/"
+          "path": "/"
         }
       },
-      "tag": "proxy-19 🇸🇬 HURRICANE CDN 👾 漁師"
+      "tag": "proxy-17 🇭🇰 AMAZON-02 CDN 👾 漁師"
     },
     {
       "mux": {
@@ -164,7 +204,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "104.16.66.85",
             "port": 443,
             "users": [
               {
@@ -193,7 +233,7 @@
           "path": "/Falling42gcorehkknode"
         }
       },
-      "tag": "proxy-46 🇭🇰 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-19 🇭🇰 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -205,6 +245,86 @@
         "vnext": [
           {
             "address": "104.16.66.85",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "opc-jp.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "opc-jp.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-21 🇯🇵 ORACLE-BMC CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.70.206",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcssg.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcssg.sylu.cyou"
+          },
+          "path": "/Falling42gcssgnode"
+        }
+      },
+      "tag": "proxy-24 🇸🇬 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.25.139",
             "port": 443,
             "users": [
               {
@@ -224,16 +344,176 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg3-v2ray.sshkit.org"
+          "serverName": "sg1-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg3-v2ray.sshkit.org"
+            "Host": "sg1-v2ray.sshkit.org"
           },
-          "path": "/sshkit/1736960111/63859bc177a33/"
+          "path": "/sshkit/1736960111/63859b5b38f53/"
         }
       },
-      "tag": "proxy-64 🇸🇬 HURRICANE CDN 👾 漁師"
+      "tag": "proxy-34 🇸🇬 HURRICANE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "do9.yyhm9.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "do9.yyhm9.com"
+          },
+          "path": "/das321S8"
+        }
+      },
+      "tag": "proxy-38 🇸🇬 Tencent Bu CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.66.85",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "do2.yyhm9.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "do2.yyhm9.com"
+          },
+          "path": "/das212"
+        }
+      },
+      "tag": "proxy-43 🇸🇬 Tencent Bu CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.70.206",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcoresg.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcoresg.sylu.cyou"
+          },
+          "path": "/Falling42gcoresgnode"
+        }
+      },
+      "tag": "proxy-48 🇸🇬 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.10",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "776352ac-0a91-3d71-8450-d3b3a2b43c73",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "do3.yyhm9.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "do3.yyhm9.com"
+          },
+          "path": "/das212"
+        }
+      },
+      "tag": "proxy-56 🇰🇷 ORACLE-BMC CDN 👾 漁師"
     },
     {
       "mux": {
@@ -251,7 +531,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a72bd7a7-732d-46c1-8274-bf16bca30e78",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,16 +544,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "sg1-v.sshmax.xyz"
+          "serverName": "gcoresgg.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "sg1-v.sshmax.xyz"
+            "Host": "gcoresgg.sylu.cyou"
           },
-          "path": "/vmess"
+          "path": "/Falling42gcoresggnode"
         }
       },
-      "tag": "proxy-73 🇸🇬 OVH SAS CDN 👾 漁師"
+      "tag": "proxy-60 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -304,16 +584,136 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcsshkkk.sylu.cyou"
+          "serverName": "gcorehkk.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcsshkkk.sylu.cyou"
+            "Host": "gcorehkk.sylu.cyou"
           },
-          "path": "/Falling42gcsshkkknode"
+          "path": "/Falling42gcorehkknode"
         }
       },
-      "tag": "proxy-89 🇭🇰 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-62 🇭🇰 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.25.139",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "hk.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "hk.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-74 🇭🇰 AMAZON-02 CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcssjp.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcssjp.sylu.cyou"
+          },
+          "path": "/Falling42gcssjpnode"
+        }
+      },
+      "tag": "proxy-84 🇯🇵 G-Core Lab CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.25.139",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "gcssg.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "gcssg.sylu.cyou"
+          },
+          "path": "/Falling42gcssgnode"
+        }
+      },
+      "tag": "proxy-87 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -353,7 +753,7 @@
           "path": "/Falling42gcoresgnode"
         }
       },
-      "tag": "proxy-93 🇸🇬 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-115 🇸🇬 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -364,7 +764,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.20",
+            "address": "104.17.70.206",
             "port": 443,
             "users": [
               {
@@ -384,16 +784,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcsshkk.sylu.cyou"
+          "serverName": "gcsshk.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcsshkk.sylu.cyou"
+            "Host": "gcsshk.sylu.cyou"
           },
-          "path": "/Falling42gcsshkknode"
+          "path": "/Falling42gcsshknode"
         }
       },
-      "tag": "proxy-112 🇭🇰 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-120 🇭🇰 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -404,7 +804,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.51.111",
+            "address": "162.159.128.7",
             "port": 443,
             "users": [
               {
@@ -424,16 +824,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "do3.yyhm9.com"
+          "serverName": "do7.yyhm9.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "do3.yyhm9.com"
+            "Host": "do7.yyhm9.com"
           },
-          "path": "/das212"
+          "path": "/book"
         }
       },
-      "tag": "proxy-116 🇰🇷 ORACLE-BMC CDN 👾 漁師"
+      "tag": "proxy-135 🇸🇬 Tencent Bu CDN 👾 漁師"
     },
     {
       "mux": {
@@ -444,7 +844,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "104.18.25.139",
             "port": 443,
             "users": [
               {
@@ -464,16 +864,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcoresgg.sylu.cyou"
+          "serverName": "gcsshk.sylu.cyou"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcoresgg.sylu.cyou"
+            "Host": "gcsshk.sylu.cyou"
           },
-          "path": "/Falling42gcoresggnode"
+          "path": "/Falling42gcsshknode"
         }
       },
-      "tag": "proxy-117 🇸🇬 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-140 🇭🇰 G-Core Lab CDN 👾 漁師"
     },
     {
       "mux": {
@@ -484,14 +884,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "104.17.70.206",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "id": "11288503-4f79-4659-a033-bf538ab14499",
                 "level": 8,
                 "security": "auto"
               }
@@ -504,56 +904,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcssg.sylu.cyou"
+          "serverName": "lg.iwafa.tk"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcssg.sylu.cyou"
+            "Host": "lg.iwafa.tk"
           },
-          "path": "/Falling42gcssgnode"
+          "path": "/wafa/"
         }
       },
-      "tag": "proxy-120 🇸🇬 G-Core Lab CDN 👾 漁師"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.135.42",
-            "port": 8880,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "a5c804aa-8a4d-4fd2-97a1-4f0cc1384953",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "sg1021.hkaa0.tk"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "sg1021.hkaa0.tk"
-          },
-          "path": "/hkaa0"
-        }
-      },
-      "tag": "proxy-123 🇸🇬 DIGITALOCE CDN 👾 漁師"
+      "tag": "proxy-154 🇸🇬 CACHENETWO CDN 👾 漁師"
     },
     {
       "mux": {
@@ -571,7 +931,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -584,16 +944,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcsshkk.sylu.cyou"
+          "serverName": "sg1-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcsshkk.sylu.cyou"
+            "Host": "sg1-v2ray.sshkit.org"
           },
-          "path": "/Falling42gcsshkknode"
+          "path": "/sshkit/1736960111/63859b5b38f53/"
         }
       },
-      "tag": "proxy-128 🇭🇰 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-165 🇸🇬 HURRICANE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -604,14 +964,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.51.111",
+            "address": "104.18.25.139",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -624,16 +984,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcssg.sylu.cyou"
+          "serverName": "sg1-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcssg.sylu.cyou"
+            "Host": "sg1-v2ray.sshkit.org"
           },
-          "path": "/Falling42gcssgnode"
+          "path": "/sshkit/1736960111/63859b5b38f53/"
         }
       },
-      "tag": "proxy-143 🇸🇬 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-175 🇸🇬 HURRICANE CDN 👾 漁師"
     },
     {
       "mux": {
@@ -644,14 +1004,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "162.159.128.7",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "level": 8,
                 "security": "auto"
               }
@@ -664,16 +1024,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gcsshkkk.sylu.cyou"
+          "serverName": "sg1-v2ray.sshkit.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "gcsshkkk.sylu.cyou"
+            "Host": "sg1-v2ray.sshkit.org"
           },
-          "path": "/Falling42gcsshkkknode"
+          "path": "/sshkit/1736960111/63859b5b38f53/"
         }
       },
-      "tag": "proxy-145 🇭🇰 G-Core Lab CDN 👾 漁師"
+      "tag": "proxy-181 🇸🇬 HURRICANE CDN 👾 漁師"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.135.42",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "sg-gcore.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "sg-gcore.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-183 🇸🇬 DIGITALOCE CDN 👾 漁師"
     }
   ],
   "dns": {
