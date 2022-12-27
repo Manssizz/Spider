@@ -45,45 +45,21 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "30 🇭🇰 AMAZON-02 SNI 👾 漁師",
-        "44 🇭🇰 Tencent Bu SNI 👾 漁師",
-        "55 🇭🇰 G-Core Lab SNI 👾 漁師",
-        "112 🇭🇰 G-Core Lab SNI 👾 漁師",
-        "157 🇭🇰 Tencent Bu SNI 👾 漁師",
-        "158 🇭🇰 STARCLOUD  SNI 👾 漁師",
-        "200 🇭🇰 STARCLOUD  SNI 👾 漁師",
-        "202 🇭🇰 2012 Limit SNI 👾 漁師",
-        "213 🇭🇰 Netsec Lim SNI 👾 漁師",
-        "43 🇭🇰 Tencent Bu SNI 👾 漁師"
+        "10 🇭🇰 Tencent Bu SNI 👾 漁師",
+        "104 🇭🇰 G-Core Lab SNI 👾 漁師",
+        "156 🇭🇰 Layerstack SNI 👾 漁師",
+        "166 🇭🇰 G-Core Lab SNI 👾 漁師",
+        "174 🇭🇰 Netsec Lim SNI 👾 漁師",
+        "193 🇭🇰 Tencent Bu SNI 👾 漁師",
+        "68 🇭🇰 Tencent Bu SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "30 🇭🇰 AMAZON-02 SNI 👾 漁師",
-      "server": "hk80-2.sanfen001.pics",
-      "server_port": 443,
-      "uuid": "8da78369-cb4e-4c88-8b93-a933d9144b2b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/zh-cn/download",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "44 🇭🇰 Tencent Bu SNI 👾 漁師",
+      "tag": "10 🇭🇰 Tencent Bu SNI 👾 漁師",
       "server": "hk4.netflix6.com",
       "server_port": 443,
-      "uuid": "2df80669-700b-30a2-8207-f0054179277d",
+      "uuid": "96b42ea1-aa1a-3f82-9105-daac7406c0f3",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -101,28 +77,7 @@
     },
     {
       "type": "vmess",
-      "tag": "55 🇭🇰 G-Core Lab SNI 👾 漁師",
-      "server": "gcorehkk.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcorehkknode",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "112 🇭🇰 G-Core Lab SNI 👾 漁師",
+      "tag": "104 🇭🇰 G-Core Lab SNI 👾 漁師",
       "server": "gcsshkk.sylu.cyou",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -143,10 +98,10 @@
     },
     {
       "type": "vmess",
-      "tag": "157 🇭🇰 Tencent Bu SNI 👾 漁師",
-      "server": "hk5.netflix6.com",
+      "tag": "156 🇭🇰 Layerstack SNI 👾 漁師",
+      "server": "hk3.netflix6.com",
       "server_port": 443,
-      "uuid": "2df80669-700b-30a2-8207-f0054179277d",
+      "uuid": "96b42ea1-aa1a-3f82-9105-daac7406c0f3",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -156,7 +111,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/hls/hk5.m3u8",
+        "path": "/hls/hk3.m3u8",
         "headers": {
           "Host": "tsel.me"
         }
@@ -164,38 +119,10 @@
     },
     {
       "type": "vmess",
-      "tag": "158 🇭🇰 STARCLOUD  SNI 👾 漁師",
-      "server": "206.119.112.6",
-      "server_port": 8189,
-      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
-      "security": "auto",
-      "alter_id": 10,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "200 🇭🇰 STARCLOUD  SNI 👾 漁師",
-      "server": "hk1vdf-node.aiqiche123.com",
-      "server_port": 8189,
-      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
-      "security": "auto",
-      "alter_id": 10,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "202 🇭🇰 2012 Limit SNI 👾 漁師",
-      "server": "hk2.netflix6.com",
+      "tag": "166 🇭🇰 G-Core Lab SNI 👾 漁師",
+      "server": "gcorehk.sylu.cyou",
       "server_port": 443,
-      "uuid": "2df80669-700b-30a2-8207-f0054179277d",
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -205,7 +132,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/hls/hk2.m3u8",
+        "path": "/Falling42gcorehknode",
         "headers": {
           "Host": "tsel.me"
         }
@@ -213,12 +140,12 @@
     },
     {
       "type": "vmess",
-      "tag": "213 🇭🇰 Netsec Lim SNI 👾 漁師",
-      "server": "hrgdvpn.flycdnedc55.vip",
+      "tag": "174 🇭🇰 Netsec Lim SNI 👾 漁師",
+      "server": "182.16.1.194",
       "server_port": 443,
       "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
       "security": "auto",
-      "alter_id": 32,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -233,8 +160,22 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "193 🇭🇰 Tencent Bu SNI 👾 漁師",
+      "server": "43.154.34.49",
+      "server_port": 23183,
+      "uuid": "b402a4af-285a-463e-c3a7-53f91efdec78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "43 🇭🇰 Tencent Bu SNI 👾 漁師",
+      "tag": "68 🇭🇰 Tencent Bu SNI 👾 漁師",
       "server": "43.154.172.79",
       "server_port": 10102,
       "password": "0f098bb2-9fad-3cc3-8acf-2a3268c1eb27",
