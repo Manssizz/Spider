@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '29 🇫🇷 Online S.a CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -142,7 +142,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '59 🇫🇷 Online S.a CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -170,7 +170,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '69 🇱🇺 PONYNET CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -246,11 +246,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /vmess
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '98 🇵🇱 G-Core Lab SNI 👾 漁師'
     server: gcorepl.sylu.cyou
     type: vmess
@@ -262,11 +262,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcoreplnode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '99 🇵🇱 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -326,11 +326,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Danhuang/Jiang
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '125 🇫🇷 Online S.a CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -430,7 +430,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '109 🇬🇧 OVH SAS SNI 👾 漁師'
     server: t1.teslacdn1.live
     type: trojan
@@ -439,7 +439,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '117 🇫🇷 OVH SAS SNI 👾 漁師'
     server: 51.77.213.197
     type: trojan
@@ -457,7 +457,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '173 🇬🇧 Stark Indu SNI 👾 漁師'
     server: 146.19.230.241
     type: trojan
