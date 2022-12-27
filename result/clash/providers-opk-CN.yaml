@@ -1,6 +1,22 @@
 proxies:
-  - name: '77 🇨🇳 Hangzhou A SNI 👾 漁師'
-    server: 39.103.165.178
+  - name: '37 🇨🇳 Alibaba US SNI 👾 漁師'
+    server: 478939162.skyjsq.space
+    type: vmess
+    port: 8877
+    uuid: a9ed8121-2ec1-8fe4-75cf-d7418ec49dd7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: tsel.me
+  - name: '59 🇨🇳 Shenzhen T SNI 👾 漁師'
+    server: 139.186.198.63
     type: vmess
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -11,8 +27,8 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '89 🇨🇳 Shenzhen T SNI 👾 漁師'
-    server: 139.186.198.63
+  - name: '72 🇨🇳 Hangzhou A SNI 👾 漁師'
+    server: 39.103.165.178
     type: vmess
     port: 50002
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
