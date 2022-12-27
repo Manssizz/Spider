@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '96 🇹🇼 Data Commu SNI 👾 漁師'
     server: 114389119.skyjsq.space
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /ray
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '211 🇹🇼 Scloud Pte SNI 👾 漁師'
     server: tw4.czs1000.com
     type: vmess
@@ -50,4 +50,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
