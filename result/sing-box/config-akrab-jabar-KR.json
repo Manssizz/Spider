@@ -77,13 +77,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -93,97 +93,6 @@
       "server": "52.79.182.230",
       "server_port": 42517,
       "uuid": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "75 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "m4.40010010.xyz",
-      "server_port": 37121,
-      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "172.67.199.34"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "101 🇰🇷 AMAZON-02 SNI 👾 漁師",
-      "server": "kr01.170203.xyz",
-      "server_port": 45453,
-      "uuid": "a0dd04c6-96ed-4821-8779-f36527c7ddfc",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "103 🇰🇷 AMAZON-02 SNI 👾 漁師",
-      "server": "hn-kr.transit.freework.cyou",
-      "server_port": 40182,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "172.67.199.34"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "117 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "seoulv001.jd0001.top",
-      "server_port": 4430,
-      "uuid": "c447bddb-121c-3216-ae57-4129e88d1f8f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/seoulv001",
-        "headers": {
-          "Host": "teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "143 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "152.67.218.38",
-      "server_port": 443,
-      "uuid": "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -201,10 +110,80 @@
     },
     {
       "type": "vmess",
-      "tag": "268 🇰🇷 ORACLE-BMC SNI 👾 漁師",
-      "server": "surongwei.eu.org",
+      "tag": "75 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "m4.40010010.xyz",
+      "server_port": 37121,
+      "uuid": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "101 🇰🇷 AMAZON-02 SNI 👾 漁師",
+      "server": "kr01.170203.xyz",
+      "server_port": 45453,
+      "uuid": "a0dd04c6-96ed-4821-8779-f36527c7ddfc",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "172.67.199.34"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "172.67.199.34"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "103 🇰🇷 AMAZON-02 SNI 👾 漁師",
+      "server": "hn-kr.transit.freework.cyou",
+      "server_port": 40182,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "117 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "seoulv001.jd0001.top",
+      "server_port": 4430,
+      "uuid": "c447bddb-121c-3216-ae57-4129e88d1f8f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "172.67.199.34"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/seoulv001",
+        "headers": {
+          "Host": "172.67.199.34"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "143 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "152.67.218.38",
       "server_port": 443,
-      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "uuid": "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -214,9 +193,30 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/reffs7y26g0ua",
+        "path": "/",
         "headers": {
           "Host": "teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "268 🇰🇷 ORACLE-BMC SNI 👾 漁師",
+      "server": "surongwei.eu.org",
+      "server_port": 443,
+      "uuid": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "172.67.199.34"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/reffs7y26g0ua",
+        "headers": {
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -266,13 +266,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -287,7 +287,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -299,7 +299,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -311,7 +311,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -323,7 +323,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -347,7 +347,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
