@@ -1,5 +1,21 @@
 proxies:
-  - name: '34 🇫🇷 Online S.a SNI 👾 漁師'
+  - name: '139 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: 51.77.158.169
+    type: vmess
+    port: 2096
+    uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '226 🇫🇷 Online S.a SNI 👾 漁師'
     server: v10a.toddns.tk
     type: vmess
     port: 443
@@ -15,23 +31,16 @@ proxies:
       path: /fr-unlimitxxx
       headers:
         Host: tsel.me
-  - name: '139 🇫🇷 Online S.a SNI 👾 漁師'
-    server: 45.136.244.181
-    type: vmess
+  - name: '94 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: 51.77.213.197
+    type: trojan
     port: 443
-    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: b3902e81-6260-4932-bcc9-708445fe40b4
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /fr-unlimitxxx
-      headers:
-        Host: tsel.me
-  - name: '50 🇫🇷 OVH SAS SNI 👾 漁師'
+  - name: '184 🇫🇷 OVH SAS SNI 👾 漁師'
     server: 176.31.83.90
     type: trojan
     port: 443
@@ -40,7 +49,25 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '54 🇫🇷 OVH SAS SNI 👾 漁師'
+  - name: '189 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: content-provider26.cdn-delivery.akamaicd.com
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '205 🇫🇷 OVH SAS SNI 👾 漁師'
+    server: 141.94.76.177
+    type: trojan
+    port: 443
+    password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '321 🇫🇷 OVH SAS SNI 👾 漁師'
     server: upload.soft98.download
     type: trojan
     port: 443
