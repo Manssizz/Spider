@@ -45,35 +45,31 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "180 🇫🇷 OVH SAS SNI 👾 漁師",
-        "189 🇫🇷 Online S.a SNI 👾 漁師"
+        "30 🇫🇷 CLOUDFLARE SNI 👾 漁師",
+        "100 🇫🇷 Online S.a SNI 👾 漁師",
+        "130 🇫🇷 OVH SAS SNI 👾 漁師",
+        "253 🇫🇷 OVH SAS SNI 👾 漁師",
+        "287 🇫🇷 OVH SAS SNI 👾 漁師"
       ]
     },
     {
       "type": "vmess",
-      "tag": "180 🇫🇷 OVH SAS SNI 👾 漁師",
-      "server": "51.77.158.169",
-      "server_port": 2096,
-      "uuid": "c92fd902-b5d3-4208-bb48-630b1c7babea",
+      "tag": "30 🇫🇷 CLOUDFLARE SNI 👾 漁師",
+      "server": "hn-fr.transit.freework.cyou",
+      "server_port": 40190,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "189 🇫🇷 Online S.a SNI 👾 漁師",
-      "server": "45.136.244.181",
+      "tag": "100 🇫🇷 Online S.a SNI 👾 漁師",
+      "server": "v10a.toddns.tk",
       "server_port": 443,
       "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
       "security": "auto",
@@ -89,6 +85,42 @@
         "headers": {
           "Host": "tsel.me"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "130 🇫🇷 OVH SAS SNI 👾 漁師",
+      "server": "frt2.sshocean.net",
+      "server_port": 443,
+      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "253 🇫🇷 OVH SAS SNI 👾 漁師",
+      "server": "51.77.213.197",
+      "server_port": 443,
+      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "287 🇫🇷 OVH SAS SNI 👾 漁師",
+      "server": "176.31.83.90",
+      "server_port": 443,
+      "password": "origin",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
       }
     }
   ],
