@@ -67,13 +67,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/in-vpn-majanist-vws",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -130,7 +130,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -139,27 +139,6 @@
       "server": "5.75.250.163",
       "server_port": 2096,
       "uuid": "e175ba8e-f3e8-4ec5-a350-f058537dca8e",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "211 🇩🇪 Hetzner On SNI 👾 漁師",
-      "server": "5.75.129.202",
-      "server_port": 55039,
-      "uuid": "151e56df-edd0-43ef-ddc8-f0108a05a792",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -176,6 +155,27 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "211 🇩🇪 Hetzner On SNI 👾 漁師",
+      "server": "5.75.129.202",
+      "server_port": 55039,
+      "uuid": "151e56df-edd0-43ef-ddc8-f0108a05a792",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "teams.microsoft.com"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "189 🇩🇪 Hetzner On SNI 👾 漁師",
       "server": "content-provider29.cdn-delivery.akamaicd.com",
@@ -184,7 +184,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       }
     },
     {
@@ -196,7 +196,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -208,7 +208,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     }
   ],

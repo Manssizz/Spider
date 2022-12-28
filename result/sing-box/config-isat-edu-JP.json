@@ -56,7 +56,7 @@
     {
       "type": "vmess",
       "tag": "22 🇯🇵 G-Core Lab CDN 👾 漁師",
-      "server": "104.18.25.139",
+      "server": "104.16.51.111",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
@@ -77,27 +77,6 @@
     {
       "type": "vmess",
       "tag": "95 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "141.193.213.20",
-      "server_port": 443,
-      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "opc-jp.sharecentre.online"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/shirker",
-        "headers": {
-          "Host": "opc-jp.sharecentre.online"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "182 🇯🇵 ORACLE-BMC CDN 👾 漁師",
       "server": "104.18.25.139",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
@@ -118,8 +97,29 @@
     },
     {
       "type": "vmess",
+      "tag": "182 🇯🇵 ORACLE-BMC CDN 👾 漁師",
+      "server": "141.193.213.20",
+      "server_port": 443,
+      "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "opc-jp.sharecentre.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/shirker",
+        "headers": {
+          "Host": "opc-jp.sharecentre.online"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "216 🇯🇵 ORACLE-BMC CDN 👾 漁師",
-      "server": "104.16.66.85",
+      "server": "104.17.70.206",
       "server_port": 443,
       "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
       "security": "auto",
@@ -140,7 +140,7 @@
     {
       "type": "vmess",
       "tag": "268 🇯🇵 Owl Limite CDN 👾 漁師",
-      "server": "104.16.51.111",
+      "server": "141.193.213.20",
       "server_port": 8080,
       "uuid": "59502b4c-6a17-4f65-a1cc-682f0179cec1",
       "security": "auto",
