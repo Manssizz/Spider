@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '32 🇭🇰 91440300MA SNI 👾 漁師'
     server: 117.164.185.222
     type: vmess
@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '43 🇭🇰 G-Core Lab SNI 👾 漁師'
     server: gcsshk.sylu.cyou
     type: vmess
@@ -34,11 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcsshknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '44 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcorehknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '67 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -114,13 +114,29 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /opt/video/images
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '137 🇭🇰 AMAZON-02 SNI 👾 漁師'
     server: 43.198.73.251
+    type: vmess
+    port: 443
+    uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: 172.67.199.34
+    ws-opts: 
+      path: /
+      headers:
+        Host: 172.67.199.34
+  - name: '173 🇭🇰 AMAZON-02 SNI 👾 漁師'
+    server: 43.198.91.243
     type: vmess
     port: 443
     uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
@@ -135,22 +151,6 @@ proxies:
       path: /
       headers:
         Host: teams.microsoft.com
-  - name: '173 🇭🇰 AMAZON-02 SNI 👾 漁師'
-    server: 43.198.91.243
-    type: vmess
-    port: 443
-    uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: 172.67.199.34
-    ws-opts: 
-      path: /
-      headers:
-        Host: 172.67.199.34
   - name: '263 🇭🇰 G-Core Lab CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -178,7 +178,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '285 🇭🇰 91440300MA SNI 👾 漁師'
     server: 117.164.185.222
     type: vmess
@@ -226,7 +226,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '210 🇭🇰 Alibaba US SNI 👾 漁師'
     server: hkv102.jd0001.top
     type: trojan
