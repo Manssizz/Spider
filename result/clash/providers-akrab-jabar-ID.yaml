@@ -7,7 +7,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: grpc
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '76 🇮🇩 PT Cloud H SNI 👾 漁師'
     server: yuk.vpsme.my.id
     type: trojan
@@ -16,8 +16,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /sweetws
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
