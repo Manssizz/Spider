@@ -54,7 +54,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '14 🇺🇸 IT7NET SNI 👾 漁師'
     server: c50s801.jamjams3.net
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '16 🇺🇸 PONYNET CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -126,7 +126,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '28 🇺🇸 IT7NET SNI 👾 漁師'
     server: c50s801.jamjams3.net
     type: vmess
@@ -166,11 +166,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /phxv101
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '59 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.159.41.233
     type: vmess
@@ -302,11 +302,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /abc
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '98 🇺🇸 ORACLE-BMC SNI 👾 漁師'
     server: 129.146.133.157
     type: vmess
@@ -318,7 +318,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '99 🇺🇸 AS40676 CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -690,7 +690,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '218 🇺🇸 Hyonix LLC CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -782,7 +782,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '231 🇺🇸 MICROSOFT- CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -970,7 +970,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '300 🇺🇸 AS40676 CDN 👾 漁師'
     server: 104.18.21.226
     type: vmess
@@ -1020,7 +1020,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '139 🇺🇸 PEGTECHINC SNI 👾 漁師'
     server: zzus01.fuqiangren.com
     type: trojan
@@ -1029,7 +1029,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '142 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
     server: lav002.jd0001.top
     type: trojan
@@ -1056,7 +1056,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '221 🇺🇸 AMAZON-AES SNI 👾 漁師'
     server: tr10.tgcunzhang.xyz
     type: trojan
@@ -1074,7 +1074,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '279 🇺🇸 MULTA-ASN1 SNI 👾 漁師'
     server: lav002.jd0001.top
     type: trojan
@@ -1092,7 +1092,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '297 🇺🇸 MIRholding SNI 👾 漁師'
     server: 138.124.183.222
     type: trojan
@@ -1122,7 +1122,7 @@ proxies:
     protocol: auth_chain_a
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=172.67.199.34
+    obfs-param: obfs=tls;obfs-host=teams.microsoft.com
     udp: true
   - name: '132 🇺🇸 CONTABO SNI 👾 漁師'
     server: 154.53.48.30
@@ -1133,5 +1133,5 @@ proxies:
     protocol: auth_chain_a
     protocol-param: Tm9uJSXvv70=
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=172.67.199.34
+    obfs-param: obfs=tls;obfs-host=teams.microsoft.com
     udp: true
