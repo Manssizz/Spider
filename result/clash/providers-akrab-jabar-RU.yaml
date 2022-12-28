@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '254 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: RU-153-16.shoptunnel.live
     type: vmess
@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '290 🇷🇺 LLC Baxet SNI 👾 漁師'
     server: RU-153-16.shoptunnel.live
     type: vmess
