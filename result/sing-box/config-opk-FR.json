@@ -45,14 +45,36 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "125 🇫🇷 CLOUDFLARE SNI 🤩 それで ...",
-        "105 🇫🇷 OVH SAS SNI 😘 それで ...",
-        "146 🇫🇷 OVH SAS SNI 🖖 それで ..."
+        "64 🇫🇷 Online S.a SNI 💎 それで ...",
+        "127 🇫🇷 CLOUDFLARE SNI 💎 それで ...",
+        "184 🇫🇷 OVH SAS SNI 😄 それで ...",
+        "189 🇫🇷 OVH SAS SNI 🖖 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "125 🇫🇷 CLOUDFLARE SNI 🤩 それで ...",
+      "tag": "64 🇫🇷 Online S.a SNI 💎 それで ...",
+      "server": "45.136.244.181",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fr-unlimitxxx",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "127 🇫🇷 CLOUDFLARE SNI 💎 それで ...",
       "server": "hd-fr.transit.freework.cyou",
       "server_port": 40190,
       "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
@@ -66,10 +88,10 @@
     },
     {
       "type": "trojan",
-      "tag": "105 🇫🇷 OVH SAS SNI 😘 それで ...",
-      "server": "5.135.235.160",
+      "tag": "184 🇫🇷 OVH SAS SNI 😄 それで ...",
+      "server": "51.77.213.197",
       "server_port": 443,
-      "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
+      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -78,10 +100,10 @@
     },
     {
       "type": "trojan",
-      "tag": "146 🇫🇷 OVH SAS SNI 🖖 それで ...",
-      "server": "frt2.sshocean.net",
+      "tag": "189 🇫🇷 OVH SAS SNI 🖖 それで ...",
+      "server": "5.135.235.160",
       "server_port": 443,
-      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
+      "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
       "tls": {
         "enabled": true,
         "insecure": true,

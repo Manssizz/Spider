@@ -85,6 +85,46 @@
         "vnext": [
           {
             "address": "135.181.235.21",
+            "port": 34303,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1ce52047-ad8a-4ef3-cdcd-46ff29b262fb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "click.zoom.us"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-60 🇫🇮 Hetzner On SNI ⭐ それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "135.181.235.21",
             "port": 12951,
             "users": [
               {
@@ -104,16 +144,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/"
         }
       },
-      "tag": "proxy-134 🇫🇮 Hetzner On SNI ⭐ それで ..."
+      "tag": "proxy-88 🇫🇮 Hetzner On SNI 🎁 それで ..."
     }
   ],
   "dns": {

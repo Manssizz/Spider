@@ -45,12 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "126 🇵🇱 OVH SAS SNI 👼 それで ..."
+        "26 🇵🇱 G-Core Lab SNI 🤩 それで ...",
+        "75 🇵🇱 OVH SAS SNI 💕 それで ...",
+        "78 🇵🇱 G-Core Lab SNI ⭐ それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "126 🇵🇱 OVH SAS SNI 👼 それで ...",
+      "tag": "26 🇵🇱 G-Core Lab SNI 🤩 それで ...",
+      "server": "gcorepl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcoreplnode",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "75 🇵🇱 OVH SAS SNI 💕 それで ...",
       "server": "147.135.208.210",
       "server_port": 443,
       "uuid": "7e194a05-a9d8-42fa-a8ad-f867057fba74",
@@ -64,6 +87,27 @@
       "transport": {
         "type": "ws",
         "path": "/vmess",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "78 🇵🇱 G-Core Lab SNI ⭐ それで ...",
+      "server": "gcspl.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "tsel.me"
         }
