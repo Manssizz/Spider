@@ -1,27 +1,21 @@
 proxies:
-  - name: '3 🇫🇷 OVH SAS SNI 🧚‍♂️ それで ...'
+  - name: '46 🇫🇷 CLOUDFLARE SNI 🦋 それで ...'
+    server: hd-fr.transit.freework.cyou
+    type: vmess
+    port: 40190
+    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '146 🇫🇷 OVH SAS SNI 🤟 それで ...'
     server: upload.soft98.download
     type: trojan
     port: 443
     password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '33 🇫🇷 OVH SAS SNI 💕 それで ...'
-    server: 176.31.83.90
-    type: trojan
-    port: 443
-    password: origin
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '36 🇫🇷 OVH SAS SNI 💋 それで ...'
-    server: 141.94.76.177
-    type: trojan
-    port: 443
-    password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
     udp: true
     skip-cert-verify: true
     network: tcp
