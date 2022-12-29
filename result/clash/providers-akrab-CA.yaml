@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /sshocean
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '27 🇨🇦 OVH SAS SNI 👍 それで ...'
     server: ca1.trojanvh.xyz
     type: trojan
@@ -95,4 +95,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
