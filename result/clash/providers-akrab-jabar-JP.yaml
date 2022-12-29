@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '15 🇯🇵 Linode LL SNI 😄 それで ...'
     server: jp8.czs1000.com
     type: vmess
@@ -58,11 +58,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /roewesu
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '49 🇯🇵 ORACLE-BMC CDN 🍀 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '97 🇯🇵 AMAZON-02 SNI 💝 それで ...'
     server: jp02.170203.xyz
     type: vmess
@@ -134,11 +134,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: 
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '112 🇯🇵 AMAZON-02 SNI 🤟 それで ...'
     server: v-aws-tk-1.heima-bot.tech
     type: vmess
@@ -150,11 +150,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /m1
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '114 🇯🇵 G-Core Lab CDN 🤣 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -206,7 +206,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '9 🇯🇵 Owl Limite SNI 🤩 それで ...'
     server: jp.swiftfalcon.app
     type: trojan
@@ -215,7 +215,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '13 🇯🇵 AMAZON-02 SNI 💜 それで ...'
     server: jp-tk-32.fuckjdieng.uk
     type: trojan
@@ -251,7 +251,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '61 🇯🇵 Linode LL SNI 🤣 それで ...'
     server: jp21.czs1000.com
     type: trojan
@@ -269,7 +269,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '104 🇯🇵 ORACLE-BMC SNI 😆 それで ...'
     server: jgwdj4.gaox.ml
     type: trojan
@@ -287,4 +287,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
