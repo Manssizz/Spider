@@ -1,9 +1,9 @@
 proxies:
-  - name: '158 🇸🇦 ORACLE-BMC SNI 👍 それで ...'
-    server: 193.122.65.167
+  - name: '142 🇸🇦 OVH SAS SNI ❤️ それで ...'
+    server: 51.195.217.20
     type: vmess
     port: 443
-    uuid: ed71c245-88af-484e-970c-29ac50637847
+    uuid: a6ee3c75-f83e-48a0-9af0-ac963db12112
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
         Host: tsel.me
