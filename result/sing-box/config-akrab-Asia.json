@@ -169,7 +169,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -183,13 +183,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -246,7 +246,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -255,6 +255,27 @@
       "server": "236ba16f-7989-71de-e510-1cad33923355.cnnic.rip",
       "server_port": 443,
       "uuid": "d761c5e4-8af1-4be8-8b20-af82fff30af2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "click.zoom.us"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "click.zoom.us"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "21 🇭🇰 AMAZON-02 SNI 🎁 それで ...",
+      "server": "43.198.73.251",
+      "server_port": 443,
+      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -272,27 +293,6 @@
     },
     {
       "type": "vmess",
-      "tag": "21 🇭🇰 AMAZON-02 SNI 🎁 それで ...",
-      "server": "43.198.73.251",
-      "server_port": 443,
-      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "config.teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "26 🇭🇰 STARCLOUD  SNI 🦋 それで ...",
       "server": "hk1vdf-node.aiqiche123.com",
       "server_port": 8189,
@@ -302,7 +302,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -463,7 +463,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -477,7 +477,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -491,13 +491,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -512,7 +512,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -526,7 +526,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -540,7 +540,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -575,7 +575,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -736,7 +736,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -750,7 +750,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -764,7 +764,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -778,13 +778,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
         "path": "/m2",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "click.zoom.us"
         }
       }
     },
@@ -799,13 +799,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/jhndsmlanj11223",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -820,13 +820,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       },
       "transport": {
         "type": "ws",
         "path": "/opt/video/images",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "safebrowsing.google.com"
         }
       }
     },
@@ -841,7 +841,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -869,13 +869,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -904,7 +904,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -918,13 +918,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "safebrowsing.google.com"
         }
       }
     },
@@ -939,13 +939,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/vmess",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -1023,13 +1023,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
         "path": "/graphql",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "click.zoom.us"
         }
       }
     },
@@ -1058,13 +1058,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "click.zoom.us"
         }
       }
     },
@@ -1149,7 +1149,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1163,7 +1163,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1198,7 +1198,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1233,13 +1233,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       },
       "transport": {
         "type": "ws",
         "path": "/sshocean",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "safebrowsing.google.com"
         }
       }
     },
@@ -1254,7 +1254,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1268,7 +1268,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1282,7 +1282,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1380,7 +1380,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1415,7 +1415,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1429,7 +1429,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1443,13 +1443,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/Falling42gcsshkknode",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -1464,7 +1464,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1478,13 +1478,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "safebrowsing.google.com"
         }
       }
     },
@@ -1513,7 +1513,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1527,13 +1527,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/sweet",
         "headers": {
-          "Host": "safebrowsing.google.com"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -1692,7 +1692,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1704,7 +1704,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1716,7 +1716,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1728,7 +1728,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1740,7 +1740,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1764,7 +1764,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1776,7 +1776,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1788,7 +1788,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1800,7 +1800,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1812,7 +1812,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1836,7 +1836,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1872,7 +1872,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1884,7 +1884,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -1896,7 +1896,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1908,7 +1908,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1920,7 +1920,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1956,7 +1956,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1968,7 +1968,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -1980,7 +1980,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -1992,7 +1992,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     }
   ],

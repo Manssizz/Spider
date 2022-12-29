@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '13 🇫🇷 Online S.a CDN 😁 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '38 🇩🇪 OVH SAS CDN 💜 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -110,11 +110,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '67 🇷🇺 LLC Baxet SNI 👏 それで ...'
     server: RU-153-16.shoptunnel.live
     type: vmess
@@ -186,11 +186,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '89 🇷🇺 LLC Baxet SNI 💜 それで ...'
     server: v10a.toddns.tk
     type: vmess
@@ -202,11 +202,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /ZPKLSPJjLBEy
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '91 🇩🇪 AMAZON-02 SNI 😺 それで ...'
     server: 3.70.144.63
     type: vmess
@@ -278,7 +278,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '114 🇫🇷 Online S.a CDN 💗 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -346,7 +346,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '175 🇳🇱 Online S.a SNI 😀 それで ...'
     server: nl2.v2rayserv.com
     type: vmess
@@ -441,4 +441,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
