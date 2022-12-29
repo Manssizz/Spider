@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '34 🇭🇰 Alibaba US SNI 👼 それで ...'
     server: 8.218.140.111
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /hk
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '82 🇭🇰 AMAZON-02 SNI 👌 それで ...'
     server: yhyhkbgp.yinhecdn.online
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /petalvws
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '105 🇭🇰 G-Core Lab SNI ❤️ それで ...'
     server: gcorehk.sylu.cyou
     type: vmess
@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcorehknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '106 🇭🇰 G-Core Lab CDN ⭐ それで ...'
     server: 104.18.21.226
     type: vmess
@@ -102,11 +102,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '123 🇭🇰 STARCLOUD  SNI 👼 それで ...'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
@@ -118,7 +118,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '137 🇭🇰 G-Core Lab CDN 💋 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -146,11 +146,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Falling42gcsshkknode
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '147 🇭🇰 G-Core Lab CDN 🎉 それで ...'
     server: 104.18.21.226
     type: vmess
