@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /opt/video/images
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '20 🇭🇰 AMAZON-02 SNI 🙌 それで ...'
     server: 18.163.116.113
     type: vmess
@@ -150,7 +150,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '119 🇭🇰 G-Core Lab SNI 🦄 それで ...'
     server: gcsshkk.sylu.cyou
     type: vmess
@@ -162,11 +162,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcsshkknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '120 🇭🇰 G-Core Lab CDN 😸 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -270,7 +270,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '175 🇭🇰 STARCLOUD  SNI 😆 それで ...'
     server: 206.119.112.6
     type: vmess
