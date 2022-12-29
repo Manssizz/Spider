@@ -1,13 +1,17 @@
 proxies:
-  - name: '163 🇧🇬 Neterra Lt SNI 👾 漁師'
-    server: ppy-moblev2.gatknqh.cn
+  - name: '60 🇧🇬 Neterra Lt SNI 💓 それで ...'
+    server: free1.zero-group.ml
     type: vmess
-    port: 26094
-    uuid: a17515e6-fdd0-337f-b93f-24f2f7b63bbf
+    port: 2052
+    uuid: a9f34df5-3aa9-47f1-b077-2b04f3e796f8
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
