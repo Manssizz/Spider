@@ -74,11 +74,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /vmess
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '141 🇨🇦 AMAZON-02 SNI 🙌 それで ...'
     server: awsypca.sylu.cyou
     type: vmess
@@ -90,11 +90,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42awsypcanode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '179 🇨🇦 CLOUDFLARE SNI 😂 それで ...'
     server: hz-ca.transit.freework.cyou
     type: vmess
