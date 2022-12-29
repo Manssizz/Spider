@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '47 🇨🇦 AS-CHOOPA SNI 😹 それで ...'
     server: CA-177-89.shoptunnel.live
     type: vmess
@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '74 🇨🇦 CLOUDFLARE SNI ✨ それで ...'
     server: hz-ca.transit.freework.cyou
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '27 🇨🇦 OVH SAS SNI 👍 それで ...'
     server: ca1.trojanvh.xyz
     type: trojan
