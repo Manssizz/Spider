@@ -45,14 +45,49 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "65 🇫🇷 OVH SAS SNI 👸 それで ...",
-        "75 🇫🇷 CLOUDFLARE SNI 💋 それで ...",
-        "97 🇫🇷 OVH SAS SNI 😍 それで ..."
+        "35 🇫🇷 CLOUDFLARE SNI 👏 それで ...",
+        "93 🇫🇷 OVH SAS SNI 💋 それで ...",
+        "161 🇫🇷 OVH SAS SNI 😁 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "65 🇫🇷 OVH SAS SNI 👸 それで ...",
+      "tag": "35 🇫🇷 CLOUDFLARE SNI 👏 それで ...",
+      "server": "hd-fr.transit.freework.cyou",
+      "server_port": 40190,
+      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93 🇫🇷 OVH SAS SNI 💋 それで ...",
+      "server": "51.77.158.169",
+      "server_port": 2096,
+      "uuid": "c92fd902-b5d3-4208-bb48-630b1c7babea",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "161 🇫🇷 OVH SAS SNI 😁 それで ...",
       "server": "fr2.v2rayserv.com",
       "server_port": 443,
       "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
@@ -69,32 +104,6 @@
         "headers": {
           "Host": "tsel.me"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "75 🇫🇷 CLOUDFLARE SNI 💋 それで ...",
-      "server": "hn-fr.transit.freework.cyou",
-      "server_port": 40190,
-      "uuid": "bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "97 🇫🇷 OVH SAS SNI 😍 それで ...",
-      "server": "51.77.213.197",
-      "server_port": 443,
-      "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
       }
     }
   ],
