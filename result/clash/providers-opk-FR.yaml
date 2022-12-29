@@ -1,6 +1,22 @@
 proxies:
-  - name: '8 🇫🇷 CLOUDFLARE SNI 👌 それで ...'
-    server: hz-fr.transit.freework.cyou
+  - name: '65 🇫🇷 OVH SAS SNI 👸 それで ...'
+    server: fr2.v2rayserv.com
+    type: vmess
+    port: 443
+    uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: tsel.me
+  - name: '75 🇫🇷 CLOUDFLARE SNI 💋 それで ...'
+    server: hn-fr.transit.freework.cyou
     type: vmess
     port: 40190
     uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
@@ -11,16 +27,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '119 🇫🇷 OVH SAS SNI 💜 それで ...'
-    server: 141.94.76.177
-    type: trojan
-    port: 443
-    password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '156 🇫🇷 OVH SAS SNI 💜 それで ...'
+  - name: '97 🇫🇷 OVH SAS SNI 😍 それで ...'
     server: 51.77.213.197
     type: trojan
     port: 443
