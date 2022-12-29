@@ -1,5 +1,17 @@
 proxies:
-  - name: '14 🇭🇰 Alibaba US SNI 😺 それで ...'
+  - name: '26 🇭🇰 Tencent Bu SNI 🌟 それで ...'
+    server: 43.154.34.49
+    type: vmess
+    port: 23183
+    uuid: b402a4af-285a-463e-c3a7-53f91efdec78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '34 🇭🇰 Alibaba US SNI 👼 それで ...'
     server: 8.218.140.111
     type: vmess
     port: 34193
@@ -15,24 +27,8 @@ proxies:
       path: /hk
       headers:
         Host: tsel.me
-  - name: '16 🇭🇰 Netsec Lim SNI 👸 それで ...'
-    server: hrgdvpn.flycdnedc55.vip
-    type: vmess
-    port: 443
-    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /opt/video/images
-      headers:
-        Host: tsel.me
-  - name: '20 🇭🇰 AMAZON-02 SNI 🙌 それで ...'
-    server: 18.163.116.113
+  - name: '82 🇭🇰 AMAZON-02 SNI 👌 それで ...'
+    server: yhyhkbgp.yinhecdn.online
     type: vmess
     port: 26346
     uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
@@ -47,11 +43,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '77 🇭🇰 AMAZON-02 SNI 😂 それで ...'
-    server: 43.198.73.251
+  - name: '98 🇭🇰 MICROSOFT- SNI 🤣 それで ...'
+    server: 20.187.122.132
     type: vmess
     port: 443
-    uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
+    uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
     alterId: 0
     cipher: auto
     tls: true
@@ -60,51 +56,11 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /
+      path: /petalvws
       headers:
         Host: tsel.me
-  - name: '97 🇭🇰 Tencent Bu SNI 🌟 それで ...'
-    server: 43.154.34.49
-    type: vmess
-    port: 23183
-    uuid: b402a4af-285a-463e-c3a7-53f91efdec78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '107 🇭🇰 Tencent Bu SNI 👸 それで ...'
-    server: 43.154.182.177
-    type: vmess
-    port: 19203
-    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '111 🇭🇰 STARCLOUD  SNI 💕 それで ...'
-    server: 206.119.112.6
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '119 🇭🇰 G-Core Lab SNI 🦄 それで ...'
-    server: gcsshkk.sylu.cyou
+  - name: '105 🇭🇰 G-Core Lab SNI ❤️ それで ...'
+    server: gcorehk.sylu.cyou
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -116,38 +72,10 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /Falling42gcsshkknode
+      path: /Falling42gcorehknode
       headers:
         Host: tsel.me
-  - name: '130 🇭🇰 G-Core Lab SNI ❤️ それで ...'
-    server: gcorehkk.sylu.cyou
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /Falling42gcorehkknode
-      headers:
-        Host: tsel.me
-  - name: '138 🇭🇰 Tencent Bu SNI 💓 それで ...'
-    server: 43.154.34.49
-    type: vmess
-    port: 23183
-    uuid: b402a4af-285a-463e-c3a7-53f91efdec78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '149 🇭🇰 HKT Limite SNI 😻 それで ...'
+  - name: '115 🇭🇰 HKT Limite SNI 💖 それで ...'
     server: download2hkt.windowsupdate.lol
     type: vmess
     port: 443
@@ -163,8 +91,8 @@ proxies:
       path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
       headers:
         Host: tsel.me
-  - name: '165 🇭🇰 STARCLOUD  SNI 😘 それで ...'
-    server: 206.119.112.6
+  - name: '123 🇭🇰 STARCLOUD  SNI 👼 それで ...'
+    server: hk1vdf-node.aiqiche123.com
     type: vmess
     port: 8189
     uuid: a90597c1-bab3-4217-ad6f-0838675c8638
@@ -175,24 +103,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '175 🇭🇰 STARCLOUD  SNI 😆 それで ...'
-    server: 206.119.112.6
+  - name: '146 🇭🇰 G-Core Lab SNI 😂 それで ...'
+    server: gcsshkk.sylu.cyou
     type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '85 🇭🇰 Tencent Bu SNI 🙃 それで ...'
-    server: azhk095.xiaohouzi.club
-    type: trojan
-    port: 10102
-    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcsshkknode
+      headers:
+        Host: tsel.me
