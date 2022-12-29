@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '78 🇩🇪 Hetzner On SNI 🤟 それで ...'
     server: 78.46.244.34
     type: vmess
@@ -54,7 +54,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '147 🇩🇪 myLoc mana SNI ☀️ それで ...'
     server: 213.202.233.147
     type: vmess
@@ -66,11 +66,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '149 🇩🇪 OVH SAS CDN 🎉 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -146,11 +146,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '203 🇩🇪 DIGITALOCE SNI 😻 それで ...'
     server: 165.227.175.88
     type: vmess
@@ -178,7 +178,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '84 🇩🇪 OVH SAS SNI 🎉 それで ...'
     server: t2.teslacdn1.live
     type: trojan
@@ -187,7 +187,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '132 🇩🇪 Hetzner On SNI 🦋 それで ...'
     server: 188.40.250.247
     type: trojan
@@ -196,7 +196,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '162 🇩🇪 IP-Project SNI 🤣 それで ...'
     server: 84.252.121.218
     type: trojan
@@ -205,4 +205,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com

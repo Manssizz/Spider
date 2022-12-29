@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '85 🇰🇷 AMAZON-02 SNI 😁 それで ...'
     server: hd-kr.transit.freework.cyou
     type: vmess
@@ -78,11 +78,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '160 🇰🇷 AMAZON-02 SNI 🧚‍♂️ それで ...'
     server: 13.125.24.112
     type: vmess
@@ -123,7 +123,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '20 🇰🇷 ORACLE-BMC SNI 🍀 それで ...'
     server: kr1.api-aws.com
     type: trojan
@@ -141,7 +141,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '91 🇰🇷 ORACLE-BMC SNI 💕 それで ...'
     server: kr1.api-aws.com
     type: trojan
@@ -150,7 +150,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '102 🇰🇷 ORACLE-BMC SNI 👍 それで ...'
     server: jgwcc2.gaox.ml
     type: trojan
@@ -195,4 +195,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
