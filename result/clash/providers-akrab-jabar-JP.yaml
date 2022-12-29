@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /roewesu
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '20 🇯🇵 Linode LL SNI 💎 それで ...'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '53 🇯🇵 AS-CHOOPA SNI 🤴 それで ...'
     server: hainan.sfjsq001.info
     type: vmess
@@ -134,7 +134,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '114 🇯🇵 Linode LL SNI 🦋 それで ...'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -170,7 +170,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '147 🇯🇵 Linode LL SNI 💎 それで ...'
     server: 172.104.114.137
     type: vmess
@@ -191,7 +191,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '17 🇯🇵 AMAZON-02 SNI 😹 それで ...'
     server: jp-tk-32.fuckjdieng.uk
     type: trojan
@@ -200,7 +200,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '30 🇯🇵 MIKU NETWO SNI 💕 それで ...'
     server: zzjp01.fuqiangren.com
     type: trojan
@@ -218,7 +218,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '85 🇯🇵 MIKU NETWO SNI 🎁 それで ...'
     server: zzjp01.fuqiangren.com
     type: trojan
@@ -272,4 +272,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com

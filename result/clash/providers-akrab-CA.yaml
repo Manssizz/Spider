@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '74 🇨🇦 CLOUDFLARE SNI ✨ それで ...'
     server: hz-ca.transit.freework.cyou
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '27 🇨🇦 OVH SAS SNI 👍 それで ...'
     server: ca1.trojanvh.xyz
     type: trojan
@@ -95,4 +95,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
