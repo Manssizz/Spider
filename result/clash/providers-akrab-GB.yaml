@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '33 🇬🇧 DIGITALOCE SNI 💗 それで ...'
     server: 161.35.47.70
     type: vmess
@@ -47,7 +47,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '97 🇬🇧 Stark Indu SNI 🎉 それで ...'
     server: 146.19.230.241
     type: trojan

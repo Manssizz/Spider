@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '26 🇸🇬 Contabo As CDN 😃 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sg1
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '37 🇸🇬 DIGITALOCE CDN 😀 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -242,11 +242,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /ws
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '107 🇸🇬 G-Core Lab CDN 👸 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -382,11 +382,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /hkaa0
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '166 🇸🇬 HURRICANE CDN 💌 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -430,7 +430,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '39 🇸🇬 OVH SAS SNI 😍 それで ...'
     server: sgt3.sshocean.net
     type: trojan
@@ -439,7 +439,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '173 🇸🇬 DIGITALOCE SNI 👸 それで ...'
     server: sg-01.tiktokcdn.top
     type: trojan
