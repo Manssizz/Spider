@@ -45,14 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "110 🇳🇱 Online S.a SNI 🌈 それで ...",
-        "190 🇳🇱 Online S.a SNI 👏 それで ...",
-        "113 🇳🇱 AS40676 SNI 💋 それで ..."
+        "76 🇳🇱 Scalaxy B. SNI 🙃 それで ...",
+        "140 🇳🇱 Online S.a SNI 👏 それで ...",
+        "111 🇳🇱 AS40676 SNI 😃 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "110 🇳🇱 Online S.a SNI 🌈 それで ...",
+      "tag": "76 🇳🇱 Scalaxy B. SNI 🙃 それで ...",
+      "server": "5.45.78.209",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "140 🇳🇱 Online S.a SNI 👏 それで ...",
       "server": "51.15.113.164",
       "server_port": 443,
       "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
@@ -65,28 +86,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "190 🇳🇱 Online S.a SNI 👏 それで ...",
-      "server": "51.15.81.240",
-      "server_port": 443,
-      "uuid": "364cf68d-8821-4e57-8189-0d16bac31a58",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
+        "path": "/Danhuang/Jiang",
         "headers": {
           "Host": "tsel.me"
         }
@@ -94,8 +94,8 @@
     },
     {
       "type": "trojan",
-      "tag": "113 🇳🇱 AS40676 SNI 💋 それで ...",
-      "server": "185.212.200.74",
+      "tag": "111 🇳🇱 AS40676 SNI 😃 それで ...",
+      "server": "content-provider24.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {

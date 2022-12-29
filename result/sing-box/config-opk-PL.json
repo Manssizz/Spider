@@ -45,16 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "69 🇵🇱 OVH SAS SNI 🌟 それで ...",
-        "126 🇵🇱 G-Core Lab SNI 🙃 それで ..."
+        "126 🇵🇱 OVH SAS SNI 👼 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "69 🇵🇱 OVH SAS SNI 🌟 それで ...",
-      "server": "pl1.v2rayserv.com",
+      "tag": "126 🇵🇱 OVH SAS SNI 👼 それで ...",
+      "server": "147.135.208.210",
       "server_port": 443,
-      "uuid": "19924be7-db1c-4b32-8dbc-aec68e0bbf3e",
+      "uuid": "7e194a05-a9d8-42fa-a8ad-f867057fba74",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -64,28 +63,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "126 🇵🇱 G-Core Lab SNI 🙃 それで ...",
-      "server": "gcspl.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsplnode",
+        "path": "/vmess",
         "headers": {
           "Host": "tsel.me"
         }

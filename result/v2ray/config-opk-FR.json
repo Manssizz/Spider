@@ -107,7 +107,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-46 🇫🇷 CLOUDFLARE SNI 🦋 それで ..."
+      "tag": "proxy-125 🇫🇷 CLOUDFLARE SNI 🤩 それで ..."
     },
     {
       "mux": {
@@ -118,7 +118,7 @@
       "settings": {
         "servers": [
           {
-            "address": "upload.soft98.download",
+            "address": "5.135.235.160",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -136,7 +136,36 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-146 🇫🇷 OVH SAS SNI 🤟 それで ..."
+      "tag": "proxy-105 🇫🇷 OVH SAS SNI 😘 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "frt2.sshocean.net",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "b3902e81-6260-4932-bcc9-708445fe40b4",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-146 🇫🇷 OVH SAS SNI 🖖 それで ..."
     }
   ],
   "dns": {
