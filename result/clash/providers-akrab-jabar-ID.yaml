@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /sweet
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '109 🇮🇩 PT Bukuku  SNI 😹 それで ...'
     server: 103.187.106.98
     type: vmess
