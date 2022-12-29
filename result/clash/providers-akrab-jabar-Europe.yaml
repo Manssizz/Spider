@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '45 🇫🇷 Online S.a CDN 🌈 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -162,7 +162,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '57 🇩🇪 Hetzner On SNI 💜 それで ...'
     server: 5.75.129.202
     type: vmess
@@ -318,7 +318,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '121 🇩🇪 Hetzner On CDN 💖 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -362,11 +362,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /filestreamingservice/files/26f893e2-076a-46a8-94e2-a3a85a0b219b
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '150 🇫🇷 CLOUDFLARE SNI 🌟 それで ...'
     server: hn-fr.transit.freework.cyou
     type: vmess
@@ -378,7 +378,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '174 🇩🇪 Hetzner On SNI 😺 それで ...'
     server: 188.40.132.107
     type: vmess
@@ -438,11 +438,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '195 🇺🇦 ITL LLC CDN 👸 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -485,7 +485,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '106 🇩🇪 Hetzner On SNI 💎 それで ...'
     server: 188.40.236.127
     type: trojan
@@ -494,7 +494,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '160 🇳🇱 AS40676 SNI 😃 それで ...'
     server: content-provider24.cdn-delivery.akamaicd.com
     type: trojan
@@ -503,7 +503,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '190 🇳🇱 AEZA GROUP SNI 😁 それで ...'
     server: 89.185.85.162
     type: trojan
@@ -512,4 +512,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
