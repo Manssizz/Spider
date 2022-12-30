@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: 
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '29 🇭🇰 STARCLOUD  SNI 💓 それで ...'
     server: 206.119.112.6
     type: vmess
@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /petalvws
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '77 🇭🇰 STARCLOUD  SNI 💕 それで ...'
     server: 206.119.112.6
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '100 🇭🇰 G-Core Lab CDN 😸 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -138,11 +138,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '135 🇭🇰 Netsec Lim SNI 🖖 それで ...'
     server: hrgdvpn.flycdnedc55.vip
     type: vmess
@@ -154,11 +154,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /opt/video/images
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '178 🇭🇰 HGC Global SNI 🖖 それで ...'
     server: hdsd-hk.transit.freework.cyou
     type: vmess
@@ -170,7 +170,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '16 🇭🇰 Tencent Bu SNI 👼 それで ...'
     server: azhk095.xiaohouzi.club
     type: trojan
@@ -179,4 +179,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
