@@ -1,6 +1,6 @@
 proxies:
-  - name: '5 🇹🇼 Data Communication Business Group SNI'
-    server: tw1.kidcc.xyz
+  - name: '17 🇹🇼 Data Communication Business Group SNI'
+    server: hinet.kidcc.xyz
     type: vmess
     port: 8443
     uuid: ff90d31d-6e69-4597-8c20-74a44208c843
@@ -15,11 +15,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '73 🇹🇼 Data Communication Business Group SNI'
-    server: v1-tw.xtspeeder001.xyz
+  - name: '98 🇹🇼 Data Communication Business Group SNI'
+    server: twfv6h4zc.b70rw85t.xyz
     type: vmess
-    port: 18001
-    uuid: 7affa329-5e15-369e-8929-b6452cdf2616
+    port: 39999
+    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
     alterId: 0
     cipher: auto
     tls: true
@@ -27,3 +27,47 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
+  - name: '113 🇹🇼 Data Communication Business Group SNI'
+    server: bak-hinet.kidcc.xyz
+    type: vmess
+    port: 18443
+    uuid: ff90d31d-6e69-4597-8c20-74a44208c843
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: 
+      headers:
+        Host: tsel.me
+  - name: '123 🇹🇼 Data Communication Business Group SNI'
+    server: 117.164.185.222
+    type: vmess
+    port: 16130
+    uuid: 1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '136 🇹🇼 Data Communication Business Group SNI'
+    server: bak-hinet.kidcc.xyz
+    type: vmess
+    port: 18443
+    uuid: ff90d31d-6e69-4597-8c20-74a44208c843
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me

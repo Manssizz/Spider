@@ -1,49 +1,9 @@
 proxies:
-  - name: '6 🇸🇬 DIGITALOCEAN-ASN SNI'
-    server: free1.fssh-store.my.id
+  - name: '7 🇸🇬 AMAZON-02 SNI'
+    server: 18.143.123.35
     type: vmess
     port: 443
-    uuid: 6de00aa9-9403-49ae-b69c-b84b01ba83ae
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: tsel.me
-  - name: '22 🇸🇬 DIGITALOCEAN-ASN SNI'
-    server: 128.199.71.90
-    type: vmess
-    port: 7070
-    uuid: 980b6861-5c96-4232-94ab-628e68ebfdb4
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '45 🇸🇬 OVH SAS SNI'
-    server: 139.99.91.95
-    type: vmess
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: 32
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '54 🇸🇬 AMAZON-02 SNI'
-    server: sg002.170203.xyz
-    type: vmess
-    port: 43543
-    uuid: 0965454f-79e7-4c96-9fe1-ec0ff58e0397
+    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
     alterId: 0
     cipher: auto
     tls: true
@@ -55,55 +15,7 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '62 🇸🇬 Contabo Asia Private Limited SNI'
-    server: 109.123.237.41
-    type: vmess
-    port: 443
-    uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /fastssh
-      headers:
-        Host: tsel.me
-  - name: '74 🇸🇬 AMAZON-02 SNI'
-    server: 52.221.202.63
-    type: vmess
-    port: 17801
-    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '82 🇸🇬 Linode  LLC SNI'
-    server: sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
-    type: vmess
-    port: 7203
-    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /sg1
-      headers:
-        Host: tsel.me
-  - name: '92 🇸🇬 DIGITALOCEAN-ASN SNI'
+  - name: '37 🇸🇬 DIGITALOCEAN-ASN SNI'
     server: 159.223.89.233
     type: vmess
     port: 11451
@@ -119,7 +31,7 @@ proxies:
       path: /ws
       headers:
         Host: tsel.me
-  - name: '98 🇸🇬 G-Core Labs S.A. SNI'
+  - name: '44 🇸🇬 G-Core Labs S.A. SNI'
     server: gcsssg.sylu.cyou
     type: vmess
     port: 443
@@ -135,43 +47,11 @@ proxies:
       path: /Falling42gcsssgnode
       headers:
         Host: tsel.me
-  - name: '105 🇸🇬 Melbikomas UAB SNI'
-    server: 5.44.249.43
+  - name: '59 🇸🇬 AMAZON-02 SNI'
+    server: sg03.170203.xyz
     type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: tsel.me
-  - name: '111 🇸🇬 DIGITALOCEAN-ASN SNI'
-    server: 157.230.36.235
-    type: vmess
-    port: 443
-    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /graphql
-      headers:
-        Host: tsel.me
-  - name: '132 🇸🇬 AMAZON-02 SNI'
-    server: huclouds.ml
-    type: vmess
-    port: 5505
-    uuid: 69801534-3870-4d14-9d07-6f65da593da4
+    port: 34333
+    uuid: 0965454f-79e7-4c96-9fe1-ec0ff58e0397
     alterId: 0
     cipher: auto
     tls: true
@@ -183,11 +63,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '142 🇸🇬 G-Core Labs S.A. SNI'
-    server: 91.199.87.51
+  - name: '61 🇸🇬 G-Core Labs S.A. SNI'
+    server: gcoresg.sylu.cyou
     type: vmess
     port: 443
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
     alterId: 0
     cipher: auto
     tls: true
@@ -196,52 +76,104 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /shirker
+      path: /Falling42gcoresgnode
       headers:
         Host: tsel.me
-  - name: '149 🇸🇬 OVH SAS SNI'
-    server: 15.235.147.186
+  - name: '67 🇸🇬 Scloud Pte Ltd SNI'
+    server: hainan.sfjsq001.info
     type: vmess
-    port: 443
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    port: 33214
+    uuid: 7259955f-09db-3ce1-8325-8814d4784280
     alterId: 0
     cipher: auto
     tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /sshkit/Ertusg86/635014638c264/
-      headers:
-        Host: tsel.me
-  - name: '42 🇸🇬 Melbikomas UAB SNI'
-    server: 5.44.249.44
-    type: trojan
-    port: 3306
-    password: 4bacb8f1a089763b
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /gateway/connect
-      headers:
-        Host: tsel.me
-  - name: '110 🇸🇬 Contabo Asia Private Limited SNI'
-    server: trojan-ctb-sg01.globalssh.xyz
-    type: trojan
-    port: 443
-    password: 123456
     udp: true
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '118 🇸🇬 Linode  LLC SNI'
+  - name: '71 🇸🇬 AMAZON-02 SNI'
+    server: 52.221.202.63
+    type: vmess
+    port: 17801
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '102 🇸🇬 ORACLE-BMC-31898 SNI'
+    server: 129.150.44.64
+    type: vmess
+    port: 46075
+    uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /jhndsmlanj11223
+      headers:
+        Host: tsel.me
+  - name: '108 🇸🇬 OVH SAS SNI'
+    server: 139.99.91.95
+    type: vmess
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '144 🇸🇬 Linode  LLC SNI'
+    server: sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    type: vmess
+    port: 7204
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sg1
+      headers:
+        Host: tsel.me
+  - name: '31 🇸🇬 OVH SAS SNI'
+    server: sgt3.sshocean.net
+    type: trojan
+    port: 443
+    password: 10ccaf5d-293c-4ee7-9e76-2ff9e5b2eee9
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '115 🇸🇬 Linode  LLC SNI'
     server: 139.162.45.139
     type: trojan
     port: 443
     password: FLpONjB2Lb
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '129 🇸🇬 Contabo Asia Private Limited SNI'
+    server: trojan-ctb-sg01.globalssh.xyz
+    type: trojan
+    port: 443
+    password: 123456
     udp: true
     skip-cert-verify: true
     network: tcp
