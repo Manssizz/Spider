@@ -45,13 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "73 🇳🇱 Online S.a SNI 😁 それで ...",
-        "77 🇳🇱 AS40676 SNI 💖 それで ..."
+        "126 🇳🇱 Online S.a SNI 😄 それで ...",
+        "160 🇳🇱 Scalaxy B. SNI 😺 それで ...",
+        "58 🇳🇱 AS40676 SNI 😻 それで ...",
+        "118 🇳🇱 AEZA GROUP SNI 💕 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "73 🇳🇱 Online S.a SNI 😁 それで ...",
+      "tag": "126 🇳🇱 Online S.a SNI 😄 それで ...",
       "server": "nl1.v2rayserv.com",
       "server_port": 443,
       "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
@@ -71,11 +73,44 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "160 🇳🇱 Scalaxy B. SNI 😺 それで ...",
+      "server": "5.45.78.209",
+      "server_port": 8080,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "77 🇳🇱 AS40676 SNI 💖 それで ...",
-      "server": "185.212.200.74",
+      "tag": "58 🇳🇱 AS40676 SNI 😻 それで ...",
+      "server": "185.212.200.75",
       "server_port": 443,
       "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "118 🇳🇱 AEZA GROUP SNI 💕 それで ...",
+      "server": "89.185.85.162",
+      "server_port": 30086,
+      "password": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
       "tls": {
         "enabled": true,
         "insecure": true,
