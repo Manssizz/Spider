@@ -122,7 +122,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '85 🇸🇬 OVH SAS CDN 🤩 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -246,11 +246,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /hkaa0
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '135 🇸🇬 DIGITALOCE SNI ❤️ それで ...'
     server: gmlovebaipiao.tech
     type: vmess
@@ -278,7 +278,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '149 🇸🇬 OVH SAS SNI 😺 それで ...'
     server: 139.99.91.95
     type: vmess
@@ -302,11 +302,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /fastssh
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '163 🇸🇬 OVH SAS SNI 🙃 それで ...'
     server: 139.99.91.95
     type: vmess
@@ -346,7 +346,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '44 🇸🇬 Contabo As SNI 🦄 それで ...'
     server: trojan-ctb-sg01.globalssh.xyz
     type: trojan
@@ -395,4 +395,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
