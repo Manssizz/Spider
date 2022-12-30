@@ -1,37 +1,21 @@
 proxies:
-  - name: '26 🇳🇱 Scalaxy B.V. CDN'
-    server: 104.18.21.226
+  - name: '71 🇳🇱 Online S.a.s. SNI'
+    server: 51.15.81.240
     type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    port: 443
+    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: nl.gongyiyun.cf
+    servername: teams.microsoft.com
     ws-opts: 
-      path: /
+      path: /sshocean
       headers:
-        Host: nl.gongyiyun.cf
-  - name: '27 🇳🇱 Scalaxy B.V. SNI'
-    server: nl.gongyiyun.cf
-    type: vmess
-    port: 8080
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: 172.67.199.34
-    ws-opts: 
-      path: /
-      headers:
-        Host: 172.67.199.34
-  - name: '43 🇳🇱 Online S.a.s. CDN'
+        Host: teams.microsoft.com
+  - name: '94 🇳🇱 CLOUDFLARENET CDN'
     server: 104.18.21.226
     type: vmess
     port: 2086
@@ -47,23 +31,23 @@ proxies:
       path: /aries
       headers:
         Host: scw.cloudflare.quest
-  - name: '51 🇳🇱 Online S.a.s. SNI'
-    server: 51.15.81.240
+  - name: '106 🇳🇱 Online S.a.s. CDN'
+    server: 104.18.21.226
     type: vmess
     port: 443
-    uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: v12a.toddns.tk
     ws-opts: 
-      path: /sshocean
+      path: /nl-unlimitxxx
       headers:
-        Host: 172.67.199.34
-  - name: '159 🇳🇱 Online S.a.s. SNI'
+        Host: v12a.toddns.tk
+  - name: '155 🇳🇱 Online S.a.s. SNI'
     server: 51.15.113.164
     type: vmess
     port: 443
@@ -74,8 +58,26 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Danhuang/Jiang
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
+  - name: '28 🇳🇱 AS40676 SNI'
+    server: 185.212.200.75
+    type: trojan
+    port: 443
+    password: Sp3eDVp
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: 172.67.199.34
+  - name: '29 🇳🇱 AEZA GROUP Ltd SNI'
+    server: 89.185.85.162
+    type: trojan
+    port: 30086
+    password: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: teams.microsoft.com

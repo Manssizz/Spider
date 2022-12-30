@@ -45,12 +45,35 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "60 🇫🇷 OVH SAS SNI"
+        "20 🇫🇷 OVH SAS SNI",
+        "119 🇫🇷 OVH SAS SNI",
+        "127 🇫🇷 Online S.a.s. SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "60 🇫🇷 OVH SAS SNI",
+      "tag": "20 🇫🇷 OVH SAS SNI",
+      "server": "fr2.v2rayserv.com",
+      "server_port": 443,
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "119 🇫🇷 OVH SAS SNI",
       "server": "51.77.158.169",
       "server_port": 2096,
       "uuid": "c92fd902-b5d3-4208-bb48-630b1c7babea",
@@ -64,6 +87,27 @@
       "transport": {
         "type": "ws",
         "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "127 🇫🇷 Online S.a.s. SNI",
+      "server": "v10a.toddns.tk",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fr-unlimitxxx",
         "headers": {
           "Host": "tsel.me"
         }
