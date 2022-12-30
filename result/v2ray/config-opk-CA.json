@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca2.v2rayserv.com",
+            "address": "awsypca.sylu.cyou",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
                 "level": 8,
                 "security": "auto"
               }
@@ -110,39 +110,50 @@
           "headers": {
             "Host": "tsel.me"
           },
-          "path": "/"
+          "path": "/Falling42awsypcanode"
         }
       },
-      "tag": "proxy-36 🇨🇦 OVH SAS SNI 💓 それで ..."
+      "tag": "proxy-48 🇨🇦 AMAZON-02 SNI"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "149.56.141.11",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
-            "port": 443
+            "address": "159.203.18.119",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "af3e47fc-f817-4845-822c-1f35ecf90b31",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/vmess"
         }
       },
-      "tag": "proxy-176 🇨🇦 OVH SAS SNI 😘 それで ..."
+      "tag": "proxy-58 🇨🇦 DIGITALOCEAN-ASN SNI"
     }
   ],
   "dns": {

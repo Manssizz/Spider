@@ -1,9 +1,9 @@
 proxies:
-  - name: '36 🇨🇦 OVH SAS SNI 💓 それで ...'
-    server: ca2.v2rayserv.com
+  - name: '48 🇨🇦 AMAZON-02 SNI'
+    server: awsypca.sylu.cyou
     type: vmess
     port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
     alterId: 0
     cipher: auto
     tls: true
@@ -12,15 +12,22 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /
+      path: /Falling42awsypcanode
       headers:
         Host: tsel.me
-  - name: '176 🇨🇦 OVH SAS SNI 😘 それで ...'
-    server: 149.56.141.11
-    type: trojan
+  - name: '58 🇨🇦 DIGITALOCEAN-ASN SNI'
+    server: 159.203.18.119
+    type: vmess
     port: 443
-    password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
+    uuid: af3e47fc-f817-4845-822c-1f35ecf90b31
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
