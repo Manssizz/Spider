@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '32 🇩🇪 G-Core Labs S.A. SNI'
     server: gcsde.sylu.cyou
     type: vmess
@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcsdenode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '33 🇩🇪 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -54,7 +54,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '70 🇩🇪 OVH SAS CDN'
     server: 104.18.21.226
     type: vmess
@@ -82,11 +82,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '86 🇩🇪 Hetzner Online GmbH SNI'
     server: content-provider29.cdn-delivery.akamaicd.com
     type: trojan
