@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '34 🇬🇧 Iomart Clo SNI 😂 それで ...'
     server: 88.150.137.177
     type: trojan
@@ -32,7 +32,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '200 🇬🇧 ORACLE-BMC SNI 😂 それで ...'
     server: 132.145.51.172
     type: trojan
