@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /meizhiyuan/hinet
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '159 🇹🇼 Scloud Pte SNI 💎 それで ...'
     server: 4.ppyun1.top
     type: vmess
@@ -38,7 +38,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '166 🇹🇼 Data Commu SNI 🎊 それで ...'
     server: hn-tw.transit.freework.cyou
     type: vmess
