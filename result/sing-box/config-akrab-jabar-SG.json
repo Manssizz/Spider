@@ -145,13 +145,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/chat",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -229,13 +229,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -250,13 +250,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -271,13 +271,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/sg1",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -313,7 +313,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -369,13 +369,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/hkaa0",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
@@ -390,13 +390,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
@@ -406,27 +406,6 @@
       "server": "8.219.65.172",
       "server_port": 25641,
       "uuid": "30297ab2-ceef-48ae-838f-9ca4bf625da8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "178 🇸🇬 AMAZON-02 SNI",
-      "server": "sg002.170203.xyz",
-      "server_port": 43543,
-      "uuid": "0965454f-79e7-4c96-9fe1-ec0ff58e0397",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -444,6 +423,27 @@
     },
     {
       "type": "vmess",
+      "tag": "178 🇸🇬 AMAZON-02 SNI",
+      "server": "sg002.170203.xyz",
+      "server_port": 43543,
+      "uuid": "0965454f-79e7-4c96-9fe1-ec0ff58e0397",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "181 🇸🇬 ORACLE-BMC-31898 SNI",
       "server": "168.138.171.65",
       "server_port": 443,
@@ -453,7 +453,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -484,7 +484,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       }
     },
     {
@@ -508,13 +508,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/gateway/connect",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     },
