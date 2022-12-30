@@ -1,17 +1,21 @@
 proxies:
-  - name: '3 🇺🇸 IT7NET SNI 😂 それで ...'
-    server: c50s801.jamjams3.net
+  - name: '23 🇺🇸 Linode LL SNI 🧚‍♂️ それで ...'
+    server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
-    port: 12516
-    uuid: 3ce13954-b49b-4a3a-8af2-e3fddce19af5
+    port: 7104
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: tcp
+    network: ws
     servername: tsel.me
-  - name: '8 🇺🇸 Linode LL SNI 😍 それで ...'
+    ws-opts: 
+      path: /us1
+      headers:
+        Host: tsel.me
+  - name: '24 🇺🇸 Linode LL SNI 🎉 それで ...'
     server: vus3.0bad.com
     type: vmess
     port: 443
@@ -27,87 +31,7 @@ proxies:
       path: /chat
       headers:
         Host: tsel.me
-  - name: '44 🇺🇸 OVH SAS SNI 😸 それで ...'
-    server: us-lb.sshkit.org
-    type: vmess
-    port: 443
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /sshkit/Variu88/634dab7abadf1/
-      headers:
-        Host: tsel.me
-  - name: '64 🇺🇸 SHARKTECH SNI 🎃 それで ...'
-    server: 67.21.72.41
-    type: vmess
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /path/173418141123
-      headers:
-        Host: tsel.me
-  - name: '66 🇺🇸 IT7NET SNI 😻 それで ...'
-    server: c50s801.jamjams3.net
-    type: vmess
-    port: 12516
-    uuid: 3ce13954-b49b-4a3a-8af2-e3fddce19af5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '70 🇺🇸 ORACLE-BMC SNI 👌 それで ...'
-    server: 129.159.41.233
-    type: vmess
-    port: 32586
-    uuid: 341a9182-c423-499c-c46e-d17838b29037
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '97 🇺🇸 FIBER-LOGI SNI 😻 それで ...'
-    server: 216.24.184.195
-    type: vmess
-    port: 8306
-    uuid: 0cd68213-f603-4389-8d7d-b6ae2d69403b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '98 🇺🇸 ORACLE-BMC SNI 💌 それで ...'
-    server: 150.230.41.9
-    type: vmess
-    port: 23292
-    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '111 🇺🇸 OVH SAS SNI 🙃 それで ...'
+  - name: '31 🇺🇸 OVH SAS SNI 🌈 それで ...'
     server: 51.81.220.195
     type: vmess
     port: 443
@@ -123,11 +47,11 @@ proxies:
       path: /sshkit/Uvuwbwb/6373b77a048a6/
       headers:
         Host: tsel.me
-  - name: '121 🇺🇸 EGIHOSTING SNI 🎃 それで ...'
-    server: 23.230.146.254
+  - name: '40 🇺🇸 DIGITALOCE SNI 🎁 それで ...'
+    server: 146.190.39.123
     type: vmess
-    port: 1258
-    uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
+    port: 7070
+    uuid: 980b6861-5c96-4232-94ab-628e68ebfdb4
     alterId: 0
     cipher: auto
     tls: true
@@ -135,11 +59,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '129 🇺🇸 EGIHOSTING SNI 😸 それで ...'
-    server: 23.230.146.254
+  - name: '45 🇺🇸 ORACLE-BMC SNI 💘 それで ...'
+    server: 150.230.41.9
     type: vmess
-    port: 1258
-    uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
+    port: 23292
+    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
     alterId: 0
     cipher: auto
     tls: true
@@ -147,7 +71,175 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '131 🇺🇸 Linode LL SNI 🤣 それで ...'
+  - name: '54 🇺🇸 ORACLE-BMC SNI 🍀 それで ...'
+    server: 150.230.41.9
+    type: vmess
+    port: 23292
+    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '56 🇺🇸 IT7NET SNI ⭐ それで ...'
+    server: c50s801.jamjams3.net
+    type: vmess
+    port: 12516
+    uuid: 3ce13954-b49b-4a3a-8af2-e3fddce19af5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '57 🇺🇸 Linode LL SNI 👏 それで ...'
+    server: 23.92.27.157
+    type: vmess
+    port: 7102
+    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /us1
+      headers:
+        Host: tsel.me
+  - name: '59 🇺🇸 DEDIPATH-L SNI 💓 それで ...'
+    server: 45.128.53.169
+    type: vmess
+    port: 17800
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '65 🇺🇸 ORACLE-BMC SNI 🤣 それで ...'
+    server: 150.230.41.9
+    type: vmess
+    port: 23292
+    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '66 🇺🇸 FIBER-LOGI SNI 🍀 それで ...'
+    server: 216.24.184.195
+    type: vmess
+    port: 8306
+    uuid: 0cd68213-f603-4389-8d7d-b6ae2d69403b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '75 🇺🇸 HOSTHATCH SNI ☀️ それで ...'
+    server: 134.195.89.97
+    type: vmess
+    port: 443
+    uuid: 742207dc-89d1-45e5-9e03-f379daf625f7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /y6yFy61
+      headers:
+        Host: tsel.me
+  - name: '84 🇺🇸 DEDIPATH-L SNI 💘 それで ...'
+    server: 223.111.202.148
+    type: vmess
+    port: 38080
+    uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /meizhiyuan/us3
+      headers:
+        Host: tsel.me
+  - name: '95 🇺🇸 ORACLE-BMC SNI 💋 それで ...'
+    server: 129.159.41.233
+    type: vmess
+    port: 32586
+    uuid: 341a9182-c423-499c-c46e-d17838b29037
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '109 🇺🇸 AS-COLOCRO SNI 🧚‍♂️ それで ...'
+    server: usrn1.xiaolongyun.xyz
+    type: vmess
+    port: 21903
+    uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vv
+      headers:
+        Host: tsel.me
+  - name: '136 🇺🇸 ORACLE-BMC SNI 💌 それで ...'
+    server: 129.146.133.157
+    type: vmess
+    port: 51009
+    uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '140 🇺🇸 OVH SAS SNI 💝 それで ...'
+    server: us-lb.sshkit.org
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: tsel.me
+  - name: '160 🇺🇸 Linode LL SNI 👼 それで ...'
     server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
     port: 7101
@@ -163,83 +255,7 @@ proxies:
       path: /us1
       headers:
         Host: tsel.me
-  - name: '133 🇺🇸 Linode LL SNI 🙌 それで ...'
-    server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
-    type: vmess
-    port: 7104
-    uuid: 8b770a3a-7ad9-4573-bfd6-2b146bf93af7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /us1
-      headers:
-        Host: tsel.me
-  - name: '150 🇺🇸 IT7NET SNI 🤟 それで ...'
-    server: c50s801.jamjams3.net
-    type: vmess
-    port: 12516
-    uuid: 3ce13954-b49b-4a3a-8af2-e3fddce19af5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '158 🇺🇸 ORACLE-BMC SNI ✨ それで ...'
-    server: 150.230.41.9
-    type: vmess
-    port: 23292
-    uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '175 🇺🇸 Hetzner On SNI ⭐ それで ...'
-    server: 5.161.115.53
-    type: vmess
-    port: 443
-    uuid: 9eea0984-036f-4b99-8955-f96b3f94780e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '188 🇺🇸 DIGITALOCE SNI 🤩 それで ...'
-    server: 146.190.39.123
-    type: vmess
-    port: 7070
-    uuid: 980b6861-5c96-4232-94ab-628e68ebfdb4
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '196 🇺🇸 ORACLE-BMC SNI 💋 それで ...'
-    server: 129.146.133.157
-    type: vmess
-    port: 51009
-    uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '200 🇺🇸 EGIHOSTING SNI 🎁 それで ...'
+  - name: '171 🇺🇸 EGIHOSTING SNI 💜 それで ...'
     server: 23.230.146.254
     type: vmess
     port: 1258
@@ -251,7 +267,59 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '10 🇺🇸 AMAZON-AES SNI 😘 それで ...'
+  - name: '173 🇺🇸 CLOUDFLARE SNI 👸 それで ...'
+    server: hz-us.transit.freework.cyou
+    type: vmess
+    port: 40185
+    uuid: bbf6700b-122a-4fb7-a8e5-5e8d19ffb56f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '182 🇺🇸 FIBER-LOGI SNI 🎆 それで ...'
+    server: 216.24.184.195
+    type: vmess
+    port: 8306
+    uuid: 0cd68213-f603-4389-8d7d-b6ae2d69403b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '184 🇺🇸 DEDIPATH-L SNI 😄 それで ...'
+    server: 223.111.202.148
+    type: vmess
+    port: 38080
+    uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /meizhiyuan/us2
+      headers:
+        Host: tsel.me
+  - name: '188 🇺🇸 IT7NET SNI 💘 それで ...'
+    server: c50s801.jamjams3.net
+    type: vmess
+    port: 12516
+    uuid: 3ce13954-b49b-4a3a-8af2-e3fddce19af5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '18 🇺🇸 AMAZON-AES SNI 💖 それで ...'
     server: tr6.tgcunzhang.xyz
     type: trojan
     port: 54178
@@ -260,34 +328,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '18 🇺🇸 PERFORMIVE SNI 😆 それで ...'
-    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
-    type: trojan
-    port: 443
-    password: d1478689-439c-4590-b7ce-36e786a02dc3
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '106 🇺🇸 AMAZON-AES SNI 🎁 それで ...'
-    server: tr9.tgcunzhang.xyz
-    type: trojan
-    port: 54416
-    password: 2a9ba60d-10ce-4f79-97e7-817334456195
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '155 🇺🇸 FIBER-LOGI SNI 😆 それで ...'
-    server: 64.64.225.251
-    type: trojan
-    port: 8447
-    password: shenmegui
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '187 🇺🇸 MULTA-ASN1 SNI 😁 それで ...'
+  - name: '38 🇺🇸 MULTA-ASN1 SNI 💋 それで ...'
     server: rn.oppo.quest
     type: trojan
     port: 2077
@@ -300,7 +341,70 @@ proxies:
       path: /aries
       headers:
         Host: tsel.me
-  - name: '194 🇺🇸 ORACLE-BMC SNI 🌈 それで ...'
+  - name: '44 🇺🇸 ORACLE-BMC SNI 💖 それで ...'
+    server: 129.146.190.42
+    type: trojan
+    port: 443
+    password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '60 🇺🇸 FIBER-LOGI SNI 🎁 それで ...'
+    server: 64.64.225.251
+    type: trojan
+    port: 8447
+    password: shenmegui
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '83 🇺🇸 MIRholding SNI 🤟 それで ...'
+    server: 138.124.183.222
+    type: trojan
+    port: 443
+    password: xxoo
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '108 🇺🇸 ORACLE-BMC SNI 😸 それで ...'
+    server: 129.146.242.130
+    type: trojan
+    port: 443
+    password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '142 🇺🇸 AMAZON-AES SNI 😀 それで ...'
+    server: tr10.tgcunzhang.xyz
+    type: trojan
+    port: 10076
+    password: 2a9ba60d-10ce-4f79-97e7-817334456195
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '152 🇺🇸 PERFORMIVE SNI 😘 それで ...'
+    server: 107.181.161.163
+    type: trojan
+    port: 443
+    password: d1478689-439c-4590-b7ce-36e786a02dc3
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '154 🇺🇸 CNSERVERS SNI 🎁 それで ...'
+    server: 23.224.33.112
+    type: trojan
+    port: 28000
+    password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '175 🇺🇸 ORACLE-BMC SNI 🤟 それで ...'
     server: fhcarm2.gaox.ml
     type: trojan
     port: 443
@@ -309,32 +413,21 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '40 🇺🇸 AS40676 SNI 🤣 それで ...'
-    server: ssrfree.zhujicn2.net
+  - name: '85 🇺🇸 CONTABO SNI 🦄 それで ...'
+    server: 154.53.48.30
     type: ssr
-    port: 10002
-    password: dongtaiwang.com
+    port: 9595
+    password: sk80Likez95
     cipher: aes-256-cfb
     protocol: auth_chain_a
-    protocol-param: 
+    protocol-param: Tm9uJSXvv70=
     obfs: tls1.2_ticket_auth
     obfs-param: obfs=tls;obfs-host=tsel.me
     udp: true
-  - name: '63 🇺🇸 AS40676 SNI 💕 それで ...'
-    server: 104.149.139.189
-    type: ssr
-    port: 10002
-    password: dongtaiwang.com
-    cipher: aes-256-cfb
-    protocol: auth_chain_a
-    protocol-param: 
-    obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=tsel.me
-    udp: true
-  - name: '201 🇺🇸 AS40676 SNI 🦋 それで ...'
+  - name: '103 🇺🇸 AS40676 SNI 🌈 それで ...'
     server: ssrfree.zhujicn2.net
     type: ssr
-    port: 10001
+    port: 10007
     password: dongtaiwang.com
     cipher: aes-256-cfb
     protocol: auth_chain_a
