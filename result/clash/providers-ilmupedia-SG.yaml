@@ -28,7 +28,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '44 🇸🇬 G-Core Labs S.A. CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -44,7 +44,7 @@ proxies:
       headers:
         Host: gcssg.sylu.cyou
   - name: '55 🇸🇬 G-Core Labs S.A. CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -212,7 +212,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '109 🇸🇬 OVH SAS CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 78f936d1-8a72-4b7c-aafa-c8284e15ccaa
@@ -336,7 +336,7 @@ proxies:
       headers:
         Host: lg.iwafa.tk
   - name: '6 🇸🇬 Linode  LLC CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: trojan
     port: 443
     password: 4X1ebJpQWg
