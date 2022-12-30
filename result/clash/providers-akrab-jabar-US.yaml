@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '8 🇺🇸 OVH SAS CDN'
     server: 104.18.21.226
     type: vmess
@@ -98,11 +98,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /XrayR
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '22 🇺🇸 MICROSOFT-CORP-MSN-AS-BLOCK CDN'
     server: 104.18.21.226
     type: vmess
@@ -306,7 +306,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '82 🇺🇸 OVH SAS CDN'
     server: 104.18.21.226
     type: vmess
@@ -410,7 +410,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '104 🇺🇸 Hyonix LLC CDN'
     server: 104.18.21.226
     type: vmess
@@ -494,7 +494,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '132 🇺🇸 OVH SAS SNI'
     server: 51.81.220.195
     type: vmess
@@ -506,11 +506,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshkit/Uvuwbwb/6373b77a048a6/
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '133 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 129.146.133.157
     type: vmess
@@ -534,7 +534,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '149 🇺🇸 Linode  LLC SNI'
     server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -562,7 +562,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '159 🇺🇸 ORACLE-BMC-31898 CDN'
     server: 104.18.21.226
     type: vmess
@@ -612,7 +612,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '66 🇺🇸 MIRholding B.V. SNI'
     server: 138.124.183.222
     type: trojan
@@ -630,7 +630,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '135 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 129.146.255.158
     type: trojan
@@ -639,7 +639,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '146 🇺🇸 PEGTECHINC SNI'
     server: zzus01.fuqiangren.com
     type: trojan
@@ -648,7 +648,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '166 🇺🇸 PEGTECHINC SNI'
     server: zzus01.fuqiangren.com
     type: trojan
