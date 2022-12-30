@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '127 🇬🇧 DIGITALOCEAN-ASN SNI'
     server: 161.35.47.70
     type: vmess
@@ -31,7 +31,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '47 🇬🇧 ORACLE-BMC-31898 SNI'
     server: 132.145.51.172
     type: trojan
@@ -40,7 +40,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '105 🇬🇧 Iomart Cloud Services Limited SNI'
     server: 88.150.137.177
     type: trojan
