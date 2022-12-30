@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /Falling42gcsdenode
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '80 🇩🇪 G-Core Lab CDN 😍 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -58,7 +58,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '151 🇩🇪 myLoc mana SNI 💗 それで ...'
     server: de-v.sshmax.xyz
     type: vmess
@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '152 🇩🇪 myLoc mana CDN 👼 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -99,7 +99,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '34 🇩🇪 Hetzner On SNI ❤️ それで ...'
     server: 5.75.152.12
     type: trojan
@@ -117,7 +117,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '125 🇩🇪 Hetzner On SNI ❤️ それで ...'
     server: 188.40.251.19
     type: trojan
@@ -126,4 +126,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
