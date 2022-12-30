@@ -80,16 +80,56 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "awsypca.sylu.cyou",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/Falling42awsypcanode"
+        }
+      },
+      "tag": "proxy-66 🇨🇦 AMAZON-02 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
           {
-            "address": "cat1.sshocean.net",
+            "address": "ca1.trojanvh.xyz",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
+            "password": "4bd8ab61-7e87-4ee6-be58-fe14fc62e6c0",
             "port": 443
           }
         ]
@@ -102,7 +142,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-33 🇨🇦 OVH SAS SNI"
+      "tag": "proxy-79 🇨🇦 OVH SAS SNI"
     }
   ],
   "dns": {
