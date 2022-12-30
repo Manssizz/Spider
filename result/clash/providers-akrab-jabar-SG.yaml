@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '56 🇸🇬 DIGITALOCE CDN 🍀 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -86,7 +86,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '82 🇸🇬 G-Core Lab SNI 💓 それで ...'
     server: gcoresgg.sylu.cyou
     type: vmess
@@ -98,11 +98,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcoresggnode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '83 🇸🇬 G-Core Lab CDN 💋 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -162,11 +162,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '127 🇸🇬 G-Core Lab CDN 🌈 それで ...'
     server: 104.18.21.226
     type: vmess
@@ -255,4 +255,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
