@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /us1
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '7 🇺🇸 OVH SAS CDN 🎃 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -70,7 +70,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '19 🇺🇸 SHARKTECH CDN 🤴 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -114,7 +114,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '32 🇺🇸 MULTA-ASN1 SNI 💋 それで ...'
     server: hkbgp.yinhecdn.online
     type: vmess
@@ -126,11 +126,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '33 🇺🇸 AS40676 CDN 👍 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -202,7 +202,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '58 🇺🇸 1GSERVERS CDN 🤣 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -246,7 +246,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '69 🇺🇸 IT7NET SNI 😀 それで ...'
     server: c50s801.jamjams3.net
     type: vmess
@@ -258,7 +258,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '72 🇺🇸 Hyonix LLC CDN 💖 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -302,7 +302,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '90 🇺🇸 FIBER-LOGI SNI 🙃 それで ...'
     server: 216.24.184.195
     type: vmess
@@ -402,7 +402,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '129 🇺🇸 DEDIPATH-L CDN 💖 それで ...'
     server: hohm.microsoft.com
     type: vmess
@@ -462,7 +462,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '26 🇺🇸 AMAZON-AES SNI 😺 それで ...'
     server: tr10.tgcunzhang.xyz
     type: trojan
@@ -480,7 +480,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '95 🇺🇸 PERFORMIVE SNI 😁 それで ...'
     server: youtube-bai-piao-wang-zhe-usa.98848.xyz
     type: trojan
@@ -489,7 +489,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '97 🇺🇸 ORACLE-BMC SNI 😆 それで ...'
     server: fhcamd2.gaox.ml
     type: trojan
@@ -498,7 +498,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '107 🇺🇸 MULTA-ASN1 SNI 💎 それで ...'
     server: rn.oppo.quest
     type: trojan
@@ -507,11 +507,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /aries
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '143 🇺🇸 PEGTECHINC SNI 😺 それで ...'
     server: zzus01.fuqiangren.com
     type: trojan
@@ -520,7 +520,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '160 🇺🇸 AS40676 SNI 👏 それで ...'
     server: ssrfree.zhujicn2.net
     type: ssr
@@ -530,5 +530,5 @@ proxies:
     protocol: auth_chain_a
     protocol-param: 
     obfs: tls1.2_ticket_auth
-    obfs-param: obfs=tls;obfs-host=config.teams.microsoft.com
+    obfs-param: obfs=tls;obfs-host=safebrowsing.google.com
     udp: true
