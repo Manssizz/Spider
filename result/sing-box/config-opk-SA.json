@@ -45,12 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "187 🇸🇦 ORACLE-BMC SNI 💋 それで ..."
+        "101 🇸🇦 ORACLE-BMC SNI ⭐ それで ...",
+        "196 🇸🇦 OVH SAS SNI 👼 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "187 🇸🇦 ORACLE-BMC SNI 💋 それで ...",
+      "tag": "101 🇸🇦 ORACLE-BMC SNI ⭐ それで ...",
       "server": "193.122.65.167",
       "server_port": 443,
       "uuid": "ed71c245-88af-484e-970c-29ac50637847",
@@ -64,6 +65,27 @@
       "transport": {
         "type": "ws",
         "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "196 🇸🇦 OVH SAS SNI 👼 それで ...",
+      "server": "51.195.217.20",
+      "server_port": 443,
+      "uuid": "a6ee3c75-f83e-48a0-9af0-ac963db12112",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
         "headers": {
           "Host": "tsel.me"
         }

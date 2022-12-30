@@ -84,6 +84,46 @@
       "settings": {
         "vnext": [
           {
+            "address": "162.159.128.7",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "20e92881-5fb4-4b05-bc77-57929476dc69",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "jp-ntt.sharecentre.online"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "jp-ntt.sharecentre.online"
+          },
+          "path": "/shirker"
+        }
+      },
+      "tag": "proxy-1 🇯🇵 NTT PC Com CDN 💓 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "104.17.70.206",
             "port": 443,
             "users": [
@@ -113,7 +153,7 @@
           "path": "/Falling42awsjpycnode"
         }
       },
-      "tag": "proxy-21 🇯🇵 AMAZON-02 CDN 💖 それで ..."
+      "tag": "proxy-25 🇯🇵 AMAZON-02 CDN 💖 それで ..."
     },
     {
       "mux": {
@@ -124,47 +164,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.66.85",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "awsjpya.sylu.cyou"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "awsjpya.sylu.cyou"
-          },
-          "path": "/Falling42awsjpyanode"
-        }
-      },
-      "tag": "proxy-50 🇯🇵 AMAZON-02 CDN 🍀 それで ..."
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.193.213.20",
+            "address": "162.159.135.42",
             "port": 8080,
             "users": [
               {
@@ -193,7 +193,7 @@
           "path": "/api/v3/download.getFile"
         }
       },
-      "tag": "proxy-69 🇯🇵 Owl Limite CDN 😺 それで ..."
+      "tag": "proxy-99 🇯🇵 Owl Limite CDN 💝 それで ..."
     },
     {
       "mux": {
@@ -204,7 +204,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.135.42",
+            "address": "104.18.25.139",
             "port": 443,
             "users": [
               {
@@ -233,7 +233,47 @@
           "path": "/Falling42gcssjpnode"
         }
       },
-      "tag": "proxy-74 🇯🇵 G-Core Lab CDN 💋 それで ..."
+      "tag": "proxy-104 🇯🇵 G-Core Lab CDN 🌈 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.20",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "awsjpya.sylu.cyou"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "awsjpya.sylu.cyou"
+          },
+          "path": "/Falling42awsjpyanode"
+        }
+      },
+      "tag": "proxy-109 🇯🇵 AMAZON-02 CDN 🦋 それで ..."
     }
   ],
   "dns": {
