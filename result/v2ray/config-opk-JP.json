@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp19.czs1000.com",
-            "port": 6633,
+            "address": "jp02.170203.xyz",
+            "port": 23245,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "991c0c60-af7a-45c9-a741-98eb3df4b8f7",
+                "id": "8014be2a-ef45-469b-b0ea-d524718eed78",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": ""
         }
       },
-      "tag": "proxy-13 🇯🇵 Linode  LLC SNI"
+      "tag": "proxy-5 🇯🇵 AMAZON-02 SNI"
     },
     {
       "mux": {
@@ -119,7 +125,7 @@
         "vnext": [
           {
             "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
-            "port": 7302,
+            "port": 7301,
             "users": [
               {
                 "alterId": 0,
@@ -141,7 +147,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-18 🇯🇵 Linode  LLC SNI"
+      "tag": "proxy-25 🇯🇵 Linode  LLC SNI"
     },
     {
       "mux": {
@@ -152,7 +158,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "address": "140.83.57.80",
+            "port": 49840,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "2969ad1b-9787-4927-94e6-22f597618de0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-31 🇯🇵 ORACLE-BMC-31898 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.104.114.137",
             "port": 7302,
             "users": [
               {
@@ -175,7 +215,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-28 🇯🇵 Linode  LLC SNI"
+      "tag": "proxy-68 🇯🇵 Linode  LLC SNI"
     },
     {
       "mux": {
@@ -187,7 +227,7 @@
         "vnext": [
           {
             "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
-            "port": 7303,
+            "port": 7302,
             "users": [
               {
                 "alterId": 0,
@@ -209,7 +249,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-31 🇯🇵 Linode  LLC SNI"
+      "tag": "proxy-98 🇯🇵 Linode  LLC SNI"
     },
     {
       "mux": {
@@ -236,14 +276,14 @@
         ]
       },
       "streamSettings": {
-        "network": "none",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-34 🇯🇵 Linode  LLC SNI"
+      "tag": "proxy-104 🇯🇵 Linode  LLC SNI"
     },
     {
       "mux": {
@@ -254,54 +294,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp6.czs1000.com",
+            "address": "43.206.228.93",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "991c0c60-af7a-45c9-a741-98eb3df4b8f7",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b"
-        }
-      },
-      "tag": "proxy-35 🇯🇵 AMAZON-02 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "jp001.170203.xyz",
-            "port": 23245,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0965454f-79e7-4c96-9fe1-ec0ff58e0397",
+                "id": "ed71c245-88af-484e-970c-29ac50637847",
                 "level": 8,
                 "security": "auto"
               }
@@ -323,319 +323,7 @@
           "path": "/"
         }
       },
-      "tag": "proxy-37 🇯🇵 AMAZON-02 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
-            "port": 7301,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "9c52776b-4b01-4ae6-9f7d-25cd4725e13c",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-56 🇯🇵 Linode  LLC SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "jp14.czs1000.com",
-            "port": 11228,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "991c0c60-af7a-45c9-a741-98eb3df4b8f7",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-58 🇯🇵 Linode  LLC SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "jp18.czs1000.com",
-            "port": 4443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "991c0c60-af7a-45c9-a741-98eb3df4b8f7",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-60 🇯🇵 Linode  LLC SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "152.69.197.60",
-            "port": 1069,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-63 🇯🇵 ORACLE-BMC-31898 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "138.2.44.211",
-            "port": 20081,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "593b8525-0c48-4b0f-d9af-2d73a9148973",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-94 🇯🇵 ORACLE-BMC-31898 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "sqyd.biubiufly.monster",
-            "port": 50007,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "9ea9fd0c-dd31-37a0-a68a-9530c5e61a66",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-111 🇯🇵 OPTAGE Inc. SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
-            "port": 7301,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "8b770a3a-7ad9-4573-bfd6-2b146bf93af7",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-112 🇯🇵 Linode  LLC SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.147.181.219",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "0b873cff-11ab-4716-c41a-04f886135091",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/roewesu"
-        }
-      },
-      "tag": "proxy-129 🇯🇵 ORACLE-BMC-31898 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "138.2.44.211",
-            "port": 20081,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "593b8525-0c48-4b0f-d9af-2d73a9148973",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-131 🇯🇵 ORACLE-BMC-31898 SNI"
+      "tag": "proxy-105 🇯🇵 AMAZON-02 SNI"
     },
     {
       "mux": {
@@ -669,7 +357,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-134 🇯🇵 ORACLE-BMC-31898 SNI"
+      "tag": "proxy-106 🇯🇵 ORACLE-BMC-31898 SNI"
     },
     {
       "mux": {
@@ -680,14 +368,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp02.170203.xyz",
-            "port": 23245,
+            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "port": 7304,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8014be2a-ef45-469b-b0ea-d524718eed78",
+                "id": "9c52776b-4b01-4ae6-9f7d-25cd4725e13c",
                 "level": 8,
                 "security": "auto"
               }
@@ -696,20 +384,252 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": ""
         }
       },
-      "tag": "proxy-169 🇯🇵 AMAZON-02 SNI"
+      "tag": "proxy-109 🇯🇵 Linode  LLC SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "port": 7301,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9c52776b-4b01-4ae6-9f7d-25cd4725e13c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-114 🇯🇵 Linode  LLC SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "port": 7303,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9c52776b-4b01-4ae6-9f7d-25cd4725e13c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-135 🇯🇵 Linode  LLC SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "port": 7302,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9c52776b-4b01-4ae6-9f7d-25cd4725e13c",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-141 🇯🇵 Linode  LLC SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "138.2.44.211",
+            "port": 20081,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "593b8525-0c48-4b0f-d9af-2d73a9148973",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-143 🇯🇵 ORACLE-BMC-31898 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "152.69.197.60",
+            "port": 1069,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-153 🇯🇵 ORACLE-BMC-31898 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "port": 7302,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8b770a3a-7ad9-4573-bfd6-2b146bf93af7",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-161 🇯🇵 Linode  LLC SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+            "port": 7301,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8b770a3a-7ad9-4573-bfd6-2b146bf93af7",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-165 🇯🇵 Linode  LLC SNI"
     },
     {
       "mux": {
@@ -725,7 +645,7 @@
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "ff200b1f-bd3e-4acf-b08c-7d65e1ffcde6",
+            "password": "f00229e4-60f8-4af1-a8a7-76a7c54aeb98",
             "port": 20220
           }
         ]
@@ -738,7 +658,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-2 🇯🇵 MIKU NETWORK LIMITED SNI"
+      "tag": "proxy-6 🇯🇵 MIKU NETWORK LIMITED SNI"
     },
     {
       "mux": {
@@ -749,7 +669,7 @@
       "settings": {
         "servers": [
           {
-            "address": "tk-tr-2.cats22.net",
+            "address": "tk-tr-3.cats22.net",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
@@ -767,152 +687,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-30 🇯🇵 SAKURA Internet Inc. SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "43.206.112.26",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "3c266fd3-5f9f-4132-90ac-c33a2a316cb5",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-83 🇯🇵 AMAZON-02 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "jp-tk-32.fuckjdieng.uk",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "2d5016d9-02d1-414d-b6c8-1fe3702698c6",
-            "port": 50464
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-95 🇯🇵 AMAZON-02 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "jp21.czs1000.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "991c0c60-af7a-45c9-a741-98eb3df4b8f7",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-96 🇯🇵 Linode  LLC SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "jp-tk-32.fuckjdieng.uk",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "b5c99730-d577-4709-934b-4ed42f0eb00b",
-            "port": 50346
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-107 🇯🇵 AMAZON-02 SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "zzjp01.fuqiangren.com",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "0d6eaea6-f0b3-432f-98fc-5453005d95f2",
-            "port": 20221
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-133 🇯🇵 MIKU NETWORK LIMITED SNI"
+      "tag": "proxy-17 🇯🇵 SAKURA Internet Inc. SNI"
     },
     {
       "mux": {
@@ -941,7 +716,181 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-158 🇯🇵 MIKU NETWORK LIMITED SNI"
+      "tag": "proxy-41 🇯🇵 MIKU NETWORK LIMITED SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jp.swiftfalcon.app",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "shenmegui",
+            "port": 8460
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-59 🇯🇵 Owl Limited SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jp-tk-32.fuckjdieng.uk",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "2d5016d9-02d1-414d-b6c8-1fe3702698c6",
+            "port": 50464
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-66 🇯🇵 AMAZON-02 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "168.138.43.89",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "d06a3f01-1ff0-4792-9b8e-a5a604bc74a2",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-95 🇯🇵 ORACLE-BMC-31898 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "jp-tk-32.fuckjdieng.uk",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "b5c99730-d577-4709-934b-4ed42f0eb00b",
+            "port": 50346
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-96 🇯🇵 AMAZON-02 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "zzjp01.fuqiangren.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "a30e3131-8d61-4eda-980e-b65ef965d1ca",
+            "port": 20220
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-112 🇯🇵 MIKU NETWORK LIMITED SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "zzjp01.fuqiangren.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "0d6eaea6-f0b3-432f-98fc-5453005d95f2",
+            "port": 20221
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-160 🇯🇵 MIKU NETWORK LIMITED SNI"
     },
     {
       "mux": {
@@ -957,8 +906,8 @@
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "14291005-87b6-4c5d-bc15-12d5c205c435",
-            "port": 50342
+            "password": "7175732d-dee5-4e38-91e1-886f95c2b470",
+            "port": 50188
           }
         ]
       },
@@ -970,7 +919,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-176 🇯🇵 AMAZON-02 SNI"
+      "tag": "proxy-167 🇯🇵 AMAZON-02 SNI"
     }
   ],
   "dns": {
