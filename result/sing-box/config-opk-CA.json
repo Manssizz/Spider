@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "42 🇨🇦 OVH SAS SNI 🧚‍♀️ それで ...",
-        "173 🇨🇦 OVH SAS SNI 💋 それで ..."
+        "110 🇨🇦 OVH SAS SNI 🤴 それで ...",
+        "191 🇨🇦 DIGITALOCE SNI 🦋 それで ...",
+        "74 🇨🇦 OVH SAS SNI 🎉 それで ..."
       ]
     },
     {
       "type": "vmess",
-      "tag": "42 🇨🇦 OVH SAS SNI 🧚‍♀️ それで ...",
+      "tag": "110 🇨🇦 OVH SAS SNI 🤴 それで ...",
       "server": "ca2.v2rayserv.com",
       "server_port": 443,
       "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
@@ -72,10 +73,10 @@
     },
     {
       "type": "vmess",
-      "tag": "173 🇨🇦 OVH SAS SNI 💋 それで ...",
-      "server": "51.222.137.198",
+      "tag": "191 🇨🇦 DIGITALOCE SNI 🦋 それで ...",
+      "server": "159.203.18.119",
       "server_port": 443,
-      "uuid": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
+      "uuid": "af3e47fc-f817-4845-822c-1f35ecf90b31",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -85,10 +86,22 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/vmess",
         "headers": {
           "Host": "tsel.me"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "74 🇨🇦 OVH SAS SNI 🎉 それで ...",
+      "server": "cat1.sshocean.net",
+      "server_port": 443,
+      "password": "67960bfb-00de-4a6b-9a7a-e74fc9e8b158",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
       }
     }
   ],

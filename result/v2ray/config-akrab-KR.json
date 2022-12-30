@@ -84,14 +84,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.56.155.70",
-            "port": 33449,
+            "address": "52.79.182.230",
+            "port": 42517,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e115ada7-9b19-4df9-c58a-cadd4540ec13",
+                "id": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +100,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-38 🇰🇷 ORACLE-BMC SNI 💕 それで ..."
+      "tag": "proxy-12 🇰🇷 AMAZON-02 SNI 😍 それで ..."
     },
     {
       "mux": {
@@ -118,14 +124,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.56.155.70",
-            "port": 33449,
+            "address": "13.125.24.112",
+            "port": 49517,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "e115ada7-9b19-4df9-c58a-cadd4540ec13",
+                "id": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
                 "level": 8,
                 "security": "auto"
               }
@@ -134,14 +140,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "click.zoom.us"
+          },
+          "path": "/"
         }
       },
-      "tag": "proxy-96 🇰🇷 ORACLE-BMC SNI 💌 それで ..."
+      "tag": "proxy-19 🇰🇷 AMAZON-02 SNI 🤟 それで ..."
     },
     {
       "mux": {
@@ -152,11 +164,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lc-kr02-direct01.lc-kr02.lc-node.com",
+            "address": "161.129.34.102",
             "port": 443,
             "users": [
               {
-                "alterId": 2,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
                 "id": "ec736482-173e-3eff-9114-b49df8056e7d",
@@ -172,16 +184,56 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "config.teams.microsoft.com"
           },
-          "path": "/"
+          "path": "undefined"
         }
       },
-      "tag": "proxy-120 🇰🇷 MOACK.Co.L SNI 😺 それで ..."
+      "tag": "proxy-28 🇰🇷 MOACK.Co.L SNI 😍 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "surongwei.eu.org",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "click.zoom.us"
+          },
+          "path": "/reffs7y26g0ua"
+        }
+      },
+      "tag": "proxy-37 🇰🇷 ORACLE-BMC SNI 🤴 それで ..."
     },
     {
       "mux": {
@@ -221,7 +273,155 @@
           "path": "/reffs7y26g0ua"
         }
       },
-      "tag": "proxy-175 🇰🇷 ORACLE-BMC CDN 🙌 それで ..."
+      "tag": "proxy-38 🇰🇷 ORACLE-BMC CDN 💝 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.56.155.70",
+            "port": 33449,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "e115ada7-9b19-4df9-c58a-cadd4540ec13",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-43 🇰🇷 ORACLE-BMC SNI 😄 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "13.125.24.112",
+            "port": 43417,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-77 🇰🇷 AMAZON-02 SNI 😻 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "m4.40010010.xyz",
+            "port": 37121,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "575e4d92-1056-44c2-8cac-75ef1c859ad5",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-169 🇰🇷 ORACLE-BMC SNI 😸 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lc-kr02-direct01.lc-kr02.lc-node.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 2,
+                "encryption": "",
+                "flow": "",
+                "id": "ec736482-173e-3eff-9114-b49df8056e7d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "click.zoom.us"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "click.zoom.us"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "proxy-183 🇰🇷 MOACK.Co.L SNI ⭐ それで ..."
     },
     {
       "mux": {
@@ -232,12 +432,12 @@
       "settings": {
         "servers": [
           {
-            "address": "kr1.api-aws.com",
+            "address": "kr05.wangxd.life",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "036ba5aa-fcb7-4e6f-95b5-a857cb354aa8",
+            "password": "3a2c0c6c-9ee5-c05f-c951-fcd73831983e",
             "port": 443
           }
         ]
@@ -250,7 +450,36 @@
           "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-5 🇰🇷 ORACLE-BMC SNI 🤴 それで ..."
+      "tag": "proxy-4 🇰🇷 ORACLE-BMC SNI 💗 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "138.2.113.248",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "9c822f05-cfdc-479a-9534-60f3d4127435",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-13 🇰🇷 ORACLE-BMC SNI ❤️ それで ..."
     },
     {
       "mux": {
@@ -266,7 +495,7 @@
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "33073a7c-e6d5-4271-9b19-4416afcc25b5",
+            "password": "98a68cfb-42c6-4498-ac6e-7e5c203924a7",
             "port": 443
           }
         ]
@@ -276,10 +505,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-30 🇰🇷 ORACLE-BMC SNI 💗 それで ..."
+      "tag": "proxy-17 🇰🇷 ORACLE-BMC SNI 🙃 それで ..."
     },
     {
       "mux": {
@@ -308,7 +537,7 @@
           "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-86 🇰🇷 ORACLE-BMC SNI 👍 それで ..."
+      "tag": "proxy-25 🇰🇷 ORACLE-BMC SNI 💖 それで ..."
     },
     {
       "mux": {
@@ -319,12 +548,12 @@
       "settings": {
         "servers": [
           {
-            "address": "146.56.176.239",
+            "address": "kr1.api-aws.com",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "98a68cfb-42c6-4498-ac6e-7e5c203924a7",
+            "password": "ec129ab2-3c89-4e25-8b97-aee479ac06f1",
             "port": 443
           }
         ]
@@ -335,6 +564,35 @@
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "click.zoom.us"
+        }
+      },
+      "tag": "proxy-102 🇰🇷 ORACLE-BMC SNI 🎉 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "kr1.api-aws.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "205f8ab6-cb17-4480-93a6-aece90b88742",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
         }
       },
       "tag": "proxy-112 🇰🇷 ORACLE-BMC SNI 😂 それで ..."
@@ -348,12 +606,41 @@
       "settings": {
         "servers": [
           {
-            "address": "138.2.113.248",
+            "address": "138.2.115.240",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "9c822f05-cfdc-479a-9534-60f3d4127435",
+            "password": "3a2c0c6c-9ee5-c05f-c951-fcd73831983e",
+            "port": 3052
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-145 🇰🇷 ORACLE-BMC SNI 💘 それで ..."
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "kr1.api-aws.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "036ba5aa-fcb7-4e6f-95b5-a857cb354aa8",
             "port": 443
           }
         ]
@@ -366,7 +653,7 @@
           "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-117 🇰🇷 ORACLE-BMC SNI 💌 それで ..."
+      "tag": "proxy-159 🇰🇷 ORACLE-BMC SNI 🍀 それで ..."
     },
     {
       "mux": {
@@ -395,94 +682,7 @@
           "serverName": "click.zoom.us"
         }
       },
-      "tag": "proxy-124 🇰🇷 ORACLE-BMC SNI 💋 それで ..."
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "kr-s-2.fuckjdieng.uk",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "38f06c85-4a37-4cad-811f-9fb7f6e9cab6",
-            "port": 50334
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        }
-      },
-      "tag": "proxy-132 🇰🇷 AMAZON-02 SNI 😸 それで ..."
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "138.2.115.240",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "3a2c0c6c-9ee5-c05f-c951-fcd73831983e",
-            "port": 3052
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-180 🇰🇷 ORACLE-BMC SNI ❤️ それで ..."
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "jgwcc3.gaox.ml",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "b291d129-ee55-4801-a9b8-b5316e5c37b7",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-202 🇰🇷 ORACLE-BMC SNI 🙃 それで ..."
+      "tag": "proxy-167 🇰🇷 ORACLE-BMC SNI 💓 それで ..."
     }
   ],
   "dns": {
