@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '38 🇯🇵 Owl Limited CDN'
     server: 104.18.21.226
     type: vmess
@@ -106,7 +106,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '91 🇯🇵 Linode  LLC SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -170,11 +170,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /roewesu
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '145 🇯🇵 ORACLE-BMC-31898 SNI'
     server: 168.138.207.66
     type: vmess
@@ -198,11 +198,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '7 🇯🇵 AMAZON-02 SNI'
     server: 3.114.110.209
     type: trojan
@@ -211,7 +211,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '18 🇯🇵 SAKURA Internet Inc. SNI'
     server: teradacyou.mike22.net
     type: trojan
@@ -220,7 +220,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '35 🇯🇵 MIKU NETWORK LIMITED SNI'
     server: zzjp01.fuqiangren.com
     type: trojan
@@ -256,7 +256,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '83 🇯🇵 ORACLE-BMC-31898 SNI'
     server: jgwdb3.gaox.ml
     type: trojan
@@ -274,7 +274,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '128 🇯🇵 ORACLE-BMC-31898 SNI'
     server: 150.230.96.103
     type: trojan
@@ -283,7 +283,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '146 🇯🇵 MIKU NETWORK LIMITED SNI'
     server: zzjp01.fuqiangren.com
     type: trojan
@@ -301,7 +301,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '160 🇯🇵 AMAZON-02 SNI'
     server: 3.114.110.209
     type: trojan
@@ -310,4 +310,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34

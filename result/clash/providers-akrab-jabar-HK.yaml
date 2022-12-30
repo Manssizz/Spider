@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Falling42gcorehkknode
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '49 🇭🇰 HKT Limited SNI'
     server: hkz8sz07.b70rw85t.xyz
     type: vmess
@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '61 🇭🇰 Alibaba US Technology Co.  Ltd. SNI'
     server: 8.218.140.111
     type: vmess
@@ -134,7 +134,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '108 🇭🇰 G-Core Labs S.A. SNI'
     server: gcsshkkk.sylu.cyou
     type: vmess
@@ -146,11 +146,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcsshkkknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '109 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -202,4 +202,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
