@@ -26,27 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '117 🇹🇼 Taiwan Digital Streaming Co. SNI'
     server: 13.229.229.167
     type: vmess
     port: 2002
-    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: teams.microsoft.com
-    ws-opts: 
-      path: /xyf520
-      headers:
-        Host: teams.microsoft.com
-  - name: '158 🇹🇼 Taiwan Digital Streaming Co. SNI'
-    server: mc.xn--mes794a17ar33a.xyz
-    type: vmess
-    port: 2008
     uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
     alterId: 0
     cipher: auto
@@ -59,3 +43,19 @@ proxies:
       path: /xyf520
       headers:
         Host: 172.67.199.34
+  - name: '158 🇹🇼 Taiwan Digital Streaming Co. SNI'
+    server: mc.xn--mes794a17ar33a.xyz
+    type: vmess
+    port: 2008
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: teams.microsoft.com
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: teams.microsoft.com

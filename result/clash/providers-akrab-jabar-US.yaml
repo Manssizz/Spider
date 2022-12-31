@@ -122,11 +122,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /47d5ff16f/
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '30 🇺🇸 Linode  LLC SNI'
     server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -138,11 +138,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /us1
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '43 🇺🇸 MICROSOFT-CORP-MSN-AS-BLOCK CDN'
     server: 104.18.21.226
     type: vmess
@@ -250,11 +250,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /sshkit/Uvuwbwb/6373b77a048a6/
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '82 🇺🇸 SHARKTECH CDN'
     server: 104.18.21.226
     type: vmess
@@ -374,11 +374,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /coinsinic
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '136 🇺🇸 Hetzner Online GmbH SNI'
     server: 5.161.115.53
     type: vmess
@@ -402,11 +402,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '143 🇺🇸 Linode  LLC SNI'
     server: us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -418,11 +418,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /us1
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '160 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 152.67.254.16
     type: vmess
@@ -463,7 +463,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '16 🇺🇸 MIRholding B.V. SNI'
     server: 138.124.183.226
     type: trojan
@@ -517,7 +517,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '154 🇺🇸 MIRholding B.V. SNI'
     server: ust3.sshocean.net
     type: trojan
@@ -535,4 +535,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
