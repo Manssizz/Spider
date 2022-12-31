@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '47 🇭🇰 Netsec Limited SNI'
     server: hrgdvpn.flycdnedc55.vip
     type: vmess
@@ -78,11 +78,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /opt/video/images
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '70 🇭🇰 LANDUPS CO.  LTD CDN'
     server: 104.18.21.226
     type: vmess
@@ -142,11 +142,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcsshkknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '152 🇭🇰 Nearoute Limited SNI'
     server: hk.neoroute.769088.xyz
     type: vmess
@@ -202,7 +202,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '79 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI'
     server: azhk095.xiaohouzi.club
     type: trojan
@@ -211,7 +211,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '167 🇭🇰 Hong Kong Communications International Co.  Limited SNI'
     server: 45.207.13.215
     type: trojan
@@ -220,4 +220,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
