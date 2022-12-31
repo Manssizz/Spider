@@ -1,5 +1,5 @@
 proxies:
-  - name: '148 🇭🇺 23VNet Kft. SNI'
+  - name: '257 🇭🇺 23VNet Kft. SNI TCP'
     server: 185.225.69.134
     type: vmess
     port: 45081
@@ -11,3 +11,15 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: 172.67.199.34
+  - name: '393 🇭🇺 23VNet Kft. SNI TCP'
+    server: 185.225.69.134
+    type: vmess
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: teams.microsoft.com

@@ -45,13 +45,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "61 🇳🇱 Scalaxy B.V. SNI",
-        "166 🇳🇱 Online S.a.s. SNI"
+        "26 🇳🇱 Scalaxy B.V. SNI WS",
+        "43 🇳🇱 Online S.a.s. SNI WS",
+        "44 🇳🇱 Online S.a.s. SNI WS",
+        "118 🇳🇱 The Infrastructure Group B.V. SNI WS",
+        "142 🇳🇱 FDCSERVERS SNI TCP",
+        "405 🇳🇱 DIGITALOCEAN-ASN SNI WS"
       ]
     },
     {
       "type": "vmess",
-      "tag": "61 🇳🇱 Scalaxy B.V. SNI",
+      "tag": "26 🇳🇱 Scalaxy B.V. SNI WS",
       "server": "5.45.78.209",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -72,8 +76,29 @@
     },
     {
       "type": "vmess",
-      "tag": "166 🇳🇱 Online S.a.s. SNI",
-      "server": "nl1.v2rayserv.com",
+      "tag": "43 🇳🇱 Online S.a.s. SNI WS",
+      "server": "51.15.113.164",
+      "server_port": 443,
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "44 🇳🇱 Online S.a.s. SNI WS",
+      "server": "51.15.113.164",
       "server_port": 443,
       "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
       "security": "auto",
@@ -86,6 +111,62 @@
       "transport": {
         "type": "ws",
         "path": "/Danhuang/Jiang",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "118 🇳🇱 The Infrastructure Group B.V. SNI WS",
+      "server": "5.255.103.209",
+      "server_port": 443,
+      "uuid": "0b966d8a-5580-41c5-8a71-0623edf3d563",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/filestreamingservice/files/26f893e2-076a-46a8-94e2-a3a85a0b219b",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "142 🇳🇱 FDCSERVERS SNI TCP",
+      "server": "in06.my1188.org",
+      "server_port": 64089,
+      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "405 🇳🇱 DIGITALOCEAN-ASN SNI WS",
+      "server": "tray.tawanaclub.tk",
+      "server_port": 20672,
+      "uuid": "e3cf4021-5f21-4668-cd37-e8395841cb44",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tawanaproxy6",
         "headers": {
           "Host": "tsel.me"
         }

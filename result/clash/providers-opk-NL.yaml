@@ -1,5 +1,5 @@
 proxies:
-  - name: '61 🇳🇱 Scalaxy B.V. SNI'
+  - name: '26 🇳🇱 Scalaxy B.V. SNI WS'
     server: 5.45.78.209
     type: vmess
     port: 8080
@@ -15,8 +15,24 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '166 🇳🇱 Online S.a.s. SNI'
-    server: nl1.v2rayserv.com
+  - name: '43 🇳🇱 Online S.a.s. SNI WS'
+    server: 51.15.113.164
+    type: vmess
+    port: 443
+    uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /
+      headers:
+        Host: tsel.me
+  - name: '44 🇳🇱 Online S.a.s. SNI WS'
+    server: 51.15.113.164
     type: vmess
     port: 443
     uuid: e727f6e3-d206-4f04-80f8-30dafd52fbe2
@@ -29,5 +45,49 @@ proxies:
     servername: tsel.me
     ws-opts: 
       path: /Danhuang/Jiang
+      headers:
+        Host: tsel.me
+  - name: '118 🇳🇱 The Infrastructure Group B.V. SNI WS'
+    server: 5.255.103.209
+    type: vmess
+    port: 443
+    uuid: 0b966d8a-5580-41c5-8a71-0623edf3d563
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /filestreamingservice/files/26f893e2-076a-46a8-94e2-a3a85a0b219b
+      headers:
+        Host: tsel.me
+  - name: '142 🇳🇱 FDCSERVERS SNI TCP'
+    server: in06.my1188.org
+    type: vmess
+    port: 64089
+    uuid: 1c804bb4-98c2-3786-89e2-e29bb6d8068c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '405 🇳🇱 DIGITALOCEAN-ASN SNI WS'
+    server: tray.tawanaclub.tk
+    type: vmess
+    port: 20672
+    uuid: e3cf4021-5f21-4668-cd37-e8395841cb44
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /tawanaproxy6
       headers:
         Host: tsel.me
