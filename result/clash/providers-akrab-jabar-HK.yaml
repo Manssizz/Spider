@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '49 🇭🇰 HKT Limited SNI'
     server: hk45ogch.b70rw85t.xyz
     type: vmess
@@ -54,7 +54,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '50 🇭🇰 G-Core Labs S.A. SNI'
     server: gcsshk.sylu.cyou
     type: vmess
@@ -66,11 +66,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /Falling42gcsshknode
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '50 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -98,11 +98,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /gitbook
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '93 🇭🇰 LANDUPS CO.  LTD CDN'
     server: 104.18.21.226
     type: vmess
@@ -130,11 +130,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '127 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -162,11 +162,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Falling42gcorehkknode
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '132 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -194,7 +194,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '7 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI'
     server: azhk095.xiaohouzi.club
     type: trojan
@@ -203,7 +203,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '39 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI'
     server: 20.205.4.127
     type: trojan
