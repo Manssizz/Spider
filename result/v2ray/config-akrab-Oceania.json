@@ -80,29 +80,75 @@
         "concurrency": 8,
         "enabled": false
       },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "vau1.0bad.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/chat"
+        }
+      },
+      "tag": "proxy-69 🇦🇺 Linode  LLC SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
       "protocol": "trojan",
       "settings": {
         "servers": [
           {
-            "address": "jgwxn4.gaox.ml",
+            "address": "build49.scpotato.site",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
+            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
             "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "safebrowsing.google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "safebrowsing.google.com"
+          },
+          "path": "/trojan"
         }
       },
-      "tag": "proxy-47 🇦🇺 ORACLE-BMC-31898 SNI"
+      "tag": "proxy-15 🇦🇺 Unknown SNI"
     },
     {
       "mux": {
@@ -137,7 +183,7 @@
           "path": "/trojan"
         }
       },
-      "tag": "proxy-90 🇦🇺 Unknown CDN"
+      "tag": "proxy-16 🇦🇺 Unknown CDN"
     },
     {
       "mux": {
@@ -148,31 +194,25 @@
       "settings": {
         "servers": [
           {
-            "address": "build49.scpotato.site",
+            "address": "152.67.98.30",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "a11f88c5-fa0f-4f33-a373-3502de33f047",
+            "password": "e8c1ab3c-89b3-4933-92df-682e6dce7819",
             "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
-          "path": "/trojan"
+          "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-91 🇦🇺 Unknown SNI"
+      "tag": "proxy-17 🇦🇺 ORACLE-BMC-31898 SNI"
     },
     {
       "mux": {
@@ -201,7 +241,7 @@
           "serverName": "config.teams.microsoft.com"
         }
       },
-      "tag": "proxy-159 🇦🇺 ORACLE-BMC-31898 SNI"
+      "tag": "proxy-32 🇦🇺 ORACLE-BMC-31898 SNI"
     }
   ],
   "dns": {

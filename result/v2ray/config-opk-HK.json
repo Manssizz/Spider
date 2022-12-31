@@ -84,14 +84,48 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkcke4tb.b70rw85t.xyz",
-            "port": 39999,
+            "address": "hk1vdf-node.aiqiche123.com",
+            "port": 8189,
+            "users": [
+              {
+                "alterId": 10,
+                "encryption": "",
+                "flow": "",
+                "id": "a90597c1-bab3-4217-ad6f-0838675c8638",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-8 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gcorehkk.sylu.cyou",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
+                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
                 "level": 8,
                 "security": "auto"
               }
@@ -100,14 +134,20 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/Falling42gcorehkknode"
         }
       },
-      "tag": "proxy-19 🇭🇰 Hong Kong Broadband Network Ltd. SNI"
+      "tag": "proxy-26 🇭🇰 G-Core Labs S.A. SNI"
     },
     {
       "mux": {
@@ -141,7 +181,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-23 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+      "tag": "proxy-44 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
     },
     {
       "mux": {
@@ -152,7 +192,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk1vdf-node.aiqiche123.com",
+            "address": "117.164.185.222",
+            "port": 16113,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-57 🇭🇰 91440300MA5DH1CC86 SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "206.119.112.6",
             "port": 8189,
             "users": [
               {
@@ -175,7 +249,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-33 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+      "tag": "proxy-92 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
     },
     {
       "mux": {
@@ -215,7 +289,7 @@
           "path": "/Falling42gcorehknode"
         }
       },
-      "tag": "proxy-63 🇭🇰 G-Core Labs S.A. SNI"
+      "tag": "proxy-95 🇭🇰 G-Core Labs S.A. SNI"
     },
     {
       "mux": {
@@ -226,127 +300,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "gcsshkk.sylu.cyou",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/Falling42gcsshkknode"
-        }
-      },
-      "tag": "proxy-66 🇭🇰 G-Core Labs S.A. SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gcsshk.sylu.cyou",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/Falling42gcsshknode"
-        }
-      },
-      "tag": "proxy-74 🇭🇰 G-Core Labs S.A. SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gcsshkkk.sylu.cyou",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/Falling42gcsshkkknode"
-        }
-      },
-      "tag": "proxy-86 🇭🇰 G-Core Labs S.A. SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "hk1vdf-node.aiqiche123.com",
+            "address": "206.119.112.6",
             "port": 8189,
             "users": [
               {
@@ -369,7 +323,41 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-109 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+      "tag": "proxy-102 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "43.154.34.49",
+            "port": 23183,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "b402a4af-285a-463e-c3a7-53f91efdec78",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-108 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI"
     },
     {
       "mux": {
@@ -409,24 +397,29 @@
           "path": "/gitbook"
         }
       },
-      "tag": "proxy-132 🇭🇰 Scloud Pte Ltd SNI"
+      "tag": "proxy-110 🇭🇰 Scloud Pte Ltd SNI"
     },
     {
       "mux": {
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "43.154.172.79",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "0f098bb2-9fad-3cc3-8acf-2a3268c1eb27",
-            "port": 10102
+            "address": "29xg.mealstream.xyz",
+            "port": 15030,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "71f98616-2945-4149-b93d-5de936c4e0fd",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -438,7 +431,138 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-152 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI"
+      "tag": "proxy-125 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "v1-hk.xtspeeder001.xyz",
+            "port": 18001,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7affa329-5e15-369e-8929-b6452cdf2616",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-137 🇭🇰 HKT Limited SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "206.119.112.6",
+            "port": 8189,
+            "users": [
+              {
+                "alterId": 10,
+                "encryption": "",
+                "flow": "",
+                "id": "a90597c1-bab3-4217-ad6f-0838675c8638",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-142 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hk1vdf-node.aiqiche123.com",
+            "port": 8189,
+            "users": [
+              {
+                "alterId": 10,
+                "encryption": "",
+                "flow": "",
+                "id": "a90597c1-bab3-4217-ad6f-0838675c8638",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-174 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "20.205.4.127",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "6ba211f4-3e9c-4911-92cc-505d3ae7fcf7",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-159 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI"
     }
   ],
   "dns": {
