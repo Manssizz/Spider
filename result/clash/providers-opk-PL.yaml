@@ -1,21 +1,5 @@
 proxies:
-  - name: '48 🇵🇱 G-Core Labs S.A. SNI WS'
-    server: gcorepl.sylu.cyou
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /Falling42gcoreplnode
-      headers:
-        Host: tsel.me
-  - name: '50 🇵🇱 G-Core Labs S.A. SNI WS'
+  - name: '31 🇵🇱 G-Core Labs S.A. SNI WS'
     server: gcspl.sylu.cyou
     type: vmess
     port: 443
@@ -31,7 +15,7 @@ proxies:
       path: /Falling42gcsplnode
       headers:
         Host: tsel.me
-  - name: '133 🇵🇱 G-Core Labs S.A. SNI TCP'
+  - name: '145 🇵🇱 G-Core Labs S.A. SNI TCP'
     server: in06.my1188.org
     type: vmess
     port: 61077
@@ -43,7 +27,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '137 🇵🇱 G-Core Labs S.A. SNI TCP'
+  - name: '148 🇵🇱 G-Core Labs S.A. SNI TCP'
     server: in06.my1188.org
     type: vmess
     port: 61077
@@ -55,7 +39,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '346 🇵🇱 OVH SAS SNI WS'
+  - name: '164 🇵🇱 OVH SAS SNI WS'
     server: 146.59.92.219
     type: vmess
     port: 2096
@@ -68,6 +52,6 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: undefined
+      path: /
       headers:
         Host: tsel.me

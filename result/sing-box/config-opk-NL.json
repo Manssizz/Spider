@@ -45,18 +45,52 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "26 🇳🇱 Scalaxy B.V. SNI WS",
-        "43 🇳🇱 Online S.a.s. SNI WS",
-        "44 🇳🇱 Online S.a.s. SNI WS",
-        "118 🇳🇱 The Infrastructure Group B.V. SNI WS",
-        "142 🇳🇱 FDCSERVERS SNI TCP",
-        "405 🇳🇱 DIGITALOCEAN-ASN SNI WS"
+        "75 🇳🇱 Online S.a.s. SNI WS",
+        "119 🇳🇱 FDCSERVERS SNI TCP",
+        "133 🇳🇱 Scalaxy B.V. SNI WS",
+        "221 🇳🇱 DIGITALOCEAN-ASN SNI WS",
+        "228 🇳🇱 AS40676 SNI TCP"
       ]
     },
     {
       "type": "vmess",
-      "tag": "26 🇳🇱 Scalaxy B.V. SNI WS",
-      "server": "5.45.78.209",
+      "tag": "75 🇳🇱 Online S.a.s. SNI WS",
+      "server": "v12a.toddns.tk",
+      "server_port": 443,
+      "uuid": "a25881f3-967f-3265-bc7f-9e66857b016b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nl-unlimitxxx",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "119 🇳🇱 FDCSERVERS SNI TCP",
+      "server": "in06.my1188.org",
+      "server_port": 64089,
+      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "133 🇳🇱 Scalaxy B.V. SNI WS",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -76,84 +110,7 @@
     },
     {
       "type": "vmess",
-      "tag": "43 🇳🇱 Online S.a.s. SNI WS",
-      "server": "51.15.113.164",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "44 🇳🇱 Online S.a.s. SNI WS",
-      "server": "51.15.113.164",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Danhuang/Jiang",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "118 🇳🇱 The Infrastructure Group B.V. SNI WS",
-      "server": "5.255.103.209",
-      "server_port": 443,
-      "uuid": "0b966d8a-5580-41c5-8a71-0623edf3d563",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/filestreamingservice/files/26f893e2-076a-46a8-94e2-a3a85a0b219b",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "142 🇳🇱 FDCSERVERS SNI TCP",
-      "server": "in06.my1188.org",
-      "server_port": 64089,
-      "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "405 🇳🇱 DIGITALOCEAN-ASN SNI WS",
+      "tag": "221 🇳🇱 DIGITALOCEAN-ASN SNI WS",
       "server": "tray.tawanaclub.tk",
       "server_port": 20672,
       "uuid": "e3cf4021-5f21-4668-cd37-e8395841cb44",
@@ -170,6 +127,18 @@
         "headers": {
           "Host": "tsel.me"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "228 🇳🇱 AS40676 SNI TCP",
+      "server": "185.212.200.75",
+      "server_port": 443,
+      "password": "Sp3eDVp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
       }
     }
   ],
