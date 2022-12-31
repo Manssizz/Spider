@@ -70,11 +70,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '269 🇩🇪 AMAZON-02 SNI WS'
     server: 3.70.144.63
     type: vmess
@@ -86,11 +86,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '288 🇩🇪 myLoc managed IT AG CDN WS'
     server: 104.18.21.226
     type: vmess
@@ -118,11 +118,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '331 🇩🇪 myLoc managed IT AG SNI WS'
     server: 213.202.233.147
     type: vmess
@@ -210,11 +210,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '32 🇩🇪 Hetzner Online GmbH SNI TCP'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
@@ -259,7 +259,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '445 🇩🇪 firstcolo GmbH SNI TCP'
     server: mahsaxrhw.mahsaaminivpn.com
     type: trojan
@@ -268,7 +268,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '448 🇩🇪 Hetzner Online GmbH SNI TCP'
     server: content-provider9.cdn-delivery.akamaicd.com
     type: trojan
@@ -277,4 +277,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
