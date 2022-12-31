@@ -1,5 +1,57 @@
 proxies:
-  - name: '29 🇭🇰 G-Core Labs S.A. SNI'
+  - name: '19 🇭🇰 Hong Kong Broadband Network Ltd. SNI'
+    server: hkcke4tb.b70rw85t.xyz
+    type: vmess
+    port: 39999
+    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '23 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '33 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '63 🇭🇰 G-Core Labs S.A. SNI'
+    server: gcorehk.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcorehknode
+      headers:
+        Host: tsel.me
+  - name: '66 🇭🇰 G-Core Labs S.A. SNI'
     server: gcsshkk.sylu.cyou
     type: vmess
     port: 443
@@ -15,31 +67,7 @@ proxies:
       path: /Falling42gcsshkknode
       headers:
         Host: tsel.me
-  - name: '38 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI'
-    server: hk1vdf-node.aiqiche123.com
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '49 🇭🇰 HKT Limited SNI'
-    server: hk45ogch.b70rw85t.xyz
-    type: vmess
-    port: 39999
-    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '50 🇭🇰 G-Core Labs S.A. SNI'
+  - name: '74 🇭🇰 G-Core Labs S.A. SNI'
     server: gcsshk.sylu.cyou
     type: vmess
     port: 443
@@ -55,7 +83,35 @@ proxies:
       path: /Falling42gcsshknode
       headers:
         Host: tsel.me
-  - name: '88 🇭🇰 Scloud Pte Ltd SNI'
+  - name: '86 🇭🇰 G-Core Labs S.A. SNI'
+    server: gcsshkkk.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcsshkkknode
+      headers:
+        Host: tsel.me
+  - name: '109 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '132 🇭🇰 Scloud Pte Ltd SNI'
     server: 139.219.130.21
     type: vmess
     port: 29755
@@ -71,64 +127,11 @@ proxies:
       path: /gitbook
       headers:
         Host: tsel.me
-  - name: '101 🇭🇰 AMAZON-02 SNI'
-    server: hkbgp.yinhecdn.online
-    type: vmess
-    port: 26346
-    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '129 🇭🇰 G-Core Labs S.A. SNI'
-    server: gcorehkk.sylu.cyou
-    type: vmess
-    port: 443
-    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /Falling42gcorehkknode
-      headers:
-        Host: tsel.me
-  - name: '189 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI'
-    server: hk1vdf-node.aiqiche123.com
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '7 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI'
-    server: azhk095.xiaohouzi.club
+  - name: '152 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI'
+    server: 43.154.172.79
     type: trojan
     port: 10102
     password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '39 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI'
-    server: 20.205.4.127
-    type: trojan
-    port: 443
-    password: 6ba211f4-3e9c-4911-92cc-505d3ae7fcf7
     udp: true
     skip-cert-verify: true
     network: tcp

@@ -1,21 +1,5 @@
 proxies:
-  - name: '115 🇦🇺 Unknown SNI'
-    server: build49.yukmldi.studio
-    type: vmess
-    port: 443
-    uuid: 1d742742-cee7-4082-9d78-060c060544e6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /worryfree/potatoganteng
-      headers:
-        Host: tsel.me
-  - name: '24 🇦🇺 ORACLE-BMC-31898 SNI'
+  - name: '47 🇦🇺 ORACLE-BMC-31898 SNI'
     server: jgwxn4.gaox.ml
     type: trojan
     port: 443
@@ -24,7 +8,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '32 🇦🇺 Unknown SNI'
+  - name: '91 🇦🇺 Unknown SNI'
     server: build49.scpotato.site
     type: trojan
     port: 443
@@ -37,7 +21,7 @@ proxies:
       path: /trojan
       headers:
         Host: tsel.me
-  - name: '37 🇦🇺 ORACLE-BMC-31898 SNI'
+  - name: '159 🇦🇺 ORACLE-BMC-31898 SNI'
     server: jgwxn3.gaox.ml
     type: trojan
     port: 443

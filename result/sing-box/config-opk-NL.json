@@ -45,37 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "112 🇳🇱 Scalaxy B.V. SNI",
-        "195 🇳🇱 Online S.a.s. SNI"
+        "42 🇳🇱 Scalaxy B.V. SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "112 🇳🇱 Scalaxy B.V. SNI",
-      "server": "5.45.78.209",
+      "tag": "42 🇳🇱 Scalaxy B.V. SNI",
+      "server": "nl.gongyiyun.cf",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "195 🇳🇱 Online S.a.s. SNI",
-      "server": "nl1.v2rayserv.com",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
       "security": "auto",
       "alter_id": 0,
       "tls": {
