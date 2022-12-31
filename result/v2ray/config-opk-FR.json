@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "5.135.235.160",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
-            "port": 443
+            "address": "fr2.v2rayserv.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/sshocean"
         }
       },
-      "tag": "proxy-116 🇫🇷 OVH SAS SNI"
+      "tag": "proxy-44 🇫🇷 OVH SAS SNI"
     },
     {
       "mux": {
@@ -113,12 +124,12 @@
       "settings": {
         "servers": [
           {
-            "address": "141.94.76.177",
+            "address": "176.31.83.90",
             "flow": "",
             "level": 8,
             "method": "chacha20-poly1305",
             "ota": false,
-            "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
+            "password": "origin",
             "port": 443
           }
         ]
@@ -131,7 +142,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-197 🇫🇷 OVH SAS SNI"
+      "tag": "proxy-77 🇫🇷 OVH SAS SNI"
     }
   ],
   "dns": {

@@ -45,28 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "116 🇫🇷 OVH SAS SNI",
-        "197 🇫🇷 OVH SAS SNI"
+        "44 🇫🇷 OVH SAS SNI",
+        "77 🇫🇷 OVH SAS SNI"
       ]
     },
     {
-      "type": "trojan",
-      "tag": "116 🇫🇷 OVH SAS SNI",
-      "server": "5.135.235.160",
+      "type": "vmess",
+      "tag": "44 🇫🇷 OVH SAS SNI",
+      "server": "fr2.v2rayserv.com",
       "server_port": 443,
-      "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
+      "uuid": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshocean",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "197 🇫🇷 OVH SAS SNI",
-      "server": "141.94.76.177",
+      "tag": "77 🇫🇷 OVH SAS SNI",
+      "server": "176.31.83.90",
       "server_port": 443,
-      "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
+      "password": "origin",
       "tls": {
         "enabled": true,
         "insecure": true,

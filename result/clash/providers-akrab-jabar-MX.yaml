@@ -1,5 +1,5 @@
 proxies:
-  - name: '78 🇲🇽 Truxgo S. R.L. de C.V. SNI'
+  - name: '70 🇲🇽 Truxgo S. R.L. de C.V. SNI'
     server: mx1.v2rayserv.com
     type: vmess
     port: 443
@@ -10,12 +10,12 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
-  - name: '79 🇲🇽 Truxgo S. R.L. de C.V. CDN'
+        Host: 172.67.199.34
+  - name: '72 🇲🇽 Truxgo S. R.L. de C.V. CDN'
     server: 104.18.21.226
     type: vmess
     port: 443

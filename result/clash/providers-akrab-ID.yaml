@@ -1,17 +1,17 @@
 proxies:
-  - name: '107 🇮🇩 PT Bukuku Solusi Kreatif SNI'
-    server: 103.187.106.98
+  - name: '190 🇮🇩 PT Atharva Telematika Persada SNI'
+    server: vip-id.rayzellvpn.my.id
     type: vmess
     port: 443
-    uuid: 8e645626-90f3-4c70-bae4-3f504a5989d3
+    uuid: d302a101-e8e0-4fde-9ac2-e2a86724d48d
     alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com

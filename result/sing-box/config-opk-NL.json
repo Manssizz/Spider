@@ -45,35 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "5 🇳🇱 Online S.a.s. SNI",
-        "82 🇳🇱 Scalaxy B.V. SNI",
-        "21 🇳🇱 AS40676 SNI"
+        "112 🇳🇱 Scalaxy B.V. SNI",
+        "195 🇳🇱 Online S.a.s. SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "5 🇳🇱 Online S.a.s. SNI",
-      "server": "nl1.v2rayserv.com",
-      "server_port": 443,
-      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Danhuang/Jiang",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "82 🇳🇱 Scalaxy B.V. SNI",
+      "tag": "112 🇳🇱 Scalaxy B.V. SNI",
       "server": "5.45.78.209",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
@@ -93,15 +71,24 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "21 🇳🇱 AS40676 SNI",
-      "server": "185.212.200.75",
+      "type": "vmess",
+      "tag": "195 🇳🇱 Online S.a.s. SNI",
+      "server": "nl1.v2rayserv.com",
       "server_port": 443,
-      "password": "Sp3eDVp",
+      "uuid": "e727f6e3-d206-4f04-80f8-30dafd52fbe2",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     }
   ],
