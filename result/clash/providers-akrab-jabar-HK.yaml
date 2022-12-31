@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /Falling42gcorehkknode
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '27 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -126,7 +126,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '94 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -182,7 +182,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '110 🇭🇰 Scloud Pte Ltd SNI'
     server: 139.219.130.21
     type: vmess
@@ -238,7 +238,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '142 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI'
     server: 206.119.112.6
     type: vmess
@@ -262,7 +262,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '186 🇭🇰 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
