@@ -118,11 +118,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /fastssh
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '73 🇸🇬 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -150,7 +150,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '79 🇸🇬 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -194,11 +194,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '117 🇸🇬 HURRICANE CDN'
     server: 104.18.21.226
     type: vmess
@@ -274,11 +274,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /vmess
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '133 🇸🇬 OVH SAS SNI'
     server: 139.99.91.95
     type: vmess
@@ -302,11 +302,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sg1
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '136 🇸🇬 DIGITALOCEAN-ASN SNI'
     server: 174.138.25.187
     type: vmess
@@ -365,7 +365,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '95 🇸🇬 Contabo Asia Private Limited SNI'
     server: 194.233.88.109
     type: trojan
@@ -392,4 +392,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34

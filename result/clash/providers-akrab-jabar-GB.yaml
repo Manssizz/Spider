@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '11 🇬🇧 OVH SAS SNI'
     server: uk1.trojanvh.xyz
     type: trojan
@@ -41,7 +41,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '104 🇬🇧 Stark Industries Solutions Ltd SNI'
     server: 146.19.230.241
     type: trojan
