@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '82 🇹🇼 Data Communication Business Group SNI'
     server: tw2.kidcc.xyz
     type: vmess
@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: 
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '147 🇹🇼 Data Communication Business Group SNI'
     server: 1.170.214.184
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /jjsU0h2HNvi8
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '21 🇹🇼 Data Communication Business Group SNI'
     server: 211.72.35.154
     type: trojan
