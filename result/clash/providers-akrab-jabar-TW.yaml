@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /xyf520
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '158 🇹🇼 Taiwan Digital Streaming Co. SNI'
     server: mc.xn--mes794a17ar33a.xyz
     type: vmess
@@ -54,8 +54,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /xyf520
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
