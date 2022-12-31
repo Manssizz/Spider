@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /Danhuang/Jiang
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '82 🇳🇱 Scalaxy B.V. SNI'
     server: 5.45.78.209
     type: vmess
@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '83 🇳🇱 Scalaxy B.V. CDN'
     server: hohm.microsoft.com
     type: vmess
