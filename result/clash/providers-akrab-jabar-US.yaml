@@ -226,7 +226,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '82 🇺🇸 Green Floid LLC CDN'
     server: 104.18.21.226
     type: vmess
@@ -254,7 +254,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '95 🇺🇸 1GSERVERS CDN'
     server: 104.18.21.226
     type: vmess
@@ -314,7 +314,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '114 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 129.159.41.233
     type: vmess
@@ -418,7 +418,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '147 🇺🇸 OVH SAS CDN'
     server: 104.18.21.226
     type: vmess
@@ -478,11 +478,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '64 🇺🇸 AMAZON-AES SNI'
     server: tr10.tgcunzhang.xyz
     type: trojan
@@ -527,7 +527,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '130 🇺🇸 PERFORMIVE SNI'
     server: youtube-bai-piao-wang-zhe-usa.98848.xyz
     type: trojan
