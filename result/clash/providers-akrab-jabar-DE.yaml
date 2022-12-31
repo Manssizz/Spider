@@ -50,11 +50,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '96 🇩🇪 Hetzner Online GmbH SNI'
     server: 5.75.250.163
     type: vmess
@@ -66,11 +66,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '127 🇩🇪 Hetzner Online GmbH CDN'
     server: 104.18.21.226
     type: vmess
@@ -98,11 +98,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '157 🇩🇪 myLoc managed IT AG CDN'
     server: 104.18.21.226
     type: vmess

@@ -26,7 +26,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '30 🇯🇵 Linode  LLC SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -50,7 +50,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '81 🇯🇵 Linode  LLC SNI'
     server: 172.104.114.137
     type: vmess
@@ -62,7 +62,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '82 🇯🇵 G-Core Labs S.A. CDN'
     server: 104.18.21.226
     type: vmess
@@ -118,11 +118,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /f55a5cfa-4426-49d8-c041-27f431d6b6f0
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '114 🇯🇵 ORACLE-BMC-31898 SNI'
     server: 152.69.197.60
     type: vmess
@@ -174,7 +174,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '134 🇯🇵 Scloud Pte Ltd SNI'
     server: jp02.jafiyun.world
     type: vmess
@@ -230,7 +230,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '168 🇯🇵 AMAZON-02 SNI'
     server: 43.206.228.93
     type: vmess
@@ -242,11 +242,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '176 🇯🇵 CLOUDFLARENET SNI'
     server: 10rb.mealstream.xyz
     type: vmess
@@ -258,7 +258,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '189 🇯🇵 ORACLE-BMC-31898 SNI'
     server: oracle-2.easonfan.online
     type: vmess
@@ -310,7 +310,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '131 🇯🇵 AMAZON-02 SNI'
     server: 3.114.110.209
     type: trojan
@@ -319,7 +319,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '181 🇯🇵 AMAZON-02 SNI'
     server: 3.114.110.209
     type: trojan
