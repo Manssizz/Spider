@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '6 🇩🇪 myLoc managed IT AG CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -74,11 +74,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /ZPKLSPJjLBEy
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '23 🇩🇪 Hetzner Online GmbH SNI'
     server: 78.46.244.34
     type: vmess
@@ -162,11 +162,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '45 🇫🇷 OVH SAS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -194,11 +194,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '76 🇩🇪 Hetzner Online GmbH SNI'
     server: 78.46.244.34
     type: vmess
@@ -210,7 +210,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '85 🇮🇪 AMAZON-02 SNI'
     server: 52.214.4.7
     type: vmess
@@ -238,11 +238,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '92 🇩🇪 OVH SAS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -286,11 +286,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '109 🇱🇺 Unknown CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -318,11 +318,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '119 🇫🇷 Online S.a.s. CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -414,11 +414,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '163 🇬🇧 DIGITALOCEAN-ASN SNI'
     server: 161.35.47.70
     type: vmess
@@ -430,7 +430,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '174 🇩🇪 Hetzner Online GmbH SNI'
     server: 5.75.250.163
     type: vmess
@@ -470,7 +470,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '194 🇫🇷 Online S.a.s. CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -498,11 +498,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '12 🇷🇺 LLC Baxet SNI'
     server: eu-east-ruo.openssl3.com
     type: trojan
@@ -511,7 +511,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '19 🇬🇧 OVH SAS SNI'
     server: t1.teslacdn1.live
     type: trojan
@@ -538,7 +538,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '102 🇬🇧 Hydra Communications Ltd SNI'
     server: content-provider21.cdn-delivery.akamaicd.com
     type: trojan
@@ -547,7 +547,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '133 🇩🇪 OVH SAS SNI'
     server: t2.teslacdn1.live
     type: trojan
@@ -556,4 +556,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
