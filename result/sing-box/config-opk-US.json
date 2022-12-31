@@ -45,62 +45,75 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "29 🇺🇸 IT7NET SNI",
-        "31 🇺🇸 ORACLE-BMC-31898 SNI",
-        "35 🇺🇸 OVH SAS SNI",
-        "37 🇺🇸 ORACLE-BMC-31898 SNI",
-        "47 🇺🇸 ORACLE-BMC-31898 SNI",
-        "60 🇺🇸 ORACLE-BMC-31898 SNI",
-        "74 🇺🇸 ORACLE-BMC-31898 SNI",
-        "120 🇺🇸 Hyonix LLC SNI",
-        "123 🇺🇸 IT7NET SNI",
-        "130 🇺🇸 IT7NET SNI",
-        "145 🇺🇸 Hetzner Online GmbH SNI",
-        "147 🇺🇸 AS-COLOCROSSING SNI",
-        "149 🇺🇸 ORACLE-BMC-31898 SNI",
-        "175 🇺🇸 Linode  LLC SNI",
-        "178 🇺🇸 EGIHOSTING SNI",
-        "86 🇺🇸 ORACLE-BMC-31898 SNI",
-        "88 🇺🇸 PERFORMIVE SNI",
-        "98 🇺🇸 MULTA-ASN1 SNI",
-        "118 🇺🇸 Melbikomas UAB SNI",
-        "138 🇺🇸 OVH SAS SNI",
-        "151 🇺🇸 AMAZON-AES SNI",
-        "158 🇺🇸 MIRholding B.V. SNI",
-        "184 🇺🇸 MIRholding B.V. SNI"
+        "25 🇺🇸 AS-COLOCROSSING SNI",
+        "30 🇺🇸 Linode  LLC SNI",
+        "44 🇺🇸 OVH SAS SNI",
+        "47 🇺🇸 OVH SAS SNI",
+        "63 🇺🇸 Hyonix LLC SNI",
+        "67 🇺🇸 OVH SAS SNI",
+        "97 🇺🇸 SHARKTECH SNI",
+        "121 🇺🇸 IT7NET SNI",
+        "131 🇺🇸 AS-GLOBALTELEHOST SNI",
+        "136 🇺🇸 Hetzner Online GmbH SNI",
+        "141 🇺🇸 PONYNET SNI",
+        "143 🇺🇸 Linode  LLC SNI",
+        "160 🇺🇸 ORACLE-BMC-31898 SNI",
+        "5 🇺🇸 PEGTECHINC SNI",
+        "16 🇺🇸 MIRholding B.V. SNI",
+        "20 🇺🇸 Melbikomas UAB SNI",
+        "55 🇺🇸 ORACLE-BMC-31898 SNI",
+        "64 🇺🇸 AMAZON-AES SNI",
+        "111 🇺🇸 PEGTECHINC SNI",
+        "147 🇺🇸 PERFORMIVE SNI",
+        "154 🇺🇸 MIRholding B.V. SNI",
+        "157 🇺🇸 PEGTECHINC SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "29 🇺🇸 IT7NET SNI",
-      "server": "c50s801.jamjams3.net",
-      "server_port": 12516,
-      "uuid": "3ce13954-b49b-4a3a-8af2-e3fddce19af5",
+      "tag": "25 🇺🇸 AS-COLOCROSSING SNI",
+      "server": "heihei006009.tk",
+      "server_port": 443,
+      "uuid": "7ed04ef6-0f03-42f1-a609-b21a0b3a3181",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/47d5ff16f/",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "31 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "129.159.41.233",
-      "server_port": 32586,
-      "uuid": "341a9182-c423-499c-c46e-d17838b29037",
+      "tag": "30 🇺🇸 Linode  LLC SNI",
+      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
+      "server_port": 7102,
+      "uuid": "8b770a3a-7ad9-4573-bfd6-2b146bf93af7",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/us1",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "35 🇺🇸 OVH SAS SNI",
+      "tag": "44 🇺🇸 OVH SAS SNI",
       "server": "51.81.220.195",
       "server_port": 443,
       "uuid": "6fea1649-425b-4092-bf53-29792152c925",
@@ -121,64 +134,29 @@
     },
     {
       "type": "vmess",
-      "tag": "37 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "129.159.41.233",
-      "server_port": 32586,
-      "uuid": "341a9182-c423-499c-c46e-d17838b29037",
+      "tag": "47 🇺🇸 OVH SAS SNI",
+      "server": "51.81.220.195",
+      "server_port": 443,
+      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sshkit/Yarayauj/6349911f83b31/",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     },
     {
       "type": "vmess",
-      "tag": "47 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "150.230.41.9",
-      "server_port": 23292,
-      "uuid": "956c6c2f-bf54-4b87-fafd-4b767ca12750",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "60 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "150.230.41.9",
-      "server_port": 23292,
-      "uuid": "956c6c2f-bf54-4b87-fafd-4b767ca12750",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "74 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "129.146.133.157",
-      "server_port": 51009,
-      "uuid": "81714cef-9bde-4a08-aa50-d6bc0172d78b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "120 🇺🇸 Hyonix LLC SNI",
-      "server": "185.216.72.172",
+      "tag": "63 🇺🇸 Hyonix LLC SNI",
+      "server": "hope.jingledev.me",
       "server_port": 443,
       "uuid": "6d11cad4-be87-4b05-aa1d-0d19b011a6d3",
       "security": "auto",
@@ -198,10 +176,10 @@
     },
     {
       "type": "vmess",
-      "tag": "123 🇺🇸 IT7NET SNI",
-      "server": "679888.xyz",
+      "tag": "67 🇺🇸 OVH SAS SNI",
+      "server": "51.81.220.195",
       "server_port": 443,
-      "uuid": "b92dfaee-7b1a-4c36-a737-f69f1e67a6ce",
+      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -211,7 +189,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/1edd91/",
+        "path": "/sshkit/Uvuwbwb/6373b77a048a6/",
         "headers": {
           "Host": "tsel.me"
         }
@@ -219,7 +197,28 @@
     },
     {
       "type": "vmess",
-      "tag": "130 🇺🇸 IT7NET SNI",
+      "tag": "97 🇺🇸 SHARKTECH SNI",
+      "server": "67.21.72.41",
+      "server_port": 443,
+      "uuid": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/173418141123",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "121 🇺🇸 IT7NET SNI",
       "server": "c50s801.jamjams3.net",
       "server_port": 12516,
       "uuid": "3ce13954-b49b-4a3a-8af2-e3fddce19af5",
@@ -233,7 +232,28 @@
     },
     {
       "type": "vmess",
-      "tag": "145 🇺🇸 Hetzner Online GmbH SNI",
+      "tag": "131 🇺🇸 AS-GLOBALTELEHOST SNI",
+      "server": "usa.aiyun.769088.xyz",
+      "server_port": 25698,
+      "uuid": "5fcb05ff-76a7-4031-a15f-9b49581f5974",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/coinsinic",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "136 🇺🇸 Hetzner Online GmbH SNI",
       "server": "5.161.115.53",
       "server_port": 443,
       "uuid": "9eea0984-036f-4b99-8955-f96b3f94780e",
@@ -247,10 +267,10 @@
     },
     {
       "type": "vmess",
-      "tag": "147 🇺🇸 AS-COLOCROSSING SNI",
-      "server": "usrn2.xiaolongyun.xyz",
-      "server_port": 21904,
-      "uuid": "7046ae69-3bb2-3fe8-afb6-a92e8e7987b2",
+      "tag": "141 🇺🇸 PONYNET SNI",
+      "server": "205.185.125.116",
+      "server_port": 443,
+      "uuid": "9f0925ee-2d16-4153-a77e-f6c1c596fd6d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -260,7 +280,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vv",
+        "path": "/",
         "headers": {
           "Host": "tsel.me"
         }
@@ -268,28 +288,7 @@
     },
     {
       "type": "vmess",
-      "tag": "149 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "152.67.254.16",
-      "server_port": 43815,
-      "uuid": "7a9f026f-f7a8-40ca-f2f9-3b380c287c0d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/abc",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "175 🇺🇸 Linode  LLC SNI",
+      "tag": "143 🇺🇸 Linode  LLC SNI",
       "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org",
       "server_port": 7102,
       "uuid": "9c52776b-4b01-4ae6-9f7d-25cd4725e13c",
@@ -310,48 +309,12 @@
     },
     {
       "type": "vmess",
-      "tag": "178 🇺🇸 EGIHOSTING SNI",
-      "server": "23.230.146.254",
-      "server_port": 1258,
-      "uuid": "edeb41cc-a76a-47f2-fa96-b9141e66a2b0",
+      "tag": "160 🇺🇸 ORACLE-BMC-31898 SNI",
+      "server": "152.67.254.16",
+      "server_port": 43815,
+      "uuid": "7a9f026f-f7a8-40ca-f2f9-3b380c287c0d",
       "security": "auto",
       "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "86 🇺🇸 ORACLE-BMC-31898 SNI",
-      "server": "129.146.242.130",
-      "server_port": 443,
-      "password": "05742120-ce23-4cc8-88f5-6d221ce45bf4",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "88 🇺🇸 PERFORMIVE SNI",
-      "server": "youtube-bai-piao-wang-zhe-usa.98848.xyz",
-      "server_port": 443,
-      "password": "d1478689-439c-4590-b7ce-36e786a02dc3",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "98 🇺🇸 MULTA-ASN1 SNI",
-      "server": "rn.oppo.quest",
-      "server_port": 2077,
-      "password": "KQpgOwsK0p",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -359,7 +322,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/aries",
+        "path": "/abc",
         "headers": {
           "Host": "tsel.me"
         }
@@ -367,7 +330,31 @@
     },
     {
       "type": "trojan",
-      "tag": "118 🇺🇸 Melbikomas UAB SNI",
+      "tag": "5 🇺🇸 PEGTECHINC SNI",
+      "server": "zzus01.fuqiangren.com",
+      "server_port": 20220,
+      "password": "264ed874-75e8-488e-88f5-a6749de464cf",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "16 🇺🇸 MIRholding B.V. SNI",
+      "server": "138.124.183.226",
+      "server_port": 443,
+      "password": "xxoo",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "20 🇺🇸 Melbikomas UAB SNI",
       "server": "88.210.37.46",
       "server_port": 17908,
       "password": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
@@ -379,10 +366,10 @@
     },
     {
       "type": "trojan",
-      "tag": "138 🇺🇸 OVH SAS SNI",
-      "server": "us2.trojanvh.xyz",
+      "tag": "55 🇺🇸 ORACLE-BMC-31898 SNI",
+      "server": "129.146.190.42",
       "server_port": 443,
-      "password": "011eb011-c68e-4f92-80eb-f9bbef707bef",
+      "password": "dbf9bf9c-2c3f-474a-8031-d4c00666a989",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -391,9 +378,9 @@
     },
     {
       "type": "trojan",
-      "tag": "151 🇺🇸 AMAZON-AES SNI",
-      "server": "tr10.tgcunzhang.xyz",
-      "server_port": 54324,
+      "tag": "64 🇺🇸 AMAZON-AES SNI",
+      "server": "tr6.tgcunzhang.xyz",
+      "server_port": 54178,
       "password": "2a9ba60d-10ce-4f79-97e7-817334456195",
       "tls": {
         "enabled": true,
@@ -403,10 +390,10 @@
     },
     {
       "type": "trojan",
-      "tag": "158 🇺🇸 MIRholding B.V. SNI",
-      "server": "138.124.183.216",
-      "server_port": 443,
-      "password": "xxoo",
+      "tag": "111 🇺🇸 PEGTECHINC SNI",
+      "server": "zzus01.fuqiangren.com",
+      "server_port": 20220,
+      "password": "6029e83f-3381-4aad-b409-7a9787dbc4b6",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -415,10 +402,34 @@
     },
     {
       "type": "trojan",
-      "tag": "184 🇺🇸 MIRholding B.V. SNI",
+      "tag": "147 🇺🇸 PERFORMIVE SNI",
+      "server": "youtube-bai-piao-wang-zhe-usa.98848.xyz",
+      "server_port": 443,
+      "password": "d1478689-439c-4590-b7ce-36e786a02dc3",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "154 🇺🇸 MIRholding B.V. SNI",
       "server": "ust3.sshocean.net",
       "server_port": 443,
       "password": "2b7a055e-5b0a-44bd-901b-5577e61aa832",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "157 🇺🇸 PEGTECHINC SNI",
+      "server": "zzus01.fuqiangren.com",
+      "server_port": 20220,
+      "password": "1a9bab97-15f3-4b8b-a671-7eb607b81d69",
       "tls": {
         "enabled": true,
         "insecure": true,
