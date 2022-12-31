@@ -45,35 +45,13 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "4 🇵🇱 OVH SAS SNI",
-        "38 🇵🇱 G-Core Labs S.A. SNI"
+        "59 🇵🇱 G-Core Labs S.A. SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "4 🇵🇱 OVH SAS SNI",
-      "server": "146.59.92.219",
-      "server_port": 2096,
-      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "38 🇵🇱 G-Core Labs S.A. SNI",
-      "server": "gcorepl.sylu.cyou",
+      "tag": "59 🇵🇱 G-Core Labs S.A. SNI",
+      "server": "gcspl.sylu.cyou",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
       "security": "auto",
@@ -85,7 +63,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/Falling42gcoreplnode",
+        "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "tsel.me"
         }

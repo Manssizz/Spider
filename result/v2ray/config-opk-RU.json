@@ -107,7 +107,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-45 🇷🇺 LLC Baxet SNI"
+      "tag": "proxy-58 🇷🇺 LLC Baxet SNI"
     },
     {
       "mux": {
@@ -141,36 +141,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-48 🇷🇺 RECONN LLC SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "45.8.158.51",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "9KogHwaY7hVD",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-6 🇷🇺 LLC Baxet SNI"
+      "tag": "proxy-117 🇷🇺 RECONN LLC SNI"
     },
     {
       "mux": {
@@ -199,7 +170,65 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-167 🇷🇺 LLC Baxet SNI"
+      "tag": "proxy-78 🇷🇺 LLC Baxet SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "eu-east-ruo.openssl3.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "9KogHwaY7hVD",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-132 🇷🇺 LLC Baxet SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "80.85.241.225",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "port": 17908
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "tsel.me"
+        }
+      },
+      "tag": "proxy-151 🇷🇺 Unknown SNI"
     }
   ],
   "dns": {
