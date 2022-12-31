@@ -102,7 +102,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '44 🇺🇸 SHARKTECH CDN'
     server: 104.18.21.226
     type: vmess
@@ -254,7 +254,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '91 🇲🇽 Truxgo S. R.L. de C.V. SNI'
     server: mx1.v2rayserv.com
     type: vmess
@@ -266,11 +266,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '92 🇲🇽 Truxgo S. R.L. de C.V. CDN'
     server: 104.18.21.226
     type: vmess
@@ -346,7 +346,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '114 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 129.159.41.233
     type: vmess
@@ -523,7 +523,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '69 🇺🇸 IT7NET SNI'
     server: us.swiftfalcon.app
     type: trojan
@@ -541,7 +541,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '110 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 129.146.255.158
     type: trojan
@@ -559,7 +559,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '130 🇺🇸 PERFORMIVE SNI'
     server: youtube-bai-piao-wang-zhe-usa.98848.xyz
     type: trojan
@@ -568,7 +568,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '146 🇺🇸 ORACLE-BMC-31898 SNI'
     server: 129.146.242.130
     type: trojan
@@ -586,7 +586,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '170 🇨🇦 OVH SAS SNI'
     server: ca1.trojanvh.xyz
     type: trojan
