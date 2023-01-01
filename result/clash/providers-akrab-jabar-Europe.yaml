@@ -34,7 +34,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '22 🇩🇪 OVH SAS CDN WS'
     server: 104.18.21.226
     type: vmess
@@ -206,11 +206,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /nl-unlimitxxx
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '88 🇱🇺 Unknown SNI WS'
     server: 91.199.84.239
     type: vmess
@@ -222,11 +222,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '90 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP'
     server: 18.kccic2pa.xyz
     type: vmess
@@ -238,7 +238,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '93 🇱🇺 PONYNET CDN WS'
     server: 104.18.21.226
     type: vmess
@@ -266,7 +266,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '127 🇬🇧 Zhejiang Aiyun Network Technology Co Ltd SNI TCP'
     server: 18.kccic2pa.xyz
     type: vmess
@@ -318,7 +318,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '148 🇵🇱 G-Core Labs S.A. SNI TCP'
     server: in06.my1188.org
     type: vmess
@@ -330,7 +330,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '164 🇵🇱 OVH SAS SNI WS'
     server: 146.59.92.219
     type: vmess
@@ -342,11 +342,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '180 🇷🇺 RECONN LLC SNI WS'
     server: 91.193.181.192
     type: vmess
@@ -358,11 +358,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '182 🇫🇷 OVH SAS CDN WS'
     server: 104.18.21.226
     type: vmess
@@ -422,11 +422,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '210 🇩🇪 Nrp Teknoloji Limited Sirketi SNI WS'
     server: gog.vpnmstere.gq
     type: vmess
@@ -567,7 +567,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '28 🇩🇪 firstcolo GmbH SNI TCP'
     server: mahsaxrhw.mahsaaminivpn.com
     type: trojan
@@ -585,7 +585,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '40 🇩🇪 OVH SAS SNI TCP'
     server: t2.teslacdn1.live
     type: trojan
@@ -594,7 +594,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '42 🇬🇧 OVH SAS SNI TCP'
     server: 51.195.219.173
     type: trojan
@@ -639,7 +639,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '224 🇩🇪 OVH SAS SNI TCP'
     server: 141.95.61.209
     type: trojan
@@ -657,7 +657,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '228 🇳🇱 AS40676 SNI TCP'
     server: 185.212.200.75
     type: trojan
