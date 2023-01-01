@@ -45,15 +45,28 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "268 🇱🇺 Unknown SNI TCP"
+        "188 🇱🇺 Unknown TCP SNI",
+        "279 🇱🇺 Unknown TCP SNI"
       ]
     },
     {
       "type": "trojan",
-      "tag": "268 🇱🇺 Unknown SNI TCP",
+      "tag": "188 🇱🇺 Unknown TCP SNI",
       "server": "91.199.84.239",
       "server_port": 446,
       "password": "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "279 🇱🇺 Unknown TCP SNI",
+      "server": "91.199.84.239",
+      "server_port": 446,
+      "password": "23a044ef-1f8e-44ec-92be-78395a09f15c",
       "tls": {
         "enabled": true,
         "insecure": true,

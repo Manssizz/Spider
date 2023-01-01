@@ -1,21 +1,17 @@
 proxies:
-  - name: '115 🇩🇪 DIGITALOCEAN-ASN WS SNI'
-    server: 165.227.175.88
+  - name: '13 🇩🇪 Hetzner Online GmbH TCP SNI'
+    server: 78.46.244.34
     type: vmess
-    port: 28164
-    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
-    alterId: 0
+    port: 33655
+    uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me
-  - name: '118 🇩🇪 Hetzner Online GmbH WS SNI'
+  - name: '18 🇩🇪 Hetzner Online GmbH WS SNI'
     server: 5.75.129.202
     type: vmess
     port: 55039
@@ -31,11 +27,11 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '150 🇩🇪 Hetzner Online GmbH WS SNI'
-    server: 138.201.115.234
+  - name: '24 🇩🇪 DIGITALOCEAN-ASN WS SNI'
+    server: 165.227.175.88
     type: vmess
-    port: 62345
-    uuid: 7b525127-a5c2-4b63-a9e9-e833c2cc509a
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
     alterId: 0
     cipher: auto
     tls: true
@@ -47,12 +43,12 @@ proxies:
       path: /
       headers:
         Host: tsel.me
-  - name: '158 🇩🇪 DIGITALOCEAN-ASN WS SNI'
-    server: 20.239.76.193
+  - name: '28 🇩🇪 Hetzner Online GmbH WS SNI'
+    server: 5.75.250.163
     type: vmess
-    port: 61503
-    uuid: b51d625d-7257-32bd-af6e-60ecbf5f4cc0
-    alterId: 2
+    port: 2096
+    uuid: e175ba8e-f3e8-4ec5-a350-f058537dca8e
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
@@ -60,11 +56,59 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /zz
+      path: /
       headers:
         Host: tsel.me
-  - name: '113 🇩🇪 OVH SAS TCP SNI'
-    server: t2.teslacdn1.live
+  - name: '129 🇩🇪 OVH SAS WS SNI'
+    server: 162.19.224.176
+    type: vmess
+    port: 443
+    uuid: fa6e96ae-17f2-41d4-8d2b-e734bdf970ce
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '226 🇩🇪 myLoc managed IT AG WS SNI'
+    server: de-v.sshmax.xyz
+    type: vmess
+    port: 443
+    uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '226 🇩🇪 myLoc managed IT AG WS SNI'
+    server: de-v.sshmax.xyz
+    type: vmess
+    port: 443
+    uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: tsel.me
+  - name: '16 🇩🇪 OVH SAS TCP SNI'
+    server: 51.75.77.146
     type: trojan
     port: 443
     password: 4331812b-92ff-47b5-9f32-78b5150e625f
@@ -72,8 +116,17 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '131 🇩🇪 Hetzner Online GmbH TCP SNI'
-    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+  - name: '165 🇩🇪 Hetzner Online GmbH TCP SNI'
+    server: 188.40.250.247
+    type: trojan
+    port: 443
+    password: origin
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '203 🇩🇪 Hetzner Online GmbH TCP SNI'
+    server: 5.75.152.12
     type: trojan
     port: 443
     password: d76294c5-a31f-408d-ba0b-89880107cab5
@@ -81,20 +134,11 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '179 🇩🇪 Datacamp Limited TCP SNI'
-    server: trade1.bnnodeservice.com
+  - name: '207 🇩🇪 OVH SAS TCP SNI'
+    server: 141.95.61.209
     type: trojan
-    port: 32011
-    password: c2b0106e-178a-4a41-ad37-380c587cf08a
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '181 🇩🇪 Hetzner Online GmbH TCP SNI'
-    server: 188.40.236.127
-    type: trojan
-    port: 443
-    password: yxGY7A5MczQYg6UqSFx9u78V
+    port: 1145
+    password: e45b7759-6512-487b-ab20-22da1f46255f
     udp: true
     skip-cert-verify: true
     network: tcp

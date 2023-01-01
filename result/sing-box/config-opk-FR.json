@@ -45,15 +45,50 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "175 🇫🇷 OVH SAS TCP SNI"
+        "148 🇫🇷 OVH SAS WS SNI",
+        "154 🇫🇷 OVH SAS TCP SNI",
+        "205 🇫🇷 OVH SAS TCP SNI"
       ]
     },
     {
+      "type": "vmess",
+      "tag": "148 🇫🇷 OVH SAS WS SNI",
+      "server": "51.77.158.169",
+      "server_port": 2096,
+      "uuid": "c92fd902-b5d3-4208-bb48-630b1c7babea",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "175 🇫🇷 OVH SAS TCP SNI",
-      "server": "176.31.83.90",
+      "tag": "154 🇫🇷 OVH SAS TCP SNI",
+      "server": "upload.soft98.download",
       "server_port": 443,
-      "password": "origin",
+      "password": "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "205 🇫🇷 OVH SAS TCP SNI",
+      "server": "141.94.76.177",
+      "server_port": 443,
+      "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
       "tls": {
         "enabled": true,
         "insecure": true,
