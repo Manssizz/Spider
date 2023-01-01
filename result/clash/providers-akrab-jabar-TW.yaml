@@ -34,7 +34,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '108 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
     server: mc.xn--mes794a17ar33a.xyz
     type: vmess
@@ -46,11 +46,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /xyf520
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '113 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
     server: mcsc.frpfly.com
     type: vmess
@@ -90,7 +90,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '216 🇹🇼 Data Communication Business Group SNI WS'
     server: 211.72.35.154
     type: trojan
