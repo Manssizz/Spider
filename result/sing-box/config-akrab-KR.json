@@ -102,13 +102,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "click.zoom.us"
+          "Host": "config.teams.microsoft.com"
         }
       }
     },
@@ -144,7 +144,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -200,7 +200,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -214,7 +214,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -228,7 +228,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "click.zoom.us"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -263,13 +263,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
         "path": "/HanGuo",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "click.zoom.us"
         }
       }
     },
@@ -284,13 +284,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       },
       "transport": {
         "type": "ws",
         "path": "/zz",
         "headers": {
-          "Host": "config.teams.microsoft.com"
+          "Host": "click.zoom.us"
         }
       }
     },
@@ -300,48 +300,6 @@
       "server": "54.180.117.118",
       "server_port": 42517,
       "uuid": "b5b5209f-bcbd-4bac-b044-0d179698c62d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "config.teams.microsoft.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "config.teams.microsoft.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "228 🇰🇷 BGPNET Global ASN WS SNI",
-      "server": "202.79.171.157",
-      "server_port": 443,
-      "uuid": "fb3583a3-7717-4fe5-9146-3301861f9f41",
-      "security": "auto",
-      "alter_id": 64,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "click.zoom.us"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/path/243535322906",
-        "headers": {
-          "Host": "click.zoom.us"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "239 🇰🇷 MOACK.Co.LTD WS SNI",
-      "server": "161.129.34.102",
-      "server_port": 443,
-      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -359,6 +317,48 @@
     },
     {
       "type": "vmess",
+      "tag": "228 🇰🇷 BGPNET Global ASN WS SNI",
+      "server": "202.79.171.157",
+      "server_port": 443,
+      "uuid": "fb3583a3-7717-4fe5-9146-3301861f9f41",
+      "security": "auto",
+      "alter_id": 64,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "safebrowsing.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/243535322906",
+        "headers": {
+          "Host": "safebrowsing.google.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "239 🇰🇷 MOACK.Co.LTD WS SNI",
+      "server": "161.129.34.102",
+      "server_port": 443,
+      "uuid": "ec736482-173e-3eff-9114-b49df8056e7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "config.teams.microsoft.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "config.teams.microsoft.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "251 🇰🇷 ORACLE-BMC-31898 TCP SNI",
       "server": "144.24.88.101",
       "server_port": 16833,
@@ -368,7 +368,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -396,7 +396,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "config.teams.microsoft.com"
       }
     },
     {
@@ -408,7 +408,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "safebrowsing.google.com"
       }
     },
     {
@@ -432,7 +432,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "config.teams.microsoft.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -444,7 +444,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     },
     {
@@ -456,7 +456,7 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "safebrowsing.google.com"
+        "server_name": "click.zoom.us"
       }
     }
   ],

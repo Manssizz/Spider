@@ -26,11 +26,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /yd01
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '142 🇮🇳 ORACLE-BMC-31898 TCP SNI'
     server: 01.inix.anrun-ix.top
     type: vmess
@@ -42,7 +42,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '197 🇮🇳 ORACLE-BMC-31898 TCP SNI'
     server: 02.inix.anrun-ix.top
     type: vmess
@@ -78,7 +78,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '302 🇮🇳 AS-CHOOPA NONE SNI'
     server: IN-71-230.shoptunnel.live
     type: vmess
@@ -108,4 +108,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
