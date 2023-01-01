@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '206 🇬🇧 DIGITALOCEAN-ASN SNI TCP'
     server: 161.35.47.70
     type: vmess
@@ -34,7 +34,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '251 🇬🇧 DIGITALOCEAN-ASN SNI TCP'
     server: 161.35.47.70
     type: vmess
@@ -73,7 +73,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '188 🇬🇧 Hydra Communications Ltd SNI TCP'
     server: content-provider20.cdn-delivery.akamaicd.com
     type: trojan
@@ -82,7 +82,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '195 🇬🇧 OVH SAS SNI TCP'
     server: 51.195.219.173
     type: trojan
@@ -91,4 +91,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34

@@ -154,11 +154,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '125 🇫🇷 OVH SAS SNI TCP'
     server: upload.soft98.download
     type: trojan
@@ -167,7 +167,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '186 🇫🇷 OVH SAS SNI TCP'
     server: 141.94.76.177
     type: trojan
@@ -176,4 +176,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
