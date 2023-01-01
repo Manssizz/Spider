@@ -58,7 +58,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '243 🇳🇱 Online S.a.s. TCP SNI'
     server: 35.kccic2pa.xyz
     type: vmess
@@ -82,8 +82,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: soft98.ir
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
