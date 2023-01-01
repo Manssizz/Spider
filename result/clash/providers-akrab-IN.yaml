@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '246 🇮🇳 Linode  LLC SNI WS'
     server: gz.daxun.cyou
     type: vmess
@@ -22,8 +22,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /yd01
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
