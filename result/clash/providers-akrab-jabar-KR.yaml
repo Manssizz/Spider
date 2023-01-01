@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '31 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: m4.40010010.xyz
     type: vmess
@@ -86,7 +86,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '89 🇰🇷 AMAZON-02 WS CDN'
     server: 104.18.21.226
     type: vmess
@@ -126,7 +126,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '112 🇰🇷 AMAZON-02 TCP SNI'
     server: 7.ppyun1.top
     type: vmess
@@ -138,7 +138,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '152 🇰🇷 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI'
     server: 20.239.76.193
     type: vmess
@@ -182,11 +182,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /reffs7y26g0ua
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '221 🇰🇷 AMAZON-02 TCP SNI'
     server: 44.ppyun2.top
     type: vmess
@@ -198,7 +198,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '260 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: m4.40010010.xyz
     type: vmess
@@ -210,7 +210,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '275 🇰🇷 CloudITIDC Global TCP SNI'
     server: 103.138.80.193
     type: vmess
@@ -222,7 +222,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '326 🇰🇷 AMAZON-02 TCP SNI'
     server: kr-direct.node002.xyz
     type: vmess
@@ -279,4 +279,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
