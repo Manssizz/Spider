@@ -1,17 +1,10 @@
 proxies:
-  - name: '10 🇺🇦 G-Core Lab SNI 👾 漁師'
-    server: 5.188.6.222
-    type: vmess
-    port: 20849
-    uuid: 543cf5e7-a674-4101-d997-c22e8732a8af
-    alterId: 0
-    cipher: auto
-    tls: true
+  - name: '248 🇺🇦 Zubritska Valeriia Nikolaevna TCP SNI'
+    server: traua1.bnnodeservice.com
+    type: trojan
+    port: 32019
+    password: c2b0106e-178a-4a41-ad37-380c587cf08a
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me

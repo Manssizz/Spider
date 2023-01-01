@@ -45,12 +45,12 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "251 🇲🇾 TM Net  Internet Service Provider SNI WS"
+        "116 🇲🇾 TM Net  Internet Service Provider WS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "251 🇲🇾 TM Net  Internet Service Provider SNI WS",
+      "tag": "116 🇲🇾 TM Net  Internet Service Provider WS SNI",
       "server": "gz.daxun.cyou",
       "server_port": 20631,
       "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
@@ -59,13 +59,13 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "172.67.199.34"
+        "server_name": "teams.microsoft.com"
       },
       "transport": {
         "type": "ws",
         "path": "/mlxy01",
         "headers": {
-          "Host": "172.67.199.34"
+          "Host": "teams.microsoft.com"
         }
       }
     }

@@ -80,40 +80,29 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "5.188.6.222",
-            "port": 20849,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "543cf5e7-a674-4101-d997-c22e8732a8af",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "traua1.bnnodeservice.com",
+            "flow": "",
+            "level": 8,
+            "method": "chacha20-poly1305",
+            "ota": false,
+            "password": "c2b0106e-178a-4a41-ad37-380c587cf08a",
+            "port": 32019
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/"
         }
       },
-      "tag": "proxy-10 🇺🇦 G-Core Lab SNI 👾 漁師"
+      "tag": "proxy-248 🇺🇦 Zubritska Valeriia Nikolaevna TCP SNI"
     }
   ],
   "dns": {

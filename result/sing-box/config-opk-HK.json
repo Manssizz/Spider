@@ -45,42 +45,37 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "63 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI WS",
-        "81 🇭🇰 G-Core Labs S.A. SNI WS",
-        "83 🇭🇰 G-Core Labs S.A. SNI WS",
-        "88 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI WS",
-        "89 🇭🇰 G-Core Labs S.A. SNI WS",
-        "89 🇭🇰 G-Core Labs S.A. SNI WS",
-        "95 🇭🇰 G-Core Labs S.A. SNI WS",
-        "115 🇭🇰 Akari Networks SNI TCP",
-        "118 🇭🇰 HKT Limited SNI TCP",
-        "122 🇭🇰 HKT Limited SNI TCP",
-        "134 🇭🇰 Akari Networks SNI TCP",
-        "162 🇭🇰 HKT Limited SNI TCP",
-        "173 🇭🇰 Netsec Limited SNI WS",
-        "180 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI TCP",
-        "186 🇭🇰 91440300MA5DH1CC86 SNI TCP",
-        "197 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI WS",
-        "199 🇭🇰 HKT Limited SNI TCP",
-        "212 🇭🇰 AMAZON-02 SNI WS",
-        "213 🇭🇰 AMAZON-02 SNI WS",
-        "214 🇭🇰 Akari Networks SNI WS",
-        "216 🇭🇰 Akari Networks SNI TCP",
-        "245 🇭🇰 HKT Limited SNI TCP",
-        "260 🇭🇰 AMAZON-02 SNI WS",
-        "275 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI TCP",
-        "276 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI TCP",
-        "277 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI TCP",
-        "287 🇭🇰 DMIT SNI TCP",
-        "201 🇭🇰 ADCDATA.COM SNI TCP"
+        "94 🇭🇰 AMAZON-02 WS SNI",
+        "98 🇭🇰 AMAZON-02 WS SNI",
+        "111 🇭🇰 AMAZON-02 WS SNI",
+        "123 🇭🇰 G-Core Labs S.A. WS SNI",
+        "129 🇭🇰 Akari Networks TCP SNI",
+        "133 🇭🇰 Akari Networks TCP SNI",
+        "138 🇭🇰 AMAZON-02 WS SNI",
+        "152 🇭🇰 Akari Networks WS SNI",
+        "153 🇭🇰 Akari Networks WS SNI",
+        "158 🇭🇰 HKT Limited TCP SNI",
+        "163 🇭🇰 HGC Global Communications Limited WS SNI",
+        "167 🇭🇰 HKT Limited TCP SNI",
+        "169 🇭🇰 HKT Limited TCP SNI",
+        "208 🇭🇰 Netsec Limited WS SNI",
+        "266 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+        "268 🇭🇰 HKT Limited TCP SNI",
+        "280 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI",
+        "282 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+        "287 🇭🇰 AMAZON-02 WS SNI",
+        "290 🇭🇰 HKT Limited TCP SNI",
+        "296 🇭🇰 DMIT TCP SNI",
+        "321 🇭🇰 DMIT TCP SNI",
+        "232 🇭🇰 Hong Kong Communications International Co.  Limited TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "63 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI WS",
-      "server": "hk2.sanfen001.pics",
+      "tag": "94 🇭🇰 AMAZON-02 WS SNI",
+      "server": "hk80-2.sanfen001.pics",
       "server_port": 443,
-      "uuid": "fe0c02e5-89e7-4a46-8f8d-172947ea70bb",
+      "uuid": "ddd5317d-f976-46d2-aa64-36ae702bfc14",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -90,7 +85,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/zh-cn",
+        "path": "/zh-cn/download",
         "headers": {
           "Host": "tsel.me"
         }
@@ -98,308 +93,7 @@
     },
     {
       "type": "vmess",
-      "tag": "81 🇭🇰 G-Core Labs S.A. SNI WS",
-      "server": "gcorehkk.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcorehkknode",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "83 🇭🇰 G-Core Labs S.A. SNI WS",
-      "server": "gcorehk.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcorehknode",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "88 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI WS",
-      "server": "43.154.182.177",
-      "server_port": 27643,
-      "uuid": "30297ab2-ceef-48ae-838f-9ca4bf625da8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "89 🇭🇰 G-Core Labs S.A. SNI WS",
-      "server": "gcsshkk.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsshkknode",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "89 🇭🇰 G-Core Labs S.A. SNI WS",
-      "server": "gcsshkk.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsshkknode",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "95 🇭🇰 G-Core Labs S.A. SNI WS",
-      "server": "gcsshk.sylu.cyou",
-      "server_port": 443,
-      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Falling42gcsshknode",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "115 🇭🇰 Akari Networks SNI TCP",
-      "server": "10.kccic2pa.xyz",
-      "server_port": 50010,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "118 🇭🇰 HKT Limited SNI TCP",
-      "server": "03.kccic2pa.xyz",
-      "server_port": 50003,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "122 🇭🇰 HKT Limited SNI TCP",
-      "server": "02.kccic2pa.xyz",
-      "server_port": 50002,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "134 🇭🇰 Akari Networks SNI TCP",
-      "server": "11.kccic2pa.xyz",
-      "server_port": 50011,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "162 🇭🇰 HKT Limited SNI TCP",
-      "server": "28.kccic2pa.xyz",
-      "server_port": 50028,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "173 🇭🇰 Netsec Limited SNI WS",
-      "server": "182.16.1.194",
-      "server_port": 443,
-      "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/opt/video/images",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "180 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI TCP",
-      "server": "hk1vdf-node.aiqiche123.com",
-      "server_port": 8189,
-      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
-      "security": "auto",
-      "alter_id": 10,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "186 🇭🇰 91440300MA5DH1CC86 SNI TCP",
-      "server": "117.164.185.221",
-      "server_port": 16113,
-      "uuid": "1163b4ed-dc46-31d4-8e90-f53f3ca0eaf8",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "197 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK SNI WS",
-      "server": "20.187.111.131",
-      "server_port": 39000,
-      "uuid": "b51d625d-7257-32bd-af6e-60ecbf5f4cc0",
-      "security": "auto",
-      "alter_id": 2,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/zz",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "199 🇭🇰 HKT Limited SNI TCP",
-      "server": "v1-hk.xtspeeder001.xyz",
-      "server_port": 18001,
-      "uuid": "7affa329-5e15-369e-8929-b6452cdf2616",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "212 🇭🇰 AMAZON-02 SNI WS",
-      "server": "gz.daxun.cyou",
-      "server_port": 20631,
-      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/AWSHK03",
-        "headers": {
-          "Host": "tsel.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "213 🇭🇰 AMAZON-02 SNI WS",
+      "tag": "98 🇭🇰 AMAZON-02 WS SNI",
       "server": "1816214234.skyjsq.space",
       "server_port": 8513,
       "uuid": "48b1fc00-7211-23d9-dd40-213d50b95740",
@@ -420,7 +114,7 @@
     },
     {
       "type": "vmess",
-      "tag": "214 🇭🇰 Akari Networks SNI WS",
+      "tag": "111 🇭🇰 AMAZON-02 WS SNI",
       "server": "gz.daxun.cyou",
       "server_port": 20631,
       "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
@@ -433,7 +127,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/BGP03",
+        "path": "/AWSHK04",
         "headers": {
           "Host": "tsel.me"
         }
@@ -441,7 +135,42 @@
     },
     {
       "type": "vmess",
-      "tag": "216 🇭🇰 Akari Networks SNI TCP",
+      "tag": "123 🇭🇰 G-Core Labs S.A. WS SNI",
+      "server": "gcsshkkk.sylu.cyou",
+      "server_port": 443,
+      "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Falling42gcsshkkknode",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "129 🇭🇰 Akari Networks TCP SNI",
+      "server": "10.kccic2pa.xyz",
+      "server_port": 50010,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "133 🇭🇰 Akari Networks TCP SNI",
       "server": "11.kccic2pa.xyz",
       "server_port": 50011,
       "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
@@ -455,7 +184,105 @@
     },
     {
       "type": "vmess",
-      "tag": "245 🇭🇰 HKT Limited SNI TCP",
+      "tag": "138 🇭🇰 AMAZON-02 WS SNI",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/AWSHK03",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "152 🇭🇰 Akari Networks WS SNI",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/BGP02",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "153 🇭🇰 Akari Networks WS SNI",
+      "server": "gz.daxun.cyou",
+      "server_port": 20631,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/BGP01",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "158 🇭🇰 HKT Limited TCP SNI",
+      "server": "04.kccic2pa.xyz",
+      "server_port": 50004,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "163 🇭🇰 HGC Global Communications Limited WS SNI",
+      "server": "172.104.33.43",
+      "server_port": 48888,
+      "uuid": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/daxun/hkhgc",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "167 🇭🇰 HKT Limited TCP SNI",
       "server": "02.kccic2pa.xyz",
       "server_port": 50002,
       "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
@@ -469,8 +296,99 @@
     },
     {
       "type": "vmess",
-      "tag": "260 🇭🇰 AMAZON-02 SNI WS",
-      "server": "18.162.123.59",
+      "tag": "169 🇭🇰 HKT Limited TCP SNI",
+      "server": "27.kccic2pa.xyz",
+      "server_port": 50027,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "208 🇭🇰 Netsec Limited WS SNI",
+      "server": "hrgdvpn.flycdnedc55.vip",
+      "server_port": 443,
+      "uuid": "00a1da14-d55f-5f75-e346-79b985e1a723",
+      "security": "auto",
+      "alter_id": 32,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/opt/video/images",
+        "headers": {
+          "Host": "tsel.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "266 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+      "server": "206.119.112.6",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "268 🇭🇰 HKT Limited TCP SNI",
+      "server": "01.kccic2pa.xyz",
+      "server_port": 50001,
+      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "280 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI",
+      "server": "43.154.34.49",
+      "server_port": 23183,
+      "uuid": "b402a4af-285a-463e-c3a7-53f91efdec78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "282 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI",
+      "server": "hk1vdf-node.aiqiche123.com",
+      "server_port": 8189,
+      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "security": "auto",
+      "alter_id": 10,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "tsel.me"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "287 🇭🇰 AMAZON-02 WS SNI",
+      "server": "16.163.97.110",
       "server_port": 443,
       "uuid": "fe0c02e5-89e7-4a46-8f8d-172947ea70bb",
       "security": "auto",
@@ -490,10 +408,10 @@
     },
     {
       "type": "vmess",
-      "tag": "275 🇭🇰 Tencent Building  Kejizhongyi Avenue SNI TCP",
-      "server": "43.154.34.49",
-      "server_port": 23183,
-      "uuid": "b402a4af-285a-463e-c3a7-53f91efdec78",
+      "tag": "290 🇭🇰 HKT Limited TCP SNI",
+      "server": "hkz8sz07.b70rw85t.xyz",
+      "server_port": 39999,
+      "uuid": "3243fd78-2fd8-3632-ab67-b7cd66d9632f",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -504,12 +422,12 @@
     },
     {
       "type": "vmess",
-      "tag": "276 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI TCP",
-      "server": "206.119.112.6",
-      "server_port": 8189,
-      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
+      "tag": "296 🇭🇰 DMIT TCP SNI",
+      "server": "103.135.251.200",
+      "server_port": 9999,
+      "uuid": "7b11c4a8-5e69-4599-ad38-8e04b66b315e",
       "security": "auto",
-      "alter_id": 10,
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -518,21 +436,7 @@
     },
     {
       "type": "vmess",
-      "tag": "277 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. SNI TCP",
-      "server": "hk1vdf-node.aiqiche123.com",
-      "server_port": 8189,
-      "uuid": "a90597c1-bab3-4217-ad6f-0838675c8638",
-      "security": "auto",
-      "alter_id": 10,
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "tsel.me"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "287 🇭🇰 DMIT SNI TCP",
+      "tag": "321 🇭🇰 DMIT TCP SNI",
       "server": "103.135.251.200",
       "server_port": 9999,
       "uuid": "7b11c4a8-5e69-4599-ad38-8e04b66b315e",
@@ -546,10 +450,10 @@
     },
     {
       "type": "trojan",
-      "tag": "201 🇭🇰 ADCDATA.COM SNI TCP",
-      "server": "194.156.99.39",
+      "tag": "232 🇭🇰 Hong Kong Communications International Co.  Limited TCP SNI",
+      "server": "45.207.13.215",
       "server_port": 443,
-      "password": "xxoo",
+      "password": "hhvcwd",
       "tls": {
         "enabled": true,
         "insecure": true,
