@@ -22,7 +22,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '25 🇨🇦 ORACLE-BMC-31898 SNI TCP'
     server: 01.montreal.can.anrun-ix.top
     type: vmess
@@ -34,7 +34,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '205 🇨🇦 AS-CHOOPA SNI NONE'
     server: 216.128.177.89
     type: vmess
@@ -58,4 +58,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
