@@ -1,5 +1,5 @@
 proxies:
-  - name: '238 🇨🇳 Beijing Baidu Netcom Science and Technology Co.  Ltd. SNI WS'
+  - name: '150 🇨🇳 Beijing Baidu Netcom Science and Technology Co.  Ltd. SNI WS'
     server: 106.12.168.13
     type: vmess
     port: 13156
@@ -15,19 +15,7 @@ proxies:
       path: /
       headers:
         Host: 172.67.199.34
-  - name: '292 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI TCP'
-    server: 47.104.237.32
-    type: vmess
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: 172.67.199.34
-  - name: '296 🇨🇳 CHINA UNICOM China169 Backbone SNI TCP'
+  - name: '207 🇨🇳 CHINA UNICOM China169 Backbone SNI TCP'
     server: 112.132.215.189
     type: vmess
     port: 50002
@@ -39,3 +27,39 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: 172.67.199.34
+  - name: '222 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI TCP'
+    server: 47.104.237.32
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: teams.microsoft.com
+  - name: '229 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI TCP'
+    server: 47.104.237.32
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: teams.microsoft.com
+  - name: '244 🇨🇳 Hangzhou Alibaba Advertising Co. Ltd. SNI TCP'
+    server: 47.104.237.32
+    type: vmess
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: teams.microsoft.com
