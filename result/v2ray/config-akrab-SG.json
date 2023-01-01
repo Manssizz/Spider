@@ -384,11 +384,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "click.zoom.us"
           },
           "path": "/sshkit/Ertusg86/635014638c264/"
         }
@@ -464,11 +464,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/sshocean"
         }
@@ -504,11 +504,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/doxjp06"
         }
@@ -544,11 +544,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "config.teams.microsoft.com"
           },
           "path": ""
         }
@@ -584,11 +584,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/singapore08"
         }
@@ -704,16 +704,90 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": ""
         }
       },
       "tag": "proxy-154 🇸🇬 AMAZON-02 WS SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gz.daxun.cyou",
+            "port": 20631,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "config.teams.microsoft.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "config.teams.microsoft.com"
+          },
+          "path": "/doxjp05"
+        }
+      },
+      "tag": "proxy-156 🇸🇬 Linode  LLC WS SNI"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "26.kccic2pa.xyz",
+            "port": 50026,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "safebrowsing.google.com"
+        }
+      },
+      "tag": "proxy-157 🇸🇬 OVH SAS TCP SNI"
     },
     {
       "mux": {
@@ -750,80 +824,6 @@
           "headers": {
             "Host": "safebrowsing.google.com"
           },
-          "path": "/doxjp05"
-        }
-      },
-      "tag": "proxy-156 🇸🇬 Linode  LLC WS SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "26.kccic2pa.xyz",
-            "port": 50026,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
-        }
-      },
-      "tag": "proxy-157 🇸🇬 OVH SAS TCP SNI"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gz.daxun.cyou",
-            "port": 20631,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
           "path": "/singapore06"
         }
       },
@@ -858,11 +858,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "click.zoom.us"
         },
         "wsSettings": {
           "headers": {
-            "Host": "config.teams.microsoft.com"
+            "Host": "click.zoom.us"
           },
           "path": "/graphql"
         }
@@ -898,11 +898,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "safebrowsing.google.com"
           },
           "path": "/Falling42gcssgnode"
         }
@@ -938,11 +938,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/sg1"
         }
@@ -978,11 +978,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/"
         }
@@ -1018,11 +1018,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "click.zoom.us"
         },
         "wsSettings": {
           "headers": {
-            "Host": "config.teams.microsoft.com"
+            "Host": "click.zoom.us"
           },
           "path": "/sg1"
         }
@@ -1098,11 +1098,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "click.zoom.us"
           },
           "path": "/Falling42gcoresgnode"
         }
@@ -1178,11 +1178,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "click.zoom.us"
         },
         "wsSettings": {
           "headers": {
-            "Host": "config.teams.microsoft.com"
+            "Host": "click.zoom.us"
           },
           "path": "/vmess"
         }
@@ -1338,11 +1338,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "click.zoom.us"
           },
           "path": "/fastssh"
         }
@@ -1532,7 +1532,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "click.zoom.us"
         }
       },
       "tag": "proxy-274 🇸🇬 OVH SAS TCP SNI"
@@ -1674,7 +1674,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         }
       },
       "tag": "proxy-293 🇸🇬 ORACLE-BMC-31898 TCP SNI"
@@ -1708,11 +1708,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "safebrowsing.google.com"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/ray"
         }
@@ -1748,11 +1748,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "config.teams.microsoft.com"
         },
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "config.teams.microsoft.com"
           },
           "path": "/ray"
         }
@@ -1783,7 +1783,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         }
       },
       "tag": "proxy-124 🇸🇬 AMAZON-02 TCP SNI"
@@ -1870,7 +1870,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "click.zoom.us"
         }
       },
       "tag": "proxy-207 🇸🇬 AMAZON-02 TCP SNI"
@@ -1899,7 +1899,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "safebrowsing.google.com"
+          "serverName": "click.zoom.us"
         }
       },
       "tag": "proxy-211 🇸🇬 AMAZON-02 TCP SNI"
@@ -1928,7 +1928,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         }
       },
       "tag": "proxy-226 🇸🇬 OVH SAS TCP SNI"
@@ -1957,7 +1957,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "config.teams.microsoft.com"
+          "serverName": "safebrowsing.google.com"
         }
       },
       "tag": "proxy-240 🇸🇬 Linode  LLC TCP SNI"
@@ -1986,7 +1986,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         }
       },
       "tag": "proxy-247 🇸🇬 Tencent Building  Kejizhongyi Avenue TCP SNI"
@@ -2015,7 +2015,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "safebrowsing.google.com"
         }
       },
       "tag": "proxy-269 🇸🇬 Contabo Asia Private Limited TCP SNI"

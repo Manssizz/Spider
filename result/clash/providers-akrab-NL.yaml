@@ -38,11 +38,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /nl-unlimitxxx
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '164 🇳🇱 The Infrastructure Group B.V. WS SNI'
     server: ggzx.tingliang92.com
     type: vmess
@@ -54,11 +54,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /helan2
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '272 🇳🇱 Online S.a.s. TCP SNI'
     server: 35.kccic2pa.xyz
     type: vmess
@@ -79,4 +79,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
