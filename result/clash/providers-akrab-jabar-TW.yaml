@@ -34,27 +34,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '108 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
     server: mc.xn--mes794a17ar33a.xyz
     type: vmess
     port: 2008
-    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: 172.67.199.34
-    ws-opts: 
-      path: /xyf520
-      headers:
-        Host: 172.67.199.34
-  - name: '113 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
-    server: mcsc.frpfly.com
-    type: vmess
-    port: 52124
     uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
     alterId: 0
     cipher: auto
@@ -67,6 +51,22 @@ proxies:
       path: /xyf520
       headers:
         Host: teams.microsoft.com
+  - name: '113 🇹🇼 Taiwan Digital Streaming Co. SNI WS'
+    server: mcsc.frpfly.com
+    type: vmess
+    port: 52124
+    uuid: cef923f8-6a75-45ff-ab6b-7a4e248bd451
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: 172.67.199.34
+    ws-opts: 
+      path: /xyf520
+      headers:
+        Host: 172.67.199.34
   - name: '210 🇹🇼 Data Communication Business Group SNI TCP'
     server: twmbm2fwa.b70rw85t.xyz
     type: vmess
@@ -78,7 +78,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '239 🇹🇼 Data Communication Business Group SNI TCP'
     server: tw99-hinet.mynodes001.one
     type: vmess
@@ -90,7 +90,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '216 🇹🇼 Data Communication Business Group SNI WS'
     server: 211.72.35.154
     type: trojan
@@ -99,8 +99,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /gateway/connect
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
