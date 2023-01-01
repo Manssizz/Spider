@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /worryfree/potatoganteng
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '84 🇦🇺 Unknown WS SNI'
     server: build49.scpotato.site
     type: trojan
@@ -58,4 +58,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
