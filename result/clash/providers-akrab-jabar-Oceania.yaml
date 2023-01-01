@@ -10,11 +10,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /worryfree/potatoganteng
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '109 🇦🇺 CLOUDFLARENET SNI TCP'
     server: 02.sdy.aus.anrun-ix.top
     type: vmess
@@ -50,7 +50,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '128 🇦🇺 ORACLE-BMC-31898 SNI TCP'
     server: jgwxn3.gaox.ml
     type: trojan
