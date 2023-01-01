@@ -1,17 +1,10 @@
 proxies:
-  - name: '88 🇱🇺 Unknown SNI WS'
+  - name: '268 🇱🇺 Unknown SNI TCP'
     server: 91.199.84.239
-    type: vmess
-    port: 454
-    uuid: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    port: 446
+    password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
     udp: true
     skip-cert-verify: true
-    network: ws
+    network: tcp
     servername: tsel.me
-    ws-opts: 
-      path: /
-      headers:
-        Host: tsel.me

@@ -84,7 +84,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.136.244.181",
+            "address": "v10a.toddns.tk",
             "port": 443,
             "users": [
               {
@@ -113,87 +113,7 @@
           "path": "/fr-unlimitxxx"
         }
       },
-      "tag": "proxy-80 🇫🇷 Online S.a.s. SNI WS"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "fr2.v2rayserv.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "720e5c4e-4e44-40f6-8e73-7c32e18b61d0",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/sshocean"
-        }
-      },
-      "tag": "proxy-119 🇫🇷 OVH SAS SNI WS"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "51.77.158.169",
-            "port": 2096,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "c92fd902-b5d3-4208-bb48-630b1c7babea",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tsel.me"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy-148 🇫🇷 OVH SAS SNI WS"
+      "tag": "proxy-46 🇫🇷 Online S.a.s. SNI WS"
     },
     {
       "mux": {
@@ -222,36 +142,7 @@
           "serverName": "tsel.me"
         }
       },
-      "tag": "proxy-125 🇫🇷 OVH SAS SNI TCP"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "141.94.76.177",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "6e3b4240-38f9-4321-9b3c-bc669a34b848",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tsel.me"
-        }
-      },
-      "tag": "proxy-186 🇫🇷 OVH SAS SNI TCP"
+      "tag": "proxy-161 🇫🇷 OVH SAS SNI TCP"
     }
   ],
   "dns": {

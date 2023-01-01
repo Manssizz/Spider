@@ -45,28 +45,19 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "88 🇱🇺 Unknown SNI WS"
+        "268 🇱🇺 Unknown SNI TCP"
       ]
     },
     {
-      "type": "vmess",
-      "tag": "88 🇱🇺 Unknown SNI WS",
+      "type": "trojan",
+      "tag": "268 🇱🇺 Unknown SNI TCP",
       "server": "91.199.84.239",
-      "server_port": 454,
-      "uuid": "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9",
-      "security": "auto",
-      "alter_id": 0,
+      "server_port": 446,
+      "password": "4f2c305b-9a03-4493-b3e4-2dff2f1af8c9",
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tsel.me"
-        }
       }
     }
   ],

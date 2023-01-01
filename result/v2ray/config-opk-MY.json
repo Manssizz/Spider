@@ -80,29 +80,40 @@
         "concurrency": 8,
         "enabled": false
       },
-      "protocol": "trojan",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "sg-cdn.iqyun.zone",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "3628ca8d-6371-45df-879c-2d3e5d110b51",
-            "port": 12522
+            "address": "gz.daxun.cyou",
+            "port": 20631,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "7e15a9c7-36b2-430e-b96e-9c282f77b2c6",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "tsel.me"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "tsel.me"
+          },
+          "path": "/mlxy01"
         }
       },
-      "tag": "proxy-79 🇲🇾 GB Network SNI 👾 漁師"
+      "tag": "proxy-251 🇲🇾 TM Net  Internet Service Provider SNI WS"
     }
   ],
   "dns": {
