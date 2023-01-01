@@ -54,7 +54,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '33 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -66,7 +66,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '34 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 168.138.207.66
     type: vmess
@@ -78,7 +78,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '35 🇯🇵 Linode  LLC TCP SNI'
     server: 04.JPIX.ANRUN-IX.TOP
     type: vmess
@@ -102,11 +102,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '37 🇰🇷 ORACLE-BMC-31898 WS SNI'
     server: 152.67.218.38
     type: vmess
@@ -134,11 +134,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '39 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: m4.40010010.xyz
     type: vmess
@@ -162,11 +162,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /8835295a-736e-4490-ac1f-142282099b87
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '42 🇰🇷 ORACLE-BMC-31898 WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -226,11 +226,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /Falling42gcoresggnode
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '59 🇸🇬 G-Core Labs S.A. WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -322,7 +322,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '68 🇯🇵 AMAZON-02 TCP SNI'
     server: jp-direct.node002.xyz
     type: vmess
@@ -394,11 +394,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /sshkit/Ertusg86/635014638c264/
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '75 🇰🇷 AMAZON-02 TCP SNI'
     server: kr-direct.node002.xyz
     type: vmess
@@ -410,7 +410,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '78 🇸🇬 OVH SAS WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -438,11 +438,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /sshocean
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '82 🇰🇷 AMAZON-02 TCP SNI'
     server: kr-direct.node002.xyz
     type: vmess
@@ -454,7 +454,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '84 🇰🇷 AMAZON-02 TCP SNI'
     server: kr-direct.node002.xyz
     type: vmess
@@ -466,7 +466,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '85 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: in06.my1188.org
     type: vmess
@@ -478,7 +478,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '87 🇭🇰 G-Core Labs S.A. WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -506,7 +506,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '91 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: in06.my1188.org
     type: vmess
@@ -542,11 +542,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /hls/cctv5phd.m3u8
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '94 🇭🇰 AMAZON-02 WS SNI'
     server: hk80-2.sanfen001.pics
     type: vmess
@@ -590,7 +590,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '98 🇭🇰 AMAZON-02 WS SNI'
     server: 1816214234.skyjsq.space
     type: vmess
@@ -634,7 +634,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '103 🇹🇼 Taiwan Digital Streaming Co. WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -662,11 +662,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /jgwhg01
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '106 🇹🇼 Scloud Pte Ltd WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -694,12 +694,28 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /scloudhinet06
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '110 🇮🇳 Linode  LLC WS SNI'
+    server: gz.daxun.cyou
+    type: vmess
+    port: 20631
+    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: click.zoom.us
+    ws-opts: 
+      path: /yd01
+      headers:
+        Host: click.zoom.us
+  - name: '111 🇭🇰 AMAZON-02 WS SNI'
     server: gz.daxun.cyou
     type: vmess
     port: 20631
@@ -712,25 +728,9 @@ proxies:
     network: ws
     servername: safebrowsing.google.com
     ws-opts: 
-      path: /yd01
-      headers:
-        Host: safebrowsing.google.com
-  - name: '111 🇭🇰 AMAZON-02 WS SNI'
-    server: gz.daxun.cyou
-    type: vmess
-    port: 20631
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: click.zoom.us
-    ws-opts: 
       path: /AWSHK04
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '113 🇸🇬 Linode  LLC WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -742,11 +742,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /doxjp06
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '114 🇸🇬 AMAZON-02 WS SNI'
     server: sg03.170203.xyz
     type: vmess
@@ -774,11 +774,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /mlxy01
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '117 🇸🇦 ORACLE-BMC-31898 WS SNI'
     server: 193.122.65.167
     type: vmess
@@ -790,11 +790,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '118 🇰🇷 AMAZON-02 WS SNI'
     server: ggzx.tingliang92.com
     type: vmess
@@ -806,11 +806,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /HanGuo
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '120 🇹🇼 Data Communication Business Group WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -822,11 +822,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /hinet04
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '123 🇭🇰 G-Core Labs S.A. WS SNI'
     server: gcsshkkk.sylu.cyou
     type: vmess
@@ -838,11 +838,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /Falling42gcsshkkknode
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '127 🇹🇷 Hostigger INC. TCP SNI'
     server: 36.kccic2pa.xyz
     type: vmess
@@ -882,7 +882,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '133 🇭🇰 Akari Networks TCP SNI'
     server: 11.kccic2pa.xyz
     type: vmess
@@ -894,7 +894,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '134 🇯🇵 AMAZON-02 WS SNI'
     server: jp02.170203.xyz
     type: vmess
@@ -922,11 +922,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /singapore08
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '138 🇭🇰 AMAZON-02 WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -938,11 +938,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /AWSHK03
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '141 🇯🇵 Datacamp Limited TCP SNI'
     server: 38.kccic2pa.xyz
     type: vmess
@@ -966,7 +966,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '144 🇯🇵 AMAZON-02 WS SNI'
     server: jp03-vm0.entry.srthdw.art
     type: vmess
@@ -978,11 +978,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /hls/cctv5phd.m3u8
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '145 🇸🇬 Linode  LLC WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -1010,11 +1010,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /singapore02
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '152 🇭🇰 Akari Networks WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -1026,11 +1026,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /BGP02
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '153 🇭🇰 Akari Networks WS SNI'
     server: gz.daxun.cyou
     type: vmess
@@ -1042,11 +1042,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /BGP01
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '154 🇸🇬 AMAZON-02 WS SNI'
     server: sg001.170203.xyz
     type: vmess
@@ -1074,11 +1074,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /doxjp05
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '157 🇸🇬 OVH SAS TCP SNI'
     server: 26.kccic2pa.xyz
     type: vmess
@@ -1102,7 +1102,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '160 🇯🇵 Owl Limited WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -1130,11 +1130,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /daxun/hkhgc
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '167 🇭🇰 HKT Limited TCP SNI'
     server: 02.kccic2pa.xyz
     type: vmess
@@ -1158,7 +1158,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '172 🇯🇵 xTom WS SNI'
     server: ggzx.tingliang92.com
     type: vmess
@@ -1234,7 +1234,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '187 🇸🇬 DIGITALOCEAN-ASN WS SNI'
     server: 157.230.36.235
     type: vmess
@@ -1262,11 +1262,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /Falling42gcssgnode
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '191 🇸🇬 Linode  LLC WS SNI'
     server: sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -1278,11 +1278,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /sg1
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '192 🇸🇬 AS-CHOOPA WS SNI'
     server: 45.32.117.49
     type: vmess
@@ -1310,11 +1310,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /sg1
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '194 🇸🇬 G-Core Labs S.A. WS SNI'
     server: 91.199.87.51
     type: vmess
@@ -1326,11 +1326,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /shirker
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '197 🇮🇳 ORACLE-BMC-31898 TCP SNI'
     server: 02.inix.anrun-ix.top
     type: vmess
@@ -1342,7 +1342,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '201 🇦🇪 Melbikomas UAB TCP SNI'
     server: AE-68-218.shoptunnel.live
     type: vmess
@@ -1366,11 +1366,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /Falling42gcoresgnode
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '206 🇸🇬 DIGITALOCEAN-ASN WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -1398,11 +1398,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /opt/video/images
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '209 🇰🇷 AMAZON-02 WS SNI'
     server: 54.180.117.118
     type: vmess
@@ -1430,11 +1430,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /vmess
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '214 🇸🇬 OVH SAS WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -1462,11 +1462,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '216 🇸🇦 OVH SAS WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -1526,7 +1526,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '225 🇭🇰 LANDUPS CO.  LTD WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -1554,7 +1554,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '228 🇰🇷 BGPNET Global ASN WS SNI'
     server: 202.79.171.157
     type: vmess
@@ -1566,11 +1566,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: safebrowsing.google.com
+        Host: click.zoom.us
   - name: '229 🇸🇬 Contabo Asia Private Limited WS SNI'
     server: sg-v.sshmax.xyz
     type: vmess
@@ -1582,11 +1582,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '229 🇸🇬 Contabo Asia Private Limited WS SNI'
     server: sg-v.sshmax.xyz
     type: vmess
@@ -1614,11 +1614,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /zz
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '234 🇨🇳 CHINA UNICOM China169 Backbone TCP SNI'
     server: 112.132.215.189
     type: vmess
@@ -1658,7 +1658,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '253 🇯🇵 Linode  LLC WS SNI'
     server: v6.heduian.online
     type: vmess
@@ -1670,11 +1670,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /oooo
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '255 🇸🇬 Leaseweb Asia Pacific pte. ltd. WS SNI'
     server: 23.106.249.2
     type: vmess
@@ -1718,7 +1718,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '266 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
     server: 206.119.112.6
     type: vmess
@@ -1730,7 +1730,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '267 🇹🇷 Hostigger INC. TCP SNI'
     server: 37.kccic2pa.xyz
     type: vmess
@@ -1754,7 +1754,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '271 🇮🇳 ORACLE-BMC-31898 TCP SNI'
     server: 02.inix.anrun-ix.top
     type: vmess
@@ -1766,7 +1766,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '273 🇮🇳 ORACLE-BMC-31898 TCP SNI'
     server: 01.inix.anrun-ix.top
     type: vmess
@@ -1790,7 +1790,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '275 🇸🇬 OVH SAS TCP SNI'
     server: 139.99.91.95
     type: vmess
@@ -1802,7 +1802,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '276 🇸🇬 ORACLE-BMC-31898 TCP SNI'
     server: 168.138.171.65
     type: vmess
@@ -1814,7 +1814,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '278 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 138.2.44.211
     type: vmess
@@ -1826,7 +1826,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '280 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI'
     server: 43.154.34.49
     type: vmess
@@ -1838,7 +1838,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '281 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: 152.69.197.60
     type: vmess
@@ -1850,7 +1850,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '282 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
@@ -1862,7 +1862,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '283 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: m4.40010010.xyz
     type: vmess
@@ -1874,7 +1874,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '286 🇸🇬 DIGITALOCEAN-ASN WS SNI'
     server: 165.22.101.49
     type: vmess
@@ -1886,11 +1886,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /worryfree
       headers:
-        Host: safebrowsing.google.com
+        Host: config.teams.microsoft.com
   - name: '287 🇭🇰 AMAZON-02 WS SNI'
     server: 16.163.97.110
     type: vmess
@@ -1902,11 +1902,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '290 🇭🇰 HKT Limited TCP SNI'
     server: hkz8sz07.b70rw85t.xyz
     type: vmess
@@ -1930,7 +1930,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '294 🇹🇼 Data Communication Business Group TCP SNI'
     server: twmbm2fwa.b70rw85t.xyz
     type: vmess
@@ -1942,7 +1942,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '295 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -1966,7 +1966,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '298 🇯🇵 ORACLE-BMC-31898 WS SNI'
     server: 140.83.35.62
     type: vmess
@@ -1978,11 +1978,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /65fe4644-da7c-4c41-bb44-c4ea7a30be22
       headers:
-        Host: click.zoom.us
+        Host: safebrowsing.google.com
   - name: '299 🇦🇪 Melbikomas UAB TCP SNI'
     server: AE-68-218.shoptunnel.live
     type: vmess
@@ -1994,7 +1994,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '300 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -2018,7 +2018,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '302 🇮🇳 AS-CHOOPA NONE SNI'
     server: IN-71-230.shoptunnel.live
     type: vmess
@@ -2030,7 +2030,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: none
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '303 🇯🇵 Linode  LLC WS SNI'
     server: 172104102240.skyjsq.space
     type: vmess
@@ -2042,11 +2042,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /ray
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '304 🇯🇵 Linode  LLC WS SNI'
     server: 139162113250.skyjsq.space
     type: vmess
@@ -2058,11 +2058,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /ray
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '305 🇦🇪 Melbikomas UAB TCP SNI'
     server: ae-68-218.shoptunnel.live
     type: vmess
@@ -2074,7 +2074,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '306 🇯🇵 Linode  LLC TCP SNI'
     server: jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
     type: vmess
@@ -2098,7 +2098,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '309 🇸🇬 AMAZON-02 WS SNI'
     server: sg05.skyjsq.space
     type: vmess
@@ -2126,11 +2126,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /ray
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '312 🇰🇷 AMAZON-02 TCP SNI'
     server: kr-direct.node002.xyz
     type: vmess
@@ -2142,7 +2142,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '318 🇸🇬 AMAZON-02 WS SNI'
     server: sg06.skyjsq.space
     type: vmess
@@ -2154,11 +2154,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
     ws-opts: 
       path: /ray
       headers:
-        Host: click.zoom.us
+        Host: config.teams.microsoft.com
   - name: '319 🇯🇵 Linode  LLC TCP SNI'
     server: 172.104.114.137
     type: vmess
@@ -2194,7 +2194,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '324 🇯🇵 Linode  LLC TCP SNI'
     server: 04.JPIX.ANRUN-IX.TOP
     type: vmess
@@ -2206,7 +2206,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '325 🇦🇪 Melbikomas UAB TCP SNI'
     server: 95.174.68.218
     type: vmess
@@ -2227,7 +2227,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '30 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: jgwdj3.gaox.ml
     type: trojan
@@ -2245,7 +2245,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '104 🇯🇵 MIKU NETWORK LIMITED TCP SNI'
     server: zzjp01.fuqiangren.com
     type: trojan
@@ -2299,7 +2299,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '184 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: jgwdb4.gaox.ml
     type: trojan
@@ -2308,7 +2308,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '186 🇯🇵 ORACLE-BMC-31898 TCP SNI'
     server: jgwdb3.gaox.ml
     type: trojan
@@ -2317,7 +2317,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
   - name: '198 🇮🇳 ORACLE-BMC-31898 TCP SNI'
     server: jgwhdlb1.gaox.ml
     type: trojan
@@ -2326,7 +2326,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '199 🇸🇬 OVH SAS TCP SNI'
     server: sg-ovh.tjvpn.org
     type: trojan
@@ -2335,7 +2335,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '205 🇯🇵 AMAZON-02 TCP SNI'
     server: jp-tk-32.fuckjdieng.uk
     type: trojan
@@ -2371,7 +2371,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '220 🇰🇷 AMAZON-02 TCP SNI'
     server: 3.36.139.18
     type: trojan
@@ -2380,7 +2380,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '226 🇸🇬 OVH SAS TCP SNI'
     server: sgt3.sshocean.net
     type: trojan
@@ -2407,7 +2407,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '240 🇸🇬 Linode  LLC TCP SNI'
     server: 139.162.45.139
     type: trojan
@@ -2416,7 +2416,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '241 🇰🇷 AS-CHOOPA TCP SNI'
     server: trask1.bnnodeservice.com
     type: trojan
@@ -2425,7 +2425,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '247 🇸🇬 Tencent Building  Kejizhongyi Avenue TCP SNI'
     server: supsig.xiaohouzi.club
     type: trojan
@@ -2443,7 +2443,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '252 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: kr1.api-aws.com
     type: trojan
@@ -2452,7 +2452,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: safebrowsing.google.com
   - name: '256 🇰🇷 ORACLE-BMC-31898 TCP SNI'
     server: 146.56.176.239
     type: trojan
@@ -2461,7 +2461,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '269 🇸🇬 Contabo Asia Private Limited TCP SNI'
     server: trojan-ctb-sg01.globalssh.xyz
     type: trojan
@@ -2470,7 +2470,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: config.teams.microsoft.com
   - name: '284 🇸🇬 Linode  LLC WS CDN'
     server: hohm.microsoft.com
     type: trojan
