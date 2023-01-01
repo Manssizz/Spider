@@ -1,9 +1,9 @@
 proxies:
-  - name: '94 🇭🇰 AMAZON-02 WS SNI'
+  - name: '45 🇭🇰 AMAZON-02 WS SNI'
     server: hk80-2.sanfen001.pics
     type: vmess
     port: 443
-    uuid: ddd5317d-f976-46d2-aa64-36ae702bfc14
+    uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
     alterId: 0
     cipher: auto
     tls: true
@@ -15,11 +15,11 @@ proxies:
       path: /zh-cn/download
       headers:
         Host: tsel.me
-  - name: '98 🇭🇰 AMAZON-02 WS SNI'
-    server: 1816214234.skyjsq.space
+  - name: '46 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI'
+    server: hk4.sanfen001.pics
     type: vmess
-    port: 8513
-    uuid: 48b1fc00-7211-23d9-dd40-213d50b95740
+    port: 443
+    uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
     alterId: 0
     cipher: auto
     tls: true
@@ -28,14 +28,14 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /ray
+      path: /zh-cn
       headers:
         Host: tsel.me
-  - name: '111 🇭🇰 AMAZON-02 WS SNI'
-    server: gz.daxun.cyou
+  - name: '53 🇭🇰 Tencent Building  Kejizhongyi Avenue WS SNI'
+    server: 43.154.182.177
     type: vmess
-    port: 20631
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
+    port: 27643
+    uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8
     alterId: 0
     cipher: auto
     tls: true
@@ -44,10 +44,42 @@ proxies:
     network: ws
     servername: tsel.me
     ws-opts: 
-      path: /AWSHK04
+      path: /
       headers:
         Host: tsel.me
-  - name: '123 🇭🇰 G-Core Labs S.A. WS SNI'
+  - name: '58 🇭🇰 G-Core Labs S.A. WS SNI'
+    server: gcorehk.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcorehknode
+      headers:
+        Host: tsel.me
+  - name: '65 🇭🇰 G-Core Labs S.A. WS SNI'
+    server: gcorehkk.sylu.cyou
+    type: vmess
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /Falling42gcorehkknode
+      headers:
+        Host: tsel.me
+  - name: '72 🇭🇰 G-Core Labs S.A. WS SNI'
     server: gcsshkkk.sylu.cyou
     type: vmess
     port: 443
@@ -63,11 +95,23 @@ proxies:
       path: /Falling42gcsshkkknode
       headers:
         Host: tsel.me
-  - name: '129 🇭🇰 Akari Networks TCP SNI'
-    server: 10.kccic2pa.xyz
+  - name: '93 🇭🇰 Scloud Pte Ltd TCP SNI'
+    server: 3.ppyun1.top
     type: vmess
-    port: 50010
-    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    port: 19103
+    uuid: 058690a2-8efd-3345-b20e-ee5d2e4d0d5d
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '96 🇭🇰 HKT Limited TCP SNI'
+    server: hk7uhzw0.b70rw85t.xyz
+    type: vmess
+    port: 39999
+    uuid: 3243fd78-2fd8-3632-ab67-b7cd66d9632f
     alterId: 0
     cipher: auto
     tls: true
@@ -75,171 +119,7 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '133 🇭🇰 Akari Networks TCP SNI'
-    server: 11.kccic2pa.xyz
-    type: vmess
-    port: 50011
-    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '138 🇭🇰 AMAZON-02 WS SNI'
-    server: gz.daxun.cyou
-    type: vmess
-    port: 20631
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /AWSHK03
-      headers:
-        Host: tsel.me
-  - name: '152 🇭🇰 Akari Networks WS SNI'
-    server: gz.daxun.cyou
-    type: vmess
-    port: 20631
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /BGP02
-      headers:
-        Host: tsel.me
-  - name: '153 🇭🇰 Akari Networks WS SNI'
-    server: gz.daxun.cyou
-    type: vmess
-    port: 20631
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /BGP01
-      headers:
-        Host: tsel.me
-  - name: '158 🇭🇰 HKT Limited TCP SNI'
-    server: 04.kccic2pa.xyz
-    type: vmess
-    port: 50004
-    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '163 🇭🇰 HGC Global Communications Limited WS SNI'
-    server: 172.104.33.43
-    type: vmess
-    port: 48888
-    uuid: 7e15a9c7-36b2-430e-b96e-9c282f77b2c6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /daxun/hkhgc
-      headers:
-        Host: tsel.me
-  - name: '167 🇭🇰 HKT Limited TCP SNI'
-    server: 02.kccic2pa.xyz
-    type: vmess
-    port: 50002
-    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '169 🇭🇰 HKT Limited TCP SNI'
-    server: 27.kccic2pa.xyz
-    type: vmess
-    port: 50027
-    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '208 🇭🇰 Netsec Limited WS SNI'
-    server: hrgdvpn.flycdnedc55.vip
-    type: vmess
-    port: 443
-    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-    alterId: 32
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: tsel.me
-    ws-opts: 
-      path: /opt/video/images
-      headers:
-        Host: tsel.me
-  - name: '266 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
-    server: 206.119.112.6
-    type: vmess
-    port: 8189
-    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-    alterId: 10
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '268 🇭🇰 HKT Limited TCP SNI'
-    server: 01.kccic2pa.xyz
-    type: vmess
-    port: 50001
-    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '280 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI'
-    server: 43.154.34.49
-    type: vmess
-    port: 23183
-    uuid: b402a4af-285a-463e-c3a7-53f91efdec78
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    servername: tsel.me
-  - name: '282 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
+  - name: '145 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
     server: hk1vdf-node.aiqiche123.com
     type: vmess
     port: 8189
@@ -251,11 +131,39 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '287 🇭🇰 AMAZON-02 WS SNI'
-    server: 16.163.97.110
+  - name: '174 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI'
+    server: 43.154.34.49
+    type: vmess
+    port: 23183
+    uuid: b402a4af-285a-463e-c3a7-53f91efdec78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '183 🇭🇰 MICROSOFT-CORP-MSN-AS-BLOCK WS SNI'
+    server: 20.187.122.132
     type: vmess
     port: 443
-    uuid: fe0c02e5-89e7-4a46-8f8d-172947ea70bb
+    uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /petalvws
+      headers:
+        Host: tsel.me
+  - name: '193 🇭🇰 AMAZON-02 WS SNI'
+    server: hk80.sanfen001.pics
+    type: vmess
+    port: 443
+    uuid: ddd5317d-f976-46d2-aa64-36ae702bfc14
     alterId: 0
     cipher: auto
     tls: true
@@ -267,7 +175,103 @@ proxies:
       path: /zh-cn/download
       headers:
         Host: tsel.me
-  - name: '290 🇭🇰 HKT Limited TCP SNI'
+  - name: '200 🇭🇰 HKT Limited TCP SNI'
+    server: 04.kccic2pa.xyz
+    type: vmess
+    port: 50004
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '201 🇭🇰 HKT Limited TCP SNI'
+    server: 06.kccic2pa.xyz
+    type: vmess
+    port: 50006
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '202 🇭🇰 Akari Networks TCP SNI'
+    server: 11.kccic2pa.xyz
+    type: vmess
+    port: 50011
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '204 🇭🇰 HKT Limited TCP SNI'
+    server: 02.kccic2pa.xyz
+    type: vmess
+    port: 50002
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '228 🇭🇰 HKT Limited TCP SNI'
+    server: 01.kccic2pa.xyz
+    type: vmess
+    port: 50001
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '241 🇭🇰 HKT Limited TCP SNI'
+    server: 02.kccic2pa.xyz
+    type: vmess
+    port: 50002
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '246 🇭🇰 HKT Limited TCP SNI'
+    server: 06.kccic2pa.xyz
+    type: vmess
+    port: 50006
+    uuid: ba08360d-dadc-48e1-8f5c-6ad40a28aaff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '258 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '263 🇭🇰 HKT Limited TCP SNI'
     server: hkz8sz07.b70rw85t.xyz
     type: vmess
     port: 39999
@@ -279,7 +283,47 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '296 🇭🇰 DMIT TCP SNI'
+  - name: '283 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
+    server: 206.119.112.6
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '293 🇭🇰 AMAZON-02 WS SNI'
+    server: 1816223224.skyjsq.space
+    type: vmess
+    port: 8600
+    uuid: 9383b7b7-b5c9-6d52-5f6a-8b5af8aa2657
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: tsel.me
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: tsel.me
+  - name: '307 🇭🇰 HKT Limited TCP SNI'
+    server: v1-hk.xtspeeder001.xyz
+    type: vmess
+    port: 18001
+    uuid: 7affa329-5e15-369e-8929-b6452cdf2616
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '308 🇭🇰 DMIT TCP SNI'
     server: 103.135.251.200
     type: vmess
     port: 9999
@@ -291,7 +335,19 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '321 🇭🇰 DMIT TCP SNI'
+  - name: '316 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI'
+    server: 43.154.34.49
+    type: vmess
+    port: 23183
+    uuid: b402a4af-285a-463e-c3a7-53f91efdec78
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '319 🇭🇰 DMIT TCP SNI'
     server: 103.135.251.200
     type: vmess
     port: 9999
@@ -303,11 +359,59 @@ proxies:
     skip-cert-verify: true
     network: tcp
     servername: tsel.me
-  - name: '232 🇭🇰 Hong Kong Communications International Co.  Limited TCP SNI'
+  - name: '327 🇭🇰 STARCLOUD GLOBAL PTE.  LTD. TCP SNI'
+    server: hk1vdf-node.aiqiche123.com
+    type: vmess
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '56 🇭🇰 DMIT TCP SNI'
+    server: azgp03.bestdong.xyz
+    type: trojan
+    port: 8001
+    password: 000d3d03-ec8b-3a08-b806-add573459287
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '91 🇭🇰 LUCIDACLOUD LIMITED TCP SNI'
+    server: 45.136.14.70
+    type: trojan
+    port: 15410
+    password: 6A30qqSh8W
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '164 🇭🇰 Hong Kong Communications International Co.  Limited TCP SNI'
     server: 45.207.13.215
     type: trojan
     port: 443
     password: hhvcwd
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '199 🇭🇰 Datacamp Limited TCP SNI'
+    server: trahk1.bnnodeservice.com
+    type: trojan
+    port: 32443
+    password: c2b0106e-178a-4a41-ad37-380c587cf08a
+    udp: true
+    skip-cert-verify: true
+    network: tcp
+    servername: tsel.me
+  - name: '317 🇭🇰 Tencent Building  Kejizhongyi Avenue TCP SNI'
+    server: azhk095.xiaohouzi.club
+    type: trojan
+    port: 10102
+    password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
     udp: true
     skip-cert-verify: true
     network: tcp
