@@ -100,7 +100,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '44 🇩🇪 OVH SAS WS CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 8080
     uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
@@ -132,7 +132,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '47 🇵🇱 G-Core Labs S.A. WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
@@ -176,7 +176,7 @@ proxies:
     network: tcp
     servername: news.microsoft.com
   - name: '89 🇫🇷 Online S.a.s. WS CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: a25881f3-967f-3265-bc7f-9e66857b016b
@@ -192,7 +192,7 @@ proxies:
       headers:
         Host: v10a.toddns.tk
   - name: '94 🇩🇪 Hetzner Online GmbH WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -240,7 +240,7 @@ proxies:
       headers:
         Host: UK.CLOUDFLARE.QUEST
   - name: '108 🇳🇱 Online S.a.s. WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: faa4f60f-451d-4ce8-b48d-e770c2369bac
@@ -272,7 +272,7 @@ proxies:
       headers:
         Host: dedo.cloudflare.quest
   - name: '119 🇫🇷 Online S.a.s. WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
