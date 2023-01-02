@@ -74,11 +74,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /sshocean
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '153 🇫🇷 OVH SAS TCP SNI'
     server: upload.soft98.download
     type: trojan
@@ -87,7 +87,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '190 🇫🇷 OVH SAS TCP SNI'
     server: 141.94.76.177
     type: trojan
@@ -96,7 +96,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '237 🇫🇷 G-Core Labs S.A. TCP SNI'
     server: 20010.purefast2.com
     type: trojan
