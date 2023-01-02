@@ -60,7 +60,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '108 🇩🇪 Contabo GmbH WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: 3f52e850-b697-4f61-c82c-6d1ca0e6d1b1
@@ -108,7 +108,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '197 🇩🇪 Hetzner Online GmbH WS CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa

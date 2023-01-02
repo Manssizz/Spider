@@ -22,11 +22,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '41 🇩🇪 Hetzner Online GmbH WS SNI'
     server: 5.75.129.202
     type: vmess
@@ -102,11 +102,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
     ws-opts: 
       path: /
       headers:
-        Host: config.teams.microsoft.com
+        Host: safebrowsing.google.com
   - name: '197 🇩🇪 Hetzner Online GmbH WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -134,11 +134,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: config.teams.microsoft.com
+    servername: click.zoom.us
     ws-opts: 
       path: /vmess
       headers:
-        Host: config.teams.microsoft.com
+        Host: click.zoom.us
   - name: '199 🇩🇪 myLoc managed IT AG WS CDN'
     server: hohm.microsoft.com
     type: vmess
@@ -178,7 +178,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
   - name: '40 🇩🇪 Hetzner Online GmbH TCP SNI'
     server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
     type: trojan
@@ -187,7 +187,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '47 🇩🇪 OVH SAS TCP SNI'
     server: 51.75.77.146
     type: trojan
@@ -196,7 +196,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '188 🇩🇪 OVH SAS TCP SNI'
     server: 141.95.61.209
     type: trojan
@@ -205,7 +205,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: config.teams.microsoft.com
+    servername: safebrowsing.google.com
   - name: '190 🇩🇪 Hetzner Online GmbH TCP SNI'
     server: 188.40.236.127
     type: trojan
@@ -214,7 +214,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: click.zoom.us
+    servername: config.teams.microsoft.com
   - name: '232 🇩🇪 OVH SAS TCP SNI'
     server: 141.95.61.209
     type: trojan
@@ -223,4 +223,4 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: safebrowsing.google.com
+    servername: click.zoom.us
