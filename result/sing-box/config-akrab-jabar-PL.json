@@ -45,13 +45,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "55 🇵🇱 G-Core Labs S.A. WS SNI",
-        "56 🇵🇱 G-Core Labs S.A. WS CDN"
+        "46 🇵🇱 G-Core Labs S.A. WS SNI",
+        "47 🇵🇱 G-Core Labs S.A. WS CDN",
+        "155 🇵🇱 OVH SAS WS SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "55 🇵🇱 G-Core Labs S.A. WS SNI",
+      "tag": "46 🇵🇱 G-Core Labs S.A. WS SNI",
       "server": "gcspl.sylu.cyou",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -60,19 +61,19 @@
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "teams.microsoft.com"
+        "server_name": "172.67.199.34"
       },
       "transport": {
         "type": "ws",
         "path": "/Falling42gcsplnode",
         "headers": {
-          "Host": "teams.microsoft.com"
+          "Host": "172.67.199.34"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "56 🇵🇱 G-Core Labs S.A. WS CDN",
+      "tag": "47 🇵🇱 G-Core Labs S.A. WS CDN",
       "server": "104.18.21.226",
       "server_port": 443,
       "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
@@ -88,6 +89,27 @@
         "path": "/Falling42gcsplnode",
         "headers": {
           "Host": "gcspl.sylu.cyou"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "155 🇵🇱 OVH SAS WS SNI",
+      "server": "146.59.92.219",
+      "server_port": 2096,
+      "uuid": "aca71b13-ec8a-466d-c28f-43516d3cf246",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "172.67.199.34"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "172.67.199.34"
         }
       }
     }

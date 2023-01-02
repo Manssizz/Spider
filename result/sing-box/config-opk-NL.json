@@ -45,15 +45,15 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "83 🇳🇱 FDCSERVERS TCP SNI",
-        "87 🇳🇱 Scalaxy B.V. WS SNI",
-        "154 🇳🇱 Online S.a.s. TCP SNI",
-        "185 🇳🇱 AS40676 TCP SNI"
+        "78 🇳🇱 FDCSERVERS TCP SNI",
+        "157 🇳🇱 Scalaxy B.V. WS SNI",
+        "164 🇳🇱 Online S.a.s. WS SNI",
+        "179 🇳🇱 AS40676 TCP SNI"
       ]
     },
     {
       "type": "vmess",
-      "tag": "83 🇳🇱 FDCSERVERS TCP SNI",
+      "tag": "78 🇳🇱 FDCSERVERS TCP SNI",
       "server": "in06.my1188.org",
       "server_port": 64089,
       "uuid": "1c804bb4-98c2-3786-89e2-e29bb6d8068c",
@@ -67,8 +67,8 @@
     },
     {
       "type": "vmess",
-      "tag": "87 🇳🇱 Scalaxy B.V. WS SNI",
-      "server": "nl.gongyiyun.cf",
+      "tag": "157 🇳🇱 Scalaxy B.V. WS SNI",
+      "server": "5.45.78.209",
       "server_port": 8080,
       "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
@@ -88,22 +88,29 @@
     },
     {
       "type": "vmess",
-      "tag": "154 🇳🇱 Online S.a.s. TCP SNI",
-      "server": "35.kccic2pa.xyz",
-      "server_port": 50035,
-      "uuid": "ba08360d-dadc-48e1-8f5c-6ad40a28aaff",
+      "tag": "164 🇳🇱 Online S.a.s. WS SNI",
+      "server": "163.172.213.74",
+      "server_port": 443,
+      "uuid": "5c977590-87d2-11ed-b431-205c6d5f5d78",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "insecure": true,
         "server_name": "tsel.me"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tsel.me"
+        }
       }
     },
     {
       "type": "trojan",
-      "tag": "185 🇳🇱 AS40676 TCP SNI",
-      "server": "content-provider24.cdn-delivery.akamaicd.com",
+      "tag": "179 🇳🇱 AS40676 TCP SNI",
+      "server": "content-provider23.cdn-delivery.akamaicd.com",
       "server_port": 443,
       "password": "Sp3eDVp",
       "tls": {
