@@ -192,7 +192,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '81 🇸🇬 CACHENETWORKS WS CDN'
-    server: news.microsoft.com
+    server: cacerts.digicert.com
     type: vmess
     port: 443
     uuid: 11288503-4f79-4659-a033-bf538ab14499
@@ -288,7 +288,7 @@ proxies:
       headers:
         Host: sg-lb.vhax.net
   - name: '106 🇸🇬 DIGITALOCEAN-ASN WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 443
     uuid: d6fda4ff-d4c7-4006-ee46-8a41e192efcd
@@ -428,7 +428,7 @@ proxies:
       headers:
         Host: news.microsoft.com
   - name: '135 🇸🇬 OVH SAS WS CDN'
-    server: cacerts.digicert.com
+    server: news.microsoft.com
     type: vmess
     port: 2083
     uuid: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
