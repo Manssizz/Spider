@@ -42,11 +42,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '23 🇩🇪 G-Core Labs S.A. WS CDN'
     server: 104.18.21.226
     type: vmess
@@ -220,7 +220,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '154 🇩🇪 Hetzner Online GmbH TCP SNI'
     server: 188.40.250.247
     type: trojan
@@ -229,7 +229,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '157 🇩🇪 Hetzner Online GmbH TCP SNI'
     server: content-provider9.cdn-delivery.akamaicd.com
     type: trojan
