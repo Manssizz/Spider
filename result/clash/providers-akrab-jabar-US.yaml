@@ -10,7 +10,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '4 🇺🇸 HOSTHATCH WS SNI'
     server: 134.195.89.97
     type: vmess
@@ -78,11 +78,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '10 🇺🇸 DIGITALOCEAN-ASN WS CDN'
     server: 104.18.21.226
     type: vmess
@@ -202,11 +202,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
     ws-opts: 
       path: /abc
       headers:
-        Host: teams.microsoft.com
+        Host: 172.67.199.34
   - name: '47 🇺🇸 DIGITALOCEAN-ASN TCP SNI'
     server: 146.190.39.123
     type: vmess
@@ -390,11 +390,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /us1
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '167 🇺🇸 OVH SAS WS SNI'
     server: 51.81.220.195
     type: vmess
@@ -406,11 +406,11 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
     ws-opts: 
       path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: 172.67.199.34
+        Host: teams.microsoft.com
   - name: '177 🇺🇸 Hyonix LLC WS CDN'
     server: 104.18.21.226
     type: vmess
@@ -614,7 +614,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '222 🇺🇸 MULTA-ASN1 TCP SNI'
     server: 198.148.116.134
     type: vmess
@@ -674,7 +674,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: teams.microsoft.com
+    servername: 172.67.199.34
   - name: '263 🇺🇸 ASN-QUADRANET-GLOBAL WS CDN'
     server: 104.18.21.226
     type: vmess
@@ -754,7 +754,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: tcp
-    servername: 172.67.199.34
+    servername: teams.microsoft.com
   - name: '209 🇺🇸 MULTA-ASN1 WS SNI'
     server: rn.oppo.quest
     type: trojan
